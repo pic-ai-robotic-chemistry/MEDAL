@@ -1,0 +1,6 @@
+{
+  "scorer_url": "https://your-own-mace-service.example.com",
+  "poll_interval_seconds": 100,
+  "poll_timeout_seconds": 3600,
+  "request_timeout_seconds": 120
+}

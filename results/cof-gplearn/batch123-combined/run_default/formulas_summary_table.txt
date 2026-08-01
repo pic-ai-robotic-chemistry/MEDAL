@@ -1,0 +1,997 @@
+==================================================================================================================================
+所有公式汇总表
+==================================================================================================================================
+
+序号     准确率          长度       深度       代        公式
+----------------------------------------------------------------------------------------------------------------------------------
+1      1.0000       7        3        51       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), ald_hardness)
+2      1.0000       7        3        53       sub(div(ald_DIPOLE, add(ami_GAP, ald_HOMO)), ald_hardness)
+3      1.0000       7        3        58       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), ald_VIP)
+4      1.0000       7        3        68       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), ami_hardness)
+5      1.0000       7        3        82       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), ami_VIP)
+6      1.0000       9        3        6        sub(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), ald_ex_energy...
+7      1.0000       9        3        6        sub(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), ald_sr)
+8      1.0000       9        3        6        sub(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), ami_ex_energy...
+9      1.0000       9        3        8        sub(div(mul(ald_VEA, ald_d_index), add(ami_LUMO, ami_DIPOLE)), ald_ex_energy_s1)
+10     1.0000       9        3        8        sub(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), ald_Electroph...
+11     1.0000       9        3        9        sub(div(mul(ald_VEA, ald_d_index), add(ami_DIPOLE, ami_LUMO)), ami_ex_energy_s1)
+12     1.0000       9        3        12       sub(div(mul(ald_VEA, ald_d_index), add(ami_DIPOLE, ami_LUMO)), ald_ex_energy_s1)
+13     1.0000       9        3        12       sub(div(mul(ald_VEA, ald_d_index), add(ami_LUMO, ami_DIPOLE)), ami_ex_energy_s1)
+14     1.0000       9        3        14       sub(div(mul(ald_VEA, ald_d_index), add(ami_DIPOLE, ami_LUMO)), ald_hardness)
+15     1.0000       9        3        15       sub(div(mul(ald_VEA, ald_d_index), add(ami_LUMO, ami_DIPOLE)), ald_VIP)
+16     1.0000       9        3        16       sub(div(mul(ald_VEA, ald_d_index), add(ami_LUMO, ami_DIPOLE)), ald_hardness)
+17     1.0000       9        3        17       sub(div(mul(ald_VEA, ald_d_index), add(ami_LUMO, ami_DIPOLE)), ami_VIP)
+18     1.0000       9        3        18       sub(div(mul(ald_VEA, ald_d_index), add(ami_LUMO, ami_DIPOLE)), ami_hardness)
+19     1.0000       9        3        19       sub(div(mul(ald_VEA, ald_d_index), add(ami_LUMO, ami_DIPOLE)), ami_ex_energy_t1)
+20     1.0000       9        3        19       sub(div(mul(ald_VEA, ald_d_index), add(ami_DIPOLE, ami_LUMO)), ald_VIP)
+21     1.0000       9        3        27       sub(div(mul(ald_VEA, ald_d_index), add(ami_DIPOLE, ami_LUMO)), ald_ex_energy_t1)
+22     1.0000       9        3        28       sub(div(mul(ald_d_index, ald_VEA), add(ami_DIPOLE, ami_LUMO)), ald_hardness)
+23     1.0000       9        3        32       sub(div(mul(ald_VEA, ald_d_index), add(ami_LUMO, ami_DIPOLE)), ald_ex_energy_t1)
+24     1.0000       9        3        38       sub(div(mul(ald_VEA, ald_d_index), add(ami_DIPOLE, ami_LUMO)), ami_hardness)
+25     1.0000       9        3        46       sub(div(mul(ald_VEA, ald_d_index), add(ald_HOMO, ami_GAP)), ald_hardness)
+26     1.0000       9        3        46       sub(div(mul(ald_VEA, ald_d_index), add(ami_GAP, ald_HOMO)), ald_hardness)
+27     1.0000       9        3        52       sub(div(mul(ald_VEA, ald_d_index), add(ald_HOMO, ami_GAP)), ald_VIP)
+28     1.0000       9        3        54       sub(div(mul(ald_VEA, ald_d_index), add(ami_GAP, ald_HOMO)), ald_VIP)
+29     1.0000       9        3        72       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), add(ald_VEA, ald_hardness))
+30     1.0000       9        3        98       sub(div(mul(ami_sr, ald_DIPOLE), add(ald_HOMO, ami_GAP)), ald_hardness)
+31     1.0000       9        3        99       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), sub(ald_hardness, ald_HOMO))
+32     1.0000       11       3        5        add(div(ami_HOMO, ald_DIPOLE), div(mul(ald_VEA, ald_d_index), add(ami_d_index...
+33     1.0000       11       3        5        sub(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), div(ami_POLAR...
+34     1.0000       11       3        6        add(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), div(ald_HOMO,...
+35     1.0000       11       3        7        add(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), div(ami_HOMO,...
+36     1.0000       11       3        7        sub(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), add(ald_ex_en...
+37     1.0000       11       3        7        add(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), add(-1.722, a...
+38     1.0000       11       3        7        add(div(ald_HOMO, ald_DIPOLE), div(mul(ald_VEA, ald_d_index), add(ami_d_index...
+39     1.0000       11       3        7        sub(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), div(ald_GAP, ...
+40     1.0000       11       3        7        sub(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), mul(ald_ex_en...
+41     1.0000       11       3        7        sub(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), mul(ami_ex_en...
+42     1.0000       11       3        8        sub(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), div(ald_GAP, ...
+43     1.0000       11       3        13       add(div(ami_HOMO, ald_DIPOLE), div(mul(ald_VEA, ald_d_index), add(ami_DIPOLE,...
+44     1.0000       11       3        20       sub(div(mul(ald_VEA, ald_d_index), add(ami_LUMO, ami_DIPOLE)), add(ald_GAP, a...
+45     1.0000       11       3        26       sub(div(mul(ald_VEA, ald_d_index), add(ami_LUMO, ami_DIPOLE)), add(ald_fosc, ...
+46     1.0000       11       3        51       sub(div(mul(ald_VEA, ald_d_index), add(ami_DIPOLE, ami_LUMO)), add(ami_Electr...
+47     1.0000       11       4        7        div(sub(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), ald_ex_en...
+48     1.0000       11       4        8        sub(div(mul(ald_VEA, ald_d_index), add(add(ami_d_index, ami_LUMO), ami_LUMO))...
+49     1.0000       11       4        8        sub(div(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), ald_GAP),...
+50     1.0000       11       4        9        div(sub(div(mul(ald_VEA, ald_d_index), add(ami_LUMO, ami_DIPOLE)), ald_ex_ene...
+51     1.0000       11       4        10       sub(div(mul(ald_VEA, mul(ald_VEA, ald_d_index)), add(ami_d_index, ami_LUMO)),...
+52     1.0000       11       4        10       sub(div(mul(mul(ald_VEA, ald_d_index), ald_d_index), add(ami_d_index, ami_LUM...
+53     1.0000       11       4        12       sub(add(ami_LUMO, div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)))...
+54     1.0000       11       4        13       sub(sub(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), ald_ex_en...
+55     1.0000       11       4        13       sub(div(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), ald_GAP),...
+56     1.0000       11       4        15       sub(div(mul(ald_VEA, mul(ald_VEA, ald_d_index)), add(ami_LUMO, ami_DIPOLE)), ...
+57     1.0000       11       4        16       sub(sub(div(mul(ald_VEA, ald_d_index), add(ami_LUMO, ami_DIPOLE)), ald_ex_ene...
+58     1.0000       11       4        16       sub(div(mul(ald_VEA, ald_d_index), add(ami_LUMO, add(ami_d_index, ami_LUMO)))...
+59     1.0000       11       4        17       sub(sub(div(mul(ald_VEA, ald_d_index), add(ami_LUMO, ami_DIPOLE)), ald_ex_ene...
+60     1.0000       11       4        19       sub(sub(div(mul(ald_VEA, ald_d_index), add(ami_LUMO, ami_DIPOLE)), ald_ex_ene...
+61     1.0000       11       4        19       sub(div(mul(mul(ald_VEA, ald_d_index), ald_d_index), add(ami_DIPOLE, ami_LUMO...
+62     1.0000       11       4        19       sub(sub(div(mul(ald_VEA, ald_d_index), add(ami_DIPOLE, ami_LUMO)), ald_ex_ene...
+63     1.0000       11       4        21       sub(div(mul(mul(ald_VEA, ald_d_index), ald_d_index), add(ami_LUMO, ami_DIPOLE...
+64     1.0000       11       4        23       sub(sub(div(mul(ald_VEA, ald_d_index), add(ami_LUMO, ami_DIPOLE)), ami_LUMO),...
+65     1.0000       11       4        23       sub(div(mul(ald_VEA, mul(ald_VEA, ald_d_index)), add(ami_DIPOLE, ami_LUMO)), ...
+66     1.0000       11       4        24       sub(div(mul(ald_VEA, mul(ald_VEA, ald_d_index)), add(ami_LUMO, ami_DIPOLE)), ...
+67     1.0000       11       4        28       sub(div(mul(ald_VEA, div(ald_DIPOLE, ald_Electrophilicity_index)), add(ami_LU...
+68     1.0000       11       4        52       sub(sub(div(mul(ald_VEA, ald_d_index), add(ami_GAP, ald_HOMO)), ald_hardness)...
+69     1.0000       11       4        54       sub(sub(div(mul(ald_VEA, ald_d_index), add(ald_HOMO, ami_GAP)), ald_hardness)...
+70     1.0000       11       4        72       sub(div(mul(ami_ex_energy_t1, mul(ald_DIPOLE, ami_GAP)), add(ald_HOMO, ami_GA...
+71     1.0000       11       4        99       sub(sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), ald_hardness), add(ald_HOMO,...
+72     1.0000       11       5        99       div(ald_DIPOLE, add(sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), ald_hardness...
+73     1.0000       13       3        5        add(add(div(ami_HOMO, ald_DIPOLE), ald_d_index), div(mul(ald_VEA, ald_d_index...
+74     1.0000       13       3        6        add(sub(div(ald_HOMO, ald_DIPOLE), ami_VEA), div(mul(ald_VEA, ald_d_index), a...
+75     1.0000       13       3        7        sub(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), add(ald_HOMO,...
+76     1.0000       13       3        8        sub(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), add(ald_Elect...
+77     1.0000       13       3        10       add(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), div(div(ald_H...
+78     1.0000       13       4        5        add(sub(ald_d_index, ami_VEA), div(sub(div(ami_ex_energy_s1, ald_sr), add(ald...
+79     1.0000       13       4        7        div(sub(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), mul(ald_d...
+80     1.0000       13       4        7        add(mul(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), ami_delta...
+81     1.0000       13       4        7        add(div(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), ald_GAP),...
+82     1.0000       13       4        7        add(div(ami_HOMO, ald_DIPOLE), sub(div(mul(ald_VEA, ald_d_index), add(ami_d_i...
+83     1.0000       13       4        9        div(add(div(ami_HOMO, ald_DIPOLE), div(mul(ald_VEA, ald_d_index), add(ami_d_i...
+84     1.0000       13       4        9        div(sub(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), div(ald_G...
+85     1.0000       13       4        10       sub(sub(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), mul(ald_d...
+86     1.0000       13       4        10       add(div(mul(ald_VEA, ald_d_index), add(add(ami_d_index, ami_LUMO), ami_LUMO))...
+87     1.0000       13       4        13       sub(add(div(ami_HOMO, ald_DIPOLE), div(mul(ald_VEA, ald_d_index), add(ami_d_i...
+88     1.0000       13       4        40       sub(sub(div(mul(ald_VEA, ald_d_index), add(ami_LUMO, ami_DIPOLE)), ald_hardne...
+89     1.0000       15       3        6        add(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), add(sub(ald_d...
+90     1.0000       15       3        6        add(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), sub(div(ami_e...
+91     1.0000       15       3        7        add(add(div(ald_Electrophilicity_index, ald_GAP), div(-1.722, ami_GAP)), div(...
+92     1.0000       15       3        7        add(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), sub(sub(ald_d...
+93     1.0000       15       3        7        add(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), sub(add(ami_e...
+94     1.0000       15       3        8        add(add(sub(ald_d_index, ami_VEA), div(ald_HOMO, ald_DIPOLE)), div(mul(ald_VE...
+95     1.0000       15       3        54       sub(div(mul(ald_VEA, ald_d_index), add(ami_GAP, ald_HOMO)), sub(sub(ald_HOMO,...
+96     1.0000       15       4        9        add(add(div(ami_HOMO, ald_DIPOLE), div(mul(ald_VEA, ald_d_index), add(ami_d_i...
+97     1.0000       15       4        9        sub(add(sub(div(ald_HOMO, ald_DIPOLE), ami_VEA), div(mul(ald_VEA, ald_d_index...
+98     1.0000       15       5        7        div(add(div(ald_Electrophilicity_index, ald_GAP), sub(div(mul(ald_VEA, ald_d_...
+99     1.0000       15       5        7        div(add(sub(ald_d_index, ami_VEA), div(sub(div(ami_ex_energy_s1, ald_sr), add...
+100    1.0000       17       4        7        sub(add(add(div(ami_HOMO, ald_DIPOLE), ald_d_index), div(mul(ald_VEA, ald_d_i...
+101    1.0000       17       4        8        add(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), div(add(div(a...
+102    1.0000       17       4        8        add(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), div(sub(div(a...
+103    1.0000       17       5        6        div(add(div(ald_Electrophilicity_index, ald_GAP), sub(div(mul(ald_VEA, ald_d_...
+104    1.0000       17       5        7        sub(add(div(ald_Electrophilicity_index, ald_GAP), sub(div(mul(ald_VEA, ald_d_...
+105    1.0000       17       5        7        add(sub(div(sub(div(ami_ex_energy_s1, ald_sr), ami_VIP), ald_DIPOLE), ami_VEA...
+106    1.0000       17       5        8        add(sub(add(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), div(a...
+107    1.0000       17       6        9        div(sub(add(mul(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), a...
+108    1.0000       19       4        7        add(sub(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), add(ald_H...
+109    1.0000       19       4        7        sub(add(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), add(sub(a...
+110    1.0000       19       4        9        add(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), mul(add(ami_e...
+111    1.0000       19       4        9        add(add(ami_d_index, ami_LUMO), add(div(mul(ald_VEA, ald_d_index), add(ami_d_...
+112    1.0000       19       4        13       add(add(add(add(ami_d_index, ami_VEA), div(ald_HOMO, ald_DIPOLE)), div(ald_HO...
+113    1.0000       19       5        8        sub(add(mul(ami_VEA, -1.358), add(div(mul(ald_VEA, ald_d_index), add(ami_d_in...
+114    1.0000       19       5        8        add(mul(ami_ex_energy_t1, ald_Electrophilicity_index), add(sub(div(mul(ald_VE...
+115    1.0000       21       6        7        add(sub(ald_d_index, ami_VEA), div(add(add(div(mul(ald_VEA, ald_d_index), add...
+116    1.0000       23       4        8        add(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), add(div(mul(a...
+117    1.0000       23       5        7        sub(add(mul(ami_VEA, -1.358), add(div(mul(ald_VEA, ald_d_index), add(ami_d_in...
+118    1.0000       23       5        10       add(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), add(sub(ald_d...
+119    1.0000       23       5        11       add(add(add(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), div(a...
+120    1.0000       23       6        10       add(sub(add(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), div(s...
+121    0.9333       5        2        3        sub(div(ami_ex_energy_s1, ald_sr), ami_VIP)
+122    0.9333       5        2        4        add(sub(ami_ex_energy_s1, ald_hardness), ald_Electrophilicity_index)
+123    0.9333       5        2        57       sub(div(ami_ex_energy_s1, ald_sr), ald_hardness)
+124    0.9333       7        2        0        add(div(ald_Electrophilicity_index, ald_GAP), div(-1.722, ami_GAP))
+125    0.9333       7        2        0        sub(div(ami_ex_energy_s1, ald_sr), add(ald_HOMO, ami_VIP))
+126    0.9333       7        2        3        add(sub(ald_d_index, ami_VEA), div(ald_HOMO, ald_DIPOLE))
+127    0.9333       7        2        5        add(div(ami_HOMO, ald_DIPOLE), sub(ald_DIPOLE, ami_VEA))
+128    0.9333       7        3        5        div(sub(div(ami_ex_energy_s1, ald_sr), ami_VIP), ald_DIPOLE)
+129    0.9333       7        3        88       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), ami_ex_energy_s1)
+130    0.9333       9        3        2        sub(add(div(ami_GAP, -0.408), ald_VEA), div(ami_POLAR, ald_POLAR))
+131    0.9333       9        3        2        mul(ald_delta_est, sub(div(ami_ex_energy_s1, ald_sr), add(ald_HOMO, ami_VIP)))
+132    0.9333       9        3        3        add(mul(ami_ex_energy_t1, ald_Electrophilicity_index), sub(sub(ami_ex_energy_...
+133    0.9333       9        3        3        div(sub(div(ami_ex_energy_s1, ald_sr), add(ald_HOMO, ami_VIP)), ald_DIPOLE)
+134    0.9333       9        3        4        sub(add(mul(ami_VEA, -1.358), ald_VEA), div(ald_GAP, ald_DIPOLE))
+135    0.9333       9        3        4        add(sub(div(ami_ex_energy_s1, ald_sr), add(ald_HOMO, ami_VIP)), ald_d_index)
+136    0.9333       9        3        4        div(add(div(ald_Electrophilicity_index, ald_GAP), div(-1.722, ami_GAP)), ald_...
+137    0.9333       9        3        4        sub(add(div(ald_Electrophilicity_index, ald_GAP), div(-1.722, ami_GAP)), ami_...
+138    0.9333       9        3        5        div(add(sub(ald_d_index, ami_VEA), div(ald_HOMO, ald_DIPOLE)), ald_DIPOLE)
+139    0.9333       9        3        5        add(mul(sub(ald_d_index, ami_VEA), ami_delta_est), div(ami_HOMO, ald_DIPOLE))
+140    0.9333       9        3        6        add(sub(div(ami_ex_energy_s1, ald_sr), ami_VIP), sub(ald_DIPOLE, ami_VEA))
+141    0.9333       9        3        6        sub(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), ami_VIP)
+142    0.9333       9        3        6        sub(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), ami_GAP)
+143    0.9333       9        3        7        add(sub(div(ami_ex_energy_s1, ald_sr), ami_VIP), mul(ald_VEA, ald_d_index))
+144    0.9333       9        3        34       sub(div(mul(ald_VEA, ald_d_index), add(ami_LUMO, ami_DIPOLE)), ami_DIPOLE)
+145    0.9333       9        4        56       sub(sub(div(ald_DIPOLE, add(ami_GAP, ald_HOMO)), ald_hardness), ald_hardness)
+146    0.9333       9        4        57       sub(sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), ald_hardness), ald_hardness)
+147    0.9333       11       3        4        add(add(div(ald_Electrophilicity_index, ald_GAP), div(-1.722, ami_GAP)), sub(...
+148    0.9333       11       3        4        sub(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), add(ald_HOMO,...
+149    0.9333       11       3        5        add(sub(div(ami_ex_energy_s1, ald_sr), add(ald_HOMO, ami_VIP)), div(ald_HOMO,...
+150    0.9333       11       3        5        mul(div(ami_ex_energy_s1, ald_sr), sub(div(ami_ex_energy_s1, ald_sr), add(ald...
+151    0.9333       11       3        5        add(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), div(-1.722, a...
+152    0.9333       11       3        5        add(div(ami_HOMO, ald_DIPOLE), sub(div(ami_ex_energy_s1, ald_sr), add(ald_HOM...
+153    0.9333       11       3        6        add(div(-1.722, ami_GAP), div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami...
+154    0.9333       11       3        6        sub(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), div(ald_Elect...
+155    0.9333       11       3        6        add(sub(div(ami_ex_energy_s1, ald_sr), add(ald_HOMO, ami_VIP)), div(ami_HOMO,...
+156    0.9333       11       3        6        mul(add(ald_HOMO, ami_VIP), sub(div(ami_ex_energy_s1, ald_sr), add(ald_HOMO, ...
+157    0.9333       11       3        6        add(sub(ald_d_index, ami_VEA), sub(sub(ald_d_index, ami_VEA), div(ald_GAP, al...
+158    0.9333       11       3        7        mul(add(ami_ex_energy_s1, ald_sr), sub(div(ami_ex_energy_s1, ald_sr), add(ald...
+159    0.9333       11       3        10       sub(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), div(ami_ex_en...
+160    0.9333       11       3        31       sub(div(mul(ald_VEA, ald_d_index), add(ami_DIPOLE, ami_LUMO)), add(ami_DIPOLE...
+161    0.9333       11       3        99       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), mul(ald_GAP, div(ami_POLAR, ald_...
+162    0.9333       11       4        3        add(add(sub(div(ami_ex_energy_s1, ald_sr), add(ald_HOMO, ami_VIP)), ald_d_ind...
+163    0.9333       11       4        7        div(sub(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), ami_VIP),...
+164    0.9333       11       4        21       sub(sub(div(mul(ald_VEA, ald_d_index), add(ami_LUMO, ami_DIPOLE)), ald_hardne...
+165    0.9333       11       4        22       sub(sub(div(mul(ald_VEA, ald_d_index), add(ami_DIPOLE, ami_LUMO)), ald_hardne...
+166    0.9333       11       4        38       sub(div(mul(ald_VEA, ald_d_index), add(add(ami_DIPOLE, ami_LUMO), ami_LUMO)),...
+167    0.9333       11       4        43       sub(div(mul(ald_VEA, ald_d_index), add(add(ami_LUMO, ami_DIPOLE), ami_LUMO)),...
+168    0.9333       11       5        83       sub(sub(sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), ald_hardness), ald_hardn...
+169    0.9333       13       3        8        sub(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), add(add(ami_d...
+170    0.9333       13       4        5        add(div(add(ami_fosc, sub(ald_d_index, ami_VEA)), sub(ald_ex_energy_s1, ald_V...
+171    0.9333       13       4        5        div(sub(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), add(ald_H...
+172    0.9333       13       4        6        div(sub(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), add(ald_H...
+173    0.9333       13       4        6        add(sub(ald_d_index, ami_VEA), div(add(sub(ald_d_index, ami_VEA), div(ald_HOM...
+174    0.9333       13       4        6        add(mul(sub(div(ami_ex_energy_s1, ald_sr), add(ald_HOMO, ami_VIP)), ami_delta...
+175    0.9333       13       4        6        mul(ald_delta_est, sub(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LU...
+176    0.9333       13       4        7        div(sub(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), div(ald_E...
+177    0.9333       13       4        9        add(sub(ald_d_index, ami_VEA), sub(div(mul(ald_VEA, ald_d_index), add(ami_d_i...
+178    0.9333       13       5        5        div(sub(add(add(div(ald_Electrophilicity_index, ald_GAP), div(-1.722, ami_GAP...
+179    0.9333       13       6        99       div(ald_DIPOLE, add(ald_HOMO, sub(sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP))...
+180    0.9333       15       3        0        sub(add(add(ami_Electrophilicity_index, ald_GAP), mul(ami_DIPOLE, ami_LUMO)),...
+181    0.9333       15       3        4        add(add(div(ald_Electrophilicity_index, ald_GAP), div(-1.722, ami_GAP)), div(...
+182    0.9333       15       3        6        add(add(div(ald_Electrophilicity_index, ald_GAP), div(-1.722, ami_GAP)), sub(...
+183    0.9333       15       3        9        add(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), sub(sub(ald_d...
+184    0.9333       15       4        6        sub(sub(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), add(ald_H...
+185    0.9333       15       4        7        add(sub(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), add(ald_H...
+186    0.9333       15       4        7        add(sub(ald_d_index, ami_VEA), sub(div(mul(ald_VEA, ald_d_index), add(ami_d_i...
+187    0.9333       17       4        1        add(div(add(ami_fosc, sub(ald_d_index, ami_VEA)), sub(ald_ex_energy_s1, ald_V...
+188    0.9333       17       4        2        add(div(add(mul(ami_VEA, -1.358), ald_VEA), sub(ald_ex_energy_s1, ald_VEA)), ...
+189    0.9333       17       5        6        add(div(add(ami_fosc, sub(div(ami_ex_energy_s1, ald_sr), add(ald_HOMO, ami_VI...
+190    0.9333       19       5        3        add(div(add(ami_fosc, add(ami_fosc, sub(ald_d_index, ami_VEA))), sub(ald_ex_e...
+191    0.9333       19       5        9        sub(add(mul(ami_VEA, -1.358), add(div(mul(ald_d_index, ald_d_index), add(ami_...
+192    0.8667       3        1        0        sub(ald_d_index, ami_fosc)
+193    0.8667       3        1        0        add(ald_HOMO, ald_d_index)
+194    0.8667       3        1        0        sub(ald_d_index, ami_GAP)
+195    0.8667       3        1        0        sub(ald_d_index, ald_sr)
+196    0.8667       5        2        2        sub(sub(ald_VEA, ald_ex_energy_t1), ami_VEA)
+197    0.8667       5        2        2        add(sub(ald_VEA, ald_ex_energy_t1), ald_d_index)
+198    0.8667       5        2        4        div(sub(ald_DIPOLE, ami_GAP), ald_DIPOLE)
+199    0.8667       5        2        4        add(div(ami_HOMO, ald_DIPOLE), ald_d_index)
+200    0.8667       5        2        87       sub(sub(ami_hardness, 1.667), ald_hardness)
+201    0.8667       5        2        94       sub(add(-0.801, ald_VIP), ald_hardness)
+202    0.8667       5        2        99       sub(div(ald_DIPOLE, 0.069), ald_hardness)
+203    0.8667       5        2        99       sub(ami_sr, div(ald_ex_energy_t1, ami_ex_energy_t1))
+204    0.8667       7        2        0        sub(add(ald_HOMO, ald_VEA), div(ami_POLAR, ald_POLAR))
+205    0.8667       7        2        0        sub(add(ald_DIPOLE, ami_delta_est), add(ami_sr, ald_sr))
+206    0.8667       7        2        0        add(mul(ami_delta_est, ald_Electrophilicity_index), sub(ald_DIPOLE, ald_ex_en...
+207    0.8667       7        2        1        div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO))
+208    0.8667       7        2        3        sub(sub(ald_d_index, ami_VEA), div(ald_GAP, ald_DIPOLE))
+209    0.8667       7        2        3        add(mul(ami_delta_est, ami_delta_est), div(ami_HOMO, ald_DIPOLE))
+210    0.8667       7        2        6        add(sub(ald_d_index, ami_d_index), div(ald_HOMO, ald_DIPOLE))
+211    0.8667       7        2        7        add(div(ami_HOMO, ald_DIPOLE), sub(ald_ex_energy_s1, ald_VEA))
+212    0.8667       7        2        10       sub(add(ald_ex_energy_s1, ami_d_index), div(ald_GAP, ald_DIPOLE))
+213    0.8667       7        2        15       div(mul(ald_VEA, ald_d_index), add(ami_LUMO, ami_DIPOLE))
+214    0.8667       7        2        26       div(mul(ald_VEA, ald_d_index), add(ami_DIPOLE, ami_LUMO))
+215    0.8667       7        2        52       div(mul(ald_VEA, ald_d_index), add(ald_HOMO, ami_GAP))
+216    0.8667       7        2        56       div(mul(ald_VEA, ald_d_index), add(ami_GAP, ald_HOMO))
+217    0.8667       7        3        77       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), ald_ex_energy_s1)
+218    0.8667       7        3        98       sub(div(ald_DIPOLE, mul(ami_LUMO, ald_delta_est)), ald_hardness)
+219    0.8667       7        3        99       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), ami_delta_est)
+220    0.8667       9        3        1        add(mul(ami_delta_est, ald_Electrophilicity_index), sub(mul(ami_DIPOLE, ald_e...
+221    0.8667       9        3        26       sub(div(mul(ald_VEA, ald_d_index), add(ami_DIPOLE, ami_LUMO)), ald_VEA)
+222    0.8667       9        3        27       div(div(mul(ald_VEA, ald_d_index), add(ami_LUMO, ami_DIPOLE)), ald_hardness)
+223    0.8667       9        3        28       sub(div(mul(ald_VEA, ald_d_index), div(ami_LUMO, ald_ex_energy_t1)), ald_hard...
+224    0.8667       9        3        29       sub(add(div(ami_ex_energy_s1, 0.716), div(ami_fosc, ald_ex_energy_s1)), ald_h...
+225    0.8667       9        3        36       sub(div(mul(ald_VEA, ald_d_index), add(ami_LUMO, ami_DIPOLE)), ald_VEA)
+226    0.8667       9        3        36       sub(div(mul(ald_VEA, ald_d_index), add(ami_LUMO, ami_DIPOLE)), ami_d_index)
+227    0.8667       9        3        43       div(div(mul(ald_VEA, ald_d_index), add(ami_DIPOLE, ami_LUMO)), ald_hardness)
+228    0.8667       9        3        94       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), add(ami_delta_est, ald_delta_est))
+229    0.8667       9        3        99       sub(sub(sub(ald_VIP, ami_fosc), sub(ald_VEA, ald_d_index)), ald_hardness)
+230    0.8667       9        3        99       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), div(ami_VIP, ald_hardness))
+231    0.8667       9        4        3        sub(add(add(sub(ald_VEA, ald_ex_energy_t1), ald_d_index), ami_HOMO), ami_VEA)
+232    0.8667       11       3        4        sub(sub(div(ami_ex_energy_s1, ald_sr), add(ald_HOMO, ami_VIP)), div(ami_POLAR...
+233    0.8667       11       3        5        add(add(div(ald_Electrophilicity_index, ald_GAP), div(-1.722, ami_GAP)), sub(...
+234    0.8667       11       3        11       sub(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), mul(ald_VEA, ...
+235    0.8667       11       3        12       add(div(mul(ald_VEA, ald_d_index), add(ald_VEA, ami_LUMO)), div(ami_HOMO, ald...
+236    0.8667       11       3        17       sub(div(mul(ald_VEA, ald_d_index), add(ami_LUMO, ami_DIPOLE)), mul(ald_VEA, a...
+237    0.8667       11       3        47       sub(div(mul(ald_VEA, ald_d_index), add(ami_DIPOLE, ami_LUMO)), mul(ald_VEA, a...
+238    0.8667       11       5        4        div(sub(add(add(sub(ald_VEA, ald_ex_energy_t1), ald_d_index), ami_HOMO), ami_...
+239    0.8667       13       3        2        sub(add(add(ami_Electrophilicity_index, ald_GAP), add(ald_VEA, ald_HOMO)), su...
+240    0.8667       13       3        3        sub(mul(ald_DIPOLE, add(ami_DIPOLE, ami_ex_energy_t1)), sub(div(ami_HOMO, ald...
+241    0.8667       13       4        4        add(sub(sub(div(ami_ex_energy_s1, ald_sr), add(ald_HOMO, ami_VIP)), ami_VEA),...
+242    0.8667       13       5        43       sub(sub(sub(div(mul(ald_VEA, ald_d_index), add(ami_DIPOLE, ami_LUMO)), ald_ha...
+243    0.8667       15       3        0        add(div(add(ami_fosc, ald_VEA), sub(ald_ex_energy_s1, ald_VEA)), div(sub(ami_...
+244    0.8000       3        1        1        sub(ald_DIPOLE, ami_Electrophilicity_index)
+245    0.8000       3        1        1        sub(ald_DIPOLE, ald_delta_est)
+246    0.8000       3        1        99       sub(ald_VEA, ami_delta_est)
+247    0.8000       5        2        0        div(sub(ald_DIPOLE, ami_Electrophilicity_index), ald_delta_est)
+248    0.8000       5        2        3        div(sub(ald_DIPOLE, ald_delta_est), ald_DIPOLE)
+249    0.8000       5        2        5        add(ald_DIPOLE, div(ald_HOMO, ald_DIPOLE))
+250    0.8000       5        2        7        add(ald_DIPOLE, div(ami_HOMO, ald_DIPOLE))
+251    0.8000       5        2        59       sub(div(ald_Electrophilicity_index, ami_GAP), ald_hardness)
+252    0.8000       5        2        99       sub(div(ald_DIPOLE, ami_DIPOLE), ald_hardness)
+253    0.8000       7        2        2        add(sub(ami_ex_energy_s1, ald_hardness), sub(ald_DIPOLE, ami_VEA))
+254    0.8000       7        3        4        sub(mul(ald_DIPOLE, add(ami_DIPOLE, ami_ex_energy_t1)), ald_ex_energy_s1)
+255    0.8000       7        3        57       sub(div(ald_DIPOLE, add(ami_VEA, ami_fosc)), ald_hardness)
+256    0.8000       7        3        95       sub(div(ald_DIPOLE, add(ami_GAP, ami_VEA)), ald_hardness)
+257    0.8000       7        3        99       sub(div(ald_DIPOLE, div(ald_sr, ami_ex_energy_t1)), ald_hardness)
+258    0.8000       7        3        99       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), ald_fosc)
+259    0.8000       7        3        99       sub(div(ald_DIPOLE, div(ami_DIPOLE, ami_ex_energy_s1)), ald_hardness)
+260    0.8000       7        3        99       sub(div(ald_DIPOLE, mul(ami_delta_est, ami_DIPOLE)), ald_hardness)
+261    0.8000       7        3        99       sub(div(ald_DIPOLE, mul(ald_GAP, ald_sr)), ald_hardness)
+262    0.8000       7        3        99       sub(div(ald_DIPOLE, mul(ald_d_index, ami_LUMO)), ald_hardness)
+263    0.8000       7        3        99       sub(div(ami_fosc, add(ald_HOMO, ami_GAP)), ald_hardness)
+264    0.8000       9        3        2        add(mul(sub(ami_DIPOLE, ald_delta_est), ald_ex_energy_t1), sub(ald_DIPOLE, am...
+265    0.8000       9        3        27       sub(div(mul(ald_VEA, ald_d_index), add(ami_DIPOLE, ami_LUMO)), ami_VEA)
+266    0.8000       9        4        99       sub(sub(div(ald_DIPOLE, sub(ami_VEA, ami_GAP)), ald_hardness), ami_HOMO)
+267    0.8000       9        4        99       sub(div(ald_DIPOLE, add(ald_HOMO, mul(ald_fosc, ald_sr))), ald_hardness)
+268    0.8000       11       3        2        add(sub(ald_d_index, ami_VEA), div(sub(ami_ex_energy_s1, ald_hardness), add(a...
+269    0.8000       11       3        11       add(div(mul(ald_VEA, ami_d_index), add(ami_d_index, ami_LUMO)), div(ald_HOMO,...
+270    0.8000       11       4        2        sub(add(ald_DIPOLE, sub(mul(ami_DIPOLE, ald_hardness), ami_VEA)), add(ami_sr,...
+271    0.8000       13       3        99       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), div(mul(ami_HOMO, ald_d_index), ...
+272    0.8000       15       3        0        sub(sub(mul(ami_VEA, -1.358), div(ami_LUMO, ald_sr)), sub(sub(ami_DIPOLE, ald...
+273    0.8000       15       3        0        sub(mul(div(ald_LUMO, ami_VEA), add(ami_DIPOLE, ami_ex_energy_t1)), sub(div(a...
+274    0.8000       15       3        1        sub(add(add(ami_Electrophilicity_index, ald_GAP), add(ald_VEA, ald_HOMO)), su...
+275    0.7333       3        1        0        sub(ald_DIPOLE, ami_fosc)
+276    0.7333       3        1        0        mul(ald_d_index, ami_LUMO)
+277    0.7333       3        1        0        sub(ald_d_index, ald_fosc)
+278    0.7333       3        1        0        sub(ald_d_index, ald_ex_energy_s1)
+279    0.7333       3        1        0        sub(ald_Electrophilicity_index, ami_delta_est)
+280    0.7333       3        1        1        sub(ald_d_index, ald_delta_est)
+281    0.7333       3        1        2        sub(ald_d_index, ami_Electrophilicity_index)
+282    0.7333       3        1        21       mul(ald_VEA, ald_d_index)
+283    0.7333       5        2        0        sub(sub(ald_d_index, ald_fosc), ami_fosc)
+284    0.7333       5        2        0        add(add(ami_HOMO, ald_d_index), ami_HOMO)
+285    0.7333       5        2        0        sub(ami_GAP, mul(ald_fosc, ami_sr))
+286    0.7333       5        2        1        mul(ald_delta_est, sub(ald_d_index, ald_fosc))
+287    0.7333       5        2        1        sub(ald_d_index, add(ald_ex_energy_s1, ami_HOMO))
+288    0.7333       5        2        2        div(sub(ald_DIPOLE, ami_fosc), ald_DIPOLE)
+289    0.7333       5        2        2        div(sub(ald_d_index, ald_ex_energy_s1), ald_Electrophilicity_index)
+290    0.7333       5        2        2        mul(sub(ald_d_index, ald_fosc), ald_ex_energy_s1)
+291    0.7333       5        2        3        div(sub(ald_d_index, ald_fosc), ald_DIPOLE)
+292    0.7333       5        2        3        div(sub(ald_d_index, ami_Electrophilicity_index), ald_DIPOLE)
+293    0.7333       5        2        3        sub(div(ald_HOMO, ald_DIPOLE), ami_VEA)
+294    0.7333       5        2        7        div(mul(ald_VEA, ald_d_index), ald_DIPOLE)
+295    0.7333       5        2        16       sub(mul(ald_VEA, ald_d_index), ald_ex_energy_s1)
+296    0.7333       5        2        88       sub(mul(ald_hardness, ald_d_index), ald_hardness)
+297    0.7333       5        2        99       sub(sub(ami_VIP, ami_sr), ald_hardness)
+298    0.7333       7        2        0        sub(add(ald_d_index, -1.635), sub(ami_delta_est, ami_delta_est))
+299    0.7333       7        2        0        sub(div(ami_fosc, ald_ex_energy_s1), mul(ald_fosc, ald_delta_est))
+300    0.7333       7        2        1        add(sub(ami_HOMO, ald_ex_energy_t1), add(ami_Electrophilicity_index, ald_DIPO...
+301    0.7333       7        2        1        sub(mul(ald_VEA, ald_DIPOLE), sub(ald_ex_energy_t1, ami_fosc))
+302    0.7333       7        2        3        sub(sub(ald_d_index, ald_sr), div(ami_POLAR, ald_POLAR))
+303    0.7333       7        2        99       sub(mul(ald_d_index, ald_DIPOLE), mul(ald_fosc, ald_Electrophilicity_index))
+304    0.7333       7        3        1        add(add(sub(ald_VEA, ald_ex_energy_t1), ald_d_index), ami_HOMO)
+305    0.7333       7        3        2        sub(sub(sub(ald_d_index, ald_sr), ald_fosc), ami_fosc)
+306    0.7333       7        3        3        add(add(div(ami_HOMO, ald_DIPOLE), ald_d_index), ami_HOMO)
+307    0.7333       7        3        3        sub(sub(add(ald_VEA, ald_HOMO), ald_ex_energy_t1), ami_VEA)
+308    0.7333       7        3        4        div(div(sub(ald_d_index, ald_fosc), ald_DIPOLE), ald_DIPOLE)
+309    0.7333       7        3        13       sub(div(mul(ald_VEA, ald_d_index), ald_VEA), ald_ex_energy_s1)
+310    0.7333       7        3        99       sub(div(ald_VEA, add(ald_HOMO, ami_GAP)), ald_hardness)
+311    0.7333       7        3        99       sub(div(ami_GAP, add(ald_HOMO, ami_GAP)), ald_hardness)
+312    0.7333       7        3        99       sub(div(ald_DIPOLE, div(ald_d_index, ald_POLAR)), ald_hardness)
+313    0.7333       7        3        99       sub(div(ald_DIPOLE, mul(ami_DIPOLE, ami_ex_energy_t1)), ald_hardness)
+314    0.7333       7        3        99       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), ald_Electrophilicity_index)
+315    0.7333       7        3        99       sub(div(ald_DIPOLE, mul(ami_Electrophilicity_index, ald_GAP)), ald_hardness)
+316    0.7333       7        3        99       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), ami_Electrophilicity_index)
+317    0.7333       9        3        2        add(mul(ami_delta_est, ald_Electrophilicity_index), sub(sub(ami_ex_energy_s1,...
+318    0.7333       9        3        11       add(ami_LUMO, div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)))
+319    0.7333       9        3        14       add(div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO)), ami_DIPOLE)
+320    0.7333       9        3        19       sub(sub(mul(ald_VEA, ald_d_index), add(ami_LUMO, ami_DIPOLE)), ald_ex_energy_s1)
+321    0.7333       9        3        26       div(div(mul(ald_VEA, ald_sr), add(ami_LUMO, ami_DIPOLE)), ald_hardness)
+322    0.7333       9        3        98       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), div(ald_ex_energy_t1, ami_ex_ene...
+323    0.7333       9        3        99       sub(sub(sub(ami_hardness, ami_sr), mul(ald_DIPOLE, ami_VEA)), ald_hardness)
+324    0.7333       9        3        99       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), add(ami_sr, ald_LUMO))
+325    0.7333       11       3        4        add(sub(ald_d_index, ami_VEA), div(mul(ald_VEA, ald_d_index), add(ami_d_index...
+326    0.7333       13       5        99       sub(div(sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), ald_hardness), add(ald_H...
+327    0.7333       15       6        99       sub(sub(div(sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), ald_hardness), add(a...
+328    0.7333       17       4        2        sub(mul(div(ald_LUMO, sub(ald_d_index, ald_fosc)), add(ami_DIPOLE, ami_ex_ene...
+329    0.7333       31       4        99       div(mul(sub(div(ami_LUMO, ald_fosc), mul(ald_DIPOLE, ami_DIPOLE)), sub(mul(1....
+330    0.6667       1        0        1        ami_HOMO
+331    0.6667       1        0        1        ald_HOMO
+332    0.6667       3        1        0        mul(ami_HOMO, ami_Electrophilicity_index)
+333    0.6667       3        1        0        sub(ami_HOMO, ald_GAP)
+334    0.6667       3        1        0        sub(ami_ex_energy_s1, ald_hardness)
+335    0.6667       3        1        0        sub(ald_Electrophilicity_index, ald_ex_energy_s1)
+336    0.6667       3        1        0        div(ami_HOMO, ald_DIPOLE)
+337    0.6667       3        1        0        sub(ami_d_index, ald_sr)
+338    0.6667       3        1        0        div(ald_HOMO, ami_GAP)
+339    0.6667       3        1        0        div(ami_GAP, -0.408)
+340    0.6667       3        1        0        mul(ald_VEA, ami_DIPOLE)
+341    0.6667       3        1        0        mul(ami_HOMO, ald_ex_energy_s1)
+342    0.6667       3        1        0        mul(ald_HOMO, ald_hardness)
+343    0.6667       3        1        0        sub(ald_VEA, ald_ex_energy_t1)
+344    0.6667       3        1        0        sub(ami_DIPOLE, ald_sr)
+345    0.6667       3        1        0        sub(ald_d_index, ami_VEA)
+346    0.6667       3        1        0        sub(ald_sr, ald_sr)
+347    0.6667       3        1        0        div(ami_d_index, -1.054)
+348    0.6667       3        1        0        sub(ami_GAP, ami_sr)
+349    0.6667       3        1        0        sub(ald_HOMO, ald_GAP)
+350    0.6667       3        1        0        mul(ald_HOMO, 0.730)
+351    0.6667       3        1        0        mul(ami_ex_energy_t1, ald_HOMO)
+352    0.6667       3        1        0        sub(ald_LUMO, ald_fosc)
+353    0.6667       3        1        0        mul(ami_HOMO, ami_sr)
+354    0.6667       3        1        0        sub(ami_d_index, ald_fosc)
+355    0.6667       3        1        0        mul(ald_VIP, ald_HOMO)
+356    0.6667       3        1        0        div(ami_HOMO, ald_Electrophilicity_index)
+357    0.6667       3        1        0        div(ald_HOMO, ald_DIPOLE)
+358    0.6667       3        1        0        sub(ald_delta_est, ald_ex_energy_t1)
+359    0.6667       3        1        0        div(ami_HOMO, ami_GAP)
+360    0.6667       3        1        0        mul(ald_ex_energy_s1, ald_HOMO)
+361    0.6667       3        1        0        mul(ald_sr, ald_HOMO)
+362    0.6667       3        1        0        sub(ald_HOMO, ami_d_index)
+363    0.6667       3        1        0        mul(ald_hardness, ami_HOMO)
+364    0.6667       3        1        0        sub(ami_Electrophilicity_index, ald_ex_energy_s1)
+365    0.6667       3        1        0        sub(ami_DIPOLE, ami_Electrophilicity_index)
+366    0.6667       3        1        0        add(ami_HOMO, ami_LUMO)
+367    0.6667       3        1        0        mul(ami_DIPOLE, ald_HOMO)
+368    0.6667       3        1        0        mul(ald_HOMO, ami_GAP)
+369    0.6667       3        1        0        sub(ald_HOMO, ami_LUMO)
+370    0.6667       3        1        0        sub(ald_DIPOLE, ald_Electrophilicity_index)
+371    0.6667       3        1        0        sub(ald_DIPOLE, ald_ex_energy_t1)
+372    0.6667       3        1        0        sub(ald_fosc, ald_ex_energy_t1)
+373    0.6667       3        1        1        sub(ami_DIPOLE, ald_delta_est)
+374    0.6667       3        1        19       sub(ald_VEA, ald_ex_energy_s1)
+375    0.6667       3        1        34       sub(ald_hardness, ald_hardness)
+376    0.6667       3        1        63       mul(-0.399, ami_Electrophilicity_index)
+377    0.6667       3        1        68       div(ami_HOMO, ald_hardness)
+378    0.6667       3        1        72       div(ald_HOMO, ald_Electrophilicity_index)
+379    0.6667       3        1        79       sub(0.679, ald_hardness)
+380    0.6667       3        1        92       mul(ald_HOMO, ald_ex_energy_t1)
+381    0.6667       3        1        93       div(-0.298, ald_delta_est)
+382    0.6667       3        1        98       sub(ami_HOMO, ald_sr)
+383    0.6667       3        1        98       sub(ald_DIPOLE, ald_hardness)
+384    0.6667       3        1        99       sub(ald_delta_est, ald_hardness)
+385    0.6667       3        1        99       sub(ald_HOMO, ald_hardness)
+386    0.6667       3        1        99       mul(-1.101, ami_GAP)
+387    0.6667       3        1        99       sub(ami_GAP, ald_hardness)
+388    0.6667       3        1        99       sub(ald_LUMO, 1.353)
+389    0.6667       3        1        99       sub(ald_delta_est, ald_delta_est)
+390    0.6667       3        1        99       mul(ald_VEA, ald_LUMO)
+391    0.6667       3        1        99       mul(ami_GAP, ald_HOMO)
+392    0.6667       3        1        99       sub(ald_LUMO, ald_delta_est)
+393    0.6667       3        1        99       sub(ald_ex_energy_t1, ald_hardness)
+394    0.6667       3        1        99       sub(ami_sr, ald_hardness)
+395    0.6667       3        1        99       sub(ald_fosc, ald_hardness)
+396    0.6667       3        1        99       sub(ami_ex_energy_s1, ald_VIP)
+397    0.6667       3        1        99       sub(ami_ex_energy_s1, ami_hardness)
+398    0.6667       3        1        99       sub(ald_d_index, ald_hardness)
+399    0.6667       3        1        99       sub(ald_VEA, ami_VEA)
+400    0.6667       3        1        99       sub(ald_Electrophilicity_index, ald_Electrophilicity_index)
+401    0.6667       3        1        99       sub(ald_HOMO, ami_DIPOLE)
+402    0.6667       3        1        99       sub(ami_LUMO, ald_hardness)
+403    0.6667       5        2        0        mul(sub(ami_fosc, ald_fosc), ald_ex_energy_s1)
+404    0.6667       5        2        0        mul(sub(ami_DIPOLE, ald_delta_est), ald_ex_energy_t1)
+405    0.6667       5        2        0        mul(ald_fosc, sub(ami_HOMO, ami_fosc))
+406    0.6667       5        2        0        div(sub(ald_LUMO, ami_delta_est), ald_Electrophilicity_index)
+407    0.6667       5        2        0        mul(div(ald_HOMO, ami_ex_energy_s1), ami_hardness)
+408    0.6667       5        2        1        sub(ald_VEA, mul(ald_hardness, ald_sr))
+409    0.6667       5        2        1        div(sub(ald_DIPOLE, ami_delta_est), ald_Electrophilicity_index)
+410    0.6667       5        2        1        mul(mul(ald_ex_energy_s1, ald_HOMO), ald_ex_energy_t1)
+411    0.6667       5        2        1        sub(sub(ami_fosc, ald_sr), ami_Electrophilicity_index)
+412    0.6667       5        2        2        sub(sub(ald_Electrophilicity_index, ald_ex_energy_s1), ami_VEA)
+413    0.6667       5        2        2        sub(ald_VEA, div(ald_ex_energy_s1, ami_delta_est))
+414    0.6667       5        2        2        sub(mul(ald_VEA, ami_delta_est), ald_ex_energy_s1)
+415    0.6667       5        2        3        div(sub(ald_VEA, ald_ex_energy_t1), ald_DIPOLE)
+416    0.6667       5        2        5        mul(ald_delta_est, div(ald_HOMO, ald_DIPOLE))
+417    0.6667       5        2        29       sub(add(ald_GAP, ami_sr), ald_hardness)
+418    0.6667       5        2        29       sub(mul(ald_VEA, ald_d_index), ald_hardness)
+419    0.6667       5        2        30       sub(add(-1.808, ald_hardness), ald_hardness)
+420    0.6667       5        2        54       sub(mul(ald_hardness, ald_sr), ald_hardness)
+421    0.6667       5        2        90       sub(sub(ami_ex_energy_s1, ami_fosc), ald_hardness)
+422    0.6667       5        2        96       sub(sub(ami_Electrophilicity_index, -1.704), ald_hardness)
+423    0.6667       5        2        98       sub(add(ami_ex_energy_s1, ami_DIPOLE), ald_hardness)
+424    0.6667       5        2        99       sub(div(ald_DIPOLE, ald_hardness), ald_hardness)
+425    0.6667       5        2        99       sub(div(ald_DIPOLE, ald_HOMO), ald_hardness)
+426    0.6667       5        2        99       sub(add(ald_HOMO, ami_GAP), ald_hardness)
+427    0.6667       5        2        99       sub(mul(ami_LUMO, ald_fosc), ald_hardness)
+428    0.6667       5        2        99       sub(sub(ald_fosc, ald_sr), ald_hardness)
+429    0.6667       5        2        99       sub(div(ald_hardness, ald_ex_energy_t1), ald_hardness)
+430    0.6667       5        2        99       sub(add(ami_GAP, ald_HOMO), ald_hardness)
+431    0.6667       5        2        99       sub(add(ald_fosc, ami_DIPOLE), ald_hardness)
+432    0.6667       5        2        99       sub(sub(ald_HOMO, ami_d_index), ald_hardness)
+433    0.6667       5        2        99       sub(sub(ami_ex_energy_t1, ald_d_index), ald_hardness)
+434    0.6667       5        2        99       sub(div(-0.024, ald_Electrophilicity_index), ald_hardness)
+435    0.6667       5        2        99       sub(div(ald_DIPOLE, ald_VIP), ald_hardness)
+436    0.6667       5        2        99       sub(mul(ald_delta_est, ald_HOMO), ald_hardness)
+437    0.6667       5        2        99       sub(mul(ald_fosc, ami_GAP), ald_hardness)
+438    0.6667       5        2        99       sub(div(ald_DIPOLE, ald_DIPOLE), ald_hardness)
+439    0.6667       5        2        99       sub(sub(ald_delta_est, ald_Electrophilicity_index), ald_hardness)
+440    0.6667       5        2        99       sub(sub(ami_HOMO, ami_fosc), ald_hardness)
+441    0.6667       5        2        99       sub(add(ald_ex_energy_s1, ald_ex_energy_t1), ald_hardness)
+442    0.6667       5        2        99       sub(div(ald_DIPOLE, ald_delta_est), ald_hardness)
+443    0.6667       5        2        99       sub(div(ami_delta_est, ald_POLAR), ald_hardness)
+444    0.6667       5        2        99       sub(div(ami_ex_energy_s1, ald_ex_energy_t1), ald_hardness)
+445    0.6667       5        2        99       sub(div(ami_DIPOLE, ald_delta_est), ald_hardness)
+446    0.6667       5        2        99       sub(mul(ami_Electrophilicity_index, ald_DIPOLE), ald_hardness)
+447    0.6667       5        2        99       sub(sub(ami_ex_energy_t1, ami_HOMO), ald_hardness)
+448    0.6667       5        2        99       sub(div(ald_DIPOLE, 1.043), ald_hardness)
+449    0.6667       5        2        99       sub(mul(ald_delta_est, ald_delta_est), ald_hardness)
+450    0.6667       5        2        99       sub(sub(ami_LUMO, ald_DIPOLE), ald_hardness)
+451    0.6667       5        2        99       sub(mul(ald_GAP, ald_DIPOLE), ald_hardness)
+452    0.6667       5        2        99       sub(sub(ald_DIPOLE, ald_hardness), ald_hardness)
+453    0.6667       5        2        99       sub(mul(ald_Electrophilicity_index, ald_d_index), ald_hardness)
+454    0.6667       5        2        99       mul(ald_HOMO, add(ald_DIPOLE, ami_POLAR))
+455    0.6667       5        2        99       sub(div(ami_LUMO, ald_VEA), ald_hardness)
+456    0.6667       5        2        99       sub(mul(ami_delta_est, ami_GAP), ald_hardness)
+457    0.6667       5        2        99       sub(sub(ald_DIPOLE, ald_HOMO), ald_hardness)
+458    0.6667       5        2        99       sub(div(ald_DIPOLE, ami_POLAR), ald_hardness)
+459    0.6667       5        2        99       mul(ami_ex_energy_s1, sub(ami_GAP, ald_sr))
+460    0.6667       5        2        99       sub(add(ami_VEA, ald_ex_energy_t1), ald_hardness)
+461    0.6667       5        2        99       sub(sub(ald_delta_est, ami_LUMO), ald_hardness)
+462    0.6667       5        2        99       sub(add(ald_ex_energy_t1, ami_fosc), ald_hardness)
+463    0.6667       5        2        99       sub(div(ami_Electrophilicity_index, ami_ex_energy_t1), ald_hardness)
+464    0.6667       5        2        99       sub(div(ald_DIPOLE, ald_Electrophilicity_index), ald_hardness)
+465    0.6667       5        2        99       sub(div(ami_DIPOLE, ald_ex_energy_s1), ald_hardness)
+466    0.6667       5        2        99       sub(add(ald_ex_energy_t1, ald_d_index), ald_hardness)
+467    0.6667       5        2        99       sub(div(ald_sr, ald_GAP), ald_hardness)
+468    0.6667       5        2        99       sub(div(ald_DIPOLE, ald_LUMO), ald_hardness)
+469    0.6667       5        2        99       sub(div(ami_d_index, ami_d_index), ald_hardness)
+470    0.6667       5        2        99       sub(add(ald_ex_energy_s1, ami_VEA), ald_hardness)
+471    0.6667       5        2        99       sub(div(ald_DIPOLE, ald_fosc), ald_hardness)
+472    0.6667       5        2        99       sub(div(ami_DIPOLE, ami_delta_est), ald_hardness)
+473    0.6667       5        2        99       sub(mul(ami_sr, ami_ex_energy_t1), ald_hardness)
+474    0.6667       5        2        99       sub(sub(ald_ex_energy_s1, ami_hardness), ald_hardness)
+475    0.6667       5        2        99       sub(add(ami_ex_energy_s1, ald_GAP), ald_hardness)
+476    0.6667       5        2        99       sub(mul(ami_sr, ami_ex_energy_s1), ald_hardness)
+477    0.6667       5        2        99       sub(add(ami_HOMO, ami_d_index), ald_hardness)
+478    0.6667       5        2        99       sub(mul(ami_LUMO, ami_VIP), ald_hardness)
+479    0.6667       5        2        99       sub(sub(ald_fosc, ami_DIPOLE), ald_hardness)
+480    0.6667       5        2        99       sub(div(ald_delta_est, ami_VEA), ald_hardness)
+481    0.6667       5        2        99       sub(add(ami_fosc, ald_HOMO), ald_hardness)
+482    0.6667       5        2        99       sub(sub(ald_fosc, ami_Electrophilicity_index), ald_hardness)
+483    0.6667       5        2        99       sub(sub(ami_ex_energy_t1, ald_GAP), ald_hardness)
+484    0.6667       5        2        99       sub(div(ald_DIPOLE, ami_HOMO), ald_hardness)
+485    0.6667       5        2        99       sub(div(ald_ex_energy_t1, ami_ex_energy_s1), ald_hardness)
+486    0.6667       5        2        99       sub(add(ami_GAP, ald_ex_energy_t1), ald_hardness)
+487    0.6667       5        2        99       sub(add(0.524, ald_Electrophilicity_index), ald_hardness)
+488    0.6667       5        2        99       sub(sub(ami_VEA, ami_VEA), ald_hardness)
+489    0.6667       5        2        99       sub(add(ald_d_index, ald_fosc), ald_hardness)
+490    0.6667       5        2        99       sub(div(ami_GAP, ald_HOMO), ald_hardness)
+491    0.6667       5        2        99       div(ald_DIPOLE, mul(ami_LUMO, ald_delta_est))
+492    0.6667       5        2        99       sub(div(ald_VIP, ald_POLAR), ald_hardness)
+493    0.6667       5        2        99       sub(mul(ald_delta_est, ald_DIPOLE), ald_hardness)
+494    0.6667       5        2        99       sub(add(ami_LUMO, ami_GAP), ald_hardness)
+495    0.6667       5        2        99       sub(div(ami_VIP, ami_POLAR), ald_hardness)
+496    0.6667       5        2        99       sub(div(ami_delta_est, ami_delta_est), ald_hardness)
+497    0.6667       5        2        99       sub(sub(ami_HOMO, ald_LUMO), ald_hardness)
+498    0.6667       5        2        99       sub(mul(ami_ex_energy_s1, ami_HOMO), ald_hardness)
+499    0.6667       5        2        99       sub(mul(ald_POLAR, ami_HOMO), ald_hardness)
+500    0.6667       5        2        99       sub(sub(ald_VEA, ald_d_index), ald_hardness)
+501    0.6667       5        2        99       sub(mul(ald_d_index, ald_ex_energy_t1), ald_hardness)
+502    0.6667       5        2        99       sub(sub(ald_ex_energy_s1, ami_ex_energy_s1), ald_hardness)
+503    0.6667       5        2        99       sub(div(ami_ex_energy_s1, ald_POLAR), ald_hardness)
+504    0.6667       5        2        99       sub(add(ami_ex_energy_s1, ami_d_index), ald_hardness)
+505    0.6667       5        2        99       div(ami_GAP, mul(ald_fosc, ald_HOMO))
+506    0.6667       5        2        99       sub(div(ami_VEA, ami_VEA), ald_hardness)
+507    0.6667       5        2        99       sub(mul(ald_delta_est, ami_DIPOLE), ald_hardness)
+508    0.6667       5        2        99       sub(add(ald_ex_energy_t1, ald_DIPOLE), ald_hardness)
+509    0.6667       5        2        99       sub(div(ald_DIPOLE, 0.190), ald_hardness)
+510    0.6667       7        2        0        add(sub(ami_delta_est, ami_delta_est), sub(ald_DIPOLE, ami_VEA))
+511    0.6667       7        2        0        sub(mul(ald_GAP, ami_hardness), mul(ald_hardness, ald_sr))
+512    0.6667       7        2        0        add(sub(ami_HOMO, ald_ex_energy_t1), add(ami_HOMO, ami_delta_est))
+513    0.6667       7        2        0        div(mul(ald_VEA, ald_d_index), sub(ald_VEA, ami_VEA))
+514    0.6667       7        2        0        div(sub(ami_hardness, ald_Electrophilicity_index), sub(ald_HOMO, ald_VIP))
+515    0.6667       7        2        1        add(mul(ald_VIP, ald_HOMO), sub(ald_DIPOLE, ami_VEA))
+516    0.6667       7        2        1        add(sub(ami_delta_est, ami_delta_est), sub(ald_VEA, ald_ex_energy_t1))
+517    0.6667       7        2        2        sub(mul(ami_GAP, ald_GAP), div(ald_GAP, ald_DIPOLE))
+518    0.6667       7        2        2        add(sub(ami_delta_est, ami_delta_est), div(ami_HOMO, ald_DIPOLE))
+519    0.6667       7        2        3        add(sub(ami_delta_est, ami_delta_est), div(ald_HOMO, ald_DIPOLE))
+520    0.6667       7        2        29       div(mul(ald_sr, ald_delta_est), sub(ald_sr, ald_ex_energy_t1))
+521    0.6667       7        3        18       sub(div(mul(ald_VEA, ald_d_index), ald_d_index), ald_ex_energy_s1)
+522    0.6667       7        3        99       sub(div(ald_DIPOLE, div(ald_ex_energy_s1, ald_d_index)), ald_hardness)
+523    0.6667       7        3        99       sub(div(ald_DIPOLE, div(0.575, ald_HOMO)), ald_hardness)
+524    0.6667       7        3        99       sub(add(ald_DIPOLE, add(ald_HOMO, ami_GAP)), ald_hardness)
+525    0.6667       7        3        99       sub(div(ald_DIPOLE, sub(ald_delta_est, ami_DIPOLE)), ald_hardness)
+526    0.6667       7        3        99       sub(div(ald_DIPOLE, sub(ami_ex_energy_s1, ami_DIPOLE)), ald_hardness)
+527    0.6667       7        3        99       sub(div(ald_DIPOLE, mul(ald_hardness, ald_fosc)), ald_hardness)
+528    0.6667       7        3        99       sub(div(ald_DIPOLE, div(ami_VIP, ald_HOMO)), ald_hardness)
+529    0.6667       7        3        99       sub(mul(ami_fosc, div(ami_HOMO, ald_sr)), ald_hardness)
+530    0.6667       7        3        99       sub(div(ald_DIPOLE, mul(ami_HOMO, 1.649)), ald_hardness)
+531    0.6667       7        3        99       sub(mul(ald_DIPOLE, add(ald_HOMO, ami_GAP)), ald_hardness)
+532    0.6667       7        3        99       sub(div(ald_DIPOLE, div(ami_VIP, ami_hardness)), ald_hardness)
+533    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ami_LUMO, ald_HOMO)), ald_hardness)
+534    0.6667       7        3        99       sub(div(ald_DIPOLE, sub(ami_ex_energy_s1, ami_fosc)), ald_hardness)
+535    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ald_fosc, ald_sr)), ald_hardness)
+536    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ald_HOMO, ald_Electrophilicity_index)), ald_hardness)
+537    0.6667       7        3        99       sub(div(ald_DIPOLE, mul(ami_GAP, ami_HOMO)), ald_hardness)
+538    0.6667       7        3        99       sub(div(ald_DIPOLE, div(ami_DIPOLE, ald_POLAR)), ald_hardness)
+539    0.6667       7        3        99       sub(div(ald_DIPOLE, mul(ald_HOMO, ami_GAP)), ald_hardness)
+540    0.6667       7        3        99       sub(div(ald_DIPOLE, add(0.470, ami_delta_est)), ald_hardness)
+541    0.6667       7        3        99       sub(div(ald_DIPOLE, mul(ami_VEA, ami_delta_est)), ald_hardness)
+542    0.6667       7        3        99       sub(div(ald_DIPOLE, div(1.281, ald_GAP)), ald_hardness)
+543    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ald_fosc, ald_ex_energy_s1)), ald_hardness)
+544    0.6667       7        3        99       sub(div(ald_DIPOLE, mul(ami_VEA, ami_ex_energy_t1)), ald_hardness)
+545    0.6667       7        3        99       sub(div(ami_fosc, sub(ald_ex_energy_s1, ald_LUMO)), ald_hardness)
+546    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ald_HOMO, ald_hardness)), ald_hardness)
+547    0.6667       7        3        99       sub(div(ald_DIPOLE, sub(ald_HOMO, ami_GAP)), ald_hardness)
+548    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ami_GAP, ald_fosc)), ald_hardness)
+549    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ald_POLAR, ami_LUMO)), ald_hardness)
+550    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ami_GAP, ami_GAP)), ald_hardness)
+551    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ald_DIPOLE, ami_GAP)), ald_hardness)
+552    0.6667       7        3        99       sub(div(ald_DIPOLE, div(ald_HOMO, ami_GAP)), ald_hardness)
+553    0.6667       7        3        99       sub(div(ald_DIPOLE, mul(ald_ex_energy_s1, ald_hardness)), ald_hardness)
+554    0.6667       7        3        99       sub(sub(add(ald_HOMO, ami_GAP), ald_hardness), ald_hardness)
+555    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ald_ex_energy_t1, ami_GAP)), ald_hardness)
+556    0.6667       7        3        99       sub(div(ald_DIPOLE, sub(ald_VIP, ald_ex_energy_s1)), ald_hardness)
+557    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ald_HOMO, ami_POLAR)), ald_hardness)
+558    0.6667       7        3        99       sub(div(ald_DIPOLE, div(ald_VEA, ami_GAP)), ald_hardness)
+559    0.6667       7        3        99       sub(div(ald_DIPOLE, div(ald_d_index, ami_VIP)), ald_hardness)
+560    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), ami_GAP)
+561    0.6667       7        3        99       sub(div(ald_DIPOLE, sub(ami_hardness, ald_LUMO)), ald_hardness)
+562    0.6667       7        3        99       sub(div(ald_DIPOLE, sub(ald_Electrophilicity_index, ald_ex_energy_t1)), ald_h...
+563    0.6667       7        3        99       sub(div(ald_DIPOLE, mul(ald_delta_est, ald_fosc)), ald_hardness)
+564    0.6667       7        3        99       sub(div(ald_DIPOLE, sub(ami_Electrophilicity_index, ami_hardness)), ald_hardn...
+565    0.6667       7        3        99       sub(div(ald_DIPOLE, div(ald_DIPOLE, ald_d_index)), ald_hardness)
+566    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ald_LUMO, ami_GAP)), ald_hardness)
+567    0.6667       7        3        99       sub(div(ald_DIPOLE, mul(ami_fosc, ami_VIP)), ald_hardness)
+568    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ami_fosc, ami_Electrophilicity_index)), ald_hardness)
+569    0.6667       7        3        99       sub(div(ald_DIPOLE, div(ami_sr, -0.009)), ald_hardness)
+570    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ald_HOMO, ami_Electrophilicity_index)), ald_hardness)
+571    0.6667       7        3        99       sub(sub(ald_DIPOLE, add(ald_HOMO, ami_GAP)), ald_hardness)
+572    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ald_HOMO, ami_hardness)), ald_hardness)
+573    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ald_HOMO, ald_fosc)), ald_hardness)
+574    0.6667       7        3        99       sub(div(ald_DIPOLE, div(ald_delta_est, ald_LUMO)), ald_hardness)
+575    0.6667       7        3        99       sub(div(ald_DIPOLE, mul(ald_GAP, ald_Electrophilicity_index)), ald_hardness)
+576    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ald_hardness, ami_GAP)), ald_hardness)
+577    0.6667       7        3        99       sub(sub(add(ald_fosc, ami_DIPOLE), ami_delta_est), ald_hardness)
+578    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ald_HOMO, ald_HOMO)), ald_hardness)
+579    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ald_HOMO, ald_sr)), ald_hardness)
+580    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ald_ex_energy_s1, ald_hardness)), ald_hardness)
+581    0.6667       7        3        99       sub(div(ald_DIPOLE, sub(ald_hardness, ald_POLAR)), ald_hardness)
+582    0.6667       7        3        99       sub(div(ald_DIPOLE, sub(ald_Electrophilicity_index, ald_VIP)), ald_hardness)
+583    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ald_HOMO, ald_d_index)), ald_hardness)
+584    0.6667       7        3        99       sub(div(ald_DIPOLE, div(ami_POLAR, ald_ex_energy_t1)), ald_hardness)
+585    0.6667       7        3        99       sub(div(ald_DIPOLE, div(ald_VEA, ami_DIPOLE)), ald_hardness)
+586    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ami_delta_est, ald_hardness)), ald_hardness)
+587    0.6667       7        3        99       sub(div(ald_DIPOLE, mul(ald_HOMO, ami_Electrophilicity_index)), ald_hardness)
+588    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ami_Electrophilicity_index, ald_HOMO)), ald_hardness)
+589    0.6667       7        3        99       div(div(ald_DIPOLE, div(ald_HOMO, ami_GAP)), ald_hardness)
+590    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ami_ex_energy_s1, ami_GAP)), ald_hardness)
+591    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ald_VEA, ami_VIP)), ald_hardness)
+592    0.6667       7        3        99       sub(div(ald_DIPOLE, mul(ami_delta_est, ald_Electrophilicity_index)), ald_hard...
+593    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ami_HOMO, ami_VIP)), ald_hardness)
+594    0.6667       7        3        99       sub(div(ald_DIPOLE, sub(ami_GAP, ald_HOMO)), ald_hardness)
+595    0.6667       7        3        99       sub(div(ald_DIPOLE, mul(ald_DIPOLE, ald_ex_energy_s1)), ald_hardness)
+596    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ald_HOMO, ami_ex_energy_s1)), ald_hardness)
+597    0.6667       7        3        99       sub(div(ald_DIPOLE, div(ami_LUMO, ami_DIPOLE)), ald_hardness)
+598    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ald_fosc, ami_GAP)), ald_hardness)
+599    0.6667       7        3        99       sub(div(ami_d_index, add(ald_HOMO, ami_GAP)), ald_hardness)
+600    0.6667       7        3        99       sub(div(ald_DIPOLE, mul(ami_HOMO, ami_GAP)), ald_hardness)
+601    0.6667       7        3        99       sub(div(ald_DIPOLE, sub(ald_VIP, ald_ex_energy_t1)), ald_hardness)
+602    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ald_sr, ami_GAP)), ald_hardness)
+603    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ami_LUMO, ami_VIP)), ald_hardness)
+604    0.6667       7        3        99       sub(div(ald_DIPOLE, mul(ald_sr, ami_hardness)), ald_hardness)
+605    0.6667       7        3        99       sub(div(ald_DIPOLE, div(ami_ex_energy_t1, ald_Electrophilicity_index)), ald_h...
+606    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ami_fosc, ald_fosc)), ald_hardness)
+607    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ald_hardness, ami_VIP)), ald_hardness)
+608    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ald_HOMO, ald_DIPOLE)), ald_hardness)
+609    0.6667       7        3        99       sub(sub(sub(ami_VIP, ami_ex_energy_s1), ald_DIPOLE), ald_hardness)
+610    0.6667       7        3        99       sub(div(ald_DIPOLE, sub(ald_DIPOLE, ald_ex_energy_s1)), ald_hardness)
+611    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ald_VEA, ald_delta_est)), ald_hardness)
+612    0.6667       7        3        99       sub(div(ald_DIPOLE, sub(ami_sr, ald_VEA)), ald_hardness)
+613    0.6667       7        3        99       sub(div(ald_DIPOLE, sub(ald_delta_est, ami_ex_energy_s1)), ald_hardness)
+614    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ald_sr, ald_VIP)), ald_hardness)
+615    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ami_hardness, ald_HOMO)), ald_hardness)
+616    0.6667       7        3        99       sub(div(ald_DIPOLE, sub(ami_GAP, ami_d_index)), ald_hardness)
+617    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ald_POLAR, ami_fosc)), ald_hardness)
+618    0.6667       7        3        99       sub(div(ald_DIPOLE, mul(ald_delta_est, ald_sr)), ald_hardness)
+619    0.6667       7        3        99       sub(div(ald_DIPOLE, sub(ami_fosc, ald_fosc)), ald_hardness)
+620    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ald_GAP, ami_GAP)), ald_hardness)
+621    0.6667       7        3        99       sub(div(ald_DIPOLE, add(-0.065, ami_GAP)), ald_hardness)
+622    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ald_sr, ami_DIPOLE)), ald_hardness)
+623    0.6667       7        3        99       sub(div(ald_DIPOLE, mul(ami_d_index, ami_VIP)), ald_hardness)
+624    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ami_sr, ami_GAP)), ald_hardness)
+625    0.6667       7        3        99       sub(div(ald_DIPOLE, mul(ami_ex_energy_s1, ald_Electrophilicity_index)), ald_h...
+626    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ami_POLAR, ami_delta_est)), ald_hardness)
+627    0.6667       7        3        99       sub(div(ald_DIPOLE, mul(ald_HOMO, ami_GAP)), 1.671)
+628    0.6667       7        3        99       sub(div(ald_DIPOLE, mul(ami_VEA, ami_d_index)), ald_hardness)
+629    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ald_d_index, ami_GAP)), ald_hardness)
+630    0.6667       7        3        99       sub(div(ald_DIPOLE, add(ald_HOMO, ald_POLAR)), ald_hardness)
+631    0.6667       9        3        1        sub(add(ald_DIPOLE, div(ami_LUMO, ald_DIPOLE)), add(ami_sr, ald_sr))
+632    0.6667       9        3        13       sub(div(add(ami_d_index, ami_LUMO), add(ami_d_index, ami_LUMO)), ald_ex_energ...
+633    0.6667       9        3        99       sub(sub(div(ald_d_index, ald_fosc), div(ami_sr, ami_DIPOLE)), ald_hardness)
+634    0.6667       9        3        99       sub(div(add(ald_HOMO, ami_GAP), add(ald_HOMO, ami_GAP)), ald_hardness)
+635    0.6667       9        3        99       sub(div(div(ami_LUMO, ald_POLAR), add(ald_HOMO, ami_GAP)), ald_hardness)
+636    0.6667       9        3        99       sub(div(add(ami_GAP, ald_HOMO), add(ald_HOMO, ami_GAP)), ald_hardness)
+637    0.6667       9        3        99       sub(div(add(ald_HOMO, ami_GAP), add(ami_GAP, ald_HOMO)), ald_hardness)
+638    0.6667       9        3        99       sub(sub(mul(ald_GAP, ami_sr), sub(ald_sr, ami_d_index)), ald_hardness)
+639    0.6667       9        3        99       sub(div(add(ami_DIPOLE, ami_HOMO), add(ald_ex_energy_s1, ald_VIP)), ald_hardn...
+640    0.6667       9        3        99       sub(sub(sub(ald_delta_est, ald_VEA), add(ald_GAP, ald_VIP)), ald_hardness)
+641    0.6667       9        3        99       sub(mul(mul(ald_delta_est, ald_LUMO), mul(ami_Electrophilicity_index, ami_LUM...
+642    0.6667       9        3        99       sub(div(sub(ami_VEA, ald_HOMO), div(ami_fosc, ald_Electrophilicity_index)), a...
+643    0.6667       9        3        99       sub(sub(sub(ald_sr, ami_ex_energy_s1), div(ami_Electrophilicity_index, ami_PO...
+644    0.6667       9        3        99       sub(mul(div(ald_DIPOLE, ami_GAP), sub(ald_Electrophilicity_index, ald_VEA)), ...
+645    0.6667       9        3        99       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), div(ald_VEA, 0.577))
+646    0.6667       9        3        99       sub(div(add(ald_d_index, ald_VEA), add(ald_HOMO, ami_GAP)), ald_hardness)
+647    0.6667       9        3        99       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), mul(ald_Electrophilicity_index, ...
+648    0.6667       9        3        99       sub(add(mul(ald_Electrophilicity_index, ald_ex_energy_s1), sub(ald_fosc, ald_...
+649    0.6667       9        4        99       sub(div(ald_DIPOLE, div(ald_DIPOLE, add(ald_HOMO, ami_GAP))), ald_hardness)
+650    0.6667       9        4        99       sub(div(ald_DIPOLE, div(ald_DIPOLE, add(ami_GAP, ald_HOMO))), ald_hardness)
+651    0.6667       9        4        99       sub(div(ald_DIPOLE, add(ald_HOMO, add(ald_HOMO, ami_GAP))), ald_hardness)
+652    0.6667       9        4        99       sub(div(ald_DIPOLE, add(add(ald_HOMO, ami_GAP), ald_HOMO)), ald_hardness)
+653    0.6667       9        4        99       sub(div(ald_DIPOLE, add(sub(ami_HOMO, ald_ex_energy_t1), ami_GAP)), ald_hardn...
+654    0.6667       9        4        99       sub(sub(ami_VEA, div(add(ami_hardness, ald_d_index), ald_d_index)), ald_hardn...
+655    0.6667       9        4        99       sub(div(ald_DIPOLE, add(add(ald_VIP, ami_delta_est), ami_GAP)), ald_hardness)
+656    0.6667       9        4        99       sub(div(ald_DIPOLE, add(ald_HOMO, div(ald_hardness, ald_DIPOLE))), ald_hardness)
+657    0.6667       9        4        99       sub(div(ald_DIPOLE, add(sub(ald_LUMO, ald_delta_est), ami_GAP)), ald_hardness)
+658    0.6667       9        4        99       sub(div(ald_DIPOLE, add(add(ami_ex_energy_s1, ald_GAP), ami_GAP)), ald_hardness)
+659    0.6667       9        4        99       sub(div(ald_DIPOLE, add(ami_GAP, sub(ami_hardness, ald_delta_est))), ald_hard...
+660    0.6667       9        4        99       sub(sub(div(ald_DIPOLE, mul(ami_delta_est, ami_ex_energy_t1)), ald_hardness),...
+661    0.6667       9        4        99       sub(div(ald_DIPOLE, add(mul(ami_GAP, ald_GAP), ami_GAP)), ald_hardness)
+662    0.6667       9        4        99       sub(div(ald_DIPOLE, add(div(ald_LUMO, ami_LUMO), ami_GAP)), ald_hardness)
+663    0.6667       9        4        99       sub(div(ald_DIPOLE, add(ald_HOMO, sub(-1.359, ami_sr))), ald_hardness)
+664    0.6667       9        4        99       sub(sub(div(ald_DIPOLE, add(ami_ex_energy_t1, ami_DIPOLE)), ald_hardness), al...
+665    0.6667       9        4        99       sub(div(ald_DIPOLE, add(add(-1.252, -1.682), ami_GAP)), ald_hardness)
+666    0.6667       9        4        99       sub(div(ald_DIPOLE, add(ald_HOMO, div(0.040, ald_delta_est))), ald_hardness)
+667    0.6667       9        4        99       sub(div(ald_DIPOLE, add(ald_HOMO, add(ami_ex_energy_s1, ami_GAP))), ald_hardn...
+668    0.6667       9        4        99       sub(div(ald_DIPOLE, add(div(ami_sr, ami_DIPOLE), ami_GAP)), ald_hardness)
+669    0.6667       9        4        99       sub(div(ald_DIPOLE, add(ald_HOMO, add(ami_d_index, ald_sr))), ald_hardness)
+670    0.6667       9        4        99       sub(div(ald_DIPOLE, add(ald_HOMO, sub(ald_Electrophilicity_index, ald_delta_e...
+671    0.6667       9        4        99       sub(div(ald_DIPOLE, mul(mul(ald_sr, ald_hardness), ald_DIPOLE)), ald_hardness)
+672    0.6667       9        4        99       sub(div(ald_DIPOLE, add(div(ald_ex_energy_t1, ami_ex_energy_s1), ami_GAP)), a...
+673    0.6667       9        4        99       sub(div(ald_DIPOLE, add(ald_HOMO, add(ald_ex_energy_s1, ami_d_index))), ald_h...
+674    0.6667       9        4        99       sub(div(ald_DIPOLE, mul(div(ald_delta_est, ald_DIPOLE), ami_ex_energy_t1)), a...
+675    0.6667       11       3        1        sub(sub(mul(ami_GAP, ald_GAP), div(ald_GAP, ald_DIPOLE)), mul(ald_fosc, ald_d...
+676    0.6667       11       3        98       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), div(ald_DIPOLE, add(ald_HOMO, am...
+677    0.6667       11       4        99       sub(div(ald_DIPOLE, add(sub(ami_VEA, ami_LUMO), add(ald_LUMO, ald_delta_est))...
+678    0.6667       11       4        99       sub(div(ald_DIPOLE, mul(add(ami_GAP, ald_ex_energy_t1), sub(ami_delta_est, am...
+679    0.6667       11       4        99       sub(div(ald_DIPOLE, mul(sub(ald_fosc, ami_POLAR), div(ami_HOMO, ami_LUMO))), ...
+680    0.6667       11       4        99       sub(div(ald_DIPOLE, add(div(ald_ex_energy_t1, ald_delta_est), mul(ald_VIP, al...
+681    0.6667       11       4        99       sub(div(ald_DIPOLE, add(sub(ald_VIP, ami_ex_energy_t1), sub(ami_Electrophilic...
+682    0.6667       11       4        99       sub(div(ald_DIPOLE, mul(mul(ami_HOMO, ami_d_index), sub(ald_fosc, ald_GAP))),...
+683    0.6667       11       4        99       sub(div(ald_DIPOLE, sub(add(ald_POLAR, ami_Electrophilicity_index), mul(ald_f...
+684    0.6667       11       4        99       sub(div(ald_DIPOLE, mul(div(ald_ex_energy_s1, ald_fosc), div(ald_hardness, al...
+685    0.6667       11       4        99       sub(div(ald_DIPOLE, mul(div(ami_d_index, ald_sr), add(ami_LUMO, ald_d_index))...
+686    0.6667       11       4        99       sub(div(ald_DIPOLE, add(sub(ami_DIPOLE, ami_VIP), mul(1.762, ald_GAP))), ald_...
+687    0.6667       11       4        99       sub(div(ald_DIPOLE, sub(add(ald_Electrophilicity_index, ald_Electrophilicity_...
+688    0.6667       11       4        99       sub(div(ald_DIPOLE, sub(mul(ald_hardness, ami_ex_energy_t1), div(ald_ex_energ...
+689    0.6667       11       4        99       sub(div(ald_DIPOLE, div(add(ald_sr, ald_DIPOLE), sub(ald_fosc, ami_VIP))), al...
+690    0.6667       11       4        99       sub(div(ald_DIPOLE, add(add(ami_fosc, ami_d_index), sub(ald_POLAR, ald_Electr...
+691    0.6667       11       5        99       sub(div(ald_DIPOLE, sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), ald_hardness...
+692    0.6667       11       5        99       sub(div(ald_DIPOLE, add(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), ami_GAP)), a...
+693    0.6667       11       5        99       sub(div(ald_DIPOLE, add(add(ami_GAP, add(ald_POLAR, ami_VEA)), ami_GAP)), ald...
+694    0.6667       11       5        99       sub(div(ald_DIPOLE, add(ald_HOMO, div(ald_DIPOLE, add(ald_HOMO, ami_GAP)))), ...
+695    0.6667       11       5        99       sub(sub(div(ald_DIPOLE, div(ald_DIPOLE, add(ald_HOMO, ami_GAP))), ald_hardnes...
+696    0.6667       11       5        99       sub(div(ald_DIPOLE, add(ami_GAP, div(ald_DIPOLE, add(ald_HOMO, ami_GAP)))), a...
+697    0.6667       11       5        99       sub(sub(div(ald_DIPOLE, div(ald_DIPOLE, add(ami_GAP, ald_HOMO))), ald_hardnes...
+698    0.6667       11       5        99       sub(div(ald_DIPOLE, add(div(ald_DIPOLE, add(ami_GAP, ald_HOMO)), ami_GAP)), a...
+699    0.6667       11       5        99       sub(div(ald_DIPOLE, div(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), ald_hardness...
+700    0.6667       11       5        99       sub(div(ald_DIPOLE, sub(div(ald_DIPOLE, add(ami_GAP, ald_HOMO)), ald_hardness...
+701    0.6667       13       3        99       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), sub(add(ald_POLAR, ami_ex_energy...
+702    0.6667       13       3        99       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), mul(div(ami_ex_energy_t1, ald_El...
+703    0.6667       13       4        99       sub(sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), ald_hardness), div(ald_DIPOL...
+704    0.6667       13       4        99       sub(sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), div(ald_DIPOLE, add(ald_HOMO...
+705    0.6667       13       5        99       sub(div(ald_DIPOLE, add(ald_HOMO, add(mul(ald_VEA, ami_Electrophilicity_index...
+706    0.6667       13       5        99       sub(div(ald_DIPOLE, add(ald_HOMO, add(add(ald_POLAR, ami_d_index), add(ald_VI...
+707    0.6667       13       5        99       sub(div(ald_DIPOLE, add(div(div(ald_VEA, ami_VIP), sub(ald_VEA, ami_GAP)), am...
+708    0.6667       13       5        99       sub(div(ald_DIPOLE, add(ald_HOMO, sub(div(ald_fosc, ald_Electrophilicity_inde...
+709    0.6667       13       6        99       sub(div(ald_DIPOLE, sub(sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), ald_hard...
+710    0.6667       13       6        99       sub(div(ald_DIPOLE, add(ald_HOMO, sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP))...
+711    0.6667       13       6        99       sub(div(ald_DIPOLE, add(ald_HOMO, sub(div(ald_DIPOLE, add(ami_GAP, ald_HOMO))...
+712    0.6667       13       6        99       sub(div(ald_DIPOLE, add(sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), ald_hard...
+713    0.6667       13       6        99       sub(sub(div(ald_DIPOLE, add(ald_HOMO, div(ald_DIPOLE, add(ald_HOMO, ami_GAP))...
+714    0.6667       13       6        99       sub(div(ald_DIPOLE, add(sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), ald_hard...
+715    0.6667       13       6        99       sub(div(ald_DIPOLE, add(ami_GAP, sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)),...
+716    0.6667       13       6        99       sub(div(ald_DIPOLE, add(sub(div(ald_DIPOLE, add(ami_GAP, ald_HOMO)), ald_hard...
+717    0.6667       15       3        99       sub(div(mul(ald_VEA, ami_POLAR), div(ald_ex_energy_t1, ald_ex_energy_s1)), mu...
+718    0.6667       15       3        99       add(add(sub(ald_delta_est, ami_fosc), div(ald_HOMO, ami_VEA)), sub(add(ami_El...
+719    0.6667       15       7        99       sub(sub(div(ald_DIPOLE, add(sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), ald_...
+720    0.6667       17       4        99       sub(sub(add(add(ami_VEA, ami_HOMO), add(ald_ex_energy_t1, ald_HOMO)), sub(mul...
+721    0.6667       17       4        99       sub(mul(add(div(0.573, ami_POLAR), sub(ald_VIP, ald_VIP)), sub(sub(ald_ex_ene...
+722    0.6667       17       4        99       sub(div(add(sub(ald_VIP, ald_ex_energy_t1), add(ald_DIPOLE, ald_sr)), mul(sub...
+723    0.6667       17       4        99       sub(sub(div(mul(ald_GAP, ald_VEA), div(ami_HOMO, ami_VIP)), add(mul(ami_VEA, ...
+724    0.6667       19       5        99       sub(div(ald_DIPOLE, sub(mul(sub(ald_POLAR, ami_POLAR), add(ami_d_index, ald_e...
+725    0.6667       19       5        99       sub(div(ald_DIPOLE, mul(mul(add(ald_ex_energy_s1, ami_GAP), add(ald_d_index, ...
+726    0.6667       19       5        99       sub(div(ald_DIPOLE, sub(add(add(ami_VEA, ami_GAP), mul(ald_DIPOLE, ald_fosc))...
+727    0.6667       21       6        99       sub(div(ald_DIPOLE, add(ald_HOMO, add(add(sub(ald_LUMO, ald_VEA), div(ald_GAP...
+728    0.6667       35       6        99       sub(div(ald_DIPOLE, add(add(div(add(ald_VEA, ald_GAP), sub(ald_sr, ami_fosc))...
+729    0.6667       35       6        99       sub(div(ald_DIPOLE, sub(mul(mul(sub(ald_GAP, ami_GAP), sub(ald_POLAR, ald_GAP...
+730    0.6667       35       6        99       sub(div(ald_DIPOLE, mul(mul(sub(sub(ami_ex_energy_t1, ami_LUMO), add(ami_POLA...
+731    0.6667       35       6        99       sub(div(ald_DIPOLE, add(sub(sub(sub(ald_Electrophilicity_index, ald_VEA), sub...
+732    0.6000       1        0        23       ald_VEA
+733    0.6000       1        0        37       ami_LUMO
+734    0.6000       3        1        0        sub(ami_GAP, ami_VEA)
+735    0.6000       3        1        0        mul(ami_sr, ald_VEA)
+736    0.6000       3        1        0        div(ami_LUMO, ald_ex_energy_s1)
+737    0.6000       3        1        0        mul(ami_LUMO, ald_VIP)
+738    0.6000       3        1        0        mul(ald_VEA, ami_delta_est)
+739    0.6000       3        1        0        div(ami_GAP, ald_VEA)
+740    0.6000       3        1        0        sub(ami_d_index, ami_fosc)
+741    0.6000       3        1        0        sub(ald_GAP, ami_fosc)
+742    0.6000       3        1        0        add(ami_d_index, ami_LUMO)
+743    0.6000       3        1        0        add(ald_VEA, ald_HOMO)
+744    0.6000       3        1        0        mul(ald_HOMO, ami_VEA)
+745    0.6000       3        1        0        div(ald_VEA, ald_VIP)
+746    0.6000       3        1        0        add(ami_LUMO, ami_DIPOLE)
+747    0.6000       3        1        0        sub(ami_HOMO, ami_VEA)
+748    0.6000       3        1        0        sub(ami_fosc, ald_sr)
+749    0.6000       3        1        0        sub(ami_sr, ald_delta_est)
+750    0.6000       3        1        0        sub(ami_delta_est, ami_Electrophilicity_index)
+751    0.6000       3        1        0        sub(ami_hardness, ald_VIP)
+752    0.6000       3        1        0        mul(ald_fosc, ami_LUMO)
+753    0.6000       3        1        0        div(ald_GAP, ald_VEA)
+754    0.6000       3        1        0        add(ami_DIPOLE, ami_LUMO)
+755    0.6000       3        1        0        mul(ami_LUMO, ami_fosc)
+756    0.6000       3        1        0        mul(ald_VEA, ami_GAP)
+757    0.6000       3        1        1        sub(ami_delta_est, ald_ex_energy_t1)
+758    0.6000       3        1        1        mul(ami_VEA, -1.358)
+759    0.6000       3        1        54       add(ald_HOMO, ami_GAP)
+760    0.6000       3        1        63       add(ami_GAP, ald_HOMO)
+761    0.6000       3        1        99       sub(ami_hardness, ald_hardness)
+762    0.6000       3        1        99       div(ami_Electrophilicity_index, ald_VEA)
+763    0.6000       3        1        99       add(ald_DIPOLE, ald_VEA)
+764    0.6000       3        1        99       sub(ald_VIP, ald_hardness)
+765    0.6000       5        2        0        sub(mul(ami_VEA, ami_GAP), ami_VEA)
+766    0.6000       5        2        1        sub(div(ald_LUMO, ald_hardness), ami_VEA)
+767    0.6000       5        2        2        mul(sub(ami_delta_est, ald_ex_energy_t1), ald_ex_energy_t1)
+768    0.6000       5        2        54       sub(sub(ami_hardness, ald_GAP), ald_hardness)
+769    0.6000       5        2        72       div(ald_DIPOLE, add(ald_HOMO, ami_GAP))
+770    0.6000       5        2        97       div(ald_DIPOLE, add(ami_GAP, ald_HOMO))
+771    0.6000       5        2        99       sub(div(ald_POLAR, ald_VEA), ald_hardness)
+772    0.6000       5        2        99       sub(add(ald_VIP, ald_HOMO), ald_hardness)
+773    0.6000       7        2        0        mul(div(ami_LUMO, ami_VIP), mul(ami_DIPOLE, ald_POLAR))
+774    0.6000       7        3        0        div(ami_LUMO, div(ald_ex_energy_s1, sub(ami_delta_est, ald_ex_energy_t1)))
+775    0.6000       7        3        60       div(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), ald_hardness)
+776    0.6000       7        3        63       div(div(ald_DIPOLE, add(ami_GAP, ald_HOMO)), ald_hardness)
+777    0.6000       7        3        99       sub(div(ami_ex_energy_s1, add(ald_HOMO, ami_GAP)), ald_hardness)
+778    0.6000       7        3        99       sub(div(ald_DIPOLE, sub(ami_VEA, ald_sr)), ald_hardness)
+779    0.6000       7        3        99       sub(div(mul(ald_hardness, ami_LUMO), ami_fosc), ald_hardness)
+780    0.6000       7        3        99       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), ami_d_index)
+781    0.6000       7        3        99       mul(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), ald_hardness)
+782    0.6000       7        3        99       sub(div(ald_DIPOLE, mul(ami_GAP, ald_ex_energy_t1)), ald_hardness)
+783    0.6000       7        3        99       sub(div(ald_GAP, add(ald_HOMO, ami_GAP)), ald_hardness)
+784    0.6000       7        3        99       sub(div(1.627, add(ald_HOMO, ami_GAP)), ald_hardness)
+785    0.6000       7        3        99       sub(div(ald_DIPOLE, sub(ald_fosc, ami_d_index)), ald_hardness)
+786    0.6000       7        3        99       sub(div(0.251, add(ald_HOMO, ami_GAP)), ald_hardness)
+787    0.6000       7        3        99       sub(div(ald_VIP, add(ald_fosc, ami_GAP)), ald_hardness)
+788    0.6000       7        3        99       sub(div(ald_LUMO, add(ald_HOMO, ami_GAP)), ald_hardness)
+789    0.6000       7        3        99       sub(div(ald_hardness, add(ald_HOMO, ami_GAP)), ald_hardness)
+790    0.6000       7        3        99       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), ald_DIPOLE)
+791    0.6000       7        3        99       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), ald_LUMO)
+792    0.6000       7        3        99       sub(div(ald_DIPOLE, mul(ami_d_index, ald_fosc)), ald_hardness)
+793    0.6000       7        3        99       sub(div(ald_DIPOLE, add(-1.752, ami_Electrophilicity_index)), ald_hardness)
+794    0.6000       7        3        99       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), ald_d_index)
+795    0.6000       7        3        99       sub(div(ald_fosc, add(ami_GAP, ald_HOMO)), ald_hardness)
+796    0.6000       9        3        32       sub(div(mul(ald_VEA, ald_d_index), add(ami_DIPOLE, ami_LUMO)), ami_HOMO)
+797    0.6000       9        3        39       sub(div(mul(ald_VEA, ald_d_index), ald_d_index), add(ami_DIPOLE, ami_LUMO))
+798    0.6000       9        3        99       sub(div(add(ami_HOMO, ald_VIP), add(ald_HOMO, ami_GAP)), ald_hardness)
+799    0.6000       9        3        99       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), mul(ald_DIPOLE, ald_delta_est))
+800    0.6000       9        3        99       sub(div(add(ald_ex_energy_s1, ami_sr), add(ald_HOMO, ami_GAP)), ald_hardness)
+801    0.6000       9        3        99       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), sub(ald_VEA, ald_VEA))
+802    0.6000       9        3        99       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), div(ami_LUMO, ald_ex_energy_s1))
+803    0.6000       9        3        99       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), mul(ald_DIPOLE, ald_LUMO))
+804    0.6000       9        3        99       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), sub(ald_ex_energy_s1, ald_ex_ene...
+805    0.6000       9        3        99       sub(div(sub(ami_sr, ald_HOMO), add(ald_HOMO, ami_GAP)), ald_hardness)
+806    0.6000       9        3        99       sub(div(add(ald_ex_energy_s1, ami_DIPOLE), add(ald_HOMO, ami_GAP)), ald_hardn...
+807    0.6000       9        3        99       sub(div(div(ami_ex_energy_t1, ald_Electrophilicity_index), add(ald_HOMO, ami_...
+808    0.6000       9        3        99       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), mul(ald_d_index, ald_VIP))
+809    0.6000       9        3        99       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), div(ald_sr, ald_hardness))
+810    0.6000       9        3        99       sub(sub(add(ald_LUMO, ami_VIP), sub(ami_VIP, ald_VIP)), ald_hardness)
+811    0.6000       9        4        99       sub(div(ald_DIPOLE, add(ald_HOMO, sub(ald_d_index, ami_fosc))), ald_hardness)
+812    0.6000       13       4        99       sub(div(mul(sub(ald_GAP, ami_ex_energy_t1), sub(ald_ex_energy_t1, ald_ex_ener...
+813    0.6000       13       4        99       sub(div(add(sub(ald_hardness, ald_DIPOLE), div(ami_delta_est, ami_delta_est))...
+814    0.6000       15       5        99       sub(sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), sub(div(ald_DIPOLE, add(ald_...
+815    0.5333       3        1        0        sub(ami_sr, ald_sr)
+816    0.5333       3        1        99       add(ald_DIPOLE, ami_LUMO)
+817    0.5333       3        1        99       mul(ami_d_index, ami_LUMO)
+818    0.5333       3        1        99       sub(ami_delta_est, ami_VEA)
+819    0.5333       5        2        1        sub(mul(ami_DIPOLE, ald_hardness), ami_VEA)
+820    0.5333       5        2        82       sub(div(ald_DIPOLE, ami_GAP), ald_hardness)
+821    0.5333       5        2        99       sub(div(ami_VIP, ald_fosc), ald_hardness)
+822    0.5333       7        3        63       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), ald_HOMO)
+823    0.5333       7        3        99       add(sub(div(ald_LUMO, ald_Electrophilicity_index), ami_DIPOLE), ald_LUMO)
+824    0.5333       9        3        99       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), add(ald_HOMO, ami_GAP))
+825    0.5333       9        3        99       sub(div(ald_DIPOLE, add(ami_GAP, ald_HOMO)), add(ald_HOMO, ami_GAP))
+826    0.5333       9        3        99       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), add(ami_GAP, ald_HOMO))
+827    0.5333       9        4        99       sub(div(ald_DIPOLE, add(add(ald_HOMO, ami_GAP), ami_GAP)), ald_hardness)
+828    0.5333       9        4        99       sub(div(ald_DIPOLE, add(add(ami_GAP, ald_HOMO), ami_GAP)), ald_hardness)
+829    0.5333       9        4        99       sub(div(ald_DIPOLE, add(mul(ami_LUMO, ald_ex_energy_s1), ami_GAP)), ald_hardn...
+830    0.4667       1        0        38       ald_d_index
+831    0.4667       3        1        0        sub(ami_DIPOLE, ami_LUMO)
+832    0.4667       3        1        0        mul(ami_d_index, ald_d_index)
+833    0.4667       3        1        0        mul(ald_d_index, ami_GAP)
+834    0.4667       3        1        0        div(ald_d_index, ami_Electrophilicity_index)
+835    0.4667       3        1        0        div(ald_d_index, 0.662)
+836    0.4667       3        1        99       div(ald_d_index, ami_hardness)
+837    0.4667       5        2        0        sub(div(ami_LUMO, ald_DIPOLE), ami_LUMO)
+838    0.4667       5        2        99       sub(div(ami_ex_energy_s1, ami_DIPOLE), ald_hardness)
+839    0.4667       5        2        99       sub(div(ami_ex_energy_t1, ami_DIPOLE), ald_hardness)
+840    0.4667       5        2        99       mul(mul(ald_d_index, ald_hardness), ald_fosc)
+841    0.4667       7        2        99       mul(div(ami_VEA, ami_DIPOLE), add(-1.210, ald_Electrophilicity_index))
+842    0.4667       7        3        99       add(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), ald_hardness)
+843    0.4667       7        3        99       sub(div(ami_HOMO, add(ald_HOMO, ami_GAP)), ald_hardness)
+844    0.4667       7        3        99       sub(div(ald_HOMO, add(ami_GAP, ald_HOMO)), ald_hardness)
+845    0.4667       9        3        99       sub(div(sub(ald_HOMO, ald_LUMO), add(ald_HOMO, ami_GAP)), ald_hardness)
+846    0.4667       9        3        99       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), sub(ald_fosc, ald_ex_energy_t1))
+847    0.4667       9        3        99       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), div(ald_sr, ami_HOMO))
+848    0.4667       11       4        99       sub(div(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), add(ald_HOMO, ami_GAP)), ald...
+849    0.4667       11       4        99       sub(div(div(ald_DIPOLE, add(ami_GAP, ald_HOMO)), add(ald_HOMO, ami_GAP)), ald...
+850    0.4667       11       4        99       sub(div(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), add(ami_GAP, ald_HOMO)), ald...
+851    0.4667       13       4        99       sub(div(div(div(ami_Electrophilicity_index, ald_LUMO), div(ald_POLAR, ald_sr)...
+852    0.4667       17       4        99       sub(add(add(sub(ami_HOMO, ami_delta_est), div(ald_VIP, ami_Electrophilicity_i...
+853    0.4000       1        0        36       ami_DIPOLE
+854    0.4000       1        0        99       ami_VEA
+855    0.4000       3        1        0        div(ald_LUMO, ald_VIP)
+856    0.4000       3        1        0        sub(ami_Electrophilicity_index, ami_delta_est)
+857    0.4000       3        1        0        mul(ami_DIPOLE, ami_delta_est)
+858    0.4000       3        1        0        mul(ald_Electrophilicity_index, ald_LUMO)
+859    0.4000       3        1        0        mul(ami_DIPOLE, ald_hardness)
+860    0.4000       3        1        0        mul(ami_DIPOLE, ald_ex_energy_t1)
+861    0.4000       3        1        0        mul(ald_delta_est, ald_LUMO)
+862    0.4000       3        1        0        mul(ald_delta_est, ami_DIPOLE)
+863    0.4000       3        1        99       sub(ami_VIP, ald_hardness)
+864    0.4000       3        1        99       mul(ald_VEA, ami_VEA)
+865    0.4000       3        1        99       add(ami_VEA, ami_fosc)
+866    0.4000       3        1        99       div(ami_ex_energy_t1, ald_LUMO)
+867    0.4000       5        2        99       sub(div(ami_Electrophilicity_index, ald_LUMO), ald_hardness)
+868    0.4000       5        2        99       sub(add(ami_d_index, ami_VIP), ald_hardness)
+869    0.4000       5        2        99       sub(div(ami_sr, ald_LUMO), ald_hardness)
+870    0.4000       5        2        99       sub(mul(ami_POLAR, ami_d_index), ald_hardness)
+871    0.4000       9        3        99       sub(div(mul(ami_Electrophilicity_index, ami_HOMO), add(ald_HOMO, ami_GAP)), a...
+872    0.4000       9        4        98       div(ami_LUMO, sub(div(sub(ald_VEA, ami_VIP), ald_ex_energy_s1), ald_ex_energy...
+873    0.4000       11       5        99       div(ami_LUMO, sub(div(sub(ald_VEA, add(ald_HOMO, ami_GAP)), ald_ex_energy_s1)...
+874    0.4000       13       4        99       sub(div(sub(sub(ald_HOMO, ald_Electrophilicity_index), sub(ald_ex_energy_t1, ...
+875    0.4000       15       3        99       add(div(add(ald_Electrophilicity_index, ami_POLAR), add(ami_POLAR, ami_ex_ene...
+876    0.4000       15       3        99       div(div(mul(ald_VIP, ami_DIPOLE), mul(ami_HOMO, ami_Electrophilicity_index)),...
+877    0.4000       17       4        99       sub(sub(mul(div(ami_delta_est, ald_VEA), mul(ald_POLAR, ald_delta_est)), add(...
+878    0.3333       1        0        61       ald_DIPOLE
+879    0.3333       1        0        64       ami_GAP
+880    0.3333       1        0        99       ami_d_index
+881    0.3333       1        0        99       ald_hardness
+882    0.3333       1        0        99       0.492
+883    0.3333       1        0        99       ami_sr
+884    0.3333       1        0        99       ami_VIP
+885    0.3333       1        0        99       ald_ex_energy_s1
+886    0.3333       1        0        99       ami_POLAR
+887    0.3333       1        0        99       ald_GAP
+888    0.3333       1        0        99       ami_Electrophilicity_index
+889    0.3333       1        0        99       ami_fosc
+890    0.3333       1        0        99       ami_ex_energy_s1
+891    0.3333       3        1        0        mul(ami_HOMO, ami_HOMO)
+892    0.3333       3        1        0        div(ami_Electrophilicity_index, ald_POLAR)
+893    0.3333       3        1        0        div(ami_ex_energy_s1, ami_POLAR)
+894    0.3333       3        1        0        div(ald_GAP, ami_delta_est)
+895    0.3333       3        1        0        div(ald_GAP, ami_ex_energy_s1)
+896    0.3333       3        1        0        mul(ami_d_index, ald_hardness)
+897    0.3333       3        1        0        div(ald_ex_energy_s1, ami_POLAR)
+898    0.3333       3        1        0        div(ald_hardness, ald_POLAR)
+899    0.3333       3        1        1        div(ami_d_index, ald_VIP)
+900    0.3333       3        1        91       mul(ami_Electrophilicity_index, ald_DIPOLE)
+901    0.3333       3        1        99       mul(ami_POLAR, ami_sr)
+902    0.3333       3        1        99       div(ami_fosc, ald_fosc)
+903    0.3333       3        1        99       mul(ald_Electrophilicity_index, ald_ex_energy_s1)
+904    0.3333       3        1        99       div(ald_sr, ami_delta_est)
+905    0.3333       3        1        99       div(ald_DIPOLE, ami_POLAR)
+906    0.3333       3        1        99       sub(ald_ex_energy_s1, ald_delta_est)
+907    0.3333       3        1        99       add(ald_ex_energy_t1, ald_fosc)
+908    0.3333       3        1        99       div(ald_Electrophilicity_index, ald_POLAR)
+909    0.3333       3        1        99       add(ami_ex_energy_s1, ald_ex_energy_t1)
+910    0.3333       3        1        99       sub(ami_POLAR, ami_VEA)
+911    0.3333       3        1        99       add(ami_delta_est, ami_delta_est)
+912    0.3333       3        1        99       div(ald_Electrophilicity_index, ami_DIPOLE)
+913    0.3333       3        1        99       add(ald_Electrophilicity_index, ald_VEA)
+914    0.3333       3        1        99       div(ami_d_index, ami_hardness)
+915    0.3333       3        1        99       add(ami_VEA, ami_delta_est)
+916    0.3333       3        1        99       div(ami_sr, ami_DIPOLE)
+917    0.3333       3        1        99       sub(ald_hardness, ami_Electrophilicity_index)
+918    0.3333       3        1        99       mul(ami_Electrophilicity_index, ald_Electrophilicity_index)
+919    0.3333       3        1        99       div(ami_POLAR, ald_ex_energy_t1)
+920    0.3333       3        1        99       sub(ami_GAP, -1.178)
+921    0.3333       3        1        99       mul(ami_sr, ald_hardness)
+922    0.3333       3        1        99       add(ami_GAP, ami_ex_energy_s1)
+923    0.3333       3        1        99       div(ald_GAP, ami_GAP)
+924    0.3333       3        1        99       add(ald_POLAR, ald_DIPOLE)
+925    0.3333       3        1        99       add(ami_DIPOLE, ald_sr)
+926    0.3333       3        1        99       mul(ami_GAP, ami_VIP)
+927    0.3333       3        1        99       mul(ami_GAP, ami_Electrophilicity_index)
+928    0.3333       3        1        99       add(ami_GAP, ald_ex_energy_t1)
+929    0.3333       3        1        99       div(ami_sr, ald_DIPOLE)
+930    0.3333       3        1        99       add(ami_fosc, ald_VIP)
+931    0.3333       3        1        99       mul(ald_POLAR, ami_d_index)
+932    0.3333       3        1        99       mul(ald_hardness, ami_sr)
+933    0.3333       3        1        99       add(ami_ex_energy_s1, ald_LUMO)
+934    0.3333       3        1        99       mul(ald_GAP, ald_sr)
+935    0.3333       3        1        99       sub(ami_POLAR, ald_hardness)
+936    0.3333       3        1        99       mul(ami_GAP, ami_POLAR)
+937    0.3333       3        1        99       add(ald_POLAR, ald_POLAR)
+938    0.3333       3        1        99       sub(ald_Electrophilicity_index, ami_d_index)
+939    0.3333       3        1        99       sub(ald_POLAR, ami_DIPOLE)
+940    0.3333       3        1        99       add(ami_VIP, ald_hardness)
+941    0.3333       3        1        99       div(ami_ex_energy_t1, ald_Electrophilicity_index)
+942    0.3333       3        1        99       mul(ald_GAP, ald_POLAR)
+943    0.3333       3        1        99       sub(ami_ex_energy_s1, ald_HOMO)
+944    0.3333       3        1        99       div(ami_fosc, ami_ex_energy_s1)
+945    0.3333       3        1        99       mul(ami_ex_energy_t1, ami_hardness)
+946    0.3333       3        1        99       sub(ald_fosc, -1.929)
+947    0.3333       3        1        99       div(ald_DIPOLE, ami_fosc)
+948    0.3333       3        1        99       add(ald_POLAR, ami_ex_energy_t1)
+949    0.3333       3        1        99       div(1.568, ami_GAP)
+950    0.3333       3        1        99       add(ami_Electrophilicity_index, ami_fosc)
+951    0.3333       3        1        99       div(ald_ex_energy_s1, ald_fosc)
+952    0.3333       3        1        99       add(ami_delta_est, ald_ex_energy_t1)
+953    0.3333       5        2        0        mul(add(ami_d_index, ald_LUMO), ald_d_index)
+954    0.3333       5        2        0        add(div(ami_d_index, ald_VIP), ami_GAP)
+955    0.3333       5        2        99       sub(mul(ald_fosc, ami_ex_energy_t1), ami_LUMO)
+956    0.3333       5        2        99       sub(add(ami_GAP, ald_hardness), ald_hardness)
+957    0.3333       5        2        99       add(ami_fosc, sub(ald_POLAR, ami_ex_energy_t1))
+958    0.3333       5        2        99       sub(mul(ald_ex_energy_t1, ald_POLAR), ald_hardness)
+959    0.3333       5        2        99       sub(div(ami_ex_energy_s1, 0.149), ald_hardness)
+960    0.3333       5        2        99       sub(mul(ami_POLAR, ald_POLAR), ald_hardness)
+961    0.3333       5        2        99       sub(div(ami_POLAR, ami_Electrophilicity_index), ald_hardness)
+962    0.3333       5        2        99       sub(sub(ami_POLAR, ald_VEA), ald_hardness)
+963    0.3333       5        2        99       sub(mul(ald_VIP, ami_ex_energy_s1), ald_hardness)
+964    0.3333       5        2        99       sub(div(ald_VIP, ami_d_index), ald_hardness)
+965    0.3333       5        2        99       sub(sub(ald_VIP, ald_DIPOLE), ald_VEA)
+966    0.3333       5        2        99       sub(add(ami_Electrophilicity_index, ald_VIP), ald_hardness)
+967    0.3333       5        2        99       sub(sub(ami_POLAR, ami_HOMO), ald_hardness)
+968    0.3333       5        2        99       sub(div(ald_POLAR, ald_delta_est), ald_hardness)
+969    0.3333       5        2        99       sub(mul(ald_hardness, ami_VIP), ald_hardness)
+970    0.3333       5        2        99       sub(add(ami_VIP, 0.379), ald_hardness)
+971    0.3333       7        2        99       div(div(ald_sr, ami_GAP), add(1.050, ami_GAP))
+972    0.3333       7        2        99       add(sub(ald_DIPOLE, ald_hardness), add(ald_hardness, ald_delta_est))
+973    0.3333       7        2        99       div(div(ami_ex_energy_t1, ald_DIPOLE), mul(ami_Electrophilicity_index, ami_de...
+974    0.3333       7        2        99       add(add(ami_POLAR, ami_sr), mul(ami_VIP, ami_LUMO))
+975    0.3333       7        3        99       div(div(ald_DIPOLE, add(ald_LUMO, ami_GAP)), ald_hardness)
+976    0.3333       7        3        99       sub(add(div(ald_HOMO, ald_DIPOLE), ami_POLAR), ald_hardness)
+977    0.3333       7        3        99       add(ami_delta_est, add(mul(ami_ex_energy_t1, ald_VIP), 1.728))
+978    0.3333       7        3        99       sub(sub(mul(ald_ex_energy_t1, ami_VIP), ald_hardness), ald_hardness)
+979    0.3333       9        3        99       sub(add(mul(ald_VIP, ald_HOMO), add(ald_POLAR, ald_Electrophilicity_index)), ...
+980    0.3333       13       4        99       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), sub(div(ald_DIPOLE, add(ald_HOMO...
+981    0.3333       13       4        99       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), sub(div(ald_DIPOLE, add(ami_GAP,...
+982    0.3333       13       4        99       sub(div(ald_DIPOLE, add(ald_HOMO, ami_GAP)), sub(div(ald_DIPOLE, add(ald_HOMO...
+983    0.3333       15       3        99       mul(div(div(ami_Electrophilicity_index, ald_DIPOLE), div(ami_ex_energy_s1, am...
+984    0.3333       15       3        99       div(mul(add(ami_DIPOLE, ald_HOMO), mul(ami_GAP, ald_fosc)), mul(mul(ami_HOMO,...
+985    0.3333       17       4        99       sub(add(add(sub(ami_POLAR, ald_fosc), mul(ald_DIPOLE, ami_sr)), add(div(ami_V...
+986    0.2667       3        1        99       div(ami_VEA, ald_d_index)
+987    0.2667       3        1        99       sub(ami_fosc, ald_DIPOLE)
+988    0.2667       3        1        99       sub(ald_delta_est, ald_d_index)
+989    0.2667       15       3        99       sub(add(mul(ald_ex_energy_s1, ald_sr), sub(ald_ex_energy_t1, ami_ex_energy_s1...
+990    0.2000       3        1        99       sub(ald_delta_est, ald_DIPOLE)
+991    0.1333       3        1        99       sub(1.481, ald_Electrophilicity_index)

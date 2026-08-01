@@ -1,0 +1,7 @@
+/Users/zikaixie/multiwfn-mac-build/build/CMakeFiles/multiwfn.dir
+/Users/zikaixie/multiwfn-mac-build/build/CMakeFiles/edit_cache.dir
+/Users/zikaixie/multiwfn-mac-build/build/CMakeFiles/rebuild_cache.dir
+/Users/zikaixie/multiwfn-mac-build/build/CMakeFiles/list_install_components.dir
+/Users/zikaixie/multiwfn-mac-build/build/CMakeFiles/install.dir
+/Users/zikaixie/multiwfn-mac-build/build/CMakeFiles/install/local.dir
+/Users/zikaixie/multiwfn-mac-build/build/CMakeFiles/install/strip.dir

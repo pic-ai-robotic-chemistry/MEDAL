@@ -1,0 +1,551 @@
+ Multiwfn -- A Multifunctional Wavefunction Analyzer
+ Version 3.8(dev), update date: 2025-Mar-15
+ Developer: Tian Lu (Beijing Kein Research Center for Natural Sciences)
+ Multiwfn official website: http://sobereva.com/multiwfn
+ Multiwfn English forum: http://sobereva.com/wfnbbs
+ Multiwfn Chinese forum: http://bbs.keinsci.com/wfn
+ Both following papers ***MUST BE CITED IN MAIN TEXT*** if Multiwfn is used:
+          Tian Lu, Feiwu Chen, J. Comput. Chem., 33, 580-592 (2012)
+          Tian Lu, J. Chem. Phys., 161, 082503 (2024)
+ See "How to cite Multiwfn.pdf" in Multiwfn binary package for more information
+
+ ( Number of parallel threads:  20  Current date: 2026-02-24  Time: 18:21:18 )
+ 
+ Please wait...
+ Loading various information of the wavefunction
+ The highest angular moment basis functions is D
+ Loading basis set definition...
+ Loading orbitals...
+ Converting basis function information to GTF information...
+ Back converting basis function information from Cartesian to spherical type...
+ Generating density matrix based on SCF orbitals...
+ Generating overlap matrix...
+ 
+ Total/Alpha/Beta electrons:    700.0000    350.0000    350.0000
+ Net charge:     0.00000      Expected multiplicity:    1
+ Atoms:    170,  Basis functions:   1781,  GTFs:   3056
+ Total energy:   -4400.736824765065 Hartree,   Virial ratio:  2.00918536
+ This is a restricted single-determinant wavefunction
+ Orbitals from 1 to   350 are occupied
+ Title line of this file: title
+
+ Loaded dimer_from_ald-10_ami-11_addH.fchk successfully!
+ 
+ Formula: H67 C97 N5 S1      Total atoms:     170
+ Molecule weight:      1334.67172 Da
+ Point group: C1 
+ 
+ "q": Exit program gracefully          "r": Load a new file
+                    ************ Main function menu ************
+ 0 Show molecular structure and view orbitals
+ 1 Output all properties at a point       2 Topology analysis
+ 3 Output and plot specific property in a line
+ 4 Output and plot specific property in a plane
+ 5 Output and plot specific property within a spatial region (calc. grid data)
+ 6 Check & modify wavefunction
+ 7 Population analysis and calculation of atomic charges
+ 8 Orbital composition analysis           9 Bond order analysis
+ 10 Plot total DOS, PDOS, OPDOS, local DOS, COHP and photoelectron spectrum
+ 11 Plot IR/Raman/UV-Vis/ECD/VCD/ROA/NMR spectrum
+ 12 Quantitative analysis of molecular surface
+ 13 Process grid data (No grid data is presented currently)
+ 14 Adaptive natural density partitioning (AdNDP) analysis
+ 15 Fuzzy atomic space analysis
+ 16 Charge decomposition analysis (CDA) and plot orbital interaction diagram
+ 17 Basin analysis                       18 Electron excitation analysis
+ 19 Orbital localization analysis        20 Visual study of weak interaction
+ 21 Energy decomposition analysis        22 Conceptual DFT (CDFT) analysis
+ 23 ETS-NOCV analysis                    24 (Hyper)polarizability analysis
+ 25 Electron delocalization and aromaticity analyses
+ 26 Structure and geometry related analyses
+ 100 Other functions (Part 1)            200 Other functions (Part 2)
+ 300 Other functions (Part 3)
+ 
+            ============ Electronic excitation analyses ============ 
+ -1 Check, modify and export configuration coefficients of an excitation
+ 0 Return
+ 1 Analyze and visualize hole&electron distribution, transition density, and transition electric/magnetic dipole moment density
+ 2 Plot atom/fragment transition matrix of various kinds as heat map
+ 3 Analyze charge-transfer based on density difference grid data (JCTC,7,2498)
+ 4 Calculate delta_r index to measure charge-transfer length (JCTC,9,3118)
+ 5 Calculate transition electric/magnetic dipole moments between all states and for each state
+ 6 Generate natural transition orbitals (NTOs)
+ 7 Calculate ghost-hunter index (JCC,38,2151)
+ 8 Calculate interfragment charge transfer via IFCT method
+ 9 Generate and export transition density matrix
+ 10 Decompose transition electric/magnetic dipole moment as molecular orbital pair contributions
+ 11 Decompose transition electric/magnetic dipole moment as basis function and atom contributions
+ 12 Calculate Mulliken atomic transition charges
+ 13 Generate natural orbitals of specific excited states
+ 14 Calculate lambda index to characterize electron excitation (JCP,128,044118)
+ 15 Print major MO transitions in all excited states
+ 16 Charge-transfer spectrum (CTS) analysis (Carbon,187,78)
+ Please input path of Gaussian/ORCA output file or plain text file, electron excitation information will be loaded from this file
+ e.g. C:\lovelive\sunshine\yosoro.out
+ Hint: If pressing ENTER button directly, the file with identical name as input file but with .out or .log suffix will be loaded
+ Found dimer_from_ald-10_ami-11_addH.log
+ Note: This file is recognized as a Gaussian output file
+ There are    5 excited states, loading basic information...
+ 
+ Summary of excited states:
+ State:    1    Exc. Energy:   2.045 eV   Multi.: 1    MO pairs:   15977
+ State:    2    Exc. Energy:   2.214 eV   Multi.: 1    MO pairs:    7712
+ State:    3    Exc. Energy:   2.668 eV   Multi.: 1    MO pairs:   31237
+ State:    4    Exc. Energy:   2.814 eV   Multi.: 1    MO pairs:   11839
+ State:    5    Exc. Energy:   3.047 eV   Multi.: 1    MO pairs:   35632
+ 
+ Perform the analysis for which excited state? e.g. 2
+ Loading configuration coefficients of excited state   1...
+ The sum of square of excitation coefficients:  0.502152
+ The negative of the sum of square of de-excitation coefficients: -0.002171
+ The sum of above two values  0.499981
+ Deviation to expected normalization value (0.5) is  0.000019
+ Involved highest unoccupied orbital:  1633 (HOMO+  1283)
+ 
+ !!! Please cite hole-electron analysis as follows, the supplemental material presents a concise introduction of this analysis
+ Tian Lu, et al., Carbon, 165, 461-467 (2020) DOI: 10.1016/j.carbon.2020.05.023
+ 
+    ------------- Hole-electron and transition density analysis -----------
+ -1 Toggle calculating transit. magnetic dip. density in option 1, current: No
+ 0 Return
+ 1 Visualize and analyze hole, electron, transition density and so on
+ 2 Show molecular orbital contribution to hole and electron distribution
+ 3 Show atom or fragment contribution to hole and electron and plot the contributions as heat map
+ 4 Show basis function contribution to hole and electron
+ 
+ 
+ Please select a method to set up grid
+ -10 Set extension distance of grid range for mode 1~4, current:  6.000 Bohr
+ 1 Low quality grid,    covering whole system, about 125000 points in total
+ 2 Medium quality grid, covering whole system, about 512000 points in total
+ 3 High quality grid,   covering whole system, about 1728000 points in total
+ 4 Input the number of points or grid spacing in X,Y,Z, covering whole system
+ 5 Input original point, grid spacings, and the number of points
+ 6 Input center coordinate, number of points and extension distance
+ 7 The same as 6, but input two atoms, the midpoint will be defined as center
+ 8 Use grid setting of another cube file
+ 10 Set box of grid data visually using a GUI window
+ 11 Select a set of atoms, set extension distance around them and grid spacing
+ Coordinate of origin in X,Y,Z is     -45.161692  -24.647984  -10.814894 Bohr
+ Coordinate of end point in X,Y,Z is   46.318832   26.045046   10.744211 Bohr
+ Grid spacing in X,Y,Z is    0.582678    0.582678    0.582678 Bohr
+ Number of points in X,Y,Z is  158   88   38   Total:      528352
+
+ Note: When calculating cross term of hole and electron, configurations with absolute value of coefficient < 0.01000 will be ignored to reduce cost. The threshold is determined by "cfgcrossthres" in settings.ini
+ Calculating grid data...
+ Progress: [--------------------------------------------------]     0.0 %     - Progress: [--------------------------------------------------]     1.0 %     \ Progress: [#-------------------------------------------------]     2.0 %     | Progress: [#-------------------------------------------------]     3.0 %     / Progress: [##------------------------------------------------]     4.0 %     - Progress: [##------------------------------------------------]     5.0 %     \ Progress: [###-----------------------------------------------]     6.0 %     | Progress: [###-----------------------------------------------]     7.0 %     / Progress: [####----------------------------------------------]     8.0 %     - Progress: [####----------------------------------------------]     9.0 %     \ Progress: [#####---------------------------------------------]    10.0 %     | Progress: [#####---------------------------------------------]    11.0 %     / Progress: [######--------------------------------------------]    12.0 %     - Progress: [######--------------------------------------------]    13.0 %     \ Progress: [#######-------------------------------------------]    14.0 %     | Progress: [#######-------------------------------------------]    15.0 %     / Progress: [########------------------------------------------]    16.0 %     - Progress: [########------------------------------------------]    17.0 %     \ Progress: [#########-----------------------------------------]    18.0 %     | Progress: [#########-----------------------------------------]    19.0 %     / Progress: [##########----------------------------------------]    20.0 %     - Progress: [##########----------------------------------------]    21.0 %     \ Progress: [###########---------------------------------------]    22.0 %     | Progress: [###########---------------------------------------]    23.0 %     / Progress: [############--------------------------------------]    24.0 %     - Progress: [############--------------------------------------]    25.0 %     \ Progress: [#############-------------------------------------]    26.0 %     | Progress: [#############-------------------------------------]    27.0 %     / Progress: [##############------------------------------------]    28.0 %     - Progress: [##############------------------------------------]    29.0 %     \ Progress: [###############-----------------------------------]    30.0 %     | Progress: [###############-----------------------------------]    31.0 %     / Progress: [################----------------------------------]    32.0 %     - Progress: [################----------------------------------]    33.0 %     \ Progress: [#################---------------------------------]    34.0 %     | Progress: [#################---------------------------------]    35.0 %     / Progress: [##################--------------------------------]    36.0 %     - Progress: [##################--------------------------------]    37.0 %     \ Progress: [###################-------------------------------]    38.0 %     | Progress: [###################-------------------------------]    39.0 %     / Progress: [####################------------------------------]    40.0 %     - Progress: [####################------------------------------]    41.0 %     \ Progress: [#####################-----------------------------]    42.0 %     | Progress: [#####################-----------------------------]    43.0 %     / Progress: [######################----------------------------]    44.0 %     - Progress: [######################----------------------------]    45.0 %     \ Progress: [#######################---------------------------]    46.0 %     | Progress: [#######################---------------------------]    47.0 %     / Progress: [########################--------------------------]    48.0 %     - Progress: [########################--------------------------]    49.0 %     \ Progress: [#########################-------------------------]    50.0 %     | Progress: [#########################-------------------------]    51.0 %     / Progress: [##########################------------------------]    52.0 %     - Progress: [##########################------------------------]    53.0 %     \ Progress: [###########################-----------------------]    54.0 %     | Progress: [###########################-----------------------]    55.0 %     / Progress: [############################----------------------]    56.0 %     - Progress: [############################----------------------]    57.0 %     \ Progress: [############################----------------------]    58.0 %     | Progress: [#############################---------------------]    59.0 %     / Progress: [##############################--------------------]    60.0 %     - Progress: [##############################--------------------]    61.0 %     \ Progress: [###############################-------------------]    62.0 %     | Progress: [###############################-------------------]    63.0 %     / Progress: [################################------------------]    64.0 %     - Progress: [################################------------------]    65.0 %     \ Progress: [#################################-----------------]    66.0 %     | Progress: [#################################-----------------]    67.0 %     / Progress: [##################################----------------]    68.0 %     - Progress: [##################################----------------]    69.0 %     \ Progress: [###################################---------------]    70.0 %     | Progress: [###################################---------------]    71.0 %     / Progress: [####################################--------------]    72.0 %     - Progress: [####################################--------------]    73.0 %     \ Progress: [#####################################-------------]    74.0 %     | Progress: [#####################################-------------]    75.0 %     / Progress: [#####################################-------------]    75.0 %     - Progress: [######################################------------]    76.0 %     \ Progress: [######################################------------]    77.0 %     | Progress: [#######################################-----------]    78.0 %     / Progress: [#######################################-----------]    79.0 %     - Progress: [########################################----------]    80.0 %     \ Progress: [########################################----------]    81.0 %     | Progress: [#########################################---------]    82.0 %     / Progress: [#########################################---------]    83.0 %     - Progress: [##########################################--------]    84.0 %     \ Progress: [##########################################--------]    85.0 %     | Progress: [###########################################-------]    86.0 %     / Progress: [###########################################-------]    87.0 %     - Progress: [############################################------]    88.0 %     \ Progress: [############################################------]    89.0 %     | Progress: [#############################################-----]    90.0 %     / Progress: [#############################################-----]    91.0 %     - Progress: [##############################################----]    92.0 %     \ Progress: [##############################################----]    93.0 %     | Progress: [###############################################---]    94.0 %     / Progress: [###############################################---]    95.0 %     - Progress: [################################################--]    96.0 %     \ Progress: [################################################--]    97.0 %     | Progress: [#################################################-]    98.0 %     / Progress: [#################################################-]    99.0 %     - Progress: [##################################################]   100.0 %     \ 
+ Calculation took up wall clock time         5 s
+
+ Integral of hole:        1.001760
+ Integral of electron:    0.993379
+ Integral of transition density:    0.001166
+ Transition dipole moment in X/Y/Z:  -2.270006  -1.155839  -0.090877 a.u.
+ Sm index (integral of Sm function):   0.20257 a.u.
+ Sr index (integral of Sr function):   0.45891 a.u.
+ Centroid of hole in X/Y/Z:       11.606348    0.134264    0.021335 Angstrom
+ Centroid of electron in X/Y/Z:   10.298363   -0.109104   -0.008479 Angstrom
+ D_x:   1.308  D_y:   0.243  D_z:   0.030    D index:   1.331 Angstrom
+ Variation of dipole moment with respect to ground state:
+ X:    2.465725  Y:    0.458781  Z:    0.056204    Norm:    2.508673 a.u.
+ RMSD of hole in X/Y/Z:       6.165   3.866   0.839   Norm:   7.325 Angstrom
+ RMSD of electron in X/Y/Z:   2.213   2.187   0.861   Norm:   3.229 Angstrom
+ Difference between RMSD of hole and electron (delta sigma):
+ X: -3.951  Y: -1.679  Z:  0.022    Overall: -4.096 Angstrom
+ H_x:  4.189  H_y:  3.027  H_z:  0.850  H_CT:  4.154  H index:  5.277 Angstrom
+ t index: -2.824 Angstrom
+ Hole delocalization index (HDI):       5.22
+ Electron delocalization index (EDI):   7.45
+ Ghost-hunter index:     -8.222 eV, 1st term:  2.599 eV, 2nd term:    10.821 eV
+ Excitation energy of this state:     2.045 eV
+ 
+              -------------- Post-processing menu --------------
+ -1 Toggle if adding state index at end of exported cube filename, current: No
+ 0 Return
+ 1 Show isosurface of hole distribution
+ 2 Show isosurface of electron distribution
+ 3 Show isosurface of hole and electron distribution simultaneously
+ 4 Show isosurface of overlap of hole-electron (i.e. Sm or Sr function)
+ 5 Show isosurface of transition density
+ 6 Show isosurface of transition dipole moment density
+ 7 Show isosurface of charge density difference
+ 8 Show isosurface of Cele and Chole functions simultaneously
+ 9 Show isosurface of transition magnetic dipole moment density
+ 10 Output cube file of hole distribution to current folder
+ 11 Output cube file of electron distribution to current folder
+ 12 Output cube file of overlap of hole-electron to current folder
+ 13 Output cube file of transition density to current folder
+ 14 Output cube file of transition dipole moment density to current folder
+ 15 Output cube file of charge density difference to current folder
+ 16 Output cube file of Cele and Chole functions to current folder
+ 17 Output cube file of transition magnetic dipole moment density
+ 18 Calculate hole-electron Coulomb attractive energy (exciton binding energy)
+ 
+    ------------- Hole-electron and transition density analysis -----------
+ -1 Toggle calculating transit. magnetic dip. density in option 1, current: No
+ 0 Return
+ 1 Visualize and analyze hole, electron, transition density and so on
+ 2 Show molecular orbital contribution to hole and electron distribution
+ 3 Show atom or fragment contribution to hole and electron and plot the contributions as heat map
+ 4 Show basis function contribution to hole and electron
+ 
+ Select the method for calculating fragment contributions to hole and electron
+ 1 Mulliken (very fast, but incompatible with diffuse functions)
+ 2 Hirshfeld partition (slower but very robust)
+ Evaluating atomic contributions...
+ Radial grids:   75    Angular grids:  434   Total:     32550
+ Progress: [--------------------------------------------------]     0.6 %     | Progress: [--------------------------------------------------]     1.2 %     / Progress: [--------------------------------------------------]     1.8 %     - Progress: [#-------------------------------------------------]     2.4 %     \ Progress: [#-------------------------------------------------]     2.9 %     | Progress: [#-------------------------------------------------]     3.5 %     / Progress: [##------------------------------------------------]     4.1 %     - Progress: [##------------------------------------------------]     4.7 %     \ Progress: [##------------------------------------------------]     5.3 %     | Progress: [##------------------------------------------------]     5.9 %     / Progress: [###-----------------------------------------------]     6.5 %     - Progress: [###-----------------------------------------------]     7.1 %     \ Progress: [###-----------------------------------------------]     7.6 %     | Progress: [####----------------------------------------------]     8.2 %     / Progress: [####----------------------------------------------]     8.8 %     - Progress: [####----------------------------------------------]     9.4 %     \ Progress: [#####---------------------------------------------]    10.0 %     | Progress: [#####---------------------------------------------]    10.6 %     / Progress: [#####---------------------------------------------]    11.2 %     - Progress: [#####---------------------------------------------]    11.8 %     \ Progress: [######--------------------------------------------]    12.4 %     | Progress: [######--------------------------------------------]    12.9 %     / Progress: [######--------------------------------------------]    13.5 %     - Progress: [#######-------------------------------------------]    14.1 %     \ Progress: [#######-------------------------------------------]    14.7 %     | Progress: [#######-------------------------------------------]    15.3 %     / Progress: [#######-------------------------------------------]    15.9 %     - Progress: [########------------------------------------------]    16.5 %     \ Progress: [########------------------------------------------]    17.1 %     | Progress: [########------------------------------------------]    17.6 %     / Progress: [#########-----------------------------------------]    18.2 %     - Progress: [#########-----------------------------------------]    18.8 %     \ Progress: [#########-----------------------------------------]    19.4 %     | Progress: [##########----------------------------------------]    20.0 %     / Progress: [##########----------------------------------------]    20.6 %     - Progress: [##########----------------------------------------]    21.2 %     \ Progress: [##########----------------------------------------]    21.8 %     | Progress: [###########---------------------------------------]    22.4 %     / Progress: [###########---------------------------------------]    22.9 %     - Progress: [###########---------------------------------------]    23.5 %     \ Progress: [############--------------------------------------]    24.1 %     | Progress: [############--------------------------------------]    24.7 %     / Progress: [############--------------------------------------]    25.3 %     - Progress: [############--------------------------------------]    25.9 %     \ Progress: [#############-------------------------------------]    26.5 %     | Progress: [#############-------------------------------------]    27.1 %     / Progress: [#############-------------------------------------]    27.6 %     - Progress: [##############------------------------------------]    28.2 %     \ Progress: [##############------------------------------------]    28.8 %     | Progress: [##############------------------------------------]    29.4 %     / Progress: [###############-----------------------------------]    30.0 %     - Progress: [###############-----------------------------------]    30.6 %     \ Progress: [###############-----------------------------------]    31.2 %     | Progress: [###############-----------------------------------]    31.8 %     / Progress: [################----------------------------------]    32.4 %     - Progress: [################----------------------------------]    32.9 %     \ Progress: [################----------------------------------]    33.5 %     | Progress: [#################---------------------------------]    34.1 %     / Progress: [#################---------------------------------]    34.7 %     - Progress: [#################---------------------------------]    35.3 %     \ Progress: [#################---------------------------------]    35.9 %     | Progress: [##################--------------------------------]    36.5 %     / Progress: [##################--------------------------------]    37.1 %     - Progress: [##################--------------------------------]    37.6 %     \ Progress: [###################-------------------------------]    38.2 %     | Progress: [###################-------------------------------]    38.8 %     / Progress: [###################-------------------------------]    39.4 %     - Progress: [####################------------------------------]    40.0 %     \ Progress: [####################------------------------------]    40.6 %     | Progress: [####################------------------------------]    41.2 %     / Progress: [####################------------------------------]    41.8 %     - Progress: [#####################-----------------------------]    42.4 %     \ Progress: [#####################-----------------------------]    42.9 %     | Progress: [#####################-----------------------------]    43.5 %     / Progress: [######################----------------------------]    44.1 %     - Progress: [######################----------------------------]    44.7 %     \ Progress: [######################----------------------------]    45.3 %     | Progress: [######################----------------------------]    45.9 %     / Progress: [#######################---------------------------]    46.5 %     - Progress: [#######################---------------------------]    47.1 %     \ Progress: [#######################---------------------------]    47.6 %     | Progress: [########################--------------------------]    48.2 %     / Progress: [########################--------------------------]    48.8 %     - Progress: [########################--------------------------]    49.4 %     \ Progress: [#########################-------------------------]    50.0 %     | Progress: [#########################-------------------------]    50.6 %     / Progress: [#########################-------------------------]    51.2 %     - Progress: [#########################-------------------------]    51.8 %     \ Progress: [##########################------------------------]    52.4 %     | Progress: [##########################------------------------]    52.9 %     / Progress: [##########################------------------------]    53.5 %     - Progress: [###########################-----------------------]    54.1 %     \ Progress: [###########################-----------------------]    54.7 %     | Progress: [###########################-----------------------]    55.3 %     / Progress: [###########################-----------------------]    55.9 %     - Progress: [############################----------------------]    56.5 %     \ Progress: [############################----------------------]    57.1 %     | Progress: [############################----------------------]    57.6 %     / Progress: [#############################---------------------]    58.2 %     - Progress: [#############################---------------------]    58.8 %     \ Progress: [#############################---------------------]    59.4 %     | Progress: [##############################--------------------]    60.0 %     / Progress: [##############################--------------------]    60.6 %     - Progress: [##############################--------------------]    61.2 %     \ Progress: [##############################--------------------]    61.8 %     | Progress: [###############################-------------------]    62.4 %     / Progress: [###############################-------------------]    62.9 %     - Progress: [###############################-------------------]    63.5 %     \ Progress: [################################------------------]    64.1 %     | Progress: [################################------------------]    64.7 %     / Progress: [################################------------------]    65.3 %     - Progress: [################################------------------]    65.9 %     \ Progress: [#################################-----------------]    66.5 %     | Progress: [#################################-----------------]    67.1 %     / Progress: [#################################-----------------]    67.6 %     - Progress: [##################################----------------]    68.2 %     \ Progress: [##################################----------------]    68.8 %     | Progress: [##################################----------------]    69.4 %     / Progress: [###################################---------------]    70.0 %     - Progress: [###################################---------------]    70.6 %     \ Progress: [###################################---------------]    71.2 %     | Progress: [###################################---------------]    71.8 %     / Progress: [####################################--------------]    72.4 %     - Progress: [####################################--------------]    72.9 %     \ Progress: [####################################--------------]    73.5 %     | Progress: [#####################################-------------]    74.1 %     / Progress: [#####################################-------------]    74.7 %     - Progress: [#####################################-------------]    75.3 %     \ Progress: [#####################################-------------]    75.9 %     | Progress: [######################################------------]    76.5 %     / Progress: [######################################------------]    77.1 %     - Progress: [######################################------------]    77.6 %     \ Progress: [#######################################-----------]    78.2 %     | Progress: [#######################################-----------]    78.8 %     / Progress: [#######################################-----------]    79.4 %     - Progress: [########################################----------]    80.0 %     \ Progress: [########################################----------]    80.6 %     | Progress: [########################################----------]    81.2 %     / Progress: [########################################----------]    81.8 %     - Progress: [#########################################---------]    82.4 %     \ Progress: [#########################################---------]    82.9 %     | Progress: [#########################################---------]    83.5 %     / Progress: [##########################################--------]    84.1 %     - Progress: [##########################################--------]    84.7 %     \ Progress: [##########################################--------]    85.3 %     | Progress: [##########################################--------]    85.9 %     / Progress: [###########################################-------]    86.5 %     - Progress: [###########################################-------]    87.1 %     \ Progress: [###########################################-------]    87.6 %     | Progress: [############################################------]    88.2 %     / Progress: [############################################------]    88.8 %     - Progress: [############################################------]    89.4 %     \ Progress: [#############################################-----]    90.0 %     | Progress: [#############################################-----]    90.6 %     / Progress: [#############################################-----]    91.2 %     - Progress: [#############################################-----]    91.8 %     \ Progress: [##############################################----]    92.4 %     | Progress: [##############################################----]    92.9 %     / Progress: [##############################################----]    93.5 %     - Progress: [###############################################---]    94.1 %     \ Progress: [###############################################---]    94.7 %     | Progress: [###############################################---]    95.3 %     / Progress: [###############################################---]    95.9 %     - Progress: [################################################--]    96.5 %     \ Progress: [################################################--]    97.1 %     | Progress: [################################################--]    97.6 %     / Progress: [#################################################-]    98.2 %     - Progress: [#################################################-]    98.8 %     \ Progress: [#################################################-]    99.4 %     | Progress: [##################################################]   100.0 %     / 
+ Sum of hole: 0.9999538   Sum of electron: 0.9999806
+ Calculation took up time       127 s
+ The number of non-hydrogen atoms:       103
+ Contribution of each non-hydrogen atom to hole and electron:
+    1(C )  Hole:  1.08 %  Electron:  3.95 %  Overlap:  2.06 %  Diff.:   2.88 %
+    2(C )  Hole:  1.38 %  Electron:  3.68 %  Overlap:  2.26 %  Diff.:   2.29 %
+    3(C )  Hole:  0.87 %  Electron:  3.90 %  Overlap:  1.84 %  Diff.:   3.03 %
+    4(C )  Hole:  2.86 %  Electron:  8.65 %  Overlap:  4.97 %  Diff.:   5.79 %
+    5(C )  Hole:  2.18 %  Electron:  1.07 %  Overlap:  1.53 %  Diff.:  -1.11 %
+    6(C )  Hole:  0.87 %  Electron:  0.72 %  Overlap:  0.79 %  Diff.:  -0.15 %
+    7(C )  Hole:  1.22 %  Electron:  0.18 %  Overlap:  0.46 %  Diff.:  -1.04 %
+    8(C )  Hole:  1.89 %  Electron:  0.58 %  Overlap:  1.04 %  Diff.:  -1.31 %
+    9(C )  Hole:  1.31 %  Electron:  0.18 %  Overlap:  0.49 %  Diff.:  -1.12 %
+   10(C )  Hole:  0.85 %  Electron:  0.70 %  Overlap:  0.77 %  Diff.:  -0.16 %
+   11(N )  Hole:  5.56 %  Electron:  0.13 %  Overlap:  0.84 %  Diff.:  -5.43 %
+   12(C )  Hole:  1.35 %  Electron:  0.06 %  Overlap:  0.28 %  Diff.:  -1.29 %
+   13(C )  Hole:  1.27 %  Electron:  0.04 %  Overlap:  0.21 %  Diff.:  -1.23 %
+   14(C )  Hole:  0.47 %  Electron:  0.03 %  Overlap:  0.11 %  Diff.:  -0.44 %
+   15(C )  Hole:  1.84 %  Electron:  0.06 %  Overlap:  0.33 %  Diff.:  -1.78 %
+   16(C )  Hole:  0.51 %  Electron:  0.03 %  Overlap:  0.13 %  Diff.:  -0.48 %
+   17(C )  Hole:  1.57 %  Electron:  0.05 %  Overlap:  0.28 %  Diff.:  -1.52 %
+   18(C )  Hole:  0.35 %  Electron:  0.06 %  Overlap:  0.14 %  Diff.:  -0.29 %
+   19(C )  Hole:  1.16 %  Electron:  0.04 %  Overlap:  0.21 %  Diff.:  -1.12 %
+   20(C )  Hole:  1.27 %  Electron:  0.03 %  Overlap:  0.21 %  Diff.:  -1.24 %
+   21(C )  Hole:  0.41 %  Electron:  0.01 %  Overlap:  0.07 %  Diff.:  -0.40 %
+   22(C )  Hole:  1.60 %  Electron:  0.03 %  Overlap:  0.22 %  Diff.:  -1.57 %
+   23(C )  Hole:  0.39 %  Electron:  0.01 %  Overlap:  0.07 %  Diff.:  -0.38 %
+   24(C )  Hole:  1.36 %  Electron:  0.03 %  Overlap:  0.19 %  Diff.:  -1.33 %
+   25(C )  Hole:  0.80 %  Electron:  2.70 %  Overlap:  1.47 %  Diff.:   1.89 %
+   26(N )  Hole:  0.95 %  Electron: 11.64 %  Overlap:  3.33 %  Diff.:  10.68 %
+   27(S )  Hole:  0.29 %  Electron: 20.46 %  Overlap:  2.45 %  Diff.:  20.16 %
+   28(N )  Hole:  0.89 %  Electron: 11.73 %  Overlap:  3.23 %  Diff.:  10.84 %
+   29(C )  Hole:  0.89 %  Electron:  2.73 %  Overlap:  1.56 %  Diff.:   1.84 %
+   30(C )  Hole:  2.69 %  Electron:  8.76 %  Overlap:  4.86 %  Diff.:   6.07 %
+   31(C )  Hole:  1.00 %  Electron:  3.88 %  Overlap:  1.97 %  Diff.:   2.88 %
+   32(C )  Hole:  1.37 %  Electron:  3.71 %  Overlap:  2.25 %  Diff.:   2.34 %
+   33(C )  Hole:  1.22 %  Electron:  3.92 %  Overlap:  2.18 %  Diff.:   2.71 %
+   34(C )  Hole:  3.64 %  Electron:  1.08 %  Overlap:  1.98 %  Diff.:  -2.56 %
+   35(C )  Hole:  1.22 %  Electron:  0.70 %  Overlap:  0.92 %  Diff.:  -0.52 %
+   36(C )  Hole:  2.47 %  Electron:  0.18 %  Overlap:  0.66 %  Diff.:  -2.30 %
+   37(C )  Hole:  3.19 %  Electron:  0.58 %  Overlap:  1.36 %  Diff.:  -2.61 %
+   38(C )  Hole:  2.18 %  Electron:  0.18 %  Overlap:  0.62 %  Diff.:  -2.00 %
+   39(C )  Hole:  1.31 %  Electron:  0.73 %  Overlap:  0.98 %  Diff.:  -0.59 %
+   40(N )  Hole: 10.49 %  Electron:  0.15 %  Overlap:  1.26 %  Diff.: -10.34 %
+   41(C )  Hole:  2.34 %  Electron:  0.04 %  Overlap:  0.30 %  Diff.:  -2.30 %
+   42(C )  Hole:  2.77 %  Electron:  0.04 %  Overlap:  0.34 %  Diff.:  -2.73 %
+   43(C )  Hole:  0.79 %  Electron:  0.01 %  Overlap:  0.10 %  Diff.:  -0.78 %
+   44(C )  Hole:  3.22 %  Electron:  0.04 %  Overlap:  0.36 %  Diff.:  -3.18 %
+   45(C )  Hole:  0.82 %  Electron:  0.01 %  Overlap:  0.10 %  Diff.:  -0.81 %
+   46(C )  Hole:  2.36 %  Electron:  0.03 %  Overlap:  0.28 %  Diff.:  -2.32 %
+   47(C )  Hole:  2.27 %  Electron:  0.04 %  Overlap:  0.31 %  Diff.:  -2.23 %
+   48(C )  Hole:  2.57 %  Electron:  0.03 %  Overlap:  0.29 %  Diff.:  -2.54 %
+   49(C )  Hole:  0.76 %  Electron:  0.01 %  Overlap:  0.10 %  Diff.:  -0.75 %
+   50(C )  Hole:  3.16 %  Electron:  0.04 %  Overlap:  0.37 %  Diff.:  -3.12 %
+   51(C )  Hole:  0.80 %  Electron:  0.01 %  Overlap:  0.10 %  Diff.:  -0.79 %
+   52(C )  Hole:  2.54 %  Electron:  0.04 %  Overlap:  0.34 %  Diff.:  -2.50 %
+   53(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+   54(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+   55(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+   56(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+   57(C )  Hole:  0.01 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+   58(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+   59(C )  Hole:  0.06 %  Electron:  0.01 %  Overlap:  0.03 %  Diff.:  -0.05 %
+   60(C )  Hole:  0.03 %  Electron:  0.01 %  Overlap:  0.02 %  Diff.:  -0.02 %
+   61(C )  Hole:  0.11 %  Electron:  0.01 %  Overlap:  0.03 %  Diff.:  -0.10 %
+   62(C )  Hole:  0.03 %  Electron:  0.01 %  Overlap:  0.01 %  Diff.:  -0.03 %
+   63(C )  Hole:  0.09 %  Electron:  0.01 %  Overlap:  0.02 %  Diff.:  -0.08 %
+   64(C )  Hole:  0.10 %  Electron:  0.01 %  Overlap:  0.03 %  Diff.:  -0.09 %
+   65(C )  Hole:  0.09 %  Electron:  0.01 %  Overlap:  0.03 %  Diff.:  -0.08 %
+   66(C )  Hole:  0.03 %  Electron:  0.00 %  Overlap:  0.01 %  Diff.:  -0.03 %
+   67(C )  Hole:  0.41 %  Electron:  0.02 %  Overlap:  0.09 %  Diff.:  -0.38 %
+   68(C )  Hole:  0.11 %  Electron:  0.01 %  Overlap:  0.03 %  Diff.:  -0.11 %
+   69(C )  Hole:  0.30 %  Electron:  0.01 %  Overlap:  0.07 %  Diff.:  -0.29 %
+   70(C )  Hole:  0.33 %  Electron:  0.02 %  Overlap:  0.08 %  Diff.:  -0.31 %
+   71(C )  Hole:  0.30 %  Electron:  0.02 %  Overlap:  0.07 %  Diff.:  -0.28 %
+   72(C )  Hole:  0.14 %  Electron:  0.01 %  Overlap:  0.03 %  Diff.:  -0.13 %
+   73(N )  Hole:  1.07 %  Electron:  0.06 %  Overlap:  0.26 %  Diff.:  -1.01 %
+   74(C )  Hole:  0.01 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+   75(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+   76(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+   77(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+   78(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+   79(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+   80(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+   81(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+   82(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:   0.00 %
+   83(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+   84(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:   0.00 %
+   85(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+   86(C )  Hole:  0.01 %  Electron:  0.01 %  Overlap:  0.01 %  Diff.:  -0.01 %
+   87(C )  Hole:  0.01 %  Electron:  0.00 %  Overlap:  0.01 %  Diff.:  -0.01 %
+   88(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+   89(C )  Hole:  0.01 %  Electron:  0.01 %  Overlap:  0.01 %  Diff.:  -0.01 %
+   90(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+   91(C )  Hole:  0.01 %  Electron:  0.00 %  Overlap:  0.01 %  Diff.:  -0.01 %
+   92(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:   0.00 %
+   93(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:   0.00 %
+   94(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:   0.00 %
+   95(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:   0.00 %
+   96(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:   0.00 %
+   97(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:   0.00 %
+   98(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+   99(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+  100(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:   0.00 %
+  101(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+  102(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:   0.00 %
+  103(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+ Sum of hole shown above:  95.93%   Sum of electron shown above:  97.97%
+ 
+      --------------- Plotting hole/electron composition ---------------
+ -1 Load fragment definition
+ 0 Return
+ 1 Plot hole/electron composition as heat map
+ 2 Export the data as he_atm.txt in current folder
+ 3 Save the heat map as graphic file in current folder
+ 4 Set interval between labels in X axis, current: 11
+ 5 Change lower and upper limit of color scale, current:  0.000 to  0.205
+ 6 Set ratio between X and Y axes, current: 0.15
+ 7 Toggle if taking hydrogens into account, current: No
+ Contribution of each atom to hole and electron:
+    1(C )  Hole:  1.08 %  Electron:  3.95 %  Overlap:  2.06 %  Diff.:   2.88 %
+    2(C )  Hole:  1.38 %  Electron:  3.68 %  Overlap:  2.26 %  Diff.:   2.29 %
+    3(C )  Hole:  0.87 %  Electron:  3.90 %  Overlap:  1.84 %  Diff.:   3.03 %
+    4(C )  Hole:  2.86 %  Electron:  8.65 %  Overlap:  4.97 %  Diff.:   5.79 %
+    5(C )  Hole:  2.18 %  Electron:  1.07 %  Overlap:  1.53 %  Diff.:  -1.11 %
+    6(C )  Hole:  0.87 %  Electron:  0.72 %  Overlap:  0.79 %  Diff.:  -0.15 %
+    7(C )  Hole:  1.22 %  Electron:  0.18 %  Overlap:  0.46 %  Diff.:  -1.04 %
+    8(C )  Hole:  1.89 %  Electron:  0.58 %  Overlap:  1.04 %  Diff.:  -1.31 %
+    9(C )  Hole:  1.31 %  Electron:  0.18 %  Overlap:  0.49 %  Diff.:  -1.12 %
+   10(C )  Hole:  0.85 %  Electron:  0.70 %  Overlap:  0.77 %  Diff.:  -0.16 %
+   11(N )  Hole:  5.56 %  Electron:  0.13 %  Overlap:  0.84 %  Diff.:  -5.43 %
+   12(C )  Hole:  1.35 %  Electron:  0.06 %  Overlap:  0.28 %  Diff.:  -1.29 %
+   13(C )  Hole:  1.27 %  Electron:  0.04 %  Overlap:  0.21 %  Diff.:  -1.23 %
+   14(C )  Hole:  0.47 %  Electron:  0.03 %  Overlap:  0.11 %  Diff.:  -0.44 %
+   15(C )  Hole:  1.84 %  Electron:  0.06 %  Overlap:  0.33 %  Diff.:  -1.78 %
+   16(C )  Hole:  0.51 %  Electron:  0.03 %  Overlap:  0.13 %  Diff.:  -0.48 %
+   17(C )  Hole:  1.57 %  Electron:  0.05 %  Overlap:  0.28 %  Diff.:  -1.52 %
+   18(C )  Hole:  0.35 %  Electron:  0.06 %  Overlap:  0.14 %  Diff.:  -0.29 %
+   19(C )  Hole:  1.16 %  Electron:  0.04 %  Overlap:  0.21 %  Diff.:  -1.12 %
+   20(C )  Hole:  1.27 %  Electron:  0.03 %  Overlap:  0.21 %  Diff.:  -1.24 %
+   21(C )  Hole:  0.41 %  Electron:  0.01 %  Overlap:  0.07 %  Diff.:  -0.40 %
+   22(C )  Hole:  1.60 %  Electron:  0.03 %  Overlap:  0.22 %  Diff.:  -1.57 %
+   23(C )  Hole:  0.39 %  Electron:  0.01 %  Overlap:  0.07 %  Diff.:  -0.38 %
+   24(C )  Hole:  1.36 %  Electron:  0.03 %  Overlap:  0.19 %  Diff.:  -1.33 %
+   25(C )  Hole:  0.80 %  Electron:  2.70 %  Overlap:  1.47 %  Diff.:   1.89 %
+   26(N )  Hole:  0.95 %  Electron: 11.64 %  Overlap:  3.33 %  Diff.:  10.68 %
+   27(S )  Hole:  0.29 %  Electron: 20.46 %  Overlap:  2.45 %  Diff.:  20.16 %
+   28(N )  Hole:  0.89 %  Electron: 11.73 %  Overlap:  3.23 %  Diff.:  10.84 %
+   29(C )  Hole:  0.89 %  Electron:  2.73 %  Overlap:  1.56 %  Diff.:   1.84 %
+   30(C )  Hole:  2.69 %  Electron:  8.76 %  Overlap:  4.86 %  Diff.:   6.07 %
+   31(C )  Hole:  1.00 %  Electron:  3.88 %  Overlap:  1.97 %  Diff.:   2.88 %
+   32(C )  Hole:  1.37 %  Electron:  3.71 %  Overlap:  2.25 %  Diff.:   2.34 %
+   33(C )  Hole:  1.22 %  Electron:  3.92 %  Overlap:  2.18 %  Diff.:   2.71 %
+   34(C )  Hole:  3.64 %  Electron:  1.08 %  Overlap:  1.98 %  Diff.:  -2.56 %
+   35(C )  Hole:  1.22 %  Electron:  0.70 %  Overlap:  0.92 %  Diff.:  -0.52 %
+   36(C )  Hole:  2.47 %  Electron:  0.18 %  Overlap:  0.66 %  Diff.:  -2.30 %
+   37(C )  Hole:  3.19 %  Electron:  0.58 %  Overlap:  1.36 %  Diff.:  -2.61 %
+   38(C )  Hole:  2.18 %  Electron:  0.18 %  Overlap:  0.62 %  Diff.:  -2.00 %
+   39(C )  Hole:  1.31 %  Electron:  0.73 %  Overlap:  0.98 %  Diff.:  -0.59 %
+   40(N )  Hole: 10.49 %  Electron:  0.15 %  Overlap:  1.26 %  Diff.: -10.34 %
+   41(C )  Hole:  2.34 %  Electron:  0.04 %  Overlap:  0.30 %  Diff.:  -2.30 %
+   42(C )  Hole:  2.77 %  Electron:  0.04 %  Overlap:  0.34 %  Diff.:  -2.73 %
+   43(C )  Hole:  0.79 %  Electron:  0.01 %  Overlap:  0.10 %  Diff.:  -0.78 %
+   44(C )  Hole:  3.22 %  Electron:  0.04 %  Overlap:  0.36 %  Diff.:  -3.18 %
+   45(C )  Hole:  0.82 %  Electron:  0.01 %  Overlap:  0.10 %  Diff.:  -0.81 %
+   46(C )  Hole:  2.36 %  Electron:  0.03 %  Overlap:  0.28 %  Diff.:  -2.32 %
+   47(C )  Hole:  2.27 %  Electron:  0.04 %  Overlap:  0.31 %  Diff.:  -2.23 %
+   48(C )  Hole:  2.57 %  Electron:  0.03 %  Overlap:  0.29 %  Diff.:  -2.54 %
+   49(C )  Hole:  0.76 %  Electron:  0.01 %  Overlap:  0.10 %  Diff.:  -0.75 %
+   50(C )  Hole:  3.16 %  Electron:  0.04 %  Overlap:  0.37 %  Diff.:  -3.12 %
+   51(C )  Hole:  0.80 %  Electron:  0.01 %  Overlap:  0.10 %  Diff.:  -0.79 %
+   52(C )  Hole:  2.54 %  Electron:  0.04 %  Overlap:  0.34 %  Diff.:  -2.50 %
+   53(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+   54(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+   55(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+   56(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+   57(C )  Hole:  0.01 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+   58(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+   59(C )  Hole:  0.06 %  Electron:  0.01 %  Overlap:  0.03 %  Diff.:  -0.05 %
+   60(C )  Hole:  0.03 %  Electron:  0.01 %  Overlap:  0.02 %  Diff.:  -0.02 %
+   61(C )  Hole:  0.11 %  Electron:  0.01 %  Overlap:  0.03 %  Diff.:  -0.10 %
+   62(C )  Hole:  0.03 %  Electron:  0.01 %  Overlap:  0.01 %  Diff.:  -0.03 %
+   63(C )  Hole:  0.09 %  Electron:  0.01 %  Overlap:  0.02 %  Diff.:  -0.08 %
+   64(C )  Hole:  0.10 %  Electron:  0.01 %  Overlap:  0.03 %  Diff.:  -0.09 %
+   65(C )  Hole:  0.09 %  Electron:  0.01 %  Overlap:  0.03 %  Diff.:  -0.08 %
+   66(C )  Hole:  0.03 %  Electron:  0.00 %  Overlap:  0.01 %  Diff.:  -0.03 %
+   67(C )  Hole:  0.41 %  Electron:  0.02 %  Overlap:  0.09 %  Diff.:  -0.38 %
+   68(C )  Hole:  0.11 %  Electron:  0.01 %  Overlap:  0.03 %  Diff.:  -0.11 %
+   69(C )  Hole:  0.30 %  Electron:  0.01 %  Overlap:  0.07 %  Diff.:  -0.29 %
+   70(C )  Hole:  0.33 %  Electron:  0.02 %  Overlap:  0.08 %  Diff.:  -0.31 %
+   71(C )  Hole:  0.30 %  Electron:  0.02 %  Overlap:  0.07 %  Diff.:  -0.28 %
+   72(C )  Hole:  0.14 %  Electron:  0.01 %  Overlap:  0.03 %  Diff.:  -0.13 %
+   73(N )  Hole:  1.07 %  Electron:  0.06 %  Overlap:  0.26 %  Diff.:  -1.01 %
+   74(C )  Hole:  0.01 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+   75(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+   76(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+   77(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+   78(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+   79(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+   80(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+   81(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+   82(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:   0.00 %
+   83(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+   84(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:   0.00 %
+   85(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+   86(C )  Hole:  0.01 %  Electron:  0.01 %  Overlap:  0.01 %  Diff.:  -0.01 %
+   87(C )  Hole:  0.01 %  Electron:  0.00 %  Overlap:  0.01 %  Diff.:  -0.01 %
+   88(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+   89(C )  Hole:  0.01 %  Electron:  0.01 %  Overlap:  0.01 %  Diff.:  -0.01 %
+   90(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+   91(C )  Hole:  0.01 %  Electron:  0.00 %  Overlap:  0.01 %  Diff.:  -0.01 %
+   92(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:   0.00 %
+   93(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:   0.00 %
+   94(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:   0.00 %
+   95(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:   0.00 %
+   96(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:   0.00 %
+   97(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:   0.00 %
+   98(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+   99(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+  100(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:   0.00 %
+  101(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+  102(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:   0.00 %
+  103(C )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+  104(H )  Hole:  0.09 %  Electron:  0.39 %  Overlap:  0.19 %  Diff.:   0.30 %
+  105(H )  Hole:  0.15 %  Electron:  0.30 %  Overlap:  0.21 %  Diff.:   0.14 %
+  106(H )  Hole:  0.07 %  Electron:  0.12 %  Overlap:  0.09 %  Diff.:   0.05 %
+  107(H )  Hole:  0.10 %  Electron:  0.02 %  Overlap:  0.05 %  Diff.:  -0.07 %
+  108(H )  Hole:  0.10 %  Electron:  0.03 %  Overlap:  0.05 %  Diff.:  -0.08 %
+  109(H )  Hole:  0.07 %  Electron:  0.10 %  Overlap:  0.08 %  Diff.:   0.02 %
+  110(H )  Hole:  0.11 %  Electron:  0.00 %  Overlap:  0.02 %  Diff.:  -0.10 %
+  111(H )  Hole:  0.03 %  Electron:  0.00 %  Overlap:  0.01 %  Diff.:  -0.03 %
+  112(H )  Hole:  0.03 %  Electron:  0.00 %  Overlap:  0.01 %  Diff.:  -0.03 %
+  113(H )  Hole:  0.15 %  Electron:  0.01 %  Overlap:  0.05 %  Diff.:  -0.13 %
+  114(H )  Hole:  0.02 %  Electron:  0.01 %  Overlap:  0.01 %  Diff.:  -0.01 %
+  115(H )  Hole:  0.12 %  Electron:  0.01 %  Overlap:  0.04 %  Diff.:  -0.11 %
+  116(H )  Hole:  0.03 %  Electron:  0.00 %  Overlap:  0.01 %  Diff.:  -0.03 %
+  117(H )  Hole:  0.15 %  Electron:  0.00 %  Overlap:  0.02 %  Diff.:  -0.15 %
+  118(H )  Hole:  0.03 %  Electron:  0.00 %  Overlap:  0.01 %  Diff.:  -0.03 %
+  119(H )  Hole:  0.12 %  Electron:  0.00 %  Overlap:  0.02 %  Diff.:  -0.11 %
+  120(H )  Hole:  0.18 %  Electron:  0.30 %  Overlap:  0.23 %  Diff.:   0.13 %
+  121(H )  Hole:  0.11 %  Electron:  0.39 %  Overlap:  0.21 %  Diff.:   0.28 %
+  122(H )  Hole:  0.10 %  Electron:  0.09 %  Overlap:  0.10 %  Diff.:  -0.00 %
+  123(H )  Hole:  0.19 %  Electron:  0.03 %  Overlap:  0.07 %  Diff.:  -0.17 %
+  124(H )  Hole:  0.17 %  Electron:  0.02 %  Overlap:  0.06 %  Diff.:  -0.15 %
+  125(H )  Hole:  0.10 %  Electron:  0.13 %  Overlap:  0.11 %  Diff.:   0.02 %
+  126(H )  Hole:  0.25 %  Electron:  0.01 %  Overlap:  0.06 %  Diff.:  -0.24 %
+  127(H )  Hole:  0.06 %  Electron:  0.00 %  Overlap:  0.01 %  Diff.:  -0.06 %
+  128(H )  Hole:  0.31 %  Electron:  0.00 %  Overlap:  0.04 %  Diff.:  -0.30 %
+  129(H )  Hole:  0.06 %  Electron:  0.00 %  Overlap:  0.01 %  Diff.:  -0.06 %
+  130(H )  Hole:  0.20 %  Electron:  0.00 %  Overlap:  0.03 %  Diff.:  -0.20 %
+  131(H )  Hole:  0.22 %  Electron:  0.00 %  Overlap:  0.03 %  Diff.:  -0.21 %
+  132(H )  Hole:  0.06 %  Electron:  0.00 %  Overlap:  0.01 %  Diff.:  -0.05 %
+  133(H )  Hole:  0.30 %  Electron:  0.01 %  Overlap:  0.04 %  Diff.:  -0.30 %
+  134(H )  Hole:  0.06 %  Electron:  0.00 %  Overlap:  0.01 %  Diff.:  -0.06 %
+  135(H )  Hole:  0.24 %  Electron:  0.01 %  Overlap:  0.06 %  Diff.:  -0.22 %
+  136(H )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+  137(H )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+  138(H )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+  139(H )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+  140(H )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+  141(H )  Hole:  0.01 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.01 %
+  142(H )  Hole:  0.01 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.01 %
+  143(H )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+  144(H )  Hole:  0.01 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.01 %
+  145(H )  Hole:  0.02 %  Electron:  0.00 %  Overlap:  0.01 %  Diff.:  -0.02 %
+  146(H )  Hole:  0.02 %  Electron:  0.00 %  Overlap:  0.01 %  Diff.:  -0.02 %
+  147(H )  Hole:  0.01 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.01 %
+  148(H )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+  149(H )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+  150(H )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+  151(H )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+  152(H )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:   0.00 %
+  153(H )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:   0.00 %
+  154(H )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+  155(H )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:   0.00 %
+  156(H )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:   0.00 %
+  157(H )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+  158(H )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+  159(H )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:   0.00 %
+  160(H )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:  -0.00 %
+  161(H )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:   0.00 %
+  162(H )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:   0.00 %
+  163(H )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:   0.00 %
+  164(H )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:   0.00 %
+  165(H )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:   0.00 %
+  166(H )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:   0.00 %
+  167(H )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:   0.00 %
+  168(H )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:   0.00 %
+  169(H )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:   0.00 %
+  170(H )  Hole:  0.00 %  Electron:  0.00 %  Overlap:  0.00 %  Diff.:   0.00 %
+ 
+      --------------- Plotting hole/electron composition ---------------
+ -1 Load fragment definition
+ 0 Return
+ 1 Plot hole/electron composition as heat map
+ 2 Export the data as he_atm.txt in current folder
+ 3 Save the heat map as graphic file in current folder
+ 4 Set interval between labels in X axis, current: 11
+ 5 Change lower and upper limit of color scale, current:  0.000 to  0.205
+ 6 Set ratio between X and Y axes, current: 0.15
+ 7 Toggle if taking hydrogens into account, current: Yes
+ 
+    ------------- Hole-electron and transition density analysis -----------
+ -1 Toggle calculating transit. magnetic dip. density in option 1, current: No
+ 0 Return
+ 1 Visualize and analyze hole, electron, transition density and so on
+ 2 Show molecular orbital contribution to hole and electron distribution
+ 3 Show atom or fragment contribution to hole and electron and plot the contributions as heat map
+ 4 Show basis function contribution to hole and electron
+ 
+            ============ Electronic excitation analyses ============ 
+ -1 Check, modify and export configuration coefficients of an excitation
+ 0 Return
+ 1 Analyze and visualize hole&electron distribution, transition density, and transition electric/magnetic dipole moment density
+ 2 Plot atom/fragment transition matrix of various kinds as heat map
+ 3 Analyze charge-transfer based on density difference grid data (JCTC,7,2498)
+ 4 Calculate delta_r index to measure charge-transfer length (JCTC,9,3118)
+ 5 Calculate transition electric/magnetic dipole moments between all states and for each state
+ 6 Generate natural transition orbitals (NTOs)
+ 7 Calculate ghost-hunter index (JCC,38,2151)
+ 8 Calculate interfragment charge transfer via IFCT method
+ 9 Generate and export transition density matrix
+ 10 Decompose transition electric/magnetic dipole moment as molecular orbital pair contributions
+ 11 Decompose transition electric/magnetic dipole moment as basis function and atom contributions
+ 12 Calculate Mulliken atomic transition charges
+ 13 Generate natural orbitals of specific excited states
+ 14 Calculate lambda index to characterize electron excitation (JCP,128,044118)
+ 15 Print major MO transitions in all excited states
+ 16 Charge-transfer spectrum (CTS) analysis (Carbon,187,78)
+ 
+ "q": Exit program gracefully          "r": Load a new file
+                    ************ Main function menu ************
+ 0 Show molecular structure and view orbitals
+ 1 Output all properties at a point       2 Topology analysis
+ 3 Output and plot specific property in a line
+ 4 Output and plot specific property in a plane
+ 5 Output and plot specific property within a spatial region (calc. grid data)
+ 6 Check & modify wavefunction
+ 7 Population analysis and calculation of atomic charges
+ 8 Orbital composition analysis           9 Bond order analysis
+ 10 Plot total DOS, PDOS, OPDOS, local DOS, COHP and photoelectron spectrum
+ 11 Plot IR/Raman/UV-Vis/ECD/VCD/ROA/NMR spectrum
+ 12 Quantitative analysis of molecular surface
+ 13 Process grid data (No grid data is presented currently)
+ 14 Adaptive natural density partitioning (AdNDP) analysis
+ 15 Fuzzy atomic space analysis
+ 16 Charge decomposition analysis (CDA) and plot orbital interaction diagram
+ 17 Basin analysis                       18 Electron excitation analysis
+ 19 Orbital localization analysis        20 Visual study of weak interaction
+ 21 Energy decomposition analysis        22 Conceptual DFT (CDFT) analysis
+ 23 ETS-NOCV analysis                    24 (Hyper)polarizability analysis
+ 25 Electron delocalization and aromaticity analyses
+ 26 Structure and geometry related analyses
+ 100 Other functions (Part 1)            200 Other functions (Part 2)
+ 300 Other functions (Part 3)

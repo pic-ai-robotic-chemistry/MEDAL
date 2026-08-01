@@ -1,0 +1,30 @@
+# The fortran modules provided by this target.
+provides
+ basinintmod.mod
+ blockhrr.mod
+ boysfunc.mod
+ bspline_sub_module.mod
+ deftype.mod
+ defvar.mod
+ dislin.mod
+ ean.mod
+ eanvrr.mod
+ eda_ff_mod.mod
+ excitinfo.mod
+ fitatmdens_mod.mod
+ fparser.mod
+ fparser_parameters.mod
+ functions.mod
+ gui.mod
+ hrr.mod
+ libreta.mod
+ mod_2f2.mod
+ mouse_rotate_mod.mod
+ naomod.mod
+ nmrmod.mod
+ plot.mod
+ procgridmod.mod
+ ryspoly.mod
+ surfvertex.mod
+ topo.mod
+ util.mod

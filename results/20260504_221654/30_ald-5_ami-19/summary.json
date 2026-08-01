@@ -1,0 +1,11 @@
+{
+  "pair": "ald-5_ami-19",
+  "ald": 5,
+  "ami": 19,
+  "run_dir": "30_ald-5_ami-19",
+  "pfxnam": "dimer_from_ald-5_ami-19_addH",
+  "ald_hole_pct": "94.98",
+  "ami_hole_pct": "4.99",
+  "ald_electron_pct": "99.42",
+  "ami_electron_pct": "0.48"
+}

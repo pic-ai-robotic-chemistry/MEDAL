@@ -1,0 +1,10 @@
+{
+  "upload_endpoint": "https://your-own-upload-api.example.com/api/file/upload",
+  "file_field_name": "file",
+  "timeout_seconds": 120,
+  "extra_headers": {
+    "User-Agent": "Mozilla/5.0 (skill:file-upload)"
+  },
+  "file_upload_token": "PLEASE_SET_YOUR_OWN_UPLOAD_TOKEN",
+  "file_upload_header": "YOUR_UPLOAD_AUTH_HEADER"
+}

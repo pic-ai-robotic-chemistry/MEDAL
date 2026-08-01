@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/zikaixie/multiwfn-mac-build/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

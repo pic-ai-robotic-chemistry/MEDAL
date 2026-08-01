@@ -1,0 +1,844 @@
+rank_by_accuracy,formula,accuracy,length,depth,generation
+1,"div(ald_d_index, ami_LUMO)",1.0,3,1,0
+2,"sub(ald_d_index, ami_fosc)",1.0,3,1,0
+3,"mul(ald_d_index, ami_LUMO)",1.0,3,1,0
+4,"div(ald_HOMO, ami_d_index)",1.0,3,1,0
+5,"sub(ami_sr, ald_delta_est)",1.0,3,1,0
+6,"div(-1.068, ami_d_index)",1.0,3,1,1
+7,"div(-1.985, ami_d_index)",1.0,3,1,50
+8,"div(-1.055, ami_d_index)",1.0,3,1,99
+9,"div(-0.045, ami_d_index)",1.0,3,1,99
+10,"div(ami_HOMO, ami_d_index)",1.0,3,1,99
+11,"mul(ald_VEA, div(ald_d_index, ami_LUMO))",1.0,5,2,1
+12,"sub(div(ald_d_index, ami_LUMO), ami_delta_est)",1.0,5,2,1
+13,"sub(sub(ald_d_index, ami_VEA), ald_delta_est)",1.0,5,2,2
+14,"sub(div(ami_d_index, ald_LUMO), ami_VEA)",1.0,5,2,2
+15,"add(div(-1.068, ami_d_index), ald_sr)",1.0,5,2,2
+16,"sub(div(ald_d_index, ami_LUMO), ald_sr)",1.0,5,2,2
+17,"add(div(-1.068, ami_d_index), ald_delta_est)",1.0,5,2,2
+18,"sub(div(ami_fosc, ami_LUMO), ald_ex_energy_s1)",1.0,5,2,2
+19,"sub(div(ald_d_index, ami_LUMO), ami_sr)",1.0,5,2,2
+20,"sub(div(ami_fosc, ami_LUMO), ami_ex_energy_s1)",1.0,5,2,2
+21,"mul(div(ald_d_index, ami_LUMO), ami_hardness)",1.0,5,2,3
+22,"add(div(-1.068, ami_d_index), ald_d_index)",1.0,5,2,3
+23,"sub(div(ald_d_index, ami_LUMO), ald_ex_energy_s1)",1.0,5,2,3
+24,"add(div(-1.068, ami_d_index), ami_LUMO)",1.0,5,2,3
+25,"div(div(-1.068, ami_d_index), ald_GAP)",1.0,5,2,3
+26,"add(div(-1.068, ami_d_index), ami_ex_energy_s1)",1.0,5,2,3
+27,"add(div(-1.068, ami_d_index), ald_VIP)",1.0,5,2,3
+28,"sub(div(ald_d_index, ami_LUMO), ald_fosc)",1.0,5,2,4
+29,"sub(div(ald_d_index, ami_LUMO), ami_VIP)",1.0,5,2,4
+30,"sub(div(ald_d_index, ami_LUMO), ami_ex_energy_s1)",1.0,5,2,5
+31,"add(div(-1.068, ami_d_index), ald_ex_energy_s1)",1.0,5,2,5
+32,"add(div(-1.068, ami_d_index), ald_hardness)",1.0,5,2,5
+33,"mul(div(-1.068, ami_d_index), ami_hardness)",1.0,5,2,5
+34,"add(div(-1.068, ami_d_index), ami_VIP)",1.0,5,2,5
+35,"add(div(-1.068, ami_d_index), ami_hardness)",1.0,5,2,7
+36,"sub(div(ami_fosc, ami_LUMO), ami_hardness)",1.0,5,2,8
+37,"add(div(-1.985, ami_d_index), ami_hardness)",1.0,5,2,15
+38,"add(div(-1.436, ami_d_index), ami_hardness)",1.0,5,2,19
+39,"add(div(-1.561, ami_d_index), ami_hardness)",1.0,5,2,21
+40,"mul(div(-1.985, ami_d_index), ami_hardness)",1.0,5,2,27
+41,"add(div(-1.256, ami_d_index), ami_hardness)",1.0,5,2,29
+42,"add(div(-1.926, ami_d_index), ami_hardness)",1.0,5,2,34
+43,"add(div(-1.987, ami_d_index), ami_hardness)",1.0,5,2,47
+44,"add(div(-1.985, ami_d_index), ami_delta_est)",1.0,5,2,47
+45,"add(div(-1.985, ami_d_index), ami_ex_energy_s1)",1.0,5,2,54
+46,"add(div(-1.385, ami_d_index), ami_hardness)",1.0,5,2,55
+47,"add(div(-1.985, ami_d_index), ald_ex_energy_s1)",1.0,5,2,58
+48,"mul(div(-1.985, ami_d_index), ald_POLAR)",1.0,5,2,60
+49,"mul(div(-1.985, ami_d_index), ami_POLAR)",1.0,5,2,63
+50,"mul(div(ald_HOMO, ami_d_index), ald_POLAR)",1.0,5,2,64
+51,"mul(div(ami_HOMO, ami_d_index), ald_POLAR)",1.0,5,2,66
+52,"mul(div(ald_LUMO, ami_d_index), ald_POLAR)",1.0,5,2,66
+53,"mul(div(ami_HOMO, ami_d_index), ami_POLAR)",1.0,5,2,67
+54,"mul(div(-0.755, ami_d_index), ald_POLAR)",1.0,5,2,76
+55,"mul(div(ald_LUMO, ami_d_index), ami_POLAR)",1.0,5,2,79
+56,"mul(sub(ami_ex_energy_t1, ald_ex_energy_s1), ald_POLAR)",1.0,5,2,81
+57,"mul(div(-1.170, ami_d_index), ald_POLAR)",1.0,5,2,83
+58,"mul(div(-0.045, ami_d_index), ald_POLAR)",1.0,5,2,86
+59,"mul(div(ald_HOMO, ami_d_index), ami_POLAR)",1.0,5,2,86
+60,"mul(div(-1.055, ami_d_index), ald_POLAR)",1.0,5,2,89
+61,"mul(div(-1.031, ami_d_index), ami_POLAR)",1.0,5,2,91
+62,"mul(div(-0.138, ami_d_index), ald_POLAR)",1.0,5,2,93
+63,"mul(div(-0.100, ami_d_index), ald_POLAR)",1.0,5,2,96
+64,"div(div(-1.985, ami_d_index), ald_POLAR)",1.0,5,2,99
+65,"mul(sub(ald_fosc, ald_sr), ald_POLAR)",1.0,5,2,99
+66,"mul(div(-1.985, ami_d_index), ald_fosc)",1.0,5,2,99
+67,"mul(div(-1.985, ami_d_index), ald_DIPOLE)",1.0,5,2,99
+68,"mul(div(-1.985, ami_d_index), ald_ex_energy_s1)",1.0,5,2,99
+69,"mul(div(-1.985, ami_d_index), ami_VIP)",1.0,5,2,99
+70,"mul(div(-1.985, ami_d_index), ami_delta_est)",1.0,5,2,99
+71,"mul(mul(ald_d_index, ami_LUMO), ald_POLAR)",1.0,5,2,99
+72,"mul(div(ald_HOMO, ami_d_index), ald_delta_est)",1.0,5,2,99
+73,"mul(div(-1.985, ami_d_index), ald_VEA)",1.0,5,2,99
+74,"mul(div(ald_d_index, ami_LUMO), mul(ald_delta_est, ald_hardness))",1.0,7,2,0
+75,"add(div(ald_Electrophilicity_index, ald_GAP), div(-1.722, ami_GAP))",1.0,7,2,0
+76,"add(div(-1.068, ami_d_index), sub(ami_d_index, ald_fosc))",1.0,7,2,0
+77,"sub(div(ami_ex_energy_s1, ald_sr), add(ald_HOMO, ami_VIP))",1.0,7,2,0
+78,"div(sub(ald_fosc, ami_HOMO), div(-1.068, ami_d_index))",1.0,7,2,1
+79,"add(div(-1.068, ami_d_index), sub(0.311, ami_Electrophilicity_index))",1.0,7,2,1
+80,"sub(div(ald_HOMO, ald_fosc), sub(ald_delta_est, ami_delta_est))",1.0,7,2,1
+81,"add(div(-1.068, ami_d_index), mul(ami_HOMO, ald_ex_energy_s1))",1.0,7,2,1
+82,"sub(div(ami_fosc, ami_LUMO), sub(ald_delta_est, ami_delta_est))",1.0,7,2,2
+83,"add(div(-1.068, ami_d_index), add(ami_d_index, ald_fosc))",1.0,7,2,2
+84,"add(div(-1.068, ami_d_index), sub(ald_d_index, ami_sr))",1.0,7,2,2
+85,"sub(mul(ami_GAP, ald_sr), mul(ami_POLAR, ami_d_index))",1.0,7,2,2
+86,"add(div(-1.068, ami_d_index), sub(ami_GAP, ami_VEA))",1.0,7,2,2
+87,"add(div(-1.068, ami_d_index), add(ald_HOMO, ald_d_index))",1.0,7,2,2
+88,"add(div(-1.068, ami_d_index), div(ald_d_index, ami_LUMO))",1.0,7,2,2
+89,"add(div(-1.068, ami_d_index), sub(ami_delta_est, ald_delta_est))",1.0,7,2,2
+90,"div(sub(ami_ex_energy_s1, ami_GAP), div(-1.068, ami_d_index))",1.0,7,2,2
+91,"add(div(ami_fosc, ami_LUMO), sub(ami_d_index, ald_fosc))",1.0,7,2,2
+92,"add(div(-1.068, ami_d_index), sub(ami_HOMO, ald_fosc))",1.0,7,2,2
+93,"add(div(-1.068, ami_d_index), div(ald_HOMO, ald_DIPOLE))",1.0,7,2,2
+94,"add(div(-1.068, ami_d_index), div(ami_sr, ami_LUMO))",1.0,7,2,2
+95,"add(div(-1.068, ami_d_index), sub(ami_Electrophilicity_index, ald_delta_est))",1.0,7,2,2
+96,"add(div(-1.068, ami_d_index), sub(ald_d_index, ami_VEA))",1.0,7,2,2
+97,"add(div(-1.068, ami_d_index), add(ami_ex_energy_t1, ald_Electrophilicity_index))",1.0,7,2,3
+98,"add(div(-1.068, ami_d_index), mul(ald_delta_est, ald_hardness))",1.0,7,2,3
+99,"add(div(-1.068, ami_d_index), div(ami_fosc, ami_LUMO))",1.0,7,2,3
+100,"add(div(-1.068, ami_d_index), div(ald_sr, ami_LUMO))",1.0,7,2,3
+101,"add(div(ami_fosc, ami_LUMO), div(ami_d_index, ald_LUMO))",1.0,7,2,3
+102,"mul(add(ami_hardness, ami_POLAR), div(ald_d_index, ami_LUMO))",1.0,7,2,3
+103,"add(div(-1.068, ami_d_index), sub(ald_d_index, ald_sr))",1.0,7,2,3
+104,"add(div(-1.068, ami_d_index), add(ami_HOMO, ald_d_index))",1.0,7,2,3
+105,"add(div(-1.068, ami_d_index), div(ald_GAP, ami_Electrophilicity_index))",1.0,7,2,3
+106,"add(div(-1.068, ami_d_index), div(-1.068, ami_d_index))",1.0,7,2,3
+107,"mul(mul(ami_delta_est, ami_delta_est), div(-1.068, ami_d_index))",1.0,7,2,3
+108,"sub(sub(ald_d_index, ami_VEA), mul(ami_POLAR, ami_d_index))",1.0,7,2,3
+109,"sub(div(ald_d_index, ami_LUMO), add(ald_HOMO, ami_VIP))",1.0,7,2,3
+110,"sub(div(ami_fosc, ami_LUMO), mul(ami_POLAR, ami_d_index))",1.0,7,2,4
+111,"add(div(ald_HOMO, ami_d_index), div(ald_d_index, ami_LUMO))",1.0,7,2,4
+112,"add(add(-1.068, ami_d_index), div(ald_d_index, ami_LUMO))",1.0,7,2,4
+113,"add(sub(-1.068, ami_d_index), div(ald_d_index, ami_LUMO))",1.0,7,2,4
+114,"add(add(ami_sr, ald_HOMO), div(-1.068, ami_d_index))",1.0,7,2,4
+115,"mul(add(ami_hardness, ami_POLAR), div(-1.068, ami_d_index))",1.0,7,2,4
+116,"sub(div(ami_fosc, ami_LUMO), add(ald_HOMO, ami_VIP))",1.0,7,2,4
+117,"add(div(-1.068, ami_d_index), div(ald_HOMO, ami_d_index))",1.0,7,2,4
+118,"add(div(-1.068, ami_d_index), div(ami_VIP, ald_delta_est))",1.0,7,2,5
+119,"add(div(ald_d_index, ami_LUMO), div(-1.068, ami_d_index))",1.0,7,2,5
+120,"mul(div(-1.985, ami_d_index), div(ald_hardness, ald_DIPOLE))",1.0,7,2,99
+121,"mul(div(-1.985, ami_d_index), sub(ami_hardness, ald_delta_est))",1.0,7,2,99
+122,"mul(div(-1.985, ami_d_index), sub(ald_hardness, ald_HOMO))",1.0,7,2,99
+123,"mul(div(-1.985, ami_d_index), mul(ald_DIPOLE, ald_delta_est))",1.0,7,2,99
+124,"mul(div(-1.985, ami_d_index), add(ami_ex_energy_s1, ami_GAP))",1.0,7,2,99
+125,"mul(div(-1.985, ami_d_index), mul(ald_d_index, ald_VIP))",1.0,7,2,99
+126,"mul(div(-1.985, ami_d_index), add(ami_sr, ald_LUMO))",1.0,7,2,99
+127,"mul(div(-1.985, ami_d_index), div(ald_VEA, 0.577))",1.0,7,2,99
+128,"mul(div(-1.985, ami_d_index), div(ami_VIP, ald_hardness))",1.0,7,2,99
+129,"mul(div(-1.985, ami_d_index), mul(ald_Electrophilicity_index, ami_GAP))",1.0,7,2,99
+130,"mul(div(-1.985, ami_d_index), div(ald_sr, ald_hardness))",1.0,7,2,99
+131,"add(add(div(ald_d_index, ami_LUMO), ald_d_index), ami_HOMO)",1.0,7,3,2
+132,"add(-1.068, sub(div(ald_d_index, ami_LUMO), ami_Electrophilicity_index))",1.0,7,3,3
+133,"sub(div(div(ami_fosc, ami_LUMO), ald_delta_est), ald_delta_est)",1.0,7,3,3
+134,"sub(mul(ald_VEA, div(ald_d_index, ami_LUMO)), ald_ex_energy_s1)",1.0,7,3,4
+135,"mul(add(div(-1.068, ami_d_index), ami_d_index), ami_hardness)",1.0,7,3,5
+136,"sub(add(div(-1.068, ami_d_index), ald_VIP), ami_ex_energy_s1)",1.0,7,3,6
+137,"div(add(div(-1.068, ami_d_index), ami_ex_energy_s1), ald_GAP)",1.0,7,3,8
+138,"mul(add(div(-1.068, ami_d_index), ald_VIP), ami_hardness)",1.0,7,3,10
+139,"add(add(div(-1.068, ami_d_index), ami_VIP), ami_VIP)",1.0,7,3,11
+140,"add(add(div(-1.068, ami_d_index), ami_VIP), ami_hardness)",1.0,7,3,11
+141,"add(add(div(-1.068, ami_d_index), ami_hardness), ami_hardness)",1.0,7,3,12
+142,"add(add(div(-1.985, ami_d_index), ami_hardness), ami_hardness)",1.0,7,3,17
+143,"add(div(div(-1.985, ami_d_index), ami_d_index), ami_hardness)",1.0,7,3,31
+144,"add(mul(div(-1.985, ami_d_index), ald_POLAR), ami_hardness)",1.0,7,3,64
+145,"mul(div(div(-1.985, ami_d_index), ami_d_index), ald_POLAR)",1.0,7,3,65
+146,"mul(mul(div(-1.985, ami_d_index), ami_POLAR), ald_POLAR)",1.0,7,3,66
+147,"mul(mul(div(-1.985, ami_d_index), ald_POLAR), ald_POLAR)",1.0,7,3,67
+148,"mul(mul(div(-1.985, ami_d_index), ald_POLAR), ami_POLAR)",1.0,7,3,67
+149,"mul(div(div(-1.985, ami_d_index), ami_d_index), ami_POLAR)",1.0,7,3,82
+150,"mul(div(div(ami_HOMO, ami_fosc), ami_d_index), ald_POLAR)",1.0,7,3,92
+151,"mul(mul(div(-1.985, ami_d_index), ami_POLAR), ami_POLAR)",1.0,7,3,99
+152,"mul(mul(div(-1.055, ami_d_index), ald_POLAR), ald_POLAR)",1.0,7,3,99
+153,"mul(mul(div(ami_HOMO, ami_d_index), ald_POLAR), ald_POLAR)",1.0,7,3,99
+154,"mul(mul(div(ald_HOMO, ami_d_index), ald_POLAR), ald_POLAR)",1.0,7,3,99
+155,"mul(mul(div(-0.045, ami_d_index), ald_POLAR), ald_POLAR)",1.0,7,3,99
+156,"div(sub(div(ami_fosc, ami_LUMO), ami_ex_energy_s1), add(ami_ex_energy_s1, ami_hardness))",1.0,9,3,1
+157,"mul(div(ald_d_index, ami_LUMO), mul(mul(1.495, ami_DIPOLE), ald_hardness))",1.0,9,3,1
+158,"add(ami_LUMO, sub(div(ami_ex_energy_s1, ald_sr), add(ald_HOMO, ami_VIP)))",1.0,9,3,1
+159,"add(div(-1.068, ami_d_index), sub(0.311, div(ald_HOMO, ald_DIPOLE)))",1.0,9,3,2
+160,"add(div(-1.068, ami_d_index), sub(ami_d_index, div(ami_LUMO, ald_HOMO)))",1.0,9,3,2
+161,"add(div(-1.068, ami_d_index), sub(sub(ald_d_index, ald_fosc), ald_fosc))",1.0,9,3,2
+162,"add(div(-1.068, ami_d_index), sub(div(ald_d_index, ami_LUMO), ami_Electrophilicity_index))",1.0,9,3,2
+163,"mul(ald_delta_est, sub(div(ami_ex_energy_s1, ald_sr), add(ald_HOMO, ami_VIP)))",1.0,9,3,2
+164,"add(div(-1.068, ami_d_index), sub(div(ald_d_index, ami_LUMO), ald_fosc))",1.0,9,3,2
+165,"sub(sub(div(ami_fosc, ami_LUMO), add(ald_GAP, ami_DIPOLE)), ald_ex_energy_s1)",1.0,9,3,2
+166,"add(div(mul(ald_ex_energy_s1, ald_HOMO), ami_d_index), sub(ami_d_index, ald_fosc))",1.0,9,3,2
+167,"sub(add(div(-1.068, ami_d_index), add(ald_HOMO, ald_d_index)), ami_VEA)",1.0,9,3,3
+168,"add(div(-1.068, ami_d_index), sub(div(ami_fosc, ami_LUMO), ald_fosc))",1.0,9,3,3
+169,"add(div(mul(ald_ex_energy_s1, ald_HOMO), ami_d_index), div(ald_d_index, ami_LUMO))",1.0,9,3,3
+170,"add(div(-1.068, ami_d_index), sub(div(ami_fosc, ami_LUMO), ami_VEA))",1.0,9,3,3
+171,"add(div(-1.068, ami_d_index), sub(add(ald_HOMO, ami_VIP), ald_fosc))",1.0,9,3,3
+172,"add(div(-1.068, ami_d_index), add(div(-1.068, ami_d_index), ami_ex_energy_s1))",1.0,9,3,4
+173,"add(add(div(-1.068, ami_d_index), ald_delta_est), div(ald_d_index, ami_LUMO))",1.0,9,3,4
+174,"mul(add(div(-1.068, ami_d_index), div(ami_fosc, ami_LUMO)), ami_hardness)",1.0,9,3,4
+175,"sub(add(div(-1.068, ami_d_index), div(ald_d_index, ami_LUMO)), ami_VEA)",1.0,9,3,5
+176,"add(div(-1.068, ami_d_index), mul(div(-1.068, ami_d_index), ald_hardness))",1.0,9,3,5
+177,"add(div(-1.068, ami_d_index), sub(sub(ami_ex_energy_s1, ald_DIPOLE), ami_VEA))",1.0,9,3,5
+178,"add(div(-1.068, ami_d_index), sub(div(ami_fosc, ami_LUMO), ald_d_index))",1.0,9,3,6
+179,"add(div(-1.985, ami_d_index), add(div(-1.985, ami_d_index), ami_hardness))",1.0,9,3,61
+180,"mul(div(-1.985, ami_d_index), mul(ald_GAP, div(ami_POLAR, ald_VIP)))",1.0,9,3,99
+181,"add(add(sub(div(ami_fosc, ami_LUMO), ami_ex_energy_s1), ald_d_index), ami_HOMO)",1.0,9,4,3
+182,"add(div(add(div(-1.985, ami_d_index), ami_hardness), ami_d_index), ami_hardness)",1.0,9,4,21
+183,"mul(div(mul(div(-1.985, ami_d_index), ald_POLAR), ami_d_index), ald_POLAR)",1.0,9,4,98
+184,"mul(div(mul(div(-1.985, ami_d_index), ami_POLAR), ami_d_index), ald_POLAR)",1.0,9,4,99
+185,"mul(div(mul(div(-1.985, ami_d_index), ald_POLAR), ami_d_index), ami_POLAR)",1.0,9,4,99
+186,"mul(mul(mul(div(-1.985, ami_d_index), ald_POLAR), ald_POLAR), ald_POLAR)",1.0,9,4,99
+187,"add(mul(ami_VEA, -1.358), sub(div(ami_ex_energy_s1, ald_sr), add(ald_HOMO, ami_VIP)))",1.0,11,3,2
+188,"sub(add(div(-1.068, ami_d_index), div(ald_d_index, ami_LUMO)), mul(ald_LUMO, ami_d_index))",1.0,11,3,3
+189,"add(add(div(-1.068, ami_d_index), ald_sr), div(mul(ald_ex_energy_s1, ald_HOMO), ami_d_index))",1.0,11,3,4
+190,"add(div(-1.068, ami_d_index), add(div(-1.068, ami_d_index), div(ami_fosc, ami_LUMO)))",1.0,11,3,4
+191,"sub(sub(div(ami_fosc, ami_LUMO), add(ald_GAP, ami_DIPOLE)), add(ald_delta_est, ald_ex_energy_t1))",1.0,11,3,4
+192,"mul(div(-1.985, ami_d_index), sub(add(ald_POLAR, ami_ex_energy_s1), sub(ami_VEA, ald_hardness)))",1.0,11,3,99
+193,"mul(div(-1.985, ami_d_index), mul(div(ami_ex_energy_t1, ald_Electrophilicity_index), div(ami_DIPOLE, ami_Electrophilicity_index)))",1.0,11,3,99
+194,"mul(div(-1.985, ami_d_index), div(mul(ami_HOMO, ald_d_index), sub(ald_ex_energy_t1, ald_ex_energy_t1)))",1.0,11,3,99
+195,"add(mul(ami_VEA, -1.358), sub(mul(ald_VEA, div(ald_d_index, ami_LUMO)), add(ald_HOMO, ami_VIP)))",1.0,13,4,3
+196,"sub(add(div(-1.068, ami_d_index), add(div(-1.068, ami_d_index), div(ami_fosc, ami_LUMO))), ami_ex_energy_s1)",1.0,13,4,6
+197,"sub(add(add(ami_Electrophilicity_index, ald_GAP), mul(ami_DIPOLE, ami_LUMO)), sub(mul(ald_ex_energy_s1, ami_Electrophilicity_index), div(ami_GAP, ami_GAP)))",1.0,15,3,0
+198,"add(mul(div(ald_d_index, ami_LUMO), mul(ald_delta_est, ald_hardness)), div(sub(ami_ex_energy_s1, ald_hardness), add(ald_sr, ald_d_index)))",1.0,15,3,3
+199,"add(mul(div(ald_d_index, ami_LUMO), mul(ald_delta_est, ald_hardness)), div(sub(ami_ex_energy_s1, ald_hardness), div(ami_fosc, ami_LUMO)))",1.0,15,3,4
+200,"add(div(add(ami_fosc, sub(ald_d_index, ami_VEA)), sub(ald_ex_energy_s1, ald_VEA)), div(sub(ami_ex_energy_s1, ald_hardness), add(ald_sr, ald_d_index)))",1.0,17,4,1
+201,"add(div(add(ami_fosc, sub(ald_d_index, ami_VEA)), mul(ald_d_index, ald_fosc)), div(sub(ami_ex_energy_s1, ald_hardness), add(ald_sr, ald_d_index)))",1.0,17,4,2
+202,"add(div(ald_hardness, sub(add(add(ami_Electrophilicity_index, ald_GAP), mul(ami_DIPOLE, ami_LUMO)), sub(mul(ald_ex_energy_s1, ami_Electrophilicity_index), div(ami_GAP, ami_GAP)))), ald_fosc)",1.0,19,5,1
+203,"mul(div(mul(mul(add(ald_ex_energy_s1, ami_GAP), add(ald_d_index, ald_GAP)), div(div(ald_HOMO, ald_hardness), div(ami_VIP, ald_DIPOLE))), ami_d_index), ald_POLAR)",1.0,19,5,99
+204,"add(add(div(-1.068, ami_d_index), ald_sr), sub(mul(sub(ald_DIPOLE, ald_POLAR), mul(ami_d_index, ami_ex_energy_s1)), div(div(ami_HOMO, ald_ex_energy_t1), div(ami_ex_energy_s1, ald_d_index))))",1.0,21,4,3
+205,"add(div(ald_hardness, sub(add(add(ami_Electrophilicity_index, ald_GAP), mul(ami_DIPOLE, div(ald_GAP, -0.664))), sub(mul(ald_ex_energy_s1, ami_Electrophilicity_index), div(ami_GAP, ami_GAP)))), ald_fosc)",1.0,21,6,2
+206,"mul(mul(add(div(ald_HOMO, ami_LUMO), sub(ald_ex_energy_s1, ami_LUMO)), sub(ami_fosc, div(ald_ex_energy_s1, ald_GAP))), mul(div(div(ald_VEA, ald_POLAR), mul(ami_d_index, ami_VEA)), mul(ami_ex_energy_s1, ami_DIPOLE)))",1.0,25,4,2
+207,"mul(mul(add(div(ald_HOMO, ami_LUMO), sub(ald_ex_energy_s1, ami_LUMO)), sub(mul(ald_DIPOLE, ald_VIP), div(ald_ex_energy_s1, ald_GAP))), mul(div(div(ald_VEA, ald_POLAR), mul(ami_d_index, ami_VEA)), mul(ami_ex_energy_s1, ami_DIPOLE)))",1.0,27,4,1
+208,"add(div(sub(mul(ami_GAP, ald_sr), mul(ami_POLAR, ami_d_index)), mul(div(ald_delta_est, ald_fosc), add(ald_DIPOLE, ald_d_index))), div(mul(ald_d_index, ald_fosc), add(add(ald_POLAR, ami_GAP), mul(ald_GAP, ald_ex_energy_s1))))",1.0,27,4,1
+209,"add(div(sub(mul(ami_GAP, ald_sr), mul(ami_POLAR, ami_d_index)), mul(div(ald_delta_est, ald_fosc), add(ald_DIPOLE, ald_d_index))), div(add(div(ald_VEA, ami_sr), add(1.244, ald_sr)), add(add(ald_POLAR, ami_GAP), mul(ald_GAP, ald_ex_energy_s1))))",1.0,31,4,0
+210,"add(div(div(mul(ald_LUMO, ami_VEA), div(ald_ex_energy_t1, ami_LUMO)), div(div(ami_d_index, ald_DIPOLE), sub(ami_Electrophilicity_index, ami_delta_est))), sub(mul(sub(ald_DIPOLE, ald_POLAR), mul(ami_d_index, ami_ex_energy_s1)), div(sub(ald_ex_energy_t1, ald_HOMO), div(ami_ex_energy_s1, ald_d_index))))",1.0,31,4,0
+211,"mul(mul(add(div(ald_HOMO, ami_LUMO), sub(ald_ex_energy_s1, ami_LUMO)), sub(mul(ald_DIPOLE, ald_VIP), div(ald_ex_energy_s1, ald_GAP))), mul(div(div(ald_VEA, ald_POLAR), mul(ami_d_index, ami_VEA)), div(mul(ami_hardness, ami_delta_est), sub(ami_GAP, ami_HOMO))))",1.0,31,4,0
+212,"add(div(div(mul(ald_LUMO, ami_VEA), div(ald_ex_energy_t1, ami_LUMO)), div(div(ami_d_index, ald_DIPOLE), sub(ami_Electrophilicity_index, ami_delta_est))), sub(mul(sub(ald_DIPOLE, ald_POLAR), mul(ami_d_index, ami_ex_energy_s1)), div(div(ami_HOMO, ald_ex_energy_t1), div(ami_ex_energy_s1, ald_d_index))))",1.0,31,4,1
+213,"mul(mul(add(div(ald_HOMO, ami_LUMO), sub(ald_ex_energy_s1, ami_LUMO)), sub(div(ald_GAP, ami_Electrophilicity_index), div(ald_ex_energy_s1, ald_GAP))), mul(div(div(ald_VEA, ald_POLAR), mul(ami_d_index, ami_VEA)), div(mul(ami_hardness, ami_delta_est), sub(ami_GAP, ami_HOMO))))",1.0,31,4,1
+214,"mul(mul(add(div(ald_HOMO, ami_LUMO), sub(ald_d_index, ami_VEA)), sub(div(ald_GAP, ami_Electrophilicity_index), div(ald_ex_energy_s1, ald_GAP))), mul(div(div(ald_VEA, ald_POLAR), mul(ami_d_index, ami_VEA)), div(mul(ami_hardness, ami_delta_est), sub(ami_GAP, ami_HOMO))))",1.0,31,4,2
+215,"mul(div(add(add(div(add(ald_VEA, ald_GAP), sub(ald_sr, ami_fosc)), mul(div(ami_delta_est, ami_delta_est), sub(ald_delta_est, ami_VEA))), sub(sub(mul(ami_ex_energy_s1, -1.385), div(ald_fosc, ami_VEA)), add(add(ald_HOMO, ald_VEA), add(ami_hardness, ald_POLAR)))), ami_d_index), ald_POLAR)",1.0,35,6,99
+216,ami_LUMO,0.8,1,0,99
+217,"sub(ami_GAP, ami_VEA)",0.8,3,1,0
+218,"sub(ami_LUMO, ami_VEA)",0.8,3,1,0
+219,"mul(ami_Electrophilicity_index, ami_LUMO)",0.8,3,1,0
+220,"sub(ald_d_index, ami_VEA)",0.8,3,1,0
+221,"mul(ami_LUMO, ami_sr)",0.8,3,1,0
+222,"div(ami_LUMO, ami_VIP)",0.8,3,1,0
+223,"mul(ami_LUMO, ald_delta_est)",0.8,3,1,0
+224,"mul(ald_HOMO, ami_VEA)",0.8,3,1,0
+225,"add(ald_HOMO, ald_d_index)",0.8,3,1,0
+226,"sub(ald_d_index, ald_GAP)",0.8,3,1,0
+227,"mul(ald_ex_energy_s1, ami_LUMO)",0.8,3,1,0
+228,"mul(ald_VEA, ami_LUMO)",0.8,3,1,0
+229,"sub(ald_d_index, ami_GAP)",0.8,3,1,0
+230,"sub(ald_d_index, ald_ex_energy_s1)",0.8,3,1,0
+231,"mul(1.497, ami_LUMO)",0.8,3,1,0
+232,"div(ami_fosc, ami_LUMO)",0.8,3,1,0
+233,"mul(ald_fosc, ami_LUMO)",0.8,3,1,0
+234,"sub(ald_d_index, ald_sr)",0.8,3,1,0
+235,"mul(ami_delta_est, ami_LUMO)",0.8,3,1,0
+236,"mul(ami_LUMO, ami_hardness)",0.8,3,1,0
+237,"mul(ami_LUMO, ami_Electrophilicity_index)",0.8,3,1,0
+238,"add(ami_HOMO, ald_d_index)",0.8,3,1,0
+239,"div(ami_LUMO, ald_GAP)",0.8,3,1,0
+240,"mul(ami_VEA, -1.358)",0.8,3,1,1
+241,"mul(ami_LUMO, ald_fosc)",0.8,3,1,99
+242,"div(ami_LUMO, ald_VEA)",0.8,3,1,99
+243,"sub(ald_VEA, ami_delta_est)",0.8,3,1,99
+244,"mul(ami_LUMO, ald_POLAR)",0.8,3,1,99
+245,"sub(mul(ami_VEA, ami_GAP), ami_VEA)",0.8,5,2,0
+246,"sub(sub(ald_d_index, ald_fosc), ami_fosc)",0.8,5,2,0
+247,"sub(mul(ald_d_index, ami_LUMO), ami_VEA)",0.8,5,2,1
+248,"div(div(ami_fosc, ami_LUMO), ald_delta_est)",0.8,5,2,2
+249,"sub(div(ald_LUMO, ald_DIPOLE), ami_VEA)",0.8,5,2,2
+250,"div(mul(ald_hardness, ami_LUMO), ami_fosc)",0.8,5,2,99
+251,"mul(div(ami_LUMO, ald_POLAR), ald_POLAR)",0.8,5,2,99
+252,"mul(mul(ami_LUMO, ami_VIP), ald_POLAR)",0.8,5,2,99
+253,"mul(div(ami_LUMO, ami_DIPOLE), ald_POLAR)",0.8,5,2,99
+254,"div(sub(ald_DIPOLE, ald_LUMO), sub(ami_GAP, ami_VEA))",0.8,7,2,0
+255,"mul(div(ami_LUMO, ami_VIP), mul(ami_DIPOLE, ald_POLAR))",0.8,7,2,0
+256,"add(sub(ami_delta_est, ami_delta_est), sub(ald_DIPOLE, ami_VEA))",0.8,7,2,0
+257,"sub(add(ald_d_index, -1.635), sub(ami_delta_est, ami_delta_est))",0.8,7,2,0
+258,"div(mul(ald_VEA, ald_d_index), sub(ald_VEA, ami_VEA))",0.8,7,2,0
+259,"sub(sub(ami_GAP, ami_LUMO), add(ald_GAP, ami_DIPOLE))",0.8,7,2,0
+260,"sub(div(ami_fosc, ami_LUMO), add(ald_GAP, ami_DIPOLE))",0.8,7,2,1
+261,"div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO))",0.8,7,2,1
+262,"mul(mul(ami_delta_est, ami_delta_est), sub(ald_DIPOLE, ami_VEA))",0.8,7,2,2
+263,"div(sub(sub(ami_LUMO, ami_VEA), ami_VEA), ald_delta_est)",0.8,7,3,1
+264,"sub(mul(div(ami_HOMO, ald_sr), ami_GAP), ami_VEA)",0.8,7,3,1
+265,"div(div(ami_fosc, ami_VIP), div(mul(ald_ex_energy_s1, ami_LUMO), ami_ex_energy_t1))",0.8,9,3,1
+266,"add(div(-1.068, ami_d_index), sub(sub(ami_DIPOLE, ald_sr), ald_fosc))",0.8,9,3,1
+267,"div(mul(div(ami_fosc, ami_LUMO), ami_ex_energy_s1), add(ald_VIP, ami_hardness))",0.8,9,3,2
+268,"mul(mul(sub(ald_fosc, ami_POLAR), div(ami_HOMO, ami_LUMO)), ald_POLAR)",0.8,9,3,99
+269,"sub(sub(mul(ami_VEA, -1.358), div(ami_LUMO, ald_sr)), sub(sub(ami_DIPOLE, ald_d_index), div(ald_GAP, -0.664)))",0.8,15,3,0
+270,"div(div(add(ald_d_index, ald_LUMO), mul(ald_GAP, ami_LUMO)), add(sub(ald_hardness, ami_sr), mul(ald_hardness, ald_Electrophilicity_index)))",0.8,15,3,0
+271,"mul(mul(div(ami_d_index, ami_d_index), mul(ald_DIPOLE, ami_LUMO)), div(div(ami_fosc, ald_delta_est), add(ami_d_index, ami_d_index)))",0.8,15,3,0
+272,"sub(mul(div(ald_LUMO, ami_VEA), add(ami_DIPOLE, ami_ex_energy_t1)), sub(div(ami_HOMO, ald_sr), sub(ald_d_index, ald_ex_energy_s1)))",0.8,15,3,0
+273,"add(div(add(ami_fosc, ald_VEA), sub(ald_ex_energy_s1, ald_VEA)), div(sub(ami_ex_energy_s1, ald_hardness), add(ald_sr, ald_d_index)))",0.8,15,3,0
+274,"mul(sub(sub(ald_fosc, ami_fosc), div(ami_sr, ami_VEA)), mul(div(ald_hardness, ald_GAP), div(ald_GAP, ald_hardness)))",0.8,15,3,0
+275,"div(div(add(ald_d_index, ald_LUMO), mul(ald_GAP, ami_LUMO)), add(div(ald_hardness, ald_d_index), mul(ald_hardness, ald_Electrophilicity_index)))",0.8,15,3,1
+276,"div(div(add(ald_d_index, ald_LUMO), mul(ald_GAP, ami_LUMO)), add(div(ald_hardness, ald_d_index), div(ald_delta_est, ald_fosc)))",0.8,15,3,2
+277,"sub(div(div(div(ald_d_index, ami_GAP), div(ald_DIPOLE, ald_Electrophilicity_index)), div(div(ald_ex_energy_t1, ami_LUMO), add(ami_hardness, ami_POLAR))), mul(ald_LUMO, ami_d_index))",0.8,19,4,2
+278,"sub(div(div(div(ald_d_index, ami_GAP), div(ald_DIPOLE, ald_Electrophilicity_index)), div(div(ald_ex_energy_t1, ami_LUMO), add(ami_hardness, ami_POLAR))), div(sub(div(ald_Electrophilicity_index, ald_HOMO), div(ald_LUMO, ald_GAP)), add(div(ald_hardness, ami_fosc), sub(ami_ex_energy_s1, ald_VEA))))",0.8,31,4,0
+279,"sub(div(div(div(ald_d_index, ami_GAP), div(ald_DIPOLE, ald_Electrophilicity_index)), div(div(ald_ex_energy_t1, ami_LUMO), add(ami_hardness, ami_POLAR))), div(sub(div(ald_Electrophilicity_index, ald_HOMO), div(ald_LUMO, ald_GAP)), add(div(ald_hardness, ami_fosc), mul(ald_LUMO, ami_d_index))))",0.8,31,4,1
+280,"sub(div(div(div(ald_d_index, ami_GAP), div(ald_DIPOLE, ald_Electrophilicity_index)), div(div(ald_ex_energy_t1, ami_LUMO), add(ami_hardness, ami_POLAR))), div(sub(div(ald_Electrophilicity_index, ald_HOMO), sub(ald_LUMO, ald_GAP)), add(div(ald_hardness, ami_fosc), mul(ald_LUMO, ami_d_index))))",0.8,31,4,2
+281,"mul(div(mul(mul(sub(sub(ami_ex_energy_t1, ami_LUMO), add(ami_POLAR, ami_Electrophilicity_index)), sub(div(ami_sr, ami_hardness), mul(ami_LUMO, ald_d_index))), sub(sub(add(ald_POLAR, ald_VIP), add(ami_POLAR, ald_DIPOLE)), sub(div(ami_hardness, ald_VIP), add(ami_GAP, ald_delta_est)))), ami_d_index), ald_POLAR)",0.8,35,6,99
+282,ald_d_index,0.6,1,0,1
+283,ami_HOMO,0.6,1,0,1
+284,-1.985,0.6,1,0,99
+285,ald_HOMO,0.6,1,0,99
+286,"sub(ami_Electrophilicity_index, ald_delta_est)",0.6,3,1,0
+287,"sub(ami_delta_est, ald_delta_est)",0.6,3,1,0
+288,"sub(ami_ex_energy_s1, ald_hardness)",0.6,3,1,0
+289,"div(ald_d_index, ald_hardness)",0.6,3,1,0
+290,"sub(ald_Electrophilicity_index, ald_ex_energy_s1)",0.6,3,1,0
+291,"div(ami_HOMO, ald_DIPOLE)",0.6,3,1,0
+292,"sub(ald_DIPOLE, ami_fosc)",0.6,3,1,0
+293,"sub(ami_DIPOLE, ami_LUMO)",0.6,3,1,0
+294,"sub(ami_sr, ami_sr)",0.6,3,1,0
+295,"mul(ami_HOMO, ald_ex_energy_s1)",0.6,3,1,0
+296,"div(ald_HOMO, ald_hardness)",0.6,3,1,0
+297,"sub(ami_VEA, ami_VEA)",0.6,3,1,0
+298,"sub(ami_DIPOLE, ald_sr)",0.6,3,1,0
+299,"sub(ald_sr, ald_sr)",0.6,3,1,0
+300,"add(ami_d_index, ami_LUMO)",0.6,3,1,0
+301,"div(ami_d_index, -1.054)",0.6,3,1,0
+302,"sub(ald_LUMO, ami_DIPOLE)",0.6,3,1,0
+303,"mul(ami_sr, ami_HOMO)",0.6,3,1,0
+304,"mul(ald_d_index, ami_GAP)",0.6,3,1,0
+305,"sub(ami_DIPOLE, ami_fosc)",0.6,3,1,0
+306,"add(ald_HOMO, -0.689)",0.6,3,1,0
+307,"sub(ald_d_index, ami_sr)",0.6,3,1,0
+308,"mul(ald_Electrophilicity_index, ald_LUMO)",0.6,3,1,0
+309,"sub(ami_d_index, ald_fosc)",0.6,3,1,0
+310,"mul(ald_d_index, ald_fosc)",0.6,3,1,0
+311,"sub(ald_d_index, ald_fosc)",0.6,3,1,0
+312,"div(ami_HOMO, ald_Electrophilicity_index)",0.6,3,1,0
+313,"div(ald_HOMO, ald_DIPOLE)",0.6,3,1,0
+314,"div(ami_HOMO, ami_GAP)",0.6,3,1,0
+315,"div(ald_HOMO, ami_delta_est)",0.6,3,1,0
+316,"div(ami_HOMO, ald_ex_energy_t1)",0.6,3,1,0
+317,"div(ami_d_index, ald_LUMO)",0.6,3,1,0
+318,"mul(ald_LUMO, ald_sr)",0.6,3,1,0
+319,"mul(ald_ex_energy_s1, ald_HOMO)",0.6,3,1,0
+320,"mul(ald_sr, ald_HOMO)",0.6,3,1,0
+321,"sub(ami_hardness, ald_VIP)",0.6,3,1,0
+322,"sub(ami_LUMO, ald_fosc)",0.6,3,1,0
+323,"mul(ald_delta_est, ald_LUMO)",0.6,3,1,0
+324,"div(ald_LUMO, ald_DIPOLE)",0.6,3,1,0
+325,"sub(ami_delta_est, ami_delta_est)",0.6,3,1,0
+326,"div(ald_d_index, 0.662)",0.6,3,1,0
+327,"sub(ald_HOMO, ami_LUMO)",0.6,3,1,0
+328,"mul(ald_HOMO, ald_VIP)",0.6,3,1,0
+329,"div(ald_HOMO, ald_fosc)",0.6,3,1,0
+330,"add(ami_DIPOLE, ami_LUMO)",0.6,3,1,0
+331,"sub(0.311, ami_Electrophilicity_index)",0.6,3,1,0
+332,"sub(ald_Electrophilicity_index, ami_delta_est)",0.6,3,1,0
+333,"mul(ald_LUMO, ami_d_index)",0.6,3,1,0
+334,"add(ald_d_index, ald_LUMO)",0.6,3,1,0
+335,"sub(ald_DIPOLE, ald_delta_est)",0.6,3,1,1
+336,"sub(ami_DIPOLE, ald_delta_est)",0.6,3,1,1
+337,"mul(-1.985, ald_POLAR)",0.6,3,1,99
+338,"mul(-1.101, ami_GAP)",0.6,3,1,99
+339,"mul(-1.055, ald_POLAR)",0.6,3,1,99
+340,"mul(ald_delta_est, ald_HOMO)",0.6,3,1,99
+341,"div(ald_d_index, ami_hardness)",0.6,3,1,99
+342,"add(ald_DIPOLE, ami_LUMO)",0.6,3,1,99
+343,"sub(ald_LUMO, 1.353)",0.6,3,1,99
+344,"sub(ald_fosc, ald_ex_energy_t1)",0.6,3,1,99
+345,"sub(ald_delta_est, ald_delta_est)",0.6,3,1,99
+346,"mul(ald_VEA, ald_LUMO)",0.6,3,1,99
+347,"mul(-1.985, ami_POLAR)",0.6,3,1,99
+348,"mul(ami_GAP, ald_HOMO)",0.6,3,1,99
+349,"mul(ami_HOMO, ald_POLAR)",0.6,3,1,99
+350,"add(ami_VEA, ami_fosc)",0.6,3,1,99
+351,"mul(ald_LUMO, ald_POLAR)",0.6,3,1,99
+352,"sub(ald_LUMO, ald_delta_est)",0.6,3,1,99
+353,"add(ami_HOMO, ami_d_index)",0.6,3,1,99
+354,"add(ami_fosc, ald_HOMO)",0.6,3,1,99
+355,"sub(ami_ex_energy_s1, ald_VIP)",0.6,3,1,99
+356,"sub(ami_delta_est, ami_VEA)",0.6,3,1,99
+357,"div(ami_GAP, ald_HOMO)",0.6,3,1,99
+358,"sub(ami_ex_energy_s1, ami_hardness)",0.6,3,1,99
+359,"sub(ald_VEA, ami_VEA)",0.6,3,1,99
+360,"sub(ami_HOMO, ald_LUMO)",0.6,3,1,99
+361,"sub(ald_Electrophilicity_index, ald_Electrophilicity_index)",0.6,3,1,99
+362,"mul(ald_d_index, ald_POLAR)",0.6,3,1,99
+363,"sub(ald_HOMO, ami_DIPOLE)",0.6,3,1,99
+364,"sub(ald_delta_est, ami_ex_energy_s1)",0.6,3,1,99
+365,"div(ami_sr, ald_LUMO)",0.6,3,1,99
+366,"mul(ald_d_index, ald_ex_energy_t1)",0.6,3,1,99
+367,"mul(ald_HOMO, ald_POLAR)",0.6,3,1,99
+368,"sub(ald_ex_energy_s1, ami_ex_energy_s1)",0.6,3,1,99
+369,"div(ami_ex_energy_t1, ald_LUMO)",0.6,3,1,99
+370,"div(ald_d_index, sub(ami_Electrophilicity_index, ami_DIPOLE))",0.6,5,2,0
+371,"add(add(ami_HOMO, ald_d_index), ami_HOMO)",0.6,5,2,0
+372,"mul(sub(ami_DIPOLE, ald_delta_est), ald_ex_energy_t1)",0.6,5,2,0
+373,"mul(ald_delta_est, sub(ald_d_index, ald_fosc))",0.6,5,2,1
+374,"div(ald_d_index, sub(ami_Electrophilicity_index, ald_delta_est))",0.6,5,2,1
+375,"div(div(ami_d_index, ald_LUMO), ald_GAP)",0.6,5,2,2
+376,"mul(div(0.575, ald_HOMO), ald_POLAR)",0.6,5,2,99
+377,"mul(add(-1.985, ami_d_index), ald_POLAR)",0.6,5,2,99
+378,"mul(div(-0.024, ald_Electrophilicity_index), ald_POLAR)",0.6,5,2,99
+379,"mul(div(ami_VIP, ald_HOMO), ald_POLAR)",0.6,5,2,99
+380,"mul(mul(ami_HOMO, 1.649), ald_POLAR)",0.6,5,2,99
+381,"mul(add(ami_LUMO, ald_HOMO), ami_POLAR)",0.6,5,2,99
+382,"mul(mul(ami_GAP, ami_HOMO), ald_POLAR)",0.6,5,2,99
+383,"mul(sub(ald_HOMO, ald_LUMO), ami_POLAR)",0.6,5,2,99
+384,"mul(mul(ald_delta_est, ald_HOMO), ald_POLAR)",0.6,5,2,99
+385,"mul(div(-1.985, ami_hardness), ald_POLAR)",0.6,5,2,99
+386,"mul(sub(ami_HOMO, ami_fosc), ald_POLAR)",0.6,5,2,99
+387,"mul(div(-1.985, ami_Electrophilicity_index), ald_POLAR)",0.6,5,2,99
+388,"sub(div(-1.985, ami_d_index), ald_POLAR)",0.6,5,2,99
+389,"mul(mul(-1.985, ald_POLAR), ald_POLAR)",0.6,5,2,99
+390,"mul(div(ald_HOMO, ald_hardness), ald_POLAR)",0.6,5,2,99
+391,"mul(div(-1.985, ami_d_index), ami_d_index)",0.6,5,2,99
+392,"mul(div(-1.985, ami_POLAR), ald_POLAR)",0.6,5,2,99
+393,"mul(div(ald_d_index, ami_VIP), ami_POLAR)",0.6,5,2,99
+394,"mul(sub(ami_Electrophilicity_index, ami_hardness), ald_POLAR)",0.6,5,2,99
+395,"mul(sub(ami_LUMO, ald_DIPOLE), ald_POLAR)",0.6,5,2,99
+396,"mul(div(-1.985, ald_fosc), ald_POLAR)",0.6,5,2,99
+397,"mul(div(-1.985, ald_Electrophilicity_index), ald_POLAR)",0.6,5,2,99
+398,"mul(mul(ald_Electrophilicity_index, ald_d_index), ald_POLAR)",0.6,5,2,99
+399,"mul(div(ami_Electrophilicity_index, ald_LUMO), ald_POLAR)",0.6,5,2,99
+400,"mul(ald_HOMO, add(ald_DIPOLE, ami_POLAR))",0.6,5,2,99
+401,"mul(div(ami_sr, -0.009), ald_POLAR)",0.6,5,2,99
+402,"mul(div(ald_delta_est, ald_LUMO), ald_POLAR)",0.6,5,2,99
+403,"mul(div(-1.985, ald_POLAR), ald_POLAR)",0.6,5,2,99
+404,"mul(mul(ami_Electrophilicity_index, ami_HOMO), ald_POLAR)",0.6,5,2,99
+405,"mul(ami_ex_energy_s1, sub(ami_GAP, ald_sr))",0.6,5,2,99
+406,"sub(div(-1.985, ami_d_index), ami_POLAR)",0.6,5,2,99
+407,"mul(sub(ald_hardness, ald_POLAR), ald_POLAR)",0.6,5,2,99
+408,"mul(sub(ald_Electrophilicity_index, ald_VIP), ald_POLAR)",0.6,5,2,99
+409,"mul(div(-1.985, ald_ex_energy_s1), ald_POLAR)",0.6,5,2,99
+410,"mul(mul(ald_HOMO, ami_Electrophilicity_index), ald_POLAR)",0.6,5,2,99
+411,"mul(div(ald_d_index, ald_POLAR), ald_POLAR)",0.6,5,2,99
+412,"mul(div(-1.985, ald_delta_est), ald_POLAR)",0.6,5,2,99
+413,"mul(sub(ald_ex_energy_s1, ami_hardness), ald_POLAR)",0.6,5,2,99
+414,"mul(div(-1.985, ami_ex_energy_s1), ald_POLAR)",0.6,5,2,99
+415,"mul(div(-1.985, ald_GAP), ald_POLAR)",0.6,5,2,99
+416,"mul(sub(ald_DIPOLE, ald_ex_energy_s1), ald_POLAR)",0.6,5,2,99
+417,"mul(mul(ami_ex_energy_s1, ami_HOMO), ald_POLAR)",0.6,5,2,99
+418,"mul(div(-1.985, ami_delta_est), ald_POLAR)",0.6,5,2,99
+419,"mul(mul(ald_POLAR, ami_HOMO), ami_POLAR)",0.6,5,2,99
+420,"mul(div(-1.985, ami_GAP), ald_POLAR)",0.6,5,2,99
+421,"mul(div(-1.985, ami_DIPOLE), ald_POLAR)",0.6,5,2,99
+422,"mul(div(-1.985, ami_d_index), ami_LUMO)",0.6,5,2,99
+423,"div(ami_GAP, mul(ald_fosc, ald_HOMO))",0.6,5,2,99
+424,"mul(mul(ald_d_index, ald_hardness), ald_fosc)",0.6,5,2,99
+425,"mul(div(ami_VEA, ami_d_index), ami_POLAR)",0.6,5,2,99
+426,"mul(div(ald_HOMO, ami_ex_energy_t1), add(ald_VIP, ami_HOMO))",0.6,7,2,0
+427,"div(sub(ami_Electrophilicity_index, ami_ex_energy_s1), add(ami_ex_energy_s1, ami_hardness))",0.6,7,2,0
+428,"mul(div(ami_ex_energy_t1, ald_LUMO), mul(ami_d_index, ami_ex_energy_s1))",0.6,7,2,0
+429,"mul(div(ami_d_index, ald_LUMO), add(ami_Electrophilicity_index, ald_VIP))",0.6,7,2,0
+430,"sub(div(ald_HOMO, ald_fosc), div(ald_sr, ami_Electrophilicity_index))",0.6,7,2,0
+431,"div(div(ami_fosc, ami_VIP), div(ald_HOMO, ami_ex_energy_t1))",0.6,7,2,0
+432,"sub(sub(ami_delta_est, ald_delta_est), sub(ami_delta_est, ami_delta_est))",0.6,7,2,1
+433,"sub(mul(ald_d_index, ald_DIPOLE), mul(ald_fosc, ald_Electrophilicity_index))",0.6,7,2,99
+434,"sub(sub(ald_delta_est, ald_VEA), add(ald_GAP, ald_VIP))",0.6,7,2,99
+435,"mul(div(ami_HOMO, ami_d_index), sub(ald_VEA, ald_VEA))",0.6,7,2,99
+436,"mul(div(-1.985, ami_d_index), div(ami_LUMO, ald_ex_energy_s1))",0.6,7,2,99
+437,"mul(div(-1.985, ami_d_index), sub(ald_ex_energy_s1, ald_ex_energy_s1))",0.6,7,2,99
+438,"sub(sub(ald_sr, ami_ex_energy_s1), div(ami_Electrophilicity_index, ami_POLAR))",0.6,7,2,99
+439,"div(ami_sr, sub(ald_fosc, sub(ald_Electrophilicity_index, ald_HOMO)))",0.6,7,3,0
+440,"add(add(sub(ald_VEA, ald_ex_energy_t1), ald_d_index), ami_HOMO)",0.6,7,3,1
+441,"mul(mul(ami_fosc, div(ami_HOMO, ald_sr)), ald_POLAR)",0.6,7,3,99
+442,"mul(div(-1.985, add(ald_VIP, ami_delta_est)), ald_POLAR)",0.6,7,3,99
+443,"mul(div(mul(ami_VEA, ami_delta_est), ami_d_index), ald_POLAR)",0.6,7,3,99
+444,"mul(div(-1.985, add(ami_ex_energy_s1, ald_GAP)), ald_POLAR)",0.6,7,3,99
+445,"mul(div(-1.985, mul(ami_GAP, ald_GAP)), ald_POLAR)",0.6,7,3,99
+446,"mul(div(div(ald_LUMO, ami_LUMO), ami_d_index), ald_POLAR)",0.6,7,3,99
+447,"add(sub(div(ald_LUMO, ald_Electrophilicity_index), ami_DIPOLE), ald_LUMO)",0.6,7,3,99
+448,"mul(div(-1.985, div(0.040, ald_delta_est)), ald_POLAR)",0.6,7,3,99
+449,"mul(div(-1.985, mul(ald_fosc, ald_sr)), ald_POLAR)",0.6,7,3,99
+450,"mul(div(-1.985, div(ami_sr, ami_DIPOLE)), ald_POLAR)",0.6,7,3,99
+451,"mul(div(-1.985, add(ami_d_index, ald_sr)), ald_POLAR)",0.6,7,3,99
+452,"mul(div(-1.985, div(ald_ex_energy_t1, ami_ex_energy_s1)), ald_POLAR)",0.6,7,3,99
+453,"mul(div(-1.985, add(ald_ex_energy_s1, ami_d_index)), ald_POLAR)",0.6,7,3,99
+454,"mul(ami_Electrophilicity_index, mul(div(ami_ex_energy_t1, ald_LUMO), mul(ami_d_index, ami_ex_energy_s1)))",0.6,9,3,1
+455,"mul(div(ami_d_index, ald_LUMO), add(div(ami_sr, ami_delta_est), ald_VIP))",0.6,9,3,1
+456,"mul(sub(div(ald_d_index, ald_fosc), div(ami_sr, ami_DIPOLE)), ald_POLAR)",0.6,9,3,99
+457,"mul(sub(mul(ald_GAP, ami_sr), sub(ald_sr, ami_d_index)), ami_POLAR)",0.6,9,3,99
+458,"mul(div(div(ami_Electrophilicity_index, ald_LUMO), div(ald_POLAR, ald_sr)), ald_POLAR)",0.6,9,3,99
+459,"mul(div(add(ami_DIPOLE, ami_HOMO), add(ald_ex_energy_s1, ald_VIP)), ald_POLAR)",0.6,9,3,99
+460,"mul(mul(mul(ami_HOMO, ami_d_index), sub(ald_fosc, ald_GAP)), ald_POLAR)",0.6,9,3,99
+461,"mul(sub(sub(ald_HOMO, ald_Electrophilicity_index), sub(ald_ex_energy_t1, ami_Electrophilicity_index)), ald_POLAR)",0.6,9,3,99
+462,"mul(div(sub(ami_VEA, ald_HOMO), div(ami_fosc, ald_Electrophilicity_index)), ald_POLAR)",0.6,9,3,99
+463,"mul(add(sub(ami_DIPOLE, ami_VIP), mul(1.762, ald_GAP)), ami_POLAR)",0.6,9,3,99
+464,"mul(sub(mul(ald_hardness, ami_ex_energy_t1), div(ald_ex_energy_s1, ami_DIPOLE)), ald_POLAR)",0.6,9,3,99
+465,"mul(div(add(ald_sr, ald_DIPOLE), sub(ald_fosc, ami_VIP)), ald_POLAR)",0.6,9,3,99
+466,"mul(sub(ami_VEA, div(add(ami_hardness, ald_d_index), ald_d_index)), ald_POLAR)",0.6,9,4,99
+467,"mul(div(-1.985, add(ami_GAP, add(ald_POLAR, ami_VEA))), ald_POLAR)",0.6,9,4,99
+468,"mul(div(-1.985, add(mul(ald_VEA, ami_Electrophilicity_index), div(ami_ex_energy_s1, ami_delta_est))), ald_POLAR)",0.6,11,4,99
+469,"mul(div(-1.985, add(add(ald_POLAR, ami_d_index), add(ald_VIP, ami_ex_energy_s1))), ald_POLAR)",0.6,11,4,99
+470,"mul(div(-1.985, div(div(ald_VEA, ami_VIP), sub(ald_VEA, ami_GAP))), ald_POLAR)",0.6,11,4,99
+471,"add(mul(div(ald_LUMO, ald_DIPOLE), add(ald_d_index, ald_delta_est)), sub(mul(ami_DIPOLE, ald_fosc), mul(ami_Electrophilicity_index, ami_fosc)))",0.6,15,3,0
+472,"add(add(sub(ald_delta_est, ami_fosc), div(ald_HOMO, ami_VEA)), sub(add(ami_Electrophilicity_index, ald_VEA), mul(ald_ex_energy_t1, ami_VIP)))",0.6,15,3,99
+473,"sub(div(mul(ald_GAP, ald_VEA), div(ami_HOMO, ami_VIP)), add(mul(ami_VEA, ami_VIP), div(ald_LUMO, ami_Electrophilicity_index)))",0.6,15,3,99
+474,"add(add(sub(ami_POLAR, ald_fosc), mul(ald_DIPOLE, ami_sr)), add(div(ami_VIP, ami_LUMO), add(ami_sr, ami_delta_est)))",0.6,15,3,99
+475,"mul(sub(mul(sub(ald_POLAR, ami_POLAR), add(ami_d_index, ald_ex_energy_s1)), add(div(ald_delta_est, ald_DIPOLE), add(ald_ex_energy_s1, ami_ex_energy_s1))), ald_POLAR)",0.6,17,4,99
+476,"mul(div(add(sub(ald_VIP, ald_ex_energy_t1), add(ald_DIPOLE, ald_sr)), mul(sub(ald_LUMO, ald_POLAR), sub(ami_Electrophilicity_index, ald_HOMO))), ald_POLAR)",0.6,17,4,99
+477,"div(mul(sub(div(ami_LUMO, ald_fosc), mul(ald_DIPOLE, ami_DIPOLE)), sub(mul(1.551, ami_VEA), add(ami_VEA, ald_sr))), add(mul(add(ami_delta_est, ald_GAP), div(ami_delta_est, ald_ex_energy_s1)), add(sub(ami_GAP, ami_HOMO), div(ald_POLAR, ami_DIPOLE))))",0.6,31,4,99
+478,"mul(add(sub(sub(sub(ald_Electrophilicity_index, ald_VEA), sub(ami_LUMO, ami_sr)), sub(sub(ami_ex_energy_t1, ald_GAP), mul(ald_VIP, ami_ex_energy_s1))), mul(sub(mul(ald_VEA, ami_Electrophilicity_index), mul(ami_sr, ami_POLAR)), sub(div(ald_Electrophilicity_index, ald_DIPOLE), sub(ald_GAP, ami_sr)))), ald_POLAR)",0.6,33,5,99
+479,ald_delta_est,0.4,1,0,99
+480,ald_POLAR,0.4,1,0,99
+481,ami_POLAR,0.4,1,0,99
+482,0.492,0.4,1,0,99
+483,ami_sr,0.4,1,0,99
+484,ald_hardness,0.4,1,0,99
+485,ami_GAP,0.4,1,0,99
+486,ald_DIPOLE,0.4,1,0,99
+487,ami_VIP,0.4,1,0,99
+488,ald_ex_energy_s1,0.4,1,0,99
+489,ald_GAP,0.4,1,0,99
+490,ald_ex_energy_t1,0.4,1,0,99
+491,ald_fosc,0.4,1,0,99
+492,ami_Electrophilicity_index,0.4,1,0,99
+493,ami_fosc,0.4,1,0,99
+494,ami_ex_energy_s1,0.4,1,0,99
+495,"mul(ami_Electrophilicity_index, ami_DIPOLE)",0.4,3,1,0
+496,"mul(ami_GAP, ami_sr)",0.4,3,1,0
+497,"sub(ald_VEA, ald_ex_energy_t1)",0.4,3,1,0
+498,"div(ami_fosc, ald_delta_est)",0.4,3,1,0
+499,"div(ald_GAP, ald_Electrophilicity_index)",0.4,3,1,0
+500,"sub(ald_delta_est, ami_delta_est)",0.4,3,1,0
+501,"div(ald_GAP, ami_delta_est)",0.4,3,1,0
+502,"sub(ami_HOMO, ami_VEA)",0.4,3,1,0
+503,"add(ami_LUMO, ald_d_index)",0.4,3,1,0
+504,"sub(ami_sr, ald_DIPOLE)",0.4,3,1,0
+505,"div(ald_ex_energy_s1, ami_POLAR)",0.4,3,1,0
+506,"div(ami_sr, ami_delta_est)",0.4,3,1,0
+507,"div(ami_delta_est, ald_hardness)",0.4,3,1,0
+508,"div(ami_GAP, ami_sr)",0.4,3,1,0
+509,"mul(ald_GAP, ami_DIPOLE)",0.4,3,1,0
+510,"mul(ami_DIPOLE, ami_delta_est)",0.4,3,1,0
+511,"mul(ami_DIPOLE, ami_VIP)",0.4,3,1,0
+512,"mul(ald_delta_est, ami_DIPOLE)",0.4,3,1,0
+513,"div(ald_hardness, ami_POLAR)",0.4,3,1,0
+514,"div(ald_GAP, ami_Electrophilicity_index)",0.4,3,1,0
+515,"mul(ald_VEA, ami_GAP)",0.4,3,1,0
+516,"mul(1.495, ami_DIPOLE)",0.4,3,1,0
+517,"mul(ald_POLAR, ald_POLAR)",0.4,3,1,99
+518,"mul(ami_POLAR, ami_sr)",0.4,3,1,99
+519,"add(ald_fosc, ami_DIPOLE)",0.4,3,1,99
+520,"div(ami_fosc, ald_fosc)",0.4,3,1,99
+521,"mul(ald_VIP, ald_POLAR)",0.4,3,1,99
+522,"mul(ami_hardness, ald_POLAR)",0.4,3,1,99
+523,"mul(ald_Electrophilicity_index, ald_ex_energy_s1)",0.4,3,1,99
+524,"sub(ald_delta_est, ald_DIPOLE)",0.4,3,1,99
+525,"div(ald_sr, ami_delta_est)",0.4,3,1,99
+526,"div(ald_DIPOLE, ami_POLAR)",0.4,3,1,99
+527,"sub(ald_ex_energy_s1, ald_delta_est)",0.4,3,1,99
+528,"div(ald_POLAR, ald_VEA)",0.4,3,1,99
+529,"div(ami_ex_energy_s1, ald_ex_energy_t1)",0.4,3,1,99
+530,"add(ald_ex_energy_t1, ald_fosc)",0.4,3,1,99
+531,"mul(ami_POLAR, ald_POLAR)",0.4,3,1,99
+532,"div(ami_DIPOLE, ald_delta_est)",0.4,3,1,99
+533,"div(ami_VIP, ald_fosc)",0.4,3,1,99
+534,"mul(ald_ex_energy_t1, ald_POLAR)",0.4,3,1,99
+535,"sub(ami_VIP, ami_sr)",0.4,3,1,99
+536,"div(ald_Electrophilicity_index, ald_POLAR)",0.4,3,1,99
+537,"mul(ami_d_index, ami_LUMO)",0.4,3,1,99
+538,"add(ami_ex_energy_s1, ald_ex_energy_t1)",0.4,3,1,99
+539,"sub(ami_POLAR, ami_VEA)",0.4,3,1,99
+540,"mul(1.043, ald_POLAR)",0.4,3,1,99
+541,"add(ami_delta_est, ami_delta_est)",0.4,3,1,99
+542,"mul(ald_delta_est, ald_delta_est)",0.4,3,1,99
+543,"div(ald_Electrophilicity_index, ami_DIPOLE)",0.4,3,1,99
+544,"add(ald_Electrophilicity_index, ald_VEA)",0.4,3,1,99
+545,"add(ami_VEA, ami_delta_est)",0.4,3,1,99
+546,"div(ami_sr, ami_DIPOLE)",0.4,3,1,99
+547,"mul(0.251, ald_POLAR)",0.4,3,1,99
+548,"sub(ald_hardness, ami_Electrophilicity_index)",0.4,3,1,99
+549,"mul(ami_VIP, ald_POLAR)",0.4,3,1,99
+550,"sub(ami_POLAR, ald_VEA)",0.4,3,1,99
+551,"div(ami_POLAR, ald_ex_energy_t1)",0.4,3,1,99
+552,"sub(ald_DIPOLE, ald_HOMO)",0.4,3,1,99
+553,"sub(ami_GAP, -1.178)",0.4,3,1,99
+554,"mul(ami_sr, ald_hardness)",0.4,3,1,99
+555,"mul(ami_DIPOLE, ald_POLAR)",0.4,3,1,99
+556,"div(ald_VIP, ami_d_index)",0.4,3,1,99
+557,"add(ami_GAP, ami_ex_energy_s1)",0.4,3,1,99
+558,"div(ald_GAP, ami_GAP)",0.4,3,1,99
+559,"add(ald_POLAR, ald_DIPOLE)",0.4,3,1,99
+560,"add(ald_ex_energy_t1, ami_fosc)",0.4,3,1,99
+561,"add(ami_DIPOLE, ald_sr)",0.4,3,1,99
+562,"mul(ami_GAP, ami_VIP)",0.4,3,1,99
+563,"div(ami_ex_energy_s1, ami_DIPOLE)",0.4,3,1,99
+564,"mul(ald_Electrophilicity_index, ald_POLAR)",0.4,3,1,99
+565,"div(ami_DIPOLE, ald_ex_energy_s1)",0.4,3,1,99
+566,"mul(ami_GAP, ami_Electrophilicity_index)",0.4,3,1,99
+567,"div(ami_d_index, ami_d_index)",0.4,3,1,99
+568,"add(ald_ex_energy_s1, ami_VEA)",0.4,3,1,99
+569,"div(ami_Electrophilicity_index, ald_VEA)",0.4,3,1,99
+570,"add(ami_GAP, ald_ex_energy_t1)",0.4,3,1,99
+571,"div(ami_sr, ald_DIPOLE)",0.4,3,1,99
+572,"add(ami_ex_energy_s1, ald_GAP)",0.4,3,1,99
+573,"add(ami_fosc, ald_VIP)",0.4,3,1,99
+574,"sub(ami_POLAR, ami_HOMO)",0.4,3,1,99
+575,"sub(ami_fosc, ald_DIPOLE)",0.4,3,1,99
+576,"mul(ald_hardness, ami_sr)",0.4,3,1,99
+577,"sub(ald_fosc, ami_DIPOLE)",0.4,3,1,99
+578,"add(ami_ex_energy_s1, ald_LUMO)",0.4,3,1,99
+579,"mul(ald_GAP, ald_sr)",0.4,3,1,99
+580,"sub(ami_ex_energy_t1, ald_GAP)",0.4,3,1,99
+581,"mul(ami_GAP, ami_POLAR)",0.4,3,1,99
+582,"div(ald_ex_energy_t1, ami_ex_energy_s1)",0.4,3,1,99
+583,"mul(ald_DIPOLE, ald_POLAR)",0.4,3,1,99
+584,"add(ald_POLAR, ald_POLAR)",0.4,3,1,99
+585,"sub(ald_Electrophilicity_index, ami_d_index)",0.4,3,1,99
+586,"add(ami_d_index, ami_VIP)",0.4,3,1,99
+587,"add(0.524, ald_Electrophilicity_index)",0.4,3,1,99
+588,"add(ald_d_index, ald_fosc)",0.4,3,1,99
+589,"div(ald_VIP, ald_POLAR)",0.4,3,1,99
+590,"sub(ald_POLAR, ami_DIPOLE)",0.4,3,1,99
+591,"add(ami_VIP, ald_hardness)",0.4,3,1,99
+592,"add(ami_LUMO, ami_GAP)",0.4,3,1,99
+593,"div(ami_VIP, ami_POLAR)",0.4,3,1,99
+594,"mul(0.069, ald_POLAR)",0.4,3,1,99
+595,"div(ami_delta_est, ami_delta_est)",0.4,3,1,99
+596,"div(ami_ex_energy_t1, ald_Electrophilicity_index)",0.4,3,1,99
+597,"mul(ald_GAP, ald_POLAR)",0.4,3,1,99
+598,"mul(ald_hardness, ami_VIP)",0.4,3,1,99
+599,"add(ald_DIPOLE, ald_VEA)",0.4,3,1,99
+600,"sub(ami_ex_energy_s1, ald_HOMO)",0.4,3,1,99
+601,"div(ami_ex_energy_t1, ami_DIPOLE)",0.4,3,1,99
+602,"div(ami_fosc, ami_ex_energy_s1)",0.4,3,1,99
+603,"mul(ami_ex_energy_t1, ami_hardness)",0.4,3,1,99
+604,"add(ami_VIP, 0.379)",0.4,3,1,99
+605,"sub(ald_fosc, -1.929)",0.4,3,1,99
+606,"mul(ami_POLAR, ami_POLAR)",0.4,3,1,99
+607,"div(ald_DIPOLE, ami_fosc)",0.4,3,1,99
+608,"add(ald_POLAR, ami_ex_energy_t1)",0.4,3,1,99
+609,"div(1.568, ami_GAP)",0.4,3,1,99
+610,"add(ami_Electrophilicity_index, ami_fosc)",0.4,3,1,99
+611,"div(ami_ex_energy_s1, ald_POLAR)",0.4,3,1,99
+612,"div(ald_ex_energy_s1, ald_fosc)",0.4,3,1,99
+613,"add(ami_delta_est, ald_ex_energy_t1)",0.4,3,1,99
+614,"add(ald_ex_energy_t1, ald_DIPOLE)",0.4,3,1,99
+615,"mul(0.190, ald_POLAR)",0.4,3,1,99
+616,"add(div(ald_hardness, ald_hardness), ald_fosc)",0.4,5,2,0
+617,"sub(sub(ald_fosc, ami_VEA), ami_sr)",0.4,5,2,0
+618,"div(ami_sr, div(ald_POLAR, ami_d_index))",0.4,5,2,0
+619,"div(sub(ami_Electrophilicity_index, ami_VEA), ald_delta_est)",0.4,5,2,0
+620,"mul(div(ald_ex_energy_s1, ald_d_index), ald_POLAR)",0.4,5,2,99
+621,"sub(mul(ald_fosc, ami_ex_energy_t1), ami_LUMO)",0.4,5,2,99
+622,"mul(div(ald_hardness, ald_ex_energy_t1), ald_POLAR)",0.4,5,2,99
+623,"mul(div(ald_POLAR, ami_d_index), ald_POLAR)",0.4,5,2,99
+624,"mul(add(ami_GAP, ald_hardness), ald_POLAR)",0.4,5,2,99
+625,"mul(sub(ami_ex_energy_t1, ald_d_index), ald_POLAR)",0.4,5,2,99
+626,"mul(sub(ald_delta_est, ami_DIPOLE), ami_POLAR)",0.4,5,2,99
+627,"mul(div(-1.985, -1.985), ald_POLAR)",0.4,5,2,99
+628,"mul(div(ald_GAP, ami_d_index), ald_POLAR)",0.4,5,2,99
+629,"mul(sub(ami_ex_energy_s1, ami_DIPOLE), ald_POLAR)",0.4,5,2,99
+630,"mul(mul(ald_hardness, ald_fosc), ami_POLAR)",0.4,5,2,99
+631,"mul(div(ald_sr, ami_ex_energy_t1), ald_POLAR)",0.4,5,2,99
+632,"mul(div(ami_hardness, ami_d_index), ald_POLAR)",0.4,5,2,99
+633,"mul(mul(ald_fosc, ami_GAP), ald_POLAR)",0.4,5,2,99
+634,"mul(div(ami_VIP, ami_hardness), ald_POLAR)",0.4,5,2,99
+635,"mul(sub(ami_VEA, ald_sr), ald_POLAR)",0.4,5,2,99
+636,"mul(div(ald_POLAR, ami_d_index), ami_POLAR)",0.4,5,2,99
+637,"mul(sub(ami_ex_energy_s1, ami_fosc), ald_POLAR)",0.4,5,2,99
+638,"mul(add(ald_fosc, ald_sr), ald_POLAR)",0.4,5,2,99
+639,"mul(div(ami_DIPOLE, ald_POLAR), ald_POLAR)",0.4,5,2,99
+640,"mul(add(ald_ex_energy_s1, ald_ex_energy_t1), ald_POLAR)",0.4,5,2,99
+641,"mul(div(ald_delta_est, ami_d_index), ald_POLAR)",0.4,5,2,99
+642,"mul(add(ami_GAP, ald_fosc), ald_POLAR)",0.4,5,2,99
+643,"mul(add(ald_POLAR, ami_LUMO), ald_POLAR)",0.4,5,2,99
+644,"mul(div(ami_delta_est, ald_POLAR), ald_POLAR)",0.4,5,2,99
+645,"mul(div(-1.985, ald_HOMO), ald_POLAR)",0.4,5,2,99
+646,"mul(div(ami_DIPOLE, ami_ex_energy_s1), ald_POLAR)",0.4,5,2,99
+647,"mul(mul(ami_Electrophilicity_index, ald_DIPOLE), ald_POLAR)",0.4,5,2,99
+648,"mul(mul(ald_ex_energy_s1, ald_hardness), ald_POLAR)",0.4,5,2,99
+649,"mul(div(ami_ex_energy_s1, 0.149), ald_POLAR)",0.4,5,2,99
+650,"mul(sub(ami_ex_energy_t1, ami_HOMO), ald_POLAR)",0.4,5,2,99
+651,"mul(sub(ald_VIP, ald_ex_energy_s1), ald_POLAR)",0.4,5,2,99
+652,"mul(div(ami_DIPOLE, ami_d_index), ald_POLAR)",0.4,5,2,99
+653,"mul(div(ald_VEA, ami_GAP), ald_POLAR)",0.4,5,2,99
+654,"mul(sub(ami_hardness, ald_LUMO), ald_POLAR)",0.4,5,2,99
+655,"add(div(-1.985, 0.394), ald_POLAR)",0.4,5,2,99
+656,"mul(sub(ald_Electrophilicity_index, ald_ex_energy_t1), ald_POLAR)",0.4,5,2,99
+657,"mul(mul(ald_delta_est, ald_fosc), ald_POLAR)",0.4,5,2,99
+658,"mul(add(ami_HOMO, ald_VIP), ald_POLAR)",0.4,5,2,99
+659,"mul(div(ald_DIPOLE, ald_d_index), ald_POLAR)",0.4,5,2,99
+660,"mul(div(ami_HOMO, -1.985), ald_POLAR)",0.4,5,2,99
+661,"mul(sub(ald_fosc, ami_d_index), ald_POLAR)",0.4,5,2,99
+662,"mul(mul(ald_GAP, ald_DIPOLE), ald_POLAR)",0.4,5,2,99
+663,"mul(add(ami_fosc, ami_Electrophilicity_index), ald_POLAR)",0.4,5,2,99
+664,"mul(add(ald_ex_energy_s1, ami_sr), ald_POLAR)",0.4,5,2,99
+665,"mul(div(ami_fosc, ami_d_index), ami_ex_energy_t1)",0.4,5,2,99
+666,"mul(div(ami_POLAR, ami_Electrophilicity_index), ald_POLAR)",0.4,5,2,99
+667,"mul(mul(ald_GAP, ald_Electrophilicity_index), ald_POLAR)",0.4,5,2,99
+668,"mul(mul(ami_delta_est, ami_GAP), ami_POLAR)",0.4,5,2,99
+669,"mul(div(ami_d_index, ami_d_index), ald_POLAR)",0.4,5,2,99
+670,"mul(mul(ald_VIP, ami_ex_energy_s1), ald_POLAR)",0.4,5,2,99
+671,"mul(mul(ami_Electrophilicity_index, ald_Electrophilicity_index), ald_POLAR)",0.4,5,2,99
+672,"sub(add(ald_fosc, ami_DIPOLE), ami_delta_est)",0.4,5,2,99
+673,"mul(add(ald_ex_energy_s1, ald_hardness), ald_POLAR)",0.4,5,2,99
+674,"mul(add(ami_VEA, ald_ex_energy_t1), ald_POLAR)",0.4,5,2,99
+675,"mul(div(ald_VEA, ami_DIPOLE), ald_POLAR)",0.4,5,2,99
+676,"mul(div(ami_POLAR, ami_d_index), ald_POLAR)",0.4,5,2,99
+677,"mul(add(ald_VIP, ald_HOMO), ald_POLAR)",0.4,5,2,99
+678,"sub(sub(ald_VIP, ald_DIPOLE), ald_VEA)",0.4,5,2,99
+679,"mul(sub(ald_delta_est, ami_LUMO), ald_POLAR)",0.4,5,2,99
+680,"mul(div(ami_Electrophilicity_index, ami_ex_energy_t1), ald_POLAR)",0.4,5,2,99
+681,"mul(add(ami_ex_energy_t1, ami_DIPOLE), ald_POLAR)",0.4,5,2,99
+682,"mul(add(ald_ex_energy_t1, ald_d_index), ald_POLAR)",0.4,5,2,99
+683,"mul(add(ami_delta_est, ald_hardness), ami_POLAR)",0.4,5,2,99
+684,"mul(div(ald_sr, ald_GAP), ald_POLAR)",0.4,5,2,99
+685,"mul(add(ami_Electrophilicity_index, ald_VIP), ald_POLAR)",0.4,5,2,99
+686,"mul(add(ami_Electrophilicity_index, ald_HOMO), ald_POLAR)",0.4,5,2,99
+687,"mul(div(ald_DIPOLE, ald_fosc), ald_POLAR)",0.4,5,2,99
+688,"mul(div(ami_DIPOLE, ami_delta_est), ami_POLAR)",0.4,5,2,99
+689,"mul(mul(ami_sr, ami_ex_energy_t1), ald_POLAR)",0.4,5,2,99
+690,"mul(mul(ami_sr, ami_ex_energy_s1), ald_POLAR)",0.4,5,2,99
+691,"mul(add(ald_VEA, ami_VIP), ald_POLAR)",0.4,5,2,99
+692,"mul(mul(ami_delta_est, ald_Electrophilicity_index), ald_POLAR)",0.4,5,2,99
+693,"mul(sub(ami_GAP, ald_HOMO), ald_POLAR)",0.4,5,2,99
+694,"mul(sub(ami_sr, ald_HOMO), ald_POLAR)",0.4,5,2,99
+695,"mul(mul(ald_DIPOLE, ald_ex_energy_s1), ald_POLAR)",0.4,5,2,99
+696,"mul(sub(ald_fosc, ami_Electrophilicity_index), ald_POLAR)",0.4,5,2,99
+697,"mul(div(ald_hardness, ami_d_index), ald_POLAR)",0.4,5,2,99
+698,"mul(mul(ami_DIPOLE, ami_ex_energy_t1), ald_POLAR)",0.4,5,2,99
+699,"mul(add(ald_ex_energy_s1, ami_DIPOLE), ald_POLAR)",0.4,5,2,99
+700,"mul(div(-1.985, ami_HOMO), ami_sr)",0.4,5,2,99
+701,"mul(sub(ald_VIP, ald_ex_energy_t1), ald_POLAR)",0.4,5,2,99
+702,"mul(mul(ami_delta_est, ami_DIPOLE), ald_POLAR)",0.4,5,2,99
+703,"mul(mul(ald_GAP, ald_sr), ami_POLAR)",0.4,5,2,99
+704,"mul(add(ami_LUMO, ami_VIP), ald_POLAR)",0.4,5,2,99
+705,"mul(div(ald_DIPOLE, ami_d_index), ami_POLAR)",0.4,5,2,99
+706,"mul(mul(ald_delta_est, ald_DIPOLE), ald_POLAR)",0.4,5,2,99
+707,"mul(div(ald_POLAR, ald_delta_est), ald_POLAR)",0.4,5,2,99
+708,"mul(div(ami_ex_energy_t1, ald_Electrophilicity_index), ald_POLAR)",0.4,5,2,99
+709,"mul(add(ami_fosc, ald_fosc), ald_POLAR)",0.4,5,2,99
+710,"mul(add(ald_hardness, ami_VIP), ami_POLAR)",0.4,5,2,99
+711,"mul(div(-1.985, ami_HOMO), ald_POLAR)",0.4,5,2,99
+712,"mul(add(-1.752, ami_Electrophilicity_index), ald_POLAR)",0.4,5,2,99
+713,"mul(add(ald_VEA, ald_delta_est), ald_POLAR)",0.4,5,2,99
+714,"mul(sub(ami_sr, ald_VEA), ald_POLAR)",0.4,5,2,99
+715,"mul(add(ald_sr, ald_VIP), ald_POLAR)",0.4,5,2,99
+716,"mul(sub(ami_GAP, ami_d_index), ald_POLAR)",0.4,5,2,99
+717,"mul(add(ald_POLAR, ami_fosc), ald_POLAR)",0.4,5,2,99
+718,"mul(mul(ald_ex_energy_t1, ami_VIP), ald_POLAR)",0.4,5,2,99
+719,"mul(mul(ald_delta_est, ald_sr), ald_POLAR)",0.4,5,2,99
+720,"mul(sub(ami_fosc, ald_fosc), ald_POLAR)",0.4,5,2,99
+721,"mul(add(-0.065, ami_GAP), ald_POLAR)",0.4,5,2,99
+722,"mul(add(ald_sr, ami_DIPOLE), ald_POLAR)",0.4,5,2,99
+723,"mul(div(-1.985, ami_d_index), ami_VEA)",0.4,5,2,99
+724,"mul(div(-1.985, -1.985), ami_POLAR)",0.4,5,2,99
+725,"mul(mul(ami_ex_energy_s1, ald_Electrophilicity_index), ald_POLAR)",0.4,5,2,99
+726,"mul(add(ami_POLAR, ami_delta_est), ald_POLAR)",0.4,5,2,99
+727,"mul(add(ami_ex_energy_s1, ami_d_index), ald_POLAR)",0.4,5,2,99
+728,"mul(add(ald_d_index, ald_VEA), ald_POLAR)",0.4,5,2,99
+729,"mul(div(ami_Electrophilicity_index, ami_d_index), ald_POLAR)",0.4,5,2,99
+730,"mul(mul(ami_Electrophilicity_index, ald_GAP), ald_POLAR)",0.4,5,2,99
+731,"mul(div(ami_VEA, ami_VEA), ald_POLAR)",0.4,5,2,99
+732,"mul(mul(ald_delta_est, ami_DIPOLE), ald_POLAR)",0.4,5,2,99
+733,"sub(mul(ami_ex_energy_s1, ami_DIPOLE), add(ami_DIPOLE, ami_HOMO))",0.4,7,2,0
+734,"div(sub(ald_fosc, ami_HOMO), div(ami_ex_energy_s1, ami_DIPOLE))",0.4,7,2,0
+735,"mul(div(-1.985, ami_d_index), div(-1.985, ami_d_index))",0.4,7,2,99
+736,"div(div(ald_sr, ami_GAP), add(1.050, ami_GAP))",0.4,7,2,99
+737,"mul(div(-1.055, ami_d_index), div(-1.985, ami_d_index))",0.4,7,2,99
+738,"add(sub(ald_DIPOLE, ald_hardness), add(ald_hardness, ald_delta_est))",0.4,7,2,99
+739,"div(div(ami_ex_energy_t1, ald_DIPOLE), mul(ami_Electrophilicity_index, ami_delta_est))",0.4,7,2,99
+740,"add(add(ami_POLAR, ami_sr), mul(ami_VIP, ami_LUMO))",0.4,7,2,99
+741,"mul(div(ami_HOMO, ami_d_index), div(-1.985, ami_d_index))",0.4,7,2,99
+742,"sub(add(ald_LUMO, ami_VIP), sub(ami_VIP, ald_VIP))",0.4,7,2,99
+743,"mul(div(-1.985, sub(ami_HOMO, ald_ex_energy_t1)), ald_POLAR)",0.4,7,3,99
+744,"mul(add(ami_fosc, sub(ald_POLAR, ami_ex_energy_t1)), ald_POLAR)",0.4,7,3,99
+745,"mul(div(add(0.470, ami_delta_est), ami_d_index), ald_POLAR)",0.4,7,3,99
+746,"mul(div(div(1.281, ald_GAP), ami_d_index), ald_POLAR)",0.4,7,3,99
+747,"mul(div(add(ald_fosc, ald_ex_energy_s1), ami_d_index), ald_POLAR)",0.4,7,3,99
+748,"mul(div(ami_fosc, sub(ald_ex_energy_s1, ald_LUMO)), ald_POLAR)",0.4,7,3,99
+749,"mul(div(mul(ami_GAP, ald_ex_energy_t1), ami_d_index), ald_POLAR)",0.4,7,3,99
+750,"mul(div(-1.985, sub(ald_LUMO, ald_delta_est)), ald_POLAR)",0.4,7,3,99
+751,"mul(mul(mul(ami_delta_est, ami_ex_energy_t1), ald_POLAR), ald_POLAR)",0.4,7,3,99
+752,"mul(div(mul(ami_fosc, ami_VIP), ami_d_index), ald_POLAR)",0.4,7,3,99
+753,"mul(div(div(ami_POLAR, ald_ex_energy_t1), ami_d_index), ald_POLAR)",0.4,7,3,99
+754,"mul(div(-1.985, add(-1.252, -1.682)), ald_POLAR)",0.4,7,3,99
+755,"mul(add(div(ald_HOMO, ald_DIPOLE), ami_POLAR), ald_POLAR)",0.4,7,3,99
+756,"mul(div(add(ami_HOMO, ami_VIP), ami_d_index), ald_POLAR)",0.4,7,3,99
+757,"add(ami_delta_est, add(mul(ami_ex_energy_t1, ald_VIP), 1.728))",0.4,7,3,99
+758,"mul(div(mul(ald_sr, ami_hardness), ami_d_index), ald_POLAR)",0.4,7,3,99
+759,"mul(sub(sub(ami_VIP, ami_ex_energy_s1), ald_DIPOLE), ald_POLAR)",0.4,7,3,99
+760,"mul(mul(div(ald_delta_est, ald_DIPOLE), ami_ex_energy_t1), ald_POLAR)",0.4,7,3,99
+761,"mul(div(-1.985, ami_d_index), mul(div(-1.985, ami_d_index), ald_POLAR))",0.4,9,3,99
+762,"mul(mul(add(ami_GAP, ald_ex_energy_t1), sub(ami_delta_est, ami_d_index)), ald_POLAR)",0.4,9,3,99
+763,"mul(div(ald_HOMO, ami_d_index), mul(div(-1.985, ami_d_index), ald_POLAR))",0.4,9,3,99
+764,"mul(div(-1.055, ami_d_index), mul(div(-1.985, ami_d_index), ald_POLAR))",0.4,9,3,99
+765,"mul(add(div(ald_ex_energy_t1, ald_delta_est), mul(ald_VIP, ald_fosc)), ald_POLAR)",0.4,9,3,99
+766,"mul(mul(sub(ald_GAP, ami_ex_energy_t1), sub(ald_ex_energy_t1, ald_ex_energy_s1)), ami_POLAR)",0.4,9,3,99
+767,"mul(add(sub(ald_hardness, ald_DIPOLE), div(ami_delta_est, ami_delta_est)), ald_POLAR)",0.4,9,3,99
+768,"mul(sub(sub(ald_VIP, ami_fosc), sub(ald_VEA, ald_d_index)), ald_POLAR)",0.4,9,3,99
+769,"mul(add(sub(ald_VIP, ami_ex_energy_t1), sub(ami_Electrophilicity_index, ami_fosc)), ami_POLAR)",0.4,9,3,99
+770,"mul(div(-1.985, ami_d_index), mul(div(-1.985, ami_d_index), ami_POLAR))",0.4,9,3,99
+771,"mul(sub(add(ald_POLAR, ami_Electrophilicity_index), mul(ald_fosc, ald_GAP)), ami_POLAR)",0.4,9,3,99
+772,"mul(mul(div(ald_ex_energy_s1, ald_fosc), div(ald_hardness, ald_fosc)), ald_POLAR)",0.4,9,3,99
+773,"mul(sub(sub(ami_hardness, ami_sr), mul(ald_DIPOLE, ami_VEA)), ald_POLAR)",0.4,9,3,99
+774,"mul(mul(div(ald_DIPOLE, ami_GAP), sub(ald_Electrophilicity_index, ald_VEA)), ald_POLAR)",0.4,9,3,99
+775,"mul(sub(add(ald_Electrophilicity_index, ald_Electrophilicity_index), div(ald_delta_est, ami_ex_energy_s1)), ald_POLAR)",0.4,9,3,99
+776,"mul(add(mul(ald_VIP, ald_HOMO), add(ald_POLAR, ald_Electrophilicity_index)), ami_POLAR)",0.4,9,3,99
+777,"mul(add(add(ami_fosc, ami_d_index), sub(ald_POLAR, ald_Electrophilicity_index)), ald_POLAR)",0.4,9,3,99
+778,"mul(add(mul(ald_Electrophilicity_index, ald_ex_energy_s1), sub(ald_fosc, ald_LUMO)), ald_POLAR)",0.4,9,3,99
+779,"mul(div(mul(mul(ald_sr, ald_hardness), ald_DIPOLE), ami_d_index), ami_POLAR)",0.4,9,4,99
+780,"mul(div(-1.985, ami_d_index), sub(div(ald_fosc, ald_Electrophilicity_index), mul(ald_POLAR, ami_LUMO)))",0.4,11,3,99
+781,"mul(div(add(sub(ami_VEA, ami_LUMO), add(ald_LUMO, ald_delta_est)), ami_d_index), ami_hardness)",0.4,11,4,99
+782,"mul(mul(div(-1.985, ami_d_index), mul(div(-1.985, ami_d_index), ald_POLAR)), ald_POLAR)",0.4,11,4,99
+783,"mul(div(div(ami_Electrophilicity_index, ald_DIPOLE), div(ami_ex_energy_s1, ami_HOMO)), mul(sub(-1.627, ami_hardness), sub(ami_ex_energy_s1, ami_d_index)))",0.4,15,3,99
+784,"sub(add(add(ami_VEA, ami_HOMO), add(ald_ex_energy_t1, ald_HOMO)), sub(mul(ald_fosc, ami_sr), mul(ami_ex_energy_t1, ami_d_index)))",0.4,15,3,99
+785,"sub(div(mul(ald_VEA, ami_POLAR), div(ald_ex_energy_t1, ald_ex_energy_s1)), mul(div(ami_POLAR, ami_delta_est), sub(ami_fosc, ald_d_index)))",0.4,15,3,99
+786,"add(div(add(ald_Electrophilicity_index, ami_POLAR), add(ami_POLAR, ami_ex_energy_t1)), mul(div(ami_ex_energy_s1, ald_delta_est), div(ald_VEA, ald_fosc)))",0.4,15,3,99
+787,"div(mul(add(ami_DIPOLE, ald_HOMO), mul(ami_GAP, ald_fosc)), mul(mul(ami_HOMO, ald_DIPOLE), div(ami_Electrophilicity_index, ami_ex_energy_s1)))",0.4,15,3,99
+788,"add(add(sub(ami_HOMO, ami_delta_est), div(ald_VIP, ami_Electrophilicity_index)), add(mul(ald_sr, ami_d_index), sub(ald_ex_energy_s1, ami_delta_est)))",0.4,15,3,99
+789,"sub(add(mul(ald_ex_energy_s1, ald_sr), sub(ald_ex_energy_t1, ami_ex_energy_s1)), div(sub(ami_ex_energy_t1, ald_DIPOLE), div(ami_hardness, ald_d_index)))",0.4,15,3,99
+790,"div(div(mul(ald_VIP, ami_DIPOLE), mul(ami_HOMO, ami_Electrophilicity_index)), div(sub(ald_sr, 0.999), sub(ami_hardness, ald_VEA)))",0.4,15,3,99
+791,"mul(mul(add(div(0.573, ami_POLAR), sub(ald_VIP, ald_VIP)), sub(sub(ald_ex_energy_t1, ami_Electrophilicity_index), sub(ami_delta_est, ald_d_index))), ald_POLAR)",0.4,17,4,99
+792,"mul(sub(add(add(ami_VEA, ami_GAP), mul(ald_DIPOLE, ald_fosc)), add(sub(-1.083, ald_DIPOLE), mul(ami_delta_est, ald_fosc))), ald_POLAR)",0.4,17,4,99
+793,"mul(sub(mul(mul(sub(ald_GAP, ami_GAP), sub(ald_POLAR, ald_GAP)), div(sub(ald_HOMO, ami_POLAR), add(ami_fosc, ald_VIP))), div(mul(sub(ami_sr, ald_LUMO), sub(ald_d_index, ald_delta_est)), add(sub(ami_Electrophilicity_index, ald_VEA), add(ami_HOMO, ami_d_index)))), ald_POLAR)",0.4,33,5,99
+794,ami_VEA,0.2,1,0,99
+795,"div(ami_VEA, ald_POLAR)",0.2,3,1,0
+796,"mul(ami_LUMO, ald_LUMO)",0.2,3,1,0
+797,"mul(ami_LUMO, -0.530)",0.2,3,1,0
+798,"sub(ald_delta_est, ald_Electrophilicity_index)",0.2,3,1,99
+799,"mul(ald_VEA, ami_VEA)",0.2,3,1,99
+800,"sub(ald_delta_est, ald_d_index)",0.2,3,1,99
+801,"sub(1.481, ald_Electrophilicity_index)",0.2,3,1,99
+802,"mul(mul(ami_VEA, ami_ex_energy_t1), ald_POLAR)",0.2,5,2,99
+803,"mul(div(ald_delta_est, ami_VEA), ald_POLAR)",0.2,5,2,99
+804,"mul(sub(ald_VEA, ald_d_index), ald_POLAR)",0.2,5,2,99
+805,"mul(mul(ami_VEA, ami_d_index), ald_POLAR)",0.2,5,2,99
+806,"mul(div(ami_VEA, ami_DIPOLE), add(-1.210, ald_Electrophilicity_index))",0.2,7,2,99
+807,"mul(div(-1.985, mul(ami_LUMO, ald_ex_energy_s1)), ald_POLAR)",0.2,7,3,99
+808,"mul(div(-1.985, sub(ald_Electrophilicity_index, ald_delta_est)), ald_POLAR)",0.2,7,3,99
+809,"mul(mul(mul(ald_delta_est, ald_LUMO), mul(ami_Electrophilicity_index, ami_LUMO)), ald_POLAR)",0.2,9,3,99
+810,"mul(sub(mul(div(ami_delta_est, ald_VEA), mul(ald_POLAR, ald_delta_est)), add(sub(ald_POLAR, ami_Electrophilicity_index), add(ald_ex_energy_t1, ald_Electrophilicity_index))), ald_POLAR)",0.2,17,4,99
+811,ami_d_index,0.0,1,0,1
+812,"mul(ami_GAP, ami_d_index)",0.0,3,1,0
+813,"mul(ald_GAP, ami_d_index)",0.0,3,1,0
+814,"mul(ami_d_index, ald_POLAR)",0.0,3,1,99
+815,"mul(ami_d_index, ami_POLAR)",0.0,3,1,99
+816,"div(ami_d_index, ami_hardness)",0.0,3,1,99
+817,"div(ami_VEA, ald_d_index)",0.0,3,1,99
+818,"mul(ald_POLAR, ami_d_index)",0.0,3,1,99
+819,"mul(ami_d_index, ald_hardness)",0.0,3,1,99
+820,"mul(ami_POLAR, ami_d_index)",0.0,3,1,99
+821,"mul(div(-1.985, ami_d_index), -1.985)",0.0,5,2,99
+822,"mul(div(-1.985, ami_d_index), ami_HOMO)",0.0,5,2,99
+823,"mul(mul(ami_d_index, ald_fosc), ald_POLAR)",0.0,5,2,99
+824,"mul(div(-1.985, ami_d_index), -1.055)",0.0,5,2,99
+825,"mul(mul(ami_d_index, ami_VIP), ald_POLAR)",0.0,5,2,99
+826,"mul(div(-1.985, ami_d_index), sub(ald_fosc, ald_ex_energy_t1))",0.0,7,2,99
+827,"mul(div(-1.985, ami_d_index), sub(-1.359, ami_sr))",0.0,7,2,99
+828,"mul(div(-1.985, ami_d_index), mul(ald_DIPOLE, ald_LUMO))",0.0,7,2,99
+829,"mul(div(-1.985, ami_d_index), div(ald_sr, ami_HOMO))",0.0,7,2,99
+830,"mul(div(-1.985, div(-1.985, ami_d_index)), ald_POLAR)",0.0,7,3,99
+831,"mul(div(-0.045, div(-1.985, ami_d_index)), ald_POLAR)",0.0,7,3,99
+832,"mul(div(-1.985, div(-1.055, ami_d_index)), ald_POLAR)",0.0,7,3,99
+833,"mul(div(-1.985, div(ald_HOMO, ami_d_index)), ald_POLAR)",0.0,7,3,99
+834,"mul(div(-1.985, div(-1.985, ami_d_index)), ami_POLAR)",0.0,7,3,99
+835,"mul(div(-1.985, sub(ald_d_index, ami_fosc)), ald_POLAR)",0.0,7,3,99
+836,"mul(div(-1.985, div(ami_HOMO, ami_d_index)), ald_POLAR)",0.0,7,3,99
+837,"mul(mul(div(ami_d_index, ald_sr), add(ami_LUMO, ald_d_index)), ald_POLAR)",0.0,9,3,99
+838,"mul(div(-1.985, mul(div(-1.985, ami_d_index), ald_POLAR)), ald_POLAR)",0.0,9,4,99
+839,"mul(div(ald_HOMO, mul(div(-1.985, ami_d_index), ald_POLAR)), ald_POLAR)",0.0,9,4,99
+840,"mul(div(ami_HOMO, mul(div(-1.985, ami_d_index), ald_POLAR)), ald_POLAR)",0.0,9,4,99
+841,"mul(mul(div(-1.985, mul(div(-1.985, ami_d_index), ald_POLAR)), ald_POLAR), ald_POLAR)",0.0,11,5,99
+842,"mul(div(ami_HOMO, ami_d_index), add(add(sub(ald_LUMO, ald_VEA), div(ald_GAP, ami_delta_est)), sub(mul(ald_VEA, ami_LUMO), add(ami_Electrophilicity_index, ald_fosc))))",0.0,19,4,99
+843,"div(div(add(sub(ald_HOMO, ald_HOMO), div(ami_HOMO, ald_ex_energy_s1)), add(add(ami_sr, ald_LUMO), add(ald_ex_energy_t1, ald_hardness))), mul(sub(mul(ald_ex_energy_s1, ami_DIPOLE), div(ald_d_index, ami_LUMO)), sub(div(ald_POLAR, ami_HOMO), div(ald_delta_est, ami_POLAR))))",0.0,31,4,0

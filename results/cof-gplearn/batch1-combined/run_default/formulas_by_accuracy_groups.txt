@@ -1,0 +1,2566 @@
+====================================================================================================
+公式按准确率分组
+====================================================================================================
+
+====================================================================================================
+准确率区间: 100% (共 215 个公式)
+====================================================================================================
+
+【最简单的公式】
+  准确率: 1.0000
+  长度: 3, 深度: 1
+  公式: div(ald_d_index, ami_LUMO)
+
+【该组所有公式】(按复杂度排序)
+
+  1. 准确率=1.0000, 长度=3, 深度=1
+     div(ald_d_index, ami_LUMO)
+
+  2. 准确率=1.0000, 长度=3, 深度=1
+     sub(ald_d_index, ami_fosc)
+
+  3. 准确率=1.0000, 长度=3, 深度=1
+     mul(ald_d_index, ami_LUMO)
+
+  4. 准确率=1.0000, 长度=3, 深度=1
+     div(ald_HOMO, ami_d_index)
+
+  5. 准确率=1.0000, 长度=3, 深度=1
+     sub(ami_sr, ald_delta_est)
+
+  6. 准确率=1.0000, 长度=3, 深度=1
+     div(-1.068, ami_d_index)
+
+  7. 准确率=1.0000, 长度=3, 深度=1
+     div(-1.985, ami_d_index)
+
+  8. 准确率=1.0000, 长度=3, 深度=1
+     div(-1.055, ami_d_index)
+
+  9. 准确率=1.0000, 长度=3, 深度=1
+     div(-0.045, ami_d_index)
+
+  10. 准确率=1.0000, 长度=3, 深度=1
+     div(ami_HOMO, ami_d_index)
+
+  11. 准确率=1.0000, 长度=5, 深度=2
+     mul(ald_VEA, div(ald_d_index, ami_LUMO))
+
+  12. 准确率=1.0000, 长度=5, 深度=2
+     sub(div(ald_d_index, ami_LUMO), ami_delta_est)
+
+  13. 准确率=1.0000, 长度=5, 深度=2
+     sub(sub(ald_d_index, ami_VEA), ald_delta_est)
+
+  14. 准确率=1.0000, 长度=5, 深度=2
+     sub(div(ami_d_index, ald_LUMO), ami_VEA)
+
+  15. 准确率=1.0000, 长度=5, 深度=2
+     add(div(-1.068, ami_d_index), ald_sr)
+
+  16. 准确率=1.0000, 长度=5, 深度=2
+     sub(div(ald_d_index, ami_LUMO), ald_sr)
+
+  17. 准确率=1.0000, 长度=5, 深度=2
+     add(div(-1.068, ami_d_index), ald_delta_est)
+
+  18. 准确率=1.0000, 长度=5, 深度=2
+     sub(div(ami_fosc, ami_LUMO), ald_ex_energy_s1)
+
+  19. 准确率=1.0000, 长度=5, 深度=2
+     sub(div(ald_d_index, ami_LUMO), ami_sr)
+
+  20. 准确率=1.0000, 长度=5, 深度=2
+     sub(div(ami_fosc, ami_LUMO), ami_ex_energy_s1)
+
+  21. 准确率=1.0000, 长度=5, 深度=2
+     mul(div(ald_d_index, ami_LUMO), ami_hardness)
+
+  22. 准确率=1.0000, 长度=5, 深度=2
+     add(div(-1.068, ami_d_index), ald_d_index)
+
+  23. 准确率=1.0000, 长度=5, 深度=2
+     sub(div(ald_d_index, ami_LUMO), ald_ex_energy_s1)
+
+  24. 准确率=1.0000, 长度=5, 深度=2
+     add(div(-1.068, ami_d_index), ami_LUMO)
+
+  25. 准确率=1.0000, 长度=5, 深度=2
+     div(div(-1.068, ami_d_index), ald_GAP)
+
+  26. 准确率=1.0000, 长度=5, 深度=2
+     add(div(-1.068, ami_d_index), ami_ex_energy_s1)
+
+  27. 准确率=1.0000, 长度=5, 深度=2
+     add(div(-1.068, ami_d_index), ald_VIP)
+
+  28. 准确率=1.0000, 长度=5, 深度=2
+     sub(div(ald_d_index, ami_LUMO), ald_fosc)
+
+  29. 准确率=1.0000, 长度=5, 深度=2
+     sub(div(ald_d_index, ami_LUMO), ami_VIP)
+
+  30. 准确率=1.0000, 长度=5, 深度=2
+     sub(div(ald_d_index, ami_LUMO), ami_ex_energy_s1)
+
+  31. 准确率=1.0000, 长度=5, 深度=2
+     add(div(-1.068, ami_d_index), ald_ex_energy_s1)
+
+  32. 准确率=1.0000, 长度=5, 深度=2
+     add(div(-1.068, ami_d_index), ald_hardness)
+
+  33. 准确率=1.0000, 长度=5, 深度=2
+     mul(div(-1.068, ami_d_index), ami_hardness)
+
+  34. 准确率=1.0000, 长度=5, 深度=2
+     add(div(-1.068, ami_d_index), ami_VIP)
+
+  35. 准确率=1.0000, 长度=5, 深度=2
+     add(div(-1.068, ami_d_index), ami_hardness)
+
+  36. 准确率=1.0000, 长度=5, 深度=2
+     sub(div(ami_fosc, ami_LUMO), ami_hardness)
+
+  37. 准确率=1.0000, 长度=5, 深度=2
+     add(div(-1.985, ami_d_index), ami_hardness)
+
+  38. 准确率=1.0000, 长度=5, 深度=2
+     add(div(-1.436, ami_d_index), ami_hardness)
+
+  39. 准确率=1.0000, 长度=5, 深度=2
+     add(div(-1.561, ami_d_index), ami_hardness)
+
+  40. 准确率=1.0000, 长度=5, 深度=2
+     mul(div(-1.985, ami_d_index), ami_hardness)
+
+  41. 准确率=1.0000, 长度=5, 深度=2
+     add(div(-1.256, ami_d_index), ami_hardness)
+
+  42. 准确率=1.0000, 长度=5, 深度=2
+     add(div(-1.926, ami_d_index), ami_hardness)
+
+  43. 准确率=1.0000, 长度=5, 深度=2
+     add(div(-1.987, ami_d_index), ami_hardness)
+
+  44. 准确率=1.0000, 长度=5, 深度=2
+     add(div(-1.985, ami_d_index), ami_delta_est)
+
+  45. 准确率=1.0000, 长度=5, 深度=2
+     add(div(-1.985, ami_d_index), ami_ex_energy_s1)
+
+  46. 准确率=1.0000, 长度=5, 深度=2
+     add(div(-1.385, ami_d_index), ami_hardness)
+
+  47. 准确率=1.0000, 长度=5, 深度=2
+     add(div(-1.985, ami_d_index), ald_ex_energy_s1)
+
+  48. 准确率=1.0000, 长度=5, 深度=2
+     mul(div(-1.985, ami_d_index), ald_POLAR)
+
+  49. 准确率=1.0000, 长度=5, 深度=2
+     mul(div(-1.985, ami_d_index), ami_POLAR)
+
+  50. 准确率=1.0000, 长度=5, 深度=2
+     mul(div(ald_HOMO, ami_d_index), ald_POLAR)
+
+  51. 准确率=1.0000, 长度=5, 深度=2
+     mul(div(ami_HOMO, ami_d_index), ald_POLAR)
+
+  52. 准确率=1.0000, 长度=5, 深度=2
+     mul(div(ald_LUMO, ami_d_index), ald_POLAR)
+
+  53. 准确率=1.0000, 长度=5, 深度=2
+     mul(div(ami_HOMO, ami_d_index), ami_POLAR)
+
+  54. 准确率=1.0000, 长度=5, 深度=2
+     mul(div(-0.755, ami_d_index), ald_POLAR)
+
+  55. 准确率=1.0000, 长度=5, 深度=2
+     mul(div(ald_LUMO, ami_d_index), ami_POLAR)
+
+  56. 准确率=1.0000, 长度=5, 深度=2
+     mul(sub(ami_ex_energy_t1, ald_ex_energy_s1), ald_POLAR)
+
+  57. 准确率=1.0000, 长度=5, 深度=2
+     mul(div(-1.170, ami_d_index), ald_POLAR)
+
+  58. 准确率=1.0000, 长度=5, 深度=2
+     mul(div(-0.045, ami_d_index), ald_POLAR)
+
+  59. 准确率=1.0000, 长度=5, 深度=2
+     mul(div(ald_HOMO, ami_d_index), ami_POLAR)
+
+  60. 准确率=1.0000, 长度=5, 深度=2
+     mul(div(-1.055, ami_d_index), ald_POLAR)
+
+  61. 准确率=1.0000, 长度=5, 深度=2
+     mul(div(-1.031, ami_d_index), ami_POLAR)
+
+  62. 准确率=1.0000, 长度=5, 深度=2
+     mul(div(-0.138, ami_d_index), ald_POLAR)
+
+  63. 准确率=1.0000, 长度=5, 深度=2
+     mul(div(-0.100, ami_d_index), ald_POLAR)
+
+  64. 准确率=1.0000, 长度=5, 深度=2
+     div(div(-1.985, ami_d_index), ald_POLAR)
+
+  65. 准确率=1.0000, 长度=5, 深度=2
+     mul(sub(ald_fosc, ald_sr), ald_POLAR)
+
+  66. 准确率=1.0000, 长度=5, 深度=2
+     mul(div(-1.985, ami_d_index), ald_fosc)
+
+  67. 准确率=1.0000, 长度=5, 深度=2
+     mul(div(-1.985, ami_d_index), ald_DIPOLE)
+
+  68. 准确率=1.0000, 长度=5, 深度=2
+     mul(div(-1.985, ami_d_index), ald_ex_energy_s1)
+
+  69. 准确率=1.0000, 长度=5, 深度=2
+     mul(div(-1.985, ami_d_index), ami_VIP)
+
+  70. 准确率=1.0000, 长度=5, 深度=2
+     mul(div(-1.985, ami_d_index), ami_delta_est)
+
+  71. 准确率=1.0000, 长度=5, 深度=2
+     mul(mul(ald_d_index, ami_LUMO), ald_POLAR)
+
+  72. 准确率=1.0000, 长度=5, 深度=2
+     mul(div(ald_HOMO, ami_d_index), ald_delta_est)
+
+  73. 准确率=1.0000, 长度=5, 深度=2
+     mul(div(-1.985, ami_d_index), ald_VEA)
+
+  74. 准确率=1.0000, 长度=7, 深度=2
+     mul(div(ald_d_index, ami_LUMO), mul(ald_delta_est, ald_hardness))
+
+  75. 准确率=1.0000, 长度=7, 深度=2
+     add(div(ald_Electrophilicity_index, ald_GAP), div(-1.722, ami_GAP))
+
+  76. 准确率=1.0000, 长度=7, 深度=2
+     add(div(-1.068, ami_d_index), sub(ami_d_index, ald_fosc))
+
+  77. 准确率=1.0000, 长度=7, 深度=2
+     sub(div(ami_ex_energy_s1, ald_sr), add(ald_HOMO, ami_VIP))
+
+  78. 准确率=1.0000, 长度=7, 深度=2
+     div(sub(ald_fosc, ami_HOMO), div(-1.068, ami_d_index))
+
+  79. 准确率=1.0000, 长度=7, 深度=2
+     add(div(-1.068, ami_d_index), sub(0.311, ami_Electrophilicity_index))
+
+  80. 准确率=1.0000, 长度=7, 深度=2
+     sub(div(ald_HOMO, ald_fosc), sub(ald_delta_est, ami_delta_est))
+
+  81. 准确率=1.0000, 长度=7, 深度=2
+     add(div(-1.068, ami_d_index), mul(ami_HOMO, ald_ex_energy_s1))
+
+  82. 准确率=1.0000, 长度=7, 深度=2
+     sub(div(ami_fosc, ami_LUMO), sub(ald_delta_est, ami_delta_est))
+
+  83. 准确率=1.0000, 长度=7, 深度=2
+     add(div(-1.068, ami_d_index), add(ami_d_index, ald_fosc))
+
+  84. 准确率=1.0000, 长度=7, 深度=2
+     add(div(-1.068, ami_d_index), sub(ald_d_index, ami_sr))
+
+  85. 准确率=1.0000, 长度=7, 深度=2
+     sub(mul(ami_GAP, ald_sr), mul(ami_POLAR, ami_d_index))
+
+  86. 准确率=1.0000, 长度=7, 深度=2
+     add(div(-1.068, ami_d_index), sub(ami_GAP, ami_VEA))
+
+  87. 准确率=1.0000, 长度=7, 深度=2
+     add(div(-1.068, ami_d_index), add(ald_HOMO, ald_d_index))
+
+  88. 准确率=1.0000, 长度=7, 深度=2
+     add(div(-1.068, ami_d_index), div(ald_d_index, ami_LUMO))
+
+  89. 准确率=1.0000, 长度=7, 深度=2
+     add(div(-1.068, ami_d_index), sub(ami_delta_est, ald_delta_est))
+
+  90. 准确率=1.0000, 长度=7, 深度=2
+     div(sub(ami_ex_energy_s1, ami_GAP), div(-1.068, ami_d_index))
+
+  91. 准确率=1.0000, 长度=7, 深度=2
+     add(div(ami_fosc, ami_LUMO), sub(ami_d_index, ald_fosc))
+
+  92. 准确率=1.0000, 长度=7, 深度=2
+     add(div(-1.068, ami_d_index), sub(ami_HOMO, ald_fosc))
+
+  93. 准确率=1.0000, 长度=7, 深度=2
+     add(div(-1.068, ami_d_index), div(ald_HOMO, ald_DIPOLE))
+
+  94. 准确率=1.0000, 长度=7, 深度=2
+     add(div(-1.068, ami_d_index), div(ami_sr, ami_LUMO))
+
+  95. 准确率=1.0000, 长度=7, 深度=2
+     add(div(-1.068, ami_d_index), sub(ami_Electrophilicity_index, ald_delta_est))
+
+  96. 准确率=1.0000, 长度=7, 深度=2
+     add(div(-1.068, ami_d_index), sub(ald_d_index, ami_VEA))
+
+  97. 准确率=1.0000, 长度=7, 深度=2
+     add(div(-1.068, ami_d_index), add(ami_ex_energy_t1, ald_Electrophilicity_index))
+
+  98. 准确率=1.0000, 长度=7, 深度=2
+     add(div(-1.068, ami_d_index), mul(ald_delta_est, ald_hardness))
+
+  99. 准确率=1.0000, 长度=7, 深度=2
+     add(div(-1.068, ami_d_index), div(ami_fosc, ami_LUMO))
+
+  100. 准确率=1.0000, 长度=7, 深度=2
+     add(div(-1.068, ami_d_index), div(ald_sr, ami_LUMO))
+
+  101. 准确率=1.0000, 长度=7, 深度=2
+     add(div(ami_fosc, ami_LUMO), div(ami_d_index, ald_LUMO))
+
+  102. 准确率=1.0000, 长度=7, 深度=2
+     mul(add(ami_hardness, ami_POLAR), div(ald_d_index, ami_LUMO))
+
+  103. 准确率=1.0000, 长度=7, 深度=2
+     add(div(-1.068, ami_d_index), sub(ald_d_index, ald_sr))
+
+  104. 准确率=1.0000, 长度=7, 深度=2
+     add(div(-1.068, ami_d_index), add(ami_HOMO, ald_d_index))
+
+  105. 准确率=1.0000, 长度=7, 深度=2
+     add(div(-1.068, ami_d_index), div(ald_GAP, ami_Electrophilicity_index))
+
+  106. 准确率=1.0000, 长度=7, 深度=2
+     add(div(-1.068, ami_d_index), div(-1.068, ami_d_index))
+
+  107. 准确率=1.0000, 长度=7, 深度=2
+     mul(mul(ami_delta_est, ami_delta_est), div(-1.068, ami_d_index))
+
+  108. 准确率=1.0000, 长度=7, 深度=2
+     sub(sub(ald_d_index, ami_VEA), mul(ami_POLAR, ami_d_index))
+
+  109. 准确率=1.0000, 长度=7, 深度=2
+     sub(div(ald_d_index, ami_LUMO), add(ald_HOMO, ami_VIP))
+
+  110. 准确率=1.0000, 长度=7, 深度=2
+     sub(div(ami_fosc, ami_LUMO), mul(ami_POLAR, ami_d_index))
+
+  111. 准确率=1.0000, 长度=7, 深度=2
+     add(div(ald_HOMO, ami_d_index), div(ald_d_index, ami_LUMO))
+
+  112. 准确率=1.0000, 长度=7, 深度=2
+     add(add(-1.068, ami_d_index), div(ald_d_index, ami_LUMO))
+
+  113. 准确率=1.0000, 长度=7, 深度=2
+     add(sub(-1.068, ami_d_index), div(ald_d_index, ami_LUMO))
+
+  114. 准确率=1.0000, 长度=7, 深度=2
+     add(add(ami_sr, ald_HOMO), div(-1.068, ami_d_index))
+
+  115. 准确率=1.0000, 长度=7, 深度=2
+     mul(add(ami_hardness, ami_POLAR), div(-1.068, ami_d_index))
+
+  116. 准确率=1.0000, 长度=7, 深度=2
+     sub(div(ami_fosc, ami_LUMO), add(ald_HOMO, ami_VIP))
+
+  117. 准确率=1.0000, 长度=7, 深度=2
+     add(div(-1.068, ami_d_index), div(ald_HOMO, ami_d_index))
+
+  118. 准确率=1.0000, 长度=7, 深度=2
+     add(div(-1.068, ami_d_index), div(ami_VIP, ald_delta_est))
+
+  119. 准确率=1.0000, 长度=7, 深度=2
+     add(div(ald_d_index, ami_LUMO), div(-1.068, ami_d_index))
+
+  120. 准确率=1.0000, 长度=7, 深度=2
+     mul(div(-1.985, ami_d_index), div(ald_hardness, ald_DIPOLE))
+
+  121. 准确率=1.0000, 长度=7, 深度=2
+     mul(div(-1.985, ami_d_index), sub(ami_hardness, ald_delta_est))
+
+  122. 准确率=1.0000, 长度=7, 深度=2
+     mul(div(-1.985, ami_d_index), sub(ald_hardness, ald_HOMO))
+
+  123. 准确率=1.0000, 长度=7, 深度=2
+     mul(div(-1.985, ami_d_index), mul(ald_DIPOLE, ald_delta_est))
+
+  124. 准确率=1.0000, 长度=7, 深度=2
+     mul(div(-1.985, ami_d_index), add(ami_ex_energy_s1, ami_GAP))
+
+  125. 准确率=1.0000, 长度=7, 深度=2
+     mul(div(-1.985, ami_d_index), mul(ald_d_index, ald_VIP))
+
+  126. 准确率=1.0000, 长度=7, 深度=2
+     mul(div(-1.985, ami_d_index), add(ami_sr, ald_LUMO))
+
+  127. 准确率=1.0000, 长度=7, 深度=2
+     mul(div(-1.985, ami_d_index), div(ald_VEA, 0.577))
+
+  128. 准确率=1.0000, 长度=7, 深度=2
+     mul(div(-1.985, ami_d_index), div(ami_VIP, ald_hardness))
+
+  129. 准确率=1.0000, 长度=7, 深度=2
+     mul(div(-1.985, ami_d_index), mul(ald_Electrophilicity_index, ami_GAP))
+
+  130. 准确率=1.0000, 长度=7, 深度=2
+     mul(div(-1.985, ami_d_index), div(ald_sr, ald_hardness))
+
+  131. 准确率=1.0000, 长度=7, 深度=3
+     add(add(div(ald_d_index, ami_LUMO), ald_d_index), ami_HOMO)
+
+  132. 准确率=1.0000, 长度=7, 深度=3
+     add(-1.068, sub(div(ald_d_index, ami_LUMO), ami_Electrophilicity_index))
+
+  133. 准确率=1.0000, 长度=7, 深度=3
+     sub(div(div(ami_fosc, ami_LUMO), ald_delta_est), ald_delta_est)
+
+  134. 准确率=1.0000, 长度=7, 深度=3
+     sub(mul(ald_VEA, div(ald_d_index, ami_LUMO)), ald_ex_energy_s1)
+
+  135. 准确率=1.0000, 长度=7, 深度=3
+     mul(add(div(-1.068, ami_d_index), ami_d_index), ami_hardness)
+
+  136. 准确率=1.0000, 长度=7, 深度=3
+     sub(add(div(-1.068, ami_d_index), ald_VIP), ami_ex_energy_s1)
+
+  137. 准确率=1.0000, 长度=7, 深度=3
+     div(add(div(-1.068, ami_d_index), ami_ex_energy_s1), ald_GAP)
+
+  138. 准确率=1.0000, 长度=7, 深度=3
+     mul(add(div(-1.068, ami_d_index), ald_VIP), ami_hardness)
+
+  139. 准确率=1.0000, 长度=7, 深度=3
+     add(add(div(-1.068, ami_d_index), ami_VIP), ami_VIP)
+
+  140. 准确率=1.0000, 长度=7, 深度=3
+     add(add(div(-1.068, ami_d_index), ami_VIP), ami_hardness)
+
+  141. 准确率=1.0000, 长度=7, 深度=3
+     add(add(div(-1.068, ami_d_index), ami_hardness), ami_hardness)
+
+  142. 准确率=1.0000, 长度=7, 深度=3
+     add(add(div(-1.985, ami_d_index), ami_hardness), ami_hardness)
+
+  143. 准确率=1.0000, 长度=7, 深度=3
+     add(div(div(-1.985, ami_d_index), ami_d_index), ami_hardness)
+
+  144. 准确率=1.0000, 长度=7, 深度=3
+     add(mul(div(-1.985, ami_d_index), ald_POLAR), ami_hardness)
+
+  145. 准确率=1.0000, 长度=7, 深度=3
+     mul(div(div(-1.985, ami_d_index), ami_d_index), ald_POLAR)
+
+  146. 准确率=1.0000, 长度=7, 深度=3
+     mul(mul(div(-1.985, ami_d_index), ami_POLAR), ald_POLAR)
+
+  147. 准确率=1.0000, 长度=7, 深度=3
+     mul(mul(div(-1.985, ami_d_index), ald_POLAR), ald_POLAR)
+
+  148. 准确率=1.0000, 长度=7, 深度=3
+     mul(mul(div(-1.985, ami_d_index), ald_POLAR), ami_POLAR)
+
+  149. 准确率=1.0000, 长度=7, 深度=3
+     mul(div(div(-1.985, ami_d_index), ami_d_index), ami_POLAR)
+
+  150. 准确率=1.0000, 长度=7, 深度=3
+     mul(div(div(ami_HOMO, ami_fosc), ami_d_index), ald_POLAR)
+
+  151. 准确率=1.0000, 长度=7, 深度=3
+     mul(mul(div(-1.985, ami_d_index), ami_POLAR), ami_POLAR)
+
+  152. 准确率=1.0000, 长度=7, 深度=3
+     mul(mul(div(-1.055, ami_d_index), ald_POLAR), ald_POLAR)
+
+  153. 准确率=1.0000, 长度=7, 深度=3
+     mul(mul(div(ami_HOMO, ami_d_index), ald_POLAR), ald_POLAR)
+
+  154. 准确率=1.0000, 长度=7, 深度=3
+     mul(mul(div(ald_HOMO, ami_d_index), ald_POLAR), ald_POLAR)
+
+  155. 准确率=1.0000, 长度=7, 深度=3
+     mul(mul(div(-0.045, ami_d_index), ald_POLAR), ald_POLAR)
+
+  156. 准确率=1.0000, 长度=9, 深度=3
+     div(sub(div(ami_fosc, ami_LUMO), ami_ex_energy_s1), add(ami_ex_energy_s1, ami_hardness))
+
+  157. 准确率=1.0000, 长度=9, 深度=3
+     mul(div(ald_d_index, ami_LUMO), mul(mul(1.495, ami_DIPOLE), ald_hardness))
+
+  158. 准确率=1.0000, 长度=9, 深度=3
+     add(ami_LUMO, sub(div(ami_ex_energy_s1, ald_sr), add(ald_HOMO, ami_VIP)))
+
+  159. 准确率=1.0000, 长度=9, 深度=3
+     add(div(-1.068, ami_d_index), sub(0.311, div(ald_HOMO, ald_DIPOLE)))
+
+  160. 准确率=1.0000, 长度=9, 深度=3
+     add(div(-1.068, ami_d_index), sub(ami_d_index, div(ami_LUMO, ald_HOMO)))
+
+  161. 准确率=1.0000, 长度=9, 深度=3
+     add(div(-1.068, ami_d_index), sub(sub(ald_d_index, ald_fosc), ald_fosc))
+
+  162. 准确率=1.0000, 长度=9, 深度=3
+     add(div(-1.068, ami_d_index), sub(div(ald_d_index, ami_LUMO), ami_Electrophilicity_index))
+
+  163. 准确率=1.0000, 长度=9, 深度=3
+     mul(ald_delta_est, sub(div(ami_ex_energy_s1, ald_sr), add(ald_HOMO, ami_VIP)))
+
+  164. 准确率=1.0000, 长度=9, 深度=3
+     add(div(-1.068, ami_d_index), sub(div(ald_d_index, ami_LUMO), ald_fosc))
+
+  165. 准确率=1.0000, 长度=9, 深度=3
+     sub(sub(div(ami_fosc, ami_LUMO), add(ald_GAP, ami_DIPOLE)), ald_ex_energy_s1)
+
+  166. 准确率=1.0000, 长度=9, 深度=3
+     add(div(mul(ald_ex_energy_s1, ald_HOMO), ami_d_index), sub(ami_d_index, ald_fosc))
+
+  167. 准确率=1.0000, 长度=9, 深度=3
+     sub(add(div(-1.068, ami_d_index), add(ald_HOMO, ald_d_index)), ami_VEA)
+
+  168. 准确率=1.0000, 长度=9, 深度=3
+     add(div(-1.068, ami_d_index), sub(div(ami_fosc, ami_LUMO), ald_fosc))
+
+  169. 准确率=1.0000, 长度=9, 深度=3
+     add(div(mul(ald_ex_energy_s1, ald_HOMO), ami_d_index), div(ald_d_index, ami_LUMO))
+
+  170. 准确率=1.0000, 长度=9, 深度=3
+     add(div(-1.068, ami_d_index), sub(div(ami_fosc, ami_LUMO), ami_VEA))
+
+  171. 准确率=1.0000, 长度=9, 深度=3
+     add(div(-1.068, ami_d_index), sub(add(ald_HOMO, ami_VIP), ald_fosc))
+
+  172. 准确率=1.0000, 长度=9, 深度=3
+     add(div(-1.068, ami_d_index), add(div(-1.068, ami_d_index), ami_ex_energy_s1))
+
+  173. 准确率=1.0000, 长度=9, 深度=3
+     add(add(div(-1.068, ami_d_index), ald_delta_est), div(ald_d_index, ami_LUMO))
+
+  174. 准确率=1.0000, 长度=9, 深度=3
+     mul(add(div(-1.068, ami_d_index), div(ami_fosc, ami_LUMO)), ami_hardness)
+
+  175. 准确率=1.0000, 长度=9, 深度=3
+     sub(add(div(-1.068, ami_d_index), div(ald_d_index, ami_LUMO)), ami_VEA)
+
+  176. 准确率=1.0000, 长度=9, 深度=3
+     add(div(-1.068, ami_d_index), mul(div(-1.068, ami_d_index), ald_hardness))
+
+  177. 准确率=1.0000, 长度=9, 深度=3
+     add(div(-1.068, ami_d_index), sub(sub(ami_ex_energy_s1, ald_DIPOLE), ami_VEA))
+
+  178. 准确率=1.0000, 长度=9, 深度=3
+     add(div(-1.068, ami_d_index), sub(div(ami_fosc, ami_LUMO), ald_d_index))
+
+  179. 准确率=1.0000, 长度=9, 深度=3
+     add(div(-1.985, ami_d_index), add(div(-1.985, ami_d_index), ami_hardness))
+
+  180. 准确率=1.0000, 长度=9, 深度=3
+     mul(div(-1.985, ami_d_index), mul(ald_GAP, div(ami_POLAR, ald_VIP)))
+
+  181. 准确率=1.0000, 长度=9, 深度=4
+     add(add(sub(div(ami_fosc, ami_LUMO), ami_ex_energy_s1), ald_d_index), ami_HOMO)
+
+  182. 准确率=1.0000, 长度=9, 深度=4
+     add(div(add(div(-1.985, ami_d_index), ami_hardness), ami_d_index), ami_hardness)
+
+  183. 准确率=1.0000, 长度=9, 深度=4
+     mul(div(mul(div(-1.985, ami_d_index), ald_POLAR), ami_d_index), ald_POLAR)
+
+  184. 准确率=1.0000, 长度=9, 深度=4
+     mul(div(mul(div(-1.985, ami_d_index), ami_POLAR), ami_d_index), ald_POLAR)
+
+  185. 准确率=1.0000, 长度=9, 深度=4
+     mul(div(mul(div(-1.985, ami_d_index), ald_POLAR), ami_d_index), ami_POLAR)
+
+  186. 准确率=1.0000, 长度=9, 深度=4
+     mul(mul(mul(div(-1.985, ami_d_index), ald_POLAR), ald_POLAR), ald_POLAR)
+
+  187. 准确率=1.0000, 长度=11, 深度=3
+     add(mul(ami_VEA, -1.358), sub(div(ami_ex_energy_s1, ald_sr), add(ald_HOMO, ami_VIP)))
+
+  188. 准确率=1.0000, 长度=11, 深度=3
+     sub(add(div(-1.068, ami_d_index), div(ald_d_index, ami_LUMO)), mul(ald_LUMO, ami_d_index))
+
+  189. 准确率=1.0000, 长度=11, 深度=3
+     add(add(div(-1.068, ami_d_index), ald_sr), div(mul(ald_ex_energy_s1, ald_HOMO), ami_d_index))
+
+  190. 准确率=1.0000, 长度=11, 深度=3
+     add(div(-1.068, ami_d_index), add(div(-1.068, ami_d_index), div(ami_fosc, ami_LUMO)))
+
+  191. 准确率=1.0000, 长度=11, 深度=3
+     sub(sub(div(ami_fosc, ami_LUMO), add(ald_GAP, ami_DIPOLE)), add(ald_delta_est, ald_ex_energy_t1))
+
+  192. 准确率=1.0000, 长度=11, 深度=3
+     mul(div(-1.985, ami_d_index), sub(add(ald_POLAR, ami_ex_energy_s1), sub(ami_VEA, ald_hardness)))
+
+  193. 准确率=1.0000, 长度=11, 深度=3
+     mul(div(-1.985, ami_d_index), mul(div(ami_ex_energy_t1, ald_Electrophilicity_index), div(ami_DIPOLE, ami_Electrophilicity_index)))
+
+  194. 准确率=1.0000, 长度=11, 深度=3
+     mul(div(-1.985, ami_d_index), div(mul(ami_HOMO, ald_d_index), sub(ald_ex_energy_t1, ald_ex_energy_t1)))
+
+  195. 准确率=1.0000, 长度=13, 深度=4
+     add(mul(ami_VEA, -1.358), sub(mul(ald_VEA, div(ald_d_index, ami_LUMO)), add(ald_HOMO, ami_VIP)))
+
+  196. 准确率=1.0000, 长度=13, 深度=4
+     sub(add(div(-1.068, ami_d_index), add(div(-1.068, ami_d_index), div(ami_fosc, ami_LUMO))), ami_ex_energy_s1)
+
+  197. 准确率=1.0000, 长度=15, 深度=3
+     sub(add(add(ami_Electrophilicity_index, ald_GAP), mul(ami_DIPOLE, ami_LUMO)), sub(mul(ald_ex_energy_s1, ami_Electrophilicity_index), div(ami_GAP, ami_GAP)))
+
+  198. 准确率=1.0000, 长度=15, 深度=3
+     add(mul(div(ald_d_index, ami_LUMO), mul(ald_delta_est, ald_hardness)), div(sub(ami_ex_energy_s1, ald_hardness), add(ald_sr, ald_d_index)))
+
+  199. 准确率=1.0000, 长度=15, 深度=3
+     add(mul(div(ald_d_index, ami_LUMO), mul(ald_delta_est, ald_hardness)), div(sub(ami_ex_energy_s1, ald_hardness), div(ami_fosc, ami_LUMO)))
+
+  200. 准确率=1.0000, 长度=17, 深度=4
+     add(div(add(ami_fosc, sub(ald_d_index, ami_VEA)), sub(ald_ex_energy_s1, ald_VEA)), div(sub(ami_ex_energy_s1, ald_hardness), add(ald_sr, ald_d_index)))
+
+  201. 准确率=1.0000, 长度=17, 深度=4
+     add(div(add(ami_fosc, sub(ald_d_index, ami_VEA)), mul(ald_d_index, ald_fosc)), div(sub(ami_ex_energy_s1, ald_hardness), add(ald_sr, ald_d_index)))
+
+  202. 准确率=1.0000, 长度=19, 深度=5
+     add(div(ald_hardness, sub(add(add(ami_Electrophilicity_index, ald_GAP), mul(ami_DIPOLE, ami_LUMO)), sub(mul(ald_ex_energy_s1, ami_Electrophilicity_index), div(ami_GAP, ami_GAP)))), ald_fosc)
+
+  203. 准确率=1.0000, 长度=19, 深度=5
+     mul(div(mul(mul(add(ald_ex_energy_s1, ami_GAP), add(ald_d_index, ald_GAP)), div(div(ald_HOMO, ald_hardness), div(ami_VIP, ald_DIPOLE))), ami_d_index), ald_POLAR)
+
+  204. 准确率=1.0000, 长度=21, 深度=4
+     add(add(div(-1.068, ami_d_index), ald_sr), sub(mul(sub(ald_DIPOLE, ald_POLAR), mul(ami_d_index, ami_ex_energy_s1)), div(div(ami_HOMO, ald_ex_energy_t1), div(ami_ex_energy_s1, ald_d_index))))
+
+  205. 准确率=1.0000, 长度=21, 深度=6
+     add(div(ald_hardness, sub(add(add(ami_Electrophilicity_index, ald_GAP), mul(ami_DIPOLE, div(ald_GAP, -0.664))), sub(mul(ald_ex_energy_s1, ami_Electrophilicity_index), div(ami_GAP, ami_GAP)))), ald_fosc)
+
+  206. 准确率=1.0000, 长度=25, 深度=4
+     mul(mul(add(div(ald_HOMO, ami_LUMO), sub(ald_ex_energy_s1, ami_LUMO)), sub(ami_fosc, div(ald_ex_energy_s1, ald_GAP))), mul(div(div(ald_VEA, ald_POLAR), mul(ami_d_index, ami_VEA)), mul(ami_ex_energy_s1, ami_DIPOLE)))
+
+  207. 准确率=1.0000, 长度=27, 深度=4
+     mul(mul(add(div(ald_HOMO, ami_LUMO), sub(ald_ex_energy_s1, ami_LUMO)), sub(mul(ald_DIPOLE, ald_VIP), div(ald_ex_energy_s1, ald_GAP))), mul(div(div(ald_VEA, ald_POLAR), mul(ami_d_index, ami_VEA)), mul(ami_ex_energy_s1, ami_DIPOLE)))
+
+  208. 准确率=1.0000, 长度=27, 深度=4
+     add(div(sub(mul(ami_GAP, ald_sr), mul(ami_POLAR, ami_d_index)), mul(div(ald_delta_est, ald_fosc), add(ald_DIPOLE, ald_d_index))), div(mul(ald_d_index, ald_fosc), add(add(ald_POLAR, ami_GAP), mul(ald_GAP, ald_ex_energy_s1))))
+
+  209. 准确率=1.0000, 长度=31, 深度=4
+     add(div(sub(mul(ami_GAP, ald_sr), mul(ami_POLAR, ami_d_index)), mul(div(ald_delta_est, ald_fosc), add(ald_DIPOLE, ald_d_index))), div(add(div(ald_VEA, ami_sr), add(1.244, ald_sr)), add(add(ald_POLAR, ami_GAP), mul(ald_GAP, ald_ex_energy_s1))))
+
+  210. 准确率=1.0000, 长度=31, 深度=4
+     add(div(div(mul(ald_LUMO, ami_VEA), div(ald_ex_energy_t1, ami_LUMO)), div(div(ami_d_index, ald_DIPOLE), sub(ami_Electrophilicity_index, ami_delta_est))), sub(mul(sub(ald_DIPOLE, ald_POLAR), mul(ami_d_index, ami_ex_energy_s1)), div(sub(ald_ex_energy_t1, ald_HOMO), div(ami_ex_energy_s1, ald_d_index))))
+
+  211. 准确率=1.0000, 长度=31, 深度=4
+     mul(mul(add(div(ald_HOMO, ami_LUMO), sub(ald_ex_energy_s1, ami_LUMO)), sub(mul(ald_DIPOLE, ald_VIP), div(ald_ex_energy_s1, ald_GAP))), mul(div(div(ald_VEA, ald_POLAR), mul(ami_d_index, ami_VEA)), div(mul(ami_hardness, ami_delta_est), sub(ami_GAP, ami_HOMO))))
+
+  212. 准确率=1.0000, 长度=31, 深度=4
+     add(div(div(mul(ald_LUMO, ami_VEA), div(ald_ex_energy_t1, ami_LUMO)), div(div(ami_d_index, ald_DIPOLE), sub(ami_Electrophilicity_index, ami_delta_est))), sub(mul(sub(ald_DIPOLE, ald_POLAR), mul(ami_d_index, ami_ex_energy_s1)), div(div(ami_HOMO, ald_ex_energy_t1), div(ami_ex_energy_s1, ald_d_index))))
+
+  213. 准确率=1.0000, 长度=31, 深度=4
+     mul(mul(add(div(ald_HOMO, ami_LUMO), sub(ald_ex_energy_s1, ami_LUMO)), sub(div(ald_GAP, ami_Electrophilicity_index), div(ald_ex_energy_s1, ald_GAP))), mul(div(div(ald_VEA, ald_POLAR), mul(ami_d_index, ami_VEA)), div(mul(ami_hardness, ami_delta_est), sub(ami_GAP, ami_HOMO))))
+
+  214. 准确率=1.0000, 长度=31, 深度=4
+     mul(mul(add(div(ald_HOMO, ami_LUMO), sub(ald_d_index, ami_VEA)), sub(div(ald_GAP, ami_Electrophilicity_index), div(ald_ex_energy_s1, ald_GAP))), mul(div(div(ald_VEA, ald_POLAR), mul(ami_d_index, ami_VEA)), div(mul(ami_hardness, ami_delta_est), sub(ami_GAP, ami_HOMO))))
+
+  215. 准确率=1.0000, 长度=35, 深度=6
+     mul(div(add(add(div(add(ald_VEA, ald_GAP), sub(ald_sr, ami_fosc)), mul(div(ami_delta_est, ami_delta_est), sub(ald_delta_est, ami_VEA))), sub(sub(mul(ami_ex_energy_s1, -1.385), div(ald_fosc, ami_VEA)), add(add(ald_HOMO, ald_VEA), add(ami_hardness, ald_POLAR)))), ami_d_index), ald_POLAR)
+
+====================================================================================================
+准确率区间: 80-83% (共 66 个公式)
+====================================================================================================
+
+【最简单的公式】
+  准确率: 0.8000
+  长度: 1, 深度: 0
+  公式: ami_LUMO
+
+【该组所有公式】(按复杂度排序)
+
+  1. 准确率=0.8000, 长度=1, 深度=0
+     ami_LUMO
+
+  2. 准确率=0.8000, 长度=3, 深度=1
+     sub(ami_GAP, ami_VEA)
+
+  3. 准确率=0.8000, 长度=3, 深度=1
+     sub(ami_LUMO, ami_VEA)
+
+  4. 准确率=0.8000, 长度=3, 深度=1
+     mul(ami_Electrophilicity_index, ami_LUMO)
+
+  5. 准确率=0.8000, 长度=3, 深度=1
+     sub(ald_d_index, ami_VEA)
+
+  6. 准确率=0.8000, 长度=3, 深度=1
+     mul(ami_LUMO, ami_sr)
+
+  7. 准确率=0.8000, 长度=3, 深度=1
+     div(ami_LUMO, ami_VIP)
+
+  8. 准确率=0.8000, 长度=3, 深度=1
+     mul(ami_LUMO, ald_delta_est)
+
+  9. 准确率=0.8000, 长度=3, 深度=1
+     mul(ald_HOMO, ami_VEA)
+
+  10. 准确率=0.8000, 长度=3, 深度=1
+     add(ald_HOMO, ald_d_index)
+
+  11. 准确率=0.8000, 长度=3, 深度=1
+     sub(ald_d_index, ald_GAP)
+
+  12. 准确率=0.8000, 长度=3, 深度=1
+     mul(ald_ex_energy_s1, ami_LUMO)
+
+  13. 准确率=0.8000, 长度=3, 深度=1
+     mul(ald_VEA, ami_LUMO)
+
+  14. 准确率=0.8000, 长度=3, 深度=1
+     sub(ald_d_index, ami_GAP)
+
+  15. 准确率=0.8000, 长度=3, 深度=1
+     sub(ald_d_index, ald_ex_energy_s1)
+
+  16. 准确率=0.8000, 长度=3, 深度=1
+     mul(1.497, ami_LUMO)
+
+  17. 准确率=0.8000, 长度=3, 深度=1
+     div(ami_fosc, ami_LUMO)
+
+  18. 准确率=0.8000, 长度=3, 深度=1
+     mul(ald_fosc, ami_LUMO)
+
+  19. 准确率=0.8000, 长度=3, 深度=1
+     sub(ald_d_index, ald_sr)
+
+  20. 准确率=0.8000, 长度=3, 深度=1
+     mul(ami_delta_est, ami_LUMO)
+
+  21. 准确率=0.8000, 长度=3, 深度=1
+     mul(ami_LUMO, ami_hardness)
+
+  22. 准确率=0.8000, 长度=3, 深度=1
+     mul(ami_LUMO, ami_Electrophilicity_index)
+
+  23. 准确率=0.8000, 长度=3, 深度=1
+     add(ami_HOMO, ald_d_index)
+
+  24. 准确率=0.8000, 长度=3, 深度=1
+     div(ami_LUMO, ald_GAP)
+
+  25. 准确率=0.8000, 长度=3, 深度=1
+     mul(ami_VEA, -1.358)
+
+  26. 准确率=0.8000, 长度=3, 深度=1
+     mul(ami_LUMO, ald_fosc)
+
+  27. 准确率=0.8000, 长度=3, 深度=1
+     div(ami_LUMO, ald_VEA)
+
+  28. 准确率=0.8000, 长度=3, 深度=1
+     sub(ald_VEA, ami_delta_est)
+
+  29. 准确率=0.8000, 长度=3, 深度=1
+     mul(ami_LUMO, ald_POLAR)
+
+  30. 准确率=0.8000, 长度=5, 深度=2
+     sub(mul(ami_VEA, ami_GAP), ami_VEA)
+
+  31. 准确率=0.8000, 长度=5, 深度=2
+     sub(sub(ald_d_index, ald_fosc), ami_fosc)
+
+  32. 准确率=0.8000, 长度=5, 深度=2
+     sub(mul(ald_d_index, ami_LUMO), ami_VEA)
+
+  33. 准确率=0.8000, 长度=5, 深度=2
+     div(div(ami_fosc, ami_LUMO), ald_delta_est)
+
+  34. 准确率=0.8000, 长度=5, 深度=2
+     sub(div(ald_LUMO, ald_DIPOLE), ami_VEA)
+
+  35. 准确率=0.8000, 长度=5, 深度=2
+     div(mul(ald_hardness, ami_LUMO), ami_fosc)
+
+  36. 准确率=0.8000, 长度=5, 深度=2
+     mul(div(ami_LUMO, ald_POLAR), ald_POLAR)
+
+  37. 准确率=0.8000, 长度=5, 深度=2
+     mul(mul(ami_LUMO, ami_VIP), ald_POLAR)
+
+  38. 准确率=0.8000, 长度=5, 深度=2
+     mul(div(ami_LUMO, ami_DIPOLE), ald_POLAR)
+
+  39. 准确率=0.8000, 长度=7, 深度=2
+     div(sub(ald_DIPOLE, ald_LUMO), sub(ami_GAP, ami_VEA))
+
+  40. 准确率=0.8000, 长度=7, 深度=2
+     mul(div(ami_LUMO, ami_VIP), mul(ami_DIPOLE, ald_POLAR))
+
+  41. 准确率=0.8000, 长度=7, 深度=2
+     add(sub(ami_delta_est, ami_delta_est), sub(ald_DIPOLE, ami_VEA))
+
+  42. 准确率=0.8000, 长度=7, 深度=2
+     sub(add(ald_d_index, -1.635), sub(ami_delta_est, ami_delta_est))
+
+  43. 准确率=0.8000, 长度=7, 深度=2
+     div(mul(ald_VEA, ald_d_index), sub(ald_VEA, ami_VEA))
+
+  44. 准确率=0.8000, 长度=7, 深度=2
+     sub(sub(ami_GAP, ami_LUMO), add(ald_GAP, ami_DIPOLE))
+
+  45. 准确率=0.8000, 长度=7, 深度=2
+     sub(div(ami_fosc, ami_LUMO), add(ald_GAP, ami_DIPOLE))
+
+  46. 准确率=0.8000, 长度=7, 深度=2
+     div(mul(ald_VEA, ald_d_index), add(ami_d_index, ami_LUMO))
+
+  47. 准确率=0.8000, 长度=7, 深度=2
+     mul(mul(ami_delta_est, ami_delta_est), sub(ald_DIPOLE, ami_VEA))
+
+  48. 准确率=0.8000, 长度=7, 深度=3
+     div(sub(sub(ami_LUMO, ami_VEA), ami_VEA), ald_delta_est)
+
+  49. 准确率=0.8000, 长度=7, 深度=3
+     sub(mul(div(ami_HOMO, ald_sr), ami_GAP), ami_VEA)
+
+  50. 准确率=0.8000, 长度=9, 深度=3
+     div(div(ami_fosc, ami_VIP), div(mul(ald_ex_energy_s1, ami_LUMO), ami_ex_energy_t1))
+
+  51. 准确率=0.8000, 长度=9, 深度=3
+     add(div(-1.068, ami_d_index), sub(sub(ami_DIPOLE, ald_sr), ald_fosc))
+
+  52. 准确率=0.8000, 长度=9, 深度=3
+     div(mul(div(ami_fosc, ami_LUMO), ami_ex_energy_s1), add(ald_VIP, ami_hardness))
+
+  53. 准确率=0.8000, 长度=9, 深度=3
+     mul(mul(sub(ald_fosc, ami_POLAR), div(ami_HOMO, ami_LUMO)), ald_POLAR)
+
+  54. 准确率=0.8000, 长度=15, 深度=3
+     sub(sub(mul(ami_VEA, -1.358), div(ami_LUMO, ald_sr)), sub(sub(ami_DIPOLE, ald_d_index), div(ald_GAP, -0.664)))
+
+  55. 准确率=0.8000, 长度=15, 深度=3
+     div(div(add(ald_d_index, ald_LUMO), mul(ald_GAP, ami_LUMO)), add(sub(ald_hardness, ami_sr), mul(ald_hardness, ald_Electrophilicity_index)))
+
+  56. 准确率=0.8000, 长度=15, 深度=3
+     mul(mul(div(ami_d_index, ami_d_index), mul(ald_DIPOLE, ami_LUMO)), div(div(ami_fosc, ald_delta_est), add(ami_d_index, ami_d_index)))
+
+  57. 准确率=0.8000, 长度=15, 深度=3
+     sub(mul(div(ald_LUMO, ami_VEA), add(ami_DIPOLE, ami_ex_energy_t1)), sub(div(ami_HOMO, ald_sr), sub(ald_d_index, ald_ex_energy_s1)))
+
+  58. 准确率=0.8000, 长度=15, 深度=3
+     add(div(add(ami_fosc, ald_VEA), sub(ald_ex_energy_s1, ald_VEA)), div(sub(ami_ex_energy_s1, ald_hardness), add(ald_sr, ald_d_index)))
+
+  59. 准确率=0.8000, 长度=15, 深度=3
+     mul(sub(sub(ald_fosc, ami_fosc), div(ami_sr, ami_VEA)), mul(div(ald_hardness, ald_GAP), div(ald_GAP, ald_hardness)))
+
+  60. 准确率=0.8000, 长度=15, 深度=3
+     div(div(add(ald_d_index, ald_LUMO), mul(ald_GAP, ami_LUMO)), add(div(ald_hardness, ald_d_index), mul(ald_hardness, ald_Electrophilicity_index)))
+
+  61. 准确率=0.8000, 长度=15, 深度=3
+     div(div(add(ald_d_index, ald_LUMO), mul(ald_GAP, ami_LUMO)), add(div(ald_hardness, ald_d_index), div(ald_delta_est, ald_fosc)))
+
+  62. 准确率=0.8000, 长度=19, 深度=4
+     sub(div(div(div(ald_d_index, ami_GAP), div(ald_DIPOLE, ald_Electrophilicity_index)), div(div(ald_ex_energy_t1, ami_LUMO), add(ami_hardness, ami_POLAR))), mul(ald_LUMO, ami_d_index))
+
+  63. 准确率=0.8000, 长度=31, 深度=4
+     sub(div(div(div(ald_d_index, ami_GAP), div(ald_DIPOLE, ald_Electrophilicity_index)), div(div(ald_ex_energy_t1, ami_LUMO), add(ami_hardness, ami_POLAR))), div(sub(div(ald_Electrophilicity_index, ald_HOMO), div(ald_LUMO, ald_GAP)), add(div(ald_hardness, ami_fosc), sub(ami_ex_energy_s1, ald_VEA))))
+
+  64. 准确率=0.8000, 长度=31, 深度=4
+     sub(div(div(div(ald_d_index, ami_GAP), div(ald_DIPOLE, ald_Electrophilicity_index)), div(div(ald_ex_energy_t1, ami_LUMO), add(ami_hardness, ami_POLAR))), div(sub(div(ald_Electrophilicity_index, ald_HOMO), div(ald_LUMO, ald_GAP)), add(div(ald_hardness, ami_fosc), mul(ald_LUMO, ami_d_index))))
+
+  65. 准确率=0.8000, 长度=31, 深度=4
+     sub(div(div(div(ald_d_index, ami_GAP), div(ald_DIPOLE, ald_Electrophilicity_index)), div(div(ald_ex_energy_t1, ami_LUMO), add(ami_hardness, ami_POLAR))), div(sub(div(ald_Electrophilicity_index, ald_HOMO), sub(ald_LUMO, ald_GAP)), add(div(ald_hardness, ami_fosc), mul(ald_LUMO, ami_d_index))))
+
+  66. 准确率=0.8000, 长度=35, 深度=6
+     mul(div(mul(mul(sub(sub(ami_ex_energy_t1, ami_LUMO), add(ami_POLAR, ami_Electrophilicity_index)), sub(div(ami_sr, ami_hardness), mul(ami_LUMO, ald_d_index))), sub(sub(add(ald_POLAR, ald_VIP), add(ami_POLAR, ald_DIPOLE)), sub(div(ami_hardness, ald_VIP), add(ami_GAP, ald_delta_est)))), ami_d_index), ald_POLAR)
+
+====================================================================================================
+准确率区间: <80% (共 562 个公式)
+====================================================================================================
+
+【最简单的公式】
+  准确率: 0.6000
+  长度: 1, 深度: 0
+  公式: ald_d_index
+
+【该组所有公式】(按复杂度排序)
+
+  1. 准确率=0.6000, 长度=1, 深度=0
+     ald_d_index
+
+  2. 准确率=0.6000, 长度=1, 深度=0
+     ami_HOMO
+
+  3. 准确率=0.6000, 长度=1, 深度=0
+     -1.985
+
+  4. 准确率=0.6000, 长度=1, 深度=0
+     ald_HOMO
+
+  5. 准确率=0.4000, 长度=1, 深度=0
+     ald_delta_est
+
+  6. 准确率=0.4000, 长度=1, 深度=0
+     ald_POLAR
+
+  7. 准确率=0.4000, 长度=1, 深度=0
+     ami_POLAR
+
+  8. 准确率=0.4000, 长度=1, 深度=0
+     0.492
+
+  9. 准确率=0.4000, 长度=1, 深度=0
+     ami_sr
+
+  10. 准确率=0.4000, 长度=1, 深度=0
+     ald_hardness
+
+  11. 准确率=0.4000, 长度=1, 深度=0
+     ami_GAP
+
+  12. 准确率=0.4000, 长度=1, 深度=0
+     ald_DIPOLE
+
+  13. 准确率=0.4000, 长度=1, 深度=0
+     ami_VIP
+
+  14. 准确率=0.4000, 长度=1, 深度=0
+     ald_ex_energy_s1
+
+  15. 准确率=0.4000, 长度=1, 深度=0
+     ald_GAP
+
+  16. 准确率=0.4000, 长度=1, 深度=0
+     ald_ex_energy_t1
+
+  17. 准确率=0.4000, 长度=1, 深度=0
+     ald_fosc
+
+  18. 准确率=0.4000, 长度=1, 深度=0
+     ami_Electrophilicity_index
+
+  19. 准确率=0.4000, 长度=1, 深度=0
+     ami_fosc
+
+  20. 准确率=0.4000, 长度=1, 深度=0
+     ami_ex_energy_s1
+
+  21. 准确率=0.2000, 长度=1, 深度=0
+     ami_VEA
+
+  22. 准确率=0.0000, 长度=1, 深度=0
+     ami_d_index
+
+  23. 准确率=0.6000, 长度=3, 深度=1
+     sub(ami_Electrophilicity_index, ald_delta_est)
+
+  24. 准确率=0.6000, 长度=3, 深度=1
+     sub(ami_delta_est, ald_delta_est)
+
+  25. 准确率=0.6000, 长度=3, 深度=1
+     sub(ami_ex_energy_s1, ald_hardness)
+
+  26. 准确率=0.6000, 长度=3, 深度=1
+     div(ald_d_index, ald_hardness)
+
+  27. 准确率=0.6000, 长度=3, 深度=1
+     sub(ald_Electrophilicity_index, ald_ex_energy_s1)
+
+  28. 准确率=0.6000, 长度=3, 深度=1
+     div(ami_HOMO, ald_DIPOLE)
+
+  29. 准确率=0.6000, 长度=3, 深度=1
+     sub(ald_DIPOLE, ami_fosc)
+
+  30. 准确率=0.6000, 长度=3, 深度=1
+     sub(ami_DIPOLE, ami_LUMO)
+
+  31. 准确率=0.6000, 长度=3, 深度=1
+     sub(ami_sr, ami_sr)
+
+  32. 准确率=0.6000, 长度=3, 深度=1
+     mul(ami_HOMO, ald_ex_energy_s1)
+
+  33. 准确率=0.6000, 长度=3, 深度=1
+     div(ald_HOMO, ald_hardness)
+
+  34. 准确率=0.6000, 长度=3, 深度=1
+     sub(ami_VEA, ami_VEA)
+
+  35. 准确率=0.6000, 长度=3, 深度=1
+     sub(ami_DIPOLE, ald_sr)
+
+  36. 准确率=0.6000, 长度=3, 深度=1
+     sub(ald_sr, ald_sr)
+
+  37. 准确率=0.6000, 长度=3, 深度=1
+     add(ami_d_index, ami_LUMO)
+
+  38. 准确率=0.6000, 长度=3, 深度=1
+     div(ami_d_index, -1.054)
+
+  39. 准确率=0.6000, 长度=3, 深度=1
+     sub(ald_LUMO, ami_DIPOLE)
+
+  40. 准确率=0.6000, 长度=3, 深度=1
+     mul(ami_sr, ami_HOMO)
+
+  41. 准确率=0.6000, 长度=3, 深度=1
+     mul(ald_d_index, ami_GAP)
+
+  42. 准确率=0.6000, 长度=3, 深度=1
+     sub(ami_DIPOLE, ami_fosc)
+
+  43. 准确率=0.6000, 长度=3, 深度=1
+     add(ald_HOMO, -0.689)
+
+  44. 准确率=0.6000, 长度=3, 深度=1
+     sub(ald_d_index, ami_sr)
+
+  45. 准确率=0.6000, 长度=3, 深度=1
+     mul(ald_Electrophilicity_index, ald_LUMO)
+
+  46. 准确率=0.6000, 长度=3, 深度=1
+     sub(ami_d_index, ald_fosc)
+
+  47. 准确率=0.6000, 长度=3, 深度=1
+     mul(ald_d_index, ald_fosc)
+
+  48. 准确率=0.6000, 长度=3, 深度=1
+     sub(ald_d_index, ald_fosc)
+
+  49. 准确率=0.6000, 长度=3, 深度=1
+     div(ami_HOMO, ald_Electrophilicity_index)
+
+  50. 准确率=0.6000, 长度=3, 深度=1
+     div(ald_HOMO, ald_DIPOLE)
+
+  51. 准确率=0.6000, 长度=3, 深度=1
+     div(ami_HOMO, ami_GAP)
+
+  52. 准确率=0.6000, 长度=3, 深度=1
+     div(ald_HOMO, ami_delta_est)
+
+  53. 准确率=0.6000, 长度=3, 深度=1
+     div(ami_HOMO, ald_ex_energy_t1)
+
+  54. 准确率=0.6000, 长度=3, 深度=1
+     div(ami_d_index, ald_LUMO)
+
+  55. 准确率=0.6000, 长度=3, 深度=1
+     mul(ald_LUMO, ald_sr)
+
+  56. 准确率=0.6000, 长度=3, 深度=1
+     mul(ald_ex_energy_s1, ald_HOMO)
+
+  57. 准确率=0.6000, 长度=3, 深度=1
+     mul(ald_sr, ald_HOMO)
+
+  58. 准确率=0.6000, 长度=3, 深度=1
+     sub(ami_hardness, ald_VIP)
+
+  59. 准确率=0.6000, 长度=3, 深度=1
+     sub(ami_LUMO, ald_fosc)
+
+  60. 准确率=0.6000, 长度=3, 深度=1
+     mul(ald_delta_est, ald_LUMO)
+
+  61. 准确率=0.6000, 长度=3, 深度=1
+     div(ald_LUMO, ald_DIPOLE)
+
+  62. 准确率=0.6000, 长度=3, 深度=1
+     sub(ami_delta_est, ami_delta_est)
+
+  63. 准确率=0.6000, 长度=3, 深度=1
+     div(ald_d_index, 0.662)
+
+  64. 准确率=0.6000, 长度=3, 深度=1
+     sub(ald_HOMO, ami_LUMO)
+
+  65. 准确率=0.6000, 长度=3, 深度=1
+     mul(ald_HOMO, ald_VIP)
+
+  66. 准确率=0.6000, 长度=3, 深度=1
+     div(ald_HOMO, ald_fosc)
+
+  67. 准确率=0.6000, 长度=3, 深度=1
+     add(ami_DIPOLE, ami_LUMO)
+
+  68. 准确率=0.6000, 长度=3, 深度=1
+     sub(0.311, ami_Electrophilicity_index)
+
+  69. 准确率=0.6000, 长度=3, 深度=1
+     sub(ald_Electrophilicity_index, ami_delta_est)
+
+  70. 准确率=0.6000, 长度=3, 深度=1
+     mul(ald_LUMO, ami_d_index)
+
+  71. 准确率=0.6000, 长度=3, 深度=1
+     add(ald_d_index, ald_LUMO)
+
+  72. 准确率=0.6000, 长度=3, 深度=1
+     sub(ald_DIPOLE, ald_delta_est)
+
+  73. 准确率=0.6000, 长度=3, 深度=1
+     sub(ami_DIPOLE, ald_delta_est)
+
+  74. 准确率=0.6000, 长度=3, 深度=1
+     mul(-1.985, ald_POLAR)
+
+  75. 准确率=0.6000, 长度=3, 深度=1
+     mul(-1.101, ami_GAP)
+
+  76. 准确率=0.6000, 长度=3, 深度=1
+     mul(-1.055, ald_POLAR)
+
+  77. 准确率=0.6000, 长度=3, 深度=1
+     mul(ald_delta_est, ald_HOMO)
+
+  78. 准确率=0.6000, 长度=3, 深度=1
+     div(ald_d_index, ami_hardness)
+
+  79. 准确率=0.6000, 长度=3, 深度=1
+     add(ald_DIPOLE, ami_LUMO)
+
+  80. 准确率=0.6000, 长度=3, 深度=1
+     sub(ald_LUMO, 1.353)
+
+  81. 准确率=0.6000, 长度=3, 深度=1
+     sub(ald_fosc, ald_ex_energy_t1)
+
+  82. 准确率=0.6000, 长度=3, 深度=1
+     sub(ald_delta_est, ald_delta_est)
+
+  83. 准确率=0.6000, 长度=3, 深度=1
+     mul(ald_VEA, ald_LUMO)
+
+  84. 准确率=0.6000, 长度=3, 深度=1
+     mul(-1.985, ami_POLAR)
+
+  85. 准确率=0.6000, 长度=3, 深度=1
+     mul(ami_GAP, ald_HOMO)
+
+  86. 准确率=0.6000, 长度=3, 深度=1
+     mul(ami_HOMO, ald_POLAR)
+
+  87. 准确率=0.6000, 长度=3, 深度=1
+     add(ami_VEA, ami_fosc)
+
+  88. 准确率=0.6000, 长度=3, 深度=1
+     mul(ald_LUMO, ald_POLAR)
+
+  89. 准确率=0.6000, 长度=3, 深度=1
+     sub(ald_LUMO, ald_delta_est)
+
+  90. 准确率=0.6000, 长度=3, 深度=1
+     add(ami_HOMO, ami_d_index)
+
+  91. 准确率=0.6000, 长度=3, 深度=1
+     add(ami_fosc, ald_HOMO)
+
+  92. 准确率=0.6000, 长度=3, 深度=1
+     sub(ami_ex_energy_s1, ald_VIP)
+
+  93. 准确率=0.6000, 长度=3, 深度=1
+     sub(ami_delta_est, ami_VEA)
+
+  94. 准确率=0.6000, 长度=3, 深度=1
+     div(ami_GAP, ald_HOMO)
+
+  95. 准确率=0.6000, 长度=3, 深度=1
+     sub(ami_ex_energy_s1, ami_hardness)
+
+  96. 准确率=0.6000, 长度=3, 深度=1
+     sub(ald_VEA, ami_VEA)
+
+  97. 准确率=0.6000, 长度=3, 深度=1
+     sub(ami_HOMO, ald_LUMO)
+
+  98. 准确率=0.6000, 长度=3, 深度=1
+     sub(ald_Electrophilicity_index, ald_Electrophilicity_index)
+
+  99. 准确率=0.6000, 长度=3, 深度=1
+     mul(ald_d_index, ald_POLAR)
+
+  100. 准确率=0.6000, 长度=3, 深度=1
+     sub(ald_HOMO, ami_DIPOLE)
+
+  101. 准确率=0.6000, 长度=3, 深度=1
+     sub(ald_delta_est, ami_ex_energy_s1)
+
+  102. 准确率=0.6000, 长度=3, 深度=1
+     div(ami_sr, ald_LUMO)
+
+  103. 准确率=0.6000, 长度=3, 深度=1
+     mul(ald_d_index, ald_ex_energy_t1)
+
+  104. 准确率=0.6000, 长度=3, 深度=1
+     mul(ald_HOMO, ald_POLAR)
+
+  105. 准确率=0.6000, 长度=3, 深度=1
+     sub(ald_ex_energy_s1, ami_ex_energy_s1)
+
+  106. 准确率=0.6000, 长度=3, 深度=1
+     div(ami_ex_energy_t1, ald_LUMO)
+
+  107. 准确率=0.4000, 长度=3, 深度=1
+     mul(ami_Electrophilicity_index, ami_DIPOLE)
+
+  108. 准确率=0.4000, 长度=3, 深度=1
+     mul(ami_GAP, ami_sr)
+
+  109. 准确率=0.4000, 长度=3, 深度=1
+     sub(ald_VEA, ald_ex_energy_t1)
+
+  110. 准确率=0.4000, 长度=3, 深度=1
+     div(ami_fosc, ald_delta_est)
+
+  111. 准确率=0.4000, 长度=3, 深度=1
+     div(ald_GAP, ald_Electrophilicity_index)
+
+  112. 准确率=0.4000, 长度=3, 深度=1
+     sub(ald_delta_est, ami_delta_est)
+
+  113. 准确率=0.4000, 长度=3, 深度=1
+     div(ald_GAP, ami_delta_est)
+
+  114. 准确率=0.4000, 长度=3, 深度=1
+     sub(ami_HOMO, ami_VEA)
+
+  115. 准确率=0.4000, 长度=3, 深度=1
+     add(ami_LUMO, ald_d_index)
+
+  116. 准确率=0.4000, 长度=3, 深度=1
+     sub(ami_sr, ald_DIPOLE)
+
+  117. 准确率=0.4000, 长度=3, 深度=1
+     div(ald_ex_energy_s1, ami_POLAR)
+
+  118. 准确率=0.4000, 长度=3, 深度=1
+     div(ami_sr, ami_delta_est)
+
+  119. 准确率=0.4000, 长度=3, 深度=1
+     div(ami_delta_est, ald_hardness)
+
+  120. 准确率=0.4000, 长度=3, 深度=1
+     div(ami_GAP, ami_sr)
+
+  121. 准确率=0.4000, 长度=3, 深度=1
+     mul(ald_GAP, ami_DIPOLE)
+
+  122. 准确率=0.4000, 长度=3, 深度=1
+     mul(ami_DIPOLE, ami_delta_est)
+
+  123. 准确率=0.4000, 长度=3, 深度=1
+     mul(ami_DIPOLE, ami_VIP)
+
+  124. 准确率=0.4000, 长度=3, 深度=1
+     mul(ald_delta_est, ami_DIPOLE)
+
+  125. 准确率=0.4000, 长度=3, 深度=1
+     div(ald_hardness, ami_POLAR)
+
+  126. 准确率=0.4000, 长度=3, 深度=1
+     div(ald_GAP, ami_Electrophilicity_index)
+
+  127. 准确率=0.4000, 长度=3, 深度=1
+     mul(ald_VEA, ami_GAP)
+
+  128. 准确率=0.4000, 长度=3, 深度=1
+     mul(1.495, ami_DIPOLE)
+
+  129. 准确率=0.4000, 长度=3, 深度=1
+     mul(ald_POLAR, ald_POLAR)
+
+  130. 准确率=0.4000, 长度=3, 深度=1
+     mul(ami_POLAR, ami_sr)
+
+  131. 准确率=0.4000, 长度=3, 深度=1
+     add(ald_fosc, ami_DIPOLE)
+
+  132. 准确率=0.4000, 长度=3, 深度=1
+     div(ami_fosc, ald_fosc)
+
+  133. 准确率=0.4000, 长度=3, 深度=1
+     mul(ald_VIP, ald_POLAR)
+
+  134. 准确率=0.4000, 长度=3, 深度=1
+     mul(ami_hardness, ald_POLAR)
+
+  135. 准确率=0.4000, 长度=3, 深度=1
+     mul(ald_Electrophilicity_index, ald_ex_energy_s1)
+
+  136. 准确率=0.4000, 长度=3, 深度=1
+     sub(ald_delta_est, ald_DIPOLE)
+
+  137. 准确率=0.4000, 长度=3, 深度=1
+     div(ald_sr, ami_delta_est)
+
+  138. 准确率=0.4000, 长度=3, 深度=1
+     div(ald_DIPOLE, ami_POLAR)
+
+  139. 准确率=0.4000, 长度=3, 深度=1
+     sub(ald_ex_energy_s1, ald_delta_est)
+
+  140. 准确率=0.4000, 长度=3, 深度=1
+     div(ald_POLAR, ald_VEA)
+
+  141. 准确率=0.4000, 长度=3, 深度=1
+     div(ami_ex_energy_s1, ald_ex_energy_t1)
+
+  142. 准确率=0.4000, 长度=3, 深度=1
+     add(ald_ex_energy_t1, ald_fosc)
+
+  143. 准确率=0.4000, 长度=3, 深度=1
+     mul(ami_POLAR, ald_POLAR)
+
+  144. 准确率=0.4000, 长度=3, 深度=1
+     div(ami_DIPOLE, ald_delta_est)
+
+  145. 准确率=0.4000, 长度=3, 深度=1
+     div(ami_VIP, ald_fosc)
+
+  146. 准确率=0.4000, 长度=3, 深度=1
+     mul(ald_ex_energy_t1, ald_POLAR)
+
+  147. 准确率=0.4000, 长度=3, 深度=1
+     sub(ami_VIP, ami_sr)
+
+  148. 准确率=0.4000, 长度=3, 深度=1
+     div(ald_Electrophilicity_index, ald_POLAR)
+
+  149. 准确率=0.4000, 长度=3, 深度=1
+     mul(ami_d_index, ami_LUMO)
+
+  150. 准确率=0.4000, 长度=3, 深度=1
+     add(ami_ex_energy_s1, ald_ex_energy_t1)
+
+  151. 准确率=0.4000, 长度=3, 深度=1
+     sub(ami_POLAR, ami_VEA)
+
+  152. 准确率=0.4000, 长度=3, 深度=1
+     mul(1.043, ald_POLAR)
+
+  153. 准确率=0.4000, 长度=3, 深度=1
+     add(ami_delta_est, ami_delta_est)
+
+  154. 准确率=0.4000, 长度=3, 深度=1
+     mul(ald_delta_est, ald_delta_est)
+
+  155. 准确率=0.4000, 长度=3, 深度=1
+     div(ald_Electrophilicity_index, ami_DIPOLE)
+
+  156. 准确率=0.4000, 长度=3, 深度=1
+     add(ald_Electrophilicity_index, ald_VEA)
+
+  157. 准确率=0.4000, 长度=3, 深度=1
+     add(ami_VEA, ami_delta_est)
+
+  158. 准确率=0.4000, 长度=3, 深度=1
+     div(ami_sr, ami_DIPOLE)
+
+  159. 准确率=0.4000, 长度=3, 深度=1
+     mul(0.251, ald_POLAR)
+
+  160. 准确率=0.4000, 长度=3, 深度=1
+     sub(ald_hardness, ami_Electrophilicity_index)
+
+  161. 准确率=0.4000, 长度=3, 深度=1
+     mul(ami_VIP, ald_POLAR)
+
+  162. 准确率=0.4000, 长度=3, 深度=1
+     sub(ami_POLAR, ald_VEA)
+
+  163. 准确率=0.4000, 长度=3, 深度=1
+     div(ami_POLAR, ald_ex_energy_t1)
+
+  164. 准确率=0.4000, 长度=3, 深度=1
+     sub(ald_DIPOLE, ald_HOMO)
+
+  165. 准确率=0.4000, 长度=3, 深度=1
+     sub(ami_GAP, -1.178)
+
+  166. 准确率=0.4000, 长度=3, 深度=1
+     mul(ami_sr, ald_hardness)
+
+  167. 准确率=0.4000, 长度=3, 深度=1
+     mul(ami_DIPOLE, ald_POLAR)
+
+  168. 准确率=0.4000, 长度=3, 深度=1
+     div(ald_VIP, ami_d_index)
+
+  169. 准确率=0.4000, 长度=3, 深度=1
+     add(ami_GAP, ami_ex_energy_s1)
+
+  170. 准确率=0.4000, 长度=3, 深度=1
+     div(ald_GAP, ami_GAP)
+
+  171. 准确率=0.4000, 长度=3, 深度=1
+     add(ald_POLAR, ald_DIPOLE)
+
+  172. 准确率=0.4000, 长度=3, 深度=1
+     add(ald_ex_energy_t1, ami_fosc)
+
+  173. 准确率=0.4000, 长度=3, 深度=1
+     add(ami_DIPOLE, ald_sr)
+
+  174. 准确率=0.4000, 长度=3, 深度=1
+     mul(ami_GAP, ami_VIP)
+
+  175. 准确率=0.4000, 长度=3, 深度=1
+     div(ami_ex_energy_s1, ami_DIPOLE)
+
+  176. 准确率=0.4000, 长度=3, 深度=1
+     mul(ald_Electrophilicity_index, ald_POLAR)
+
+  177. 准确率=0.4000, 长度=3, 深度=1
+     div(ami_DIPOLE, ald_ex_energy_s1)
+
+  178. 准确率=0.4000, 长度=3, 深度=1
+     mul(ami_GAP, ami_Electrophilicity_index)
+
+  179. 准确率=0.4000, 长度=3, 深度=1
+     div(ami_d_index, ami_d_index)
+
+  180. 准确率=0.4000, 长度=3, 深度=1
+     add(ald_ex_energy_s1, ami_VEA)
+
+  181. 准确率=0.4000, 长度=3, 深度=1
+     div(ami_Electrophilicity_index, ald_VEA)
+
+  182. 准确率=0.4000, 长度=3, 深度=1
+     add(ami_GAP, ald_ex_energy_t1)
+
+  183. 准确率=0.4000, 长度=3, 深度=1
+     div(ami_sr, ald_DIPOLE)
+
+  184. 准确率=0.4000, 长度=3, 深度=1
+     add(ami_ex_energy_s1, ald_GAP)
+
+  185. 准确率=0.4000, 长度=3, 深度=1
+     add(ami_fosc, ald_VIP)
+
+  186. 准确率=0.4000, 长度=3, 深度=1
+     sub(ami_POLAR, ami_HOMO)
+
+  187. 准确率=0.4000, 长度=3, 深度=1
+     sub(ami_fosc, ald_DIPOLE)
+
+  188. 准确率=0.4000, 长度=3, 深度=1
+     mul(ald_hardness, ami_sr)
+
+  189. 准确率=0.4000, 长度=3, 深度=1
+     sub(ald_fosc, ami_DIPOLE)
+
+  190. 准确率=0.4000, 长度=3, 深度=1
+     add(ami_ex_energy_s1, ald_LUMO)
+
+  191. 准确率=0.4000, 长度=3, 深度=1
+     mul(ald_GAP, ald_sr)
+
+  192. 准确率=0.4000, 长度=3, 深度=1
+     sub(ami_ex_energy_t1, ald_GAP)
+
+  193. 准确率=0.4000, 长度=3, 深度=1
+     mul(ami_GAP, ami_POLAR)
+
+  194. 准确率=0.4000, 长度=3, 深度=1
+     div(ald_ex_energy_t1, ami_ex_energy_s1)
+
+  195. 准确率=0.4000, 长度=3, 深度=1
+     mul(ald_DIPOLE, ald_POLAR)
+
+  196. 准确率=0.4000, 长度=3, 深度=1
+     add(ald_POLAR, ald_POLAR)
+
+  197. 准确率=0.4000, 长度=3, 深度=1
+     sub(ald_Electrophilicity_index, ami_d_index)
+
+  198. 准确率=0.4000, 长度=3, 深度=1
+     add(ami_d_index, ami_VIP)
+
+  199. 准确率=0.4000, 长度=3, 深度=1
+     add(0.524, ald_Electrophilicity_index)
+
+  200. 准确率=0.4000, 长度=3, 深度=1
+     add(ald_d_index, ald_fosc)
+
+  201. 准确率=0.4000, 长度=3, 深度=1
+     div(ald_VIP, ald_POLAR)
+
+  202. 准确率=0.4000, 长度=3, 深度=1
+     sub(ald_POLAR, ami_DIPOLE)
+
+  203. 准确率=0.4000, 长度=3, 深度=1
+     add(ami_VIP, ald_hardness)
+
+  204. 准确率=0.4000, 长度=3, 深度=1
+     add(ami_LUMO, ami_GAP)
+
+  205. 准确率=0.4000, 长度=3, 深度=1
+     div(ami_VIP, ami_POLAR)
+
+  206. 准确率=0.4000, 长度=3, 深度=1
+     mul(0.069, ald_POLAR)
+
+  207. 准确率=0.4000, 长度=3, 深度=1
+     div(ami_delta_est, ami_delta_est)
+
+  208. 准确率=0.4000, 长度=3, 深度=1
+     div(ami_ex_energy_t1, ald_Electrophilicity_index)
+
+  209. 准确率=0.4000, 长度=3, 深度=1
+     mul(ald_GAP, ald_POLAR)
+
+  210. 准确率=0.4000, 长度=3, 深度=1
+     mul(ald_hardness, ami_VIP)
+
+  211. 准确率=0.4000, 长度=3, 深度=1
+     add(ald_DIPOLE, ald_VEA)
+
+  212. 准确率=0.4000, 长度=3, 深度=1
+     sub(ami_ex_energy_s1, ald_HOMO)
+
+  213. 准确率=0.4000, 长度=3, 深度=1
+     div(ami_ex_energy_t1, ami_DIPOLE)
+
+  214. 准确率=0.4000, 长度=3, 深度=1
+     div(ami_fosc, ami_ex_energy_s1)
+
+  215. 准确率=0.4000, 长度=3, 深度=1
+     mul(ami_ex_energy_t1, ami_hardness)
+
+  216. 准确率=0.4000, 长度=3, 深度=1
+     add(ami_VIP, 0.379)
+
+  217. 准确率=0.4000, 长度=3, 深度=1
+     sub(ald_fosc, -1.929)
+
+  218. 准确率=0.4000, 长度=3, 深度=1
+     mul(ami_POLAR, ami_POLAR)
+
+  219. 准确率=0.4000, 长度=3, 深度=1
+     div(ald_DIPOLE, ami_fosc)
+
+  220. 准确率=0.4000, 长度=3, 深度=1
+     add(ald_POLAR, ami_ex_energy_t1)
+
+  221. 准确率=0.4000, 长度=3, 深度=1
+     div(1.568, ami_GAP)
+
+  222. 准确率=0.4000, 长度=3, 深度=1
+     add(ami_Electrophilicity_index, ami_fosc)
+
+  223. 准确率=0.4000, 长度=3, 深度=1
+     div(ami_ex_energy_s1, ald_POLAR)
+
+  224. 准确率=0.4000, 长度=3, 深度=1
+     div(ald_ex_energy_s1, ald_fosc)
+
+  225. 准确率=0.4000, 长度=3, 深度=1
+     add(ami_delta_est, ald_ex_energy_t1)
+
+  226. 准确率=0.4000, 长度=3, 深度=1
+     add(ald_ex_energy_t1, ald_DIPOLE)
+
+  227. 准确率=0.4000, 长度=3, 深度=1
+     mul(0.190, ald_POLAR)
+
+  228. 准确率=0.2000, 长度=3, 深度=1
+     div(ami_VEA, ald_POLAR)
+
+  229. 准确率=0.2000, 长度=3, 深度=1
+     mul(ami_LUMO, ald_LUMO)
+
+  230. 准确率=0.2000, 长度=3, 深度=1
+     mul(ami_LUMO, -0.530)
+
+  231. 准确率=0.2000, 长度=3, 深度=1
+     sub(ald_delta_est, ald_Electrophilicity_index)
+
+  232. 准确率=0.2000, 长度=3, 深度=1
+     mul(ald_VEA, ami_VEA)
+
+  233. 准确率=0.2000, 长度=3, 深度=1
+     sub(ald_delta_est, ald_d_index)
+
+  234. 准确率=0.2000, 长度=3, 深度=1
+     sub(1.481, ald_Electrophilicity_index)
+
+  235. 准确率=0.0000, 长度=3, 深度=1
+     mul(ami_GAP, ami_d_index)
+
+  236. 准确率=0.0000, 长度=3, 深度=1
+     mul(ald_GAP, ami_d_index)
+
+  237. 准确率=0.0000, 长度=3, 深度=1
+     mul(ami_d_index, ald_POLAR)
+
+  238. 准确率=0.0000, 长度=3, 深度=1
+     mul(ami_d_index, ami_POLAR)
+
+  239. 准确率=0.0000, 长度=3, 深度=1
+     div(ami_d_index, ami_hardness)
+
+  240. 准确率=0.0000, 长度=3, 深度=1
+     div(ami_VEA, ald_d_index)
+
+  241. 准确率=0.0000, 长度=3, 深度=1
+     mul(ald_POLAR, ami_d_index)
+
+  242. 准确率=0.0000, 长度=3, 深度=1
+     mul(ami_d_index, ald_hardness)
+
+  243. 准确率=0.0000, 长度=3, 深度=1
+     mul(ami_POLAR, ami_d_index)
+
+  244. 准确率=0.6000, 长度=5, 深度=2
+     div(ald_d_index, sub(ami_Electrophilicity_index, ami_DIPOLE))
+
+  245. 准确率=0.6000, 长度=5, 深度=2
+     add(add(ami_HOMO, ald_d_index), ami_HOMO)
+
+  246. 准确率=0.6000, 长度=5, 深度=2
+     mul(sub(ami_DIPOLE, ald_delta_est), ald_ex_energy_t1)
+
+  247. 准确率=0.6000, 长度=5, 深度=2
+     mul(ald_delta_est, sub(ald_d_index, ald_fosc))
+
+  248. 准确率=0.6000, 长度=5, 深度=2
+     div(ald_d_index, sub(ami_Electrophilicity_index, ald_delta_est))
+
+  249. 准确率=0.6000, 长度=5, 深度=2
+     div(div(ami_d_index, ald_LUMO), ald_GAP)
+
+  250. 准确率=0.6000, 长度=5, 深度=2
+     mul(div(0.575, ald_HOMO), ald_POLAR)
+
+  251. 准确率=0.6000, 长度=5, 深度=2
+     mul(add(-1.985, ami_d_index), ald_POLAR)
+
+  252. 准确率=0.6000, 长度=5, 深度=2
+     mul(div(-0.024, ald_Electrophilicity_index), ald_POLAR)
+
+  253. 准确率=0.6000, 长度=5, 深度=2
+     mul(div(ami_VIP, ald_HOMO), ald_POLAR)
+
+  254. 准确率=0.6000, 长度=5, 深度=2
+     mul(mul(ami_HOMO, 1.649), ald_POLAR)
+
+  255. 准确率=0.6000, 长度=5, 深度=2
+     mul(add(ami_LUMO, ald_HOMO), ami_POLAR)
+
+  256. 准确率=0.6000, 长度=5, 深度=2
+     mul(mul(ami_GAP, ami_HOMO), ald_POLAR)
+
+  257. 准确率=0.6000, 长度=5, 深度=2
+     mul(sub(ald_HOMO, ald_LUMO), ami_POLAR)
+
+  258. 准确率=0.6000, 长度=5, 深度=2
+     mul(mul(ald_delta_est, ald_HOMO), ald_POLAR)
+
+  259. 准确率=0.6000, 长度=5, 深度=2
+     mul(div(-1.985, ami_hardness), ald_POLAR)
+
+  260. 准确率=0.6000, 长度=5, 深度=2
+     mul(sub(ami_HOMO, ami_fosc), ald_POLAR)
+
+  261. 准确率=0.6000, 长度=5, 深度=2
+     mul(div(-1.985, ami_Electrophilicity_index), ald_POLAR)
+
+  262. 准确率=0.6000, 长度=5, 深度=2
+     sub(div(-1.985, ami_d_index), ald_POLAR)
+
+  263. 准确率=0.6000, 长度=5, 深度=2
+     mul(mul(-1.985, ald_POLAR), ald_POLAR)
+
+  264. 准确率=0.6000, 长度=5, 深度=2
+     mul(div(ald_HOMO, ald_hardness), ald_POLAR)
+
+  265. 准确率=0.6000, 长度=5, 深度=2
+     mul(div(-1.985, ami_d_index), ami_d_index)
+
+  266. 准确率=0.6000, 长度=5, 深度=2
+     mul(div(-1.985, ami_POLAR), ald_POLAR)
+
+  267. 准确率=0.6000, 长度=5, 深度=2
+     mul(div(ald_d_index, ami_VIP), ami_POLAR)
+
+  268. 准确率=0.6000, 长度=5, 深度=2
+     mul(sub(ami_Electrophilicity_index, ami_hardness), ald_POLAR)
+
+  269. 准确率=0.6000, 长度=5, 深度=2
+     mul(sub(ami_LUMO, ald_DIPOLE), ald_POLAR)
+
+  270. 准确率=0.6000, 长度=5, 深度=2
+     mul(div(-1.985, ald_fosc), ald_POLAR)
+
+  271. 准确率=0.6000, 长度=5, 深度=2
+     mul(div(-1.985, ald_Electrophilicity_index), ald_POLAR)
+
+  272. 准确率=0.6000, 长度=5, 深度=2
+     mul(mul(ald_Electrophilicity_index, ald_d_index), ald_POLAR)
+
+  273. 准确率=0.6000, 长度=5, 深度=2
+     mul(div(ami_Electrophilicity_index, ald_LUMO), ald_POLAR)
+
+  274. 准确率=0.6000, 长度=5, 深度=2
+     mul(ald_HOMO, add(ald_DIPOLE, ami_POLAR))
+
+  275. 准确率=0.6000, 长度=5, 深度=2
+     mul(div(ami_sr, -0.009), ald_POLAR)
+
+  276. 准确率=0.6000, 长度=5, 深度=2
+     mul(div(ald_delta_est, ald_LUMO), ald_POLAR)
+
+  277. 准确率=0.6000, 长度=5, 深度=2
+     mul(div(-1.985, ald_POLAR), ald_POLAR)
+
+  278. 准确率=0.6000, 长度=5, 深度=2
+     mul(mul(ami_Electrophilicity_index, ami_HOMO), ald_POLAR)
+
+  279. 准确率=0.6000, 长度=5, 深度=2
+     mul(ami_ex_energy_s1, sub(ami_GAP, ald_sr))
+
+  280. 准确率=0.6000, 长度=5, 深度=2
+     sub(div(-1.985, ami_d_index), ami_POLAR)
+
+  281. 准确率=0.6000, 长度=5, 深度=2
+     mul(sub(ald_hardness, ald_POLAR), ald_POLAR)
+
+  282. 准确率=0.6000, 长度=5, 深度=2
+     mul(sub(ald_Electrophilicity_index, ald_VIP), ald_POLAR)
+
+  283. 准确率=0.6000, 长度=5, 深度=2
+     mul(div(-1.985, ald_ex_energy_s1), ald_POLAR)
+
+  284. 准确率=0.6000, 长度=5, 深度=2
+     mul(mul(ald_HOMO, ami_Electrophilicity_index), ald_POLAR)
+
+  285. 准确率=0.6000, 长度=5, 深度=2
+     mul(div(ald_d_index, ald_POLAR), ald_POLAR)
+
+  286. 准确率=0.6000, 长度=5, 深度=2
+     mul(div(-1.985, ald_delta_est), ald_POLAR)
+
+  287. 准确率=0.6000, 长度=5, 深度=2
+     mul(sub(ald_ex_energy_s1, ami_hardness), ald_POLAR)
+
+  288. 准确率=0.6000, 长度=5, 深度=2
+     mul(div(-1.985, ami_ex_energy_s1), ald_POLAR)
+
+  289. 准确率=0.6000, 长度=5, 深度=2
+     mul(div(-1.985, ald_GAP), ald_POLAR)
+
+  290. 准确率=0.6000, 长度=5, 深度=2
+     mul(sub(ald_DIPOLE, ald_ex_energy_s1), ald_POLAR)
+
+  291. 准确率=0.6000, 长度=5, 深度=2
+     mul(mul(ami_ex_energy_s1, ami_HOMO), ald_POLAR)
+
+  292. 准确率=0.6000, 长度=5, 深度=2
+     mul(div(-1.985, ami_delta_est), ald_POLAR)
+
+  293. 准确率=0.6000, 长度=5, 深度=2
+     mul(mul(ald_POLAR, ami_HOMO), ami_POLAR)
+
+  294. 准确率=0.6000, 长度=5, 深度=2
+     mul(div(-1.985, ami_GAP), ald_POLAR)
+
+  295. 准确率=0.6000, 长度=5, 深度=2
+     mul(div(-1.985, ami_DIPOLE), ald_POLAR)
+
+  296. 准确率=0.6000, 长度=5, 深度=2
+     mul(div(-1.985, ami_d_index), ami_LUMO)
+
+  297. 准确率=0.6000, 长度=5, 深度=2
+     div(ami_GAP, mul(ald_fosc, ald_HOMO))
+
+  298. 准确率=0.6000, 长度=5, 深度=2
+     mul(mul(ald_d_index, ald_hardness), ald_fosc)
+
+  299. 准确率=0.6000, 长度=5, 深度=2
+     mul(div(ami_VEA, ami_d_index), ami_POLAR)
+
+  300. 准确率=0.4000, 长度=5, 深度=2
+     add(div(ald_hardness, ald_hardness), ald_fosc)
+
+  301. 准确率=0.4000, 长度=5, 深度=2
+     sub(sub(ald_fosc, ami_VEA), ami_sr)
+
+  302. 准确率=0.4000, 长度=5, 深度=2
+     div(ami_sr, div(ald_POLAR, ami_d_index))
+
+  303. 准确率=0.4000, 长度=5, 深度=2
+     div(sub(ami_Electrophilicity_index, ami_VEA), ald_delta_est)
+
+  304. 准确率=0.4000, 长度=5, 深度=2
+     mul(div(ald_ex_energy_s1, ald_d_index), ald_POLAR)
+
+  305. 准确率=0.4000, 长度=5, 深度=2
+     sub(mul(ald_fosc, ami_ex_energy_t1), ami_LUMO)
+
+  306. 准确率=0.4000, 长度=5, 深度=2
+     mul(div(ald_hardness, ald_ex_energy_t1), ald_POLAR)
+
+  307. 准确率=0.4000, 长度=5, 深度=2
+     mul(div(ald_POLAR, ami_d_index), ald_POLAR)
+
+  308. 准确率=0.4000, 长度=5, 深度=2
+     mul(add(ami_GAP, ald_hardness), ald_POLAR)
+
+  309. 准确率=0.4000, 长度=5, 深度=2
+     mul(sub(ami_ex_energy_t1, ald_d_index), ald_POLAR)
+
+  310. 准确率=0.4000, 长度=5, 深度=2
+     mul(sub(ald_delta_est, ami_DIPOLE), ami_POLAR)
+
+  311. 准确率=0.4000, 长度=5, 深度=2
+     mul(div(-1.985, -1.985), ald_POLAR)
+
+  312. 准确率=0.4000, 长度=5, 深度=2
+     mul(div(ald_GAP, ami_d_index), ald_POLAR)
+
+  313. 准确率=0.4000, 长度=5, 深度=2
+     mul(sub(ami_ex_energy_s1, ami_DIPOLE), ald_POLAR)
+
+  314. 准确率=0.4000, 长度=5, 深度=2
+     mul(mul(ald_hardness, ald_fosc), ami_POLAR)
+
+  315. 准确率=0.4000, 长度=5, 深度=2
+     mul(div(ald_sr, ami_ex_energy_t1), ald_POLAR)
+
+  316. 准确率=0.4000, 长度=5, 深度=2
+     mul(div(ami_hardness, ami_d_index), ald_POLAR)
+
+  317. 准确率=0.4000, 长度=5, 深度=2
+     mul(mul(ald_fosc, ami_GAP), ald_POLAR)
+
+  318. 准确率=0.4000, 长度=5, 深度=2
+     mul(div(ami_VIP, ami_hardness), ald_POLAR)
+
+  319. 准确率=0.4000, 长度=5, 深度=2
+     mul(sub(ami_VEA, ald_sr), ald_POLAR)
+
+  320. 准确率=0.4000, 长度=5, 深度=2
+     mul(div(ald_POLAR, ami_d_index), ami_POLAR)
+
+  321. 准确率=0.4000, 长度=5, 深度=2
+     mul(sub(ami_ex_energy_s1, ami_fosc), ald_POLAR)
+
+  322. 准确率=0.4000, 长度=5, 深度=2
+     mul(add(ald_fosc, ald_sr), ald_POLAR)
+
+  323. 准确率=0.4000, 长度=5, 深度=2
+     mul(div(ami_DIPOLE, ald_POLAR), ald_POLAR)
+
+  324. 准确率=0.4000, 长度=5, 深度=2
+     mul(add(ald_ex_energy_s1, ald_ex_energy_t1), ald_POLAR)
+
+  325. 准确率=0.4000, 长度=5, 深度=2
+     mul(div(ald_delta_est, ami_d_index), ald_POLAR)
+
+  326. 准确率=0.4000, 长度=5, 深度=2
+     mul(add(ami_GAP, ald_fosc), ald_POLAR)
+
+  327. 准确率=0.4000, 长度=5, 深度=2
+     mul(add(ald_POLAR, ami_LUMO), ald_POLAR)
+
+  328. 准确率=0.4000, 长度=5, 深度=2
+     mul(div(ami_delta_est, ald_POLAR), ald_POLAR)
+
+  329. 准确率=0.4000, 长度=5, 深度=2
+     mul(div(-1.985, ald_HOMO), ald_POLAR)
+
+  330. 准确率=0.4000, 长度=5, 深度=2
+     mul(div(ami_DIPOLE, ami_ex_energy_s1), ald_POLAR)
+
+  331. 准确率=0.4000, 长度=5, 深度=2
+     mul(mul(ami_Electrophilicity_index, ald_DIPOLE), ald_POLAR)
+
+  332. 准确率=0.4000, 长度=5, 深度=2
+     mul(mul(ald_ex_energy_s1, ald_hardness), ald_POLAR)
+
+  333. 准确率=0.4000, 长度=5, 深度=2
+     mul(div(ami_ex_energy_s1, 0.149), ald_POLAR)
+
+  334. 准确率=0.4000, 长度=5, 深度=2
+     mul(sub(ami_ex_energy_t1, ami_HOMO), ald_POLAR)
+
+  335. 准确率=0.4000, 长度=5, 深度=2
+     mul(sub(ald_VIP, ald_ex_energy_s1), ald_POLAR)
+
+  336. 准确率=0.4000, 长度=5, 深度=2
+     mul(div(ami_DIPOLE, ami_d_index), ald_POLAR)
+
+  337. 准确率=0.4000, 长度=5, 深度=2
+     mul(div(ald_VEA, ami_GAP), ald_POLAR)
+
+  338. 准确率=0.4000, 长度=5, 深度=2
+     mul(sub(ami_hardness, ald_LUMO), ald_POLAR)
+
+  339. 准确率=0.4000, 长度=5, 深度=2
+     add(div(-1.985, 0.394), ald_POLAR)
+
+  340. 准确率=0.4000, 长度=5, 深度=2
+     mul(sub(ald_Electrophilicity_index, ald_ex_energy_t1), ald_POLAR)
+
+  341. 准确率=0.4000, 长度=5, 深度=2
+     mul(mul(ald_delta_est, ald_fosc), ald_POLAR)
+
+  342. 准确率=0.4000, 长度=5, 深度=2
+     mul(add(ami_HOMO, ald_VIP), ald_POLAR)
+
+  343. 准确率=0.4000, 长度=5, 深度=2
+     mul(div(ald_DIPOLE, ald_d_index), ald_POLAR)
+
+  344. 准确率=0.4000, 长度=5, 深度=2
+     mul(div(ami_HOMO, -1.985), ald_POLAR)
+
+  345. 准确率=0.4000, 长度=5, 深度=2
+     mul(sub(ald_fosc, ami_d_index), ald_POLAR)
+
+  346. 准确率=0.4000, 长度=5, 深度=2
+     mul(mul(ald_GAP, ald_DIPOLE), ald_POLAR)
+
+  347. 准确率=0.4000, 长度=5, 深度=2
+     mul(add(ami_fosc, ami_Electrophilicity_index), ald_POLAR)
+
+  348. 准确率=0.4000, 长度=5, 深度=2
+     mul(add(ald_ex_energy_s1, ami_sr), ald_POLAR)
+
+  349. 准确率=0.4000, 长度=5, 深度=2
+     mul(div(ami_fosc, ami_d_index), ami_ex_energy_t1)
+
+  350. 准确率=0.4000, 长度=5, 深度=2
+     mul(div(ami_POLAR, ami_Electrophilicity_index), ald_POLAR)
+
+  351. 准确率=0.4000, 长度=5, 深度=2
+     mul(mul(ald_GAP, ald_Electrophilicity_index), ald_POLAR)
+
+  352. 准确率=0.4000, 长度=5, 深度=2
+     mul(mul(ami_delta_est, ami_GAP), ami_POLAR)
+
+  353. 准确率=0.4000, 长度=5, 深度=2
+     mul(div(ami_d_index, ami_d_index), ald_POLAR)
+
+  354. 准确率=0.4000, 长度=5, 深度=2
+     mul(mul(ald_VIP, ami_ex_energy_s1), ald_POLAR)
+
+  355. 准确率=0.4000, 长度=5, 深度=2
+     mul(mul(ami_Electrophilicity_index, ald_Electrophilicity_index), ald_POLAR)
+
+  356. 准确率=0.4000, 长度=5, 深度=2
+     sub(add(ald_fosc, ami_DIPOLE), ami_delta_est)
+
+  357. 准确率=0.4000, 长度=5, 深度=2
+     mul(add(ald_ex_energy_s1, ald_hardness), ald_POLAR)
+
+  358. 准确率=0.4000, 长度=5, 深度=2
+     mul(add(ami_VEA, ald_ex_energy_t1), ald_POLAR)
+
+  359. 准确率=0.4000, 长度=5, 深度=2
+     mul(div(ald_VEA, ami_DIPOLE), ald_POLAR)
+
+  360. 准确率=0.4000, 长度=5, 深度=2
+     mul(div(ami_POLAR, ami_d_index), ald_POLAR)
+
+  361. 准确率=0.4000, 长度=5, 深度=2
+     mul(add(ald_VIP, ald_HOMO), ald_POLAR)
+
+  362. 准确率=0.4000, 长度=5, 深度=2
+     sub(sub(ald_VIP, ald_DIPOLE), ald_VEA)
+
+  363. 准确率=0.4000, 长度=5, 深度=2
+     mul(sub(ald_delta_est, ami_LUMO), ald_POLAR)
+
+  364. 准确率=0.4000, 长度=5, 深度=2
+     mul(div(ami_Electrophilicity_index, ami_ex_energy_t1), ald_POLAR)
+
+  365. 准确率=0.4000, 长度=5, 深度=2
+     mul(add(ami_ex_energy_t1, ami_DIPOLE), ald_POLAR)
+
+  366. 准确率=0.4000, 长度=5, 深度=2
+     mul(add(ald_ex_energy_t1, ald_d_index), ald_POLAR)
+
+  367. 准确率=0.4000, 长度=5, 深度=2
+     mul(add(ami_delta_est, ald_hardness), ami_POLAR)
+
+  368. 准确率=0.4000, 长度=5, 深度=2
+     mul(div(ald_sr, ald_GAP), ald_POLAR)
+
+  369. 准确率=0.4000, 长度=5, 深度=2
+     mul(add(ami_Electrophilicity_index, ald_VIP), ald_POLAR)
+
+  370. 准确率=0.4000, 长度=5, 深度=2
+     mul(add(ami_Electrophilicity_index, ald_HOMO), ald_POLAR)
+
+  371. 准确率=0.4000, 长度=5, 深度=2
+     mul(div(ald_DIPOLE, ald_fosc), ald_POLAR)
+
+  372. 准确率=0.4000, 长度=5, 深度=2
+     mul(div(ami_DIPOLE, ami_delta_est), ami_POLAR)
+
+  373. 准确率=0.4000, 长度=5, 深度=2
+     mul(mul(ami_sr, ami_ex_energy_t1), ald_POLAR)
+
+  374. 准确率=0.4000, 长度=5, 深度=2
+     mul(mul(ami_sr, ami_ex_energy_s1), ald_POLAR)
+
+  375. 准确率=0.4000, 长度=5, 深度=2
+     mul(add(ald_VEA, ami_VIP), ald_POLAR)
+
+  376. 准确率=0.4000, 长度=5, 深度=2
+     mul(mul(ami_delta_est, ald_Electrophilicity_index), ald_POLAR)
+
+  377. 准确率=0.4000, 长度=5, 深度=2
+     mul(sub(ami_GAP, ald_HOMO), ald_POLAR)
+
+  378. 准确率=0.4000, 长度=5, 深度=2
+     mul(sub(ami_sr, ald_HOMO), ald_POLAR)
+
+  379. 准确率=0.4000, 长度=5, 深度=2
+     mul(mul(ald_DIPOLE, ald_ex_energy_s1), ald_POLAR)
+
+  380. 准确率=0.4000, 长度=5, 深度=2
+     mul(sub(ald_fosc, ami_Electrophilicity_index), ald_POLAR)
+
+  381. 准确率=0.4000, 长度=5, 深度=2
+     mul(div(ald_hardness, ami_d_index), ald_POLAR)
+
+  382. 准确率=0.4000, 长度=5, 深度=2
+     mul(mul(ami_DIPOLE, ami_ex_energy_t1), ald_POLAR)
+
+  383. 准确率=0.4000, 长度=5, 深度=2
+     mul(add(ald_ex_energy_s1, ami_DIPOLE), ald_POLAR)
+
+  384. 准确率=0.4000, 长度=5, 深度=2
+     mul(div(-1.985, ami_HOMO), ami_sr)
+
+  385. 准确率=0.4000, 长度=5, 深度=2
+     mul(sub(ald_VIP, ald_ex_energy_t1), ald_POLAR)
+
+  386. 准确率=0.4000, 长度=5, 深度=2
+     mul(mul(ami_delta_est, ami_DIPOLE), ald_POLAR)
+
+  387. 准确率=0.4000, 长度=5, 深度=2
+     mul(mul(ald_GAP, ald_sr), ami_POLAR)
+
+  388. 准确率=0.4000, 长度=5, 深度=2
+     mul(add(ami_LUMO, ami_VIP), ald_POLAR)
+
+  389. 准确率=0.4000, 长度=5, 深度=2
+     mul(div(ald_DIPOLE, ami_d_index), ami_POLAR)
+
+  390. 准确率=0.4000, 长度=5, 深度=2
+     mul(mul(ald_delta_est, ald_DIPOLE), ald_POLAR)
+
+  391. 准确率=0.4000, 长度=5, 深度=2
+     mul(div(ald_POLAR, ald_delta_est), ald_POLAR)
+
+  392. 准确率=0.4000, 长度=5, 深度=2
+     mul(div(ami_ex_energy_t1, ald_Electrophilicity_index), ald_POLAR)
+
+  393. 准确率=0.4000, 长度=5, 深度=2
+     mul(add(ami_fosc, ald_fosc), ald_POLAR)
+
+  394. 准确率=0.4000, 长度=5, 深度=2
+     mul(add(ald_hardness, ami_VIP), ami_POLAR)
+
+  395. 准确率=0.4000, 长度=5, 深度=2
+     mul(div(-1.985, ami_HOMO), ald_POLAR)
+
+  396. 准确率=0.4000, 长度=5, 深度=2
+     mul(add(-1.752, ami_Electrophilicity_index), ald_POLAR)
+
+  397. 准确率=0.4000, 长度=5, 深度=2
+     mul(add(ald_VEA, ald_delta_est), ald_POLAR)
+
+  398. 准确率=0.4000, 长度=5, 深度=2
+     mul(sub(ami_sr, ald_VEA), ald_POLAR)
+
+  399. 准确率=0.4000, 长度=5, 深度=2
+     mul(add(ald_sr, ald_VIP), ald_POLAR)
+
+  400. 准确率=0.4000, 长度=5, 深度=2
+     mul(sub(ami_GAP, ami_d_index), ald_POLAR)
+
+  401. 准确率=0.4000, 长度=5, 深度=2
+     mul(add(ald_POLAR, ami_fosc), ald_POLAR)
+
+  402. 准确率=0.4000, 长度=5, 深度=2
+     mul(mul(ald_ex_energy_t1, ami_VIP), ald_POLAR)
+
+  403. 准确率=0.4000, 长度=5, 深度=2
+     mul(mul(ald_delta_est, ald_sr), ald_POLAR)
+
+  404. 准确率=0.4000, 长度=5, 深度=2
+     mul(sub(ami_fosc, ald_fosc), ald_POLAR)
+
+  405. 准确率=0.4000, 长度=5, 深度=2
+     mul(add(-0.065, ami_GAP), ald_POLAR)
+
+  406. 准确率=0.4000, 长度=5, 深度=2
+     mul(add(ald_sr, ami_DIPOLE), ald_POLAR)
+
+  407. 准确率=0.4000, 长度=5, 深度=2
+     mul(div(-1.985, ami_d_index), ami_VEA)
+
+  408. 准确率=0.4000, 长度=5, 深度=2
+     mul(div(-1.985, -1.985), ami_POLAR)
+
+  409. 准确率=0.4000, 长度=5, 深度=2
+     mul(mul(ami_ex_energy_s1, ald_Electrophilicity_index), ald_POLAR)
+
+  410. 准确率=0.4000, 长度=5, 深度=2
+     mul(add(ami_POLAR, ami_delta_est), ald_POLAR)
+
+  411. 准确率=0.4000, 长度=5, 深度=2
+     mul(add(ami_ex_energy_s1, ami_d_index), ald_POLAR)
+
+  412. 准确率=0.4000, 长度=5, 深度=2
+     mul(add(ald_d_index, ald_VEA), ald_POLAR)
+
+  413. 准确率=0.4000, 长度=5, 深度=2
+     mul(div(ami_Electrophilicity_index, ami_d_index), ald_POLAR)
+
+  414. 准确率=0.4000, 长度=5, 深度=2
+     mul(mul(ami_Electrophilicity_index, ald_GAP), ald_POLAR)
+
+  415. 准确率=0.4000, 长度=5, 深度=2
+     mul(div(ami_VEA, ami_VEA), ald_POLAR)
+
+  416. 准确率=0.4000, 长度=5, 深度=2
+     mul(mul(ald_delta_est, ami_DIPOLE), ald_POLAR)
+
+  417. 准确率=0.2000, 长度=5, 深度=2
+     mul(mul(ami_VEA, ami_ex_energy_t1), ald_POLAR)
+
+  418. 准确率=0.2000, 长度=5, 深度=2
+     mul(div(ald_delta_est, ami_VEA), ald_POLAR)
+
+  419. 准确率=0.2000, 长度=5, 深度=2
+     mul(sub(ald_VEA, ald_d_index), ald_POLAR)
+
+  420. 准确率=0.2000, 长度=5, 深度=2
+     mul(mul(ami_VEA, ami_d_index), ald_POLAR)
+
+  421. 准确率=0.0000, 长度=5, 深度=2
+     mul(div(-1.985, ami_d_index), -1.985)
+
+  422. 准确率=0.0000, 长度=5, 深度=2
+     mul(div(-1.985, ami_d_index), ami_HOMO)
+
+  423. 准确率=0.0000, 长度=5, 深度=2
+     mul(mul(ami_d_index, ald_fosc), ald_POLAR)
+
+  424. 准确率=0.0000, 长度=5, 深度=2
+     mul(div(-1.985, ami_d_index), -1.055)
+
+  425. 准确率=0.0000, 长度=5, 深度=2
+     mul(mul(ami_d_index, ami_VIP), ald_POLAR)
+
+  426. 准确率=0.6000, 长度=7, 深度=2
+     mul(div(ald_HOMO, ami_ex_energy_t1), add(ald_VIP, ami_HOMO))
+
+  427. 准确率=0.6000, 长度=7, 深度=2
+     div(sub(ami_Electrophilicity_index, ami_ex_energy_s1), add(ami_ex_energy_s1, ami_hardness))
+
+  428. 准确率=0.6000, 长度=7, 深度=2
+     mul(div(ami_ex_energy_t1, ald_LUMO), mul(ami_d_index, ami_ex_energy_s1))
+
+  429. 准确率=0.6000, 长度=7, 深度=2
+     mul(div(ami_d_index, ald_LUMO), add(ami_Electrophilicity_index, ald_VIP))
+
+  430. 准确率=0.6000, 长度=7, 深度=2
+     sub(div(ald_HOMO, ald_fosc), div(ald_sr, ami_Electrophilicity_index))
+
+  431. 准确率=0.6000, 长度=7, 深度=2
+     div(div(ami_fosc, ami_VIP), div(ald_HOMO, ami_ex_energy_t1))
+
+  432. 准确率=0.6000, 长度=7, 深度=2
+     sub(sub(ami_delta_est, ald_delta_est), sub(ami_delta_est, ami_delta_est))
+
+  433. 准确率=0.6000, 长度=7, 深度=2
+     sub(mul(ald_d_index, ald_DIPOLE), mul(ald_fosc, ald_Electrophilicity_index))
+
+  434. 准确率=0.6000, 长度=7, 深度=2
+     sub(sub(ald_delta_est, ald_VEA), add(ald_GAP, ald_VIP))
+
+  435. 准确率=0.6000, 长度=7, 深度=2
+     mul(div(ami_HOMO, ami_d_index), sub(ald_VEA, ald_VEA))
+
+  436. 准确率=0.6000, 长度=7, 深度=2
+     mul(div(-1.985, ami_d_index), div(ami_LUMO, ald_ex_energy_s1))
+
+  437. 准确率=0.6000, 长度=7, 深度=2
+     mul(div(-1.985, ami_d_index), sub(ald_ex_energy_s1, ald_ex_energy_s1))
+
+  438. 准确率=0.6000, 长度=7, 深度=2
+     sub(sub(ald_sr, ami_ex_energy_s1), div(ami_Electrophilicity_index, ami_POLAR))
+
+  439. 准确率=0.4000, 长度=7, 深度=2
+     sub(mul(ami_ex_energy_s1, ami_DIPOLE), add(ami_DIPOLE, ami_HOMO))
+
+  440. 准确率=0.4000, 长度=7, 深度=2
+     div(sub(ald_fosc, ami_HOMO), div(ami_ex_energy_s1, ami_DIPOLE))
+
+  441. 准确率=0.4000, 长度=7, 深度=2
+     mul(div(-1.985, ami_d_index), div(-1.985, ami_d_index))
+
+  442. 准确率=0.4000, 长度=7, 深度=2
+     div(div(ald_sr, ami_GAP), add(1.050, ami_GAP))
+
+  443. 准确率=0.4000, 长度=7, 深度=2
+     mul(div(-1.055, ami_d_index), div(-1.985, ami_d_index))
+
+  444. 准确率=0.4000, 长度=7, 深度=2
+     add(sub(ald_DIPOLE, ald_hardness), add(ald_hardness, ald_delta_est))
+
+  445. 准确率=0.4000, 长度=7, 深度=2
+     div(div(ami_ex_energy_t1, ald_DIPOLE), mul(ami_Electrophilicity_index, ami_delta_est))
+
+  446. 准确率=0.4000, 长度=7, 深度=2
+     add(add(ami_POLAR, ami_sr), mul(ami_VIP, ami_LUMO))
+
+  447. 准确率=0.4000, 长度=7, 深度=2
+     mul(div(ami_HOMO, ami_d_index), div(-1.985, ami_d_index))
+
+  448. 准确率=0.4000, 长度=7, 深度=2
+     sub(add(ald_LUMO, ami_VIP), sub(ami_VIP, ald_VIP))
+
+  449. 准确率=0.2000, 长度=7, 深度=2
+     mul(div(ami_VEA, ami_DIPOLE), add(-1.210, ald_Electrophilicity_index))
+
+  450. 准确率=0.0000, 长度=7, 深度=2
+     mul(div(-1.985, ami_d_index), sub(ald_fosc, ald_ex_energy_t1))
+
+  451. 准确率=0.0000, 长度=7, 深度=2
+     mul(div(-1.985, ami_d_index), sub(-1.359, ami_sr))
+
+  452. 准确率=0.0000, 长度=7, 深度=2
+     mul(div(-1.985, ami_d_index), mul(ald_DIPOLE, ald_LUMO))
+
+  453. 准确率=0.0000, 长度=7, 深度=2
+     mul(div(-1.985, ami_d_index), div(ald_sr, ami_HOMO))
+
+  454. 准确率=0.6000, 长度=7, 深度=3
+     div(ami_sr, sub(ald_fosc, sub(ald_Electrophilicity_index, ald_HOMO)))
+
+  455. 准确率=0.6000, 长度=7, 深度=3
+     add(add(sub(ald_VEA, ald_ex_energy_t1), ald_d_index), ami_HOMO)
+
+  456. 准确率=0.6000, 长度=7, 深度=3
+     mul(mul(ami_fosc, div(ami_HOMO, ald_sr)), ald_POLAR)
+
+  457. 准确率=0.6000, 长度=7, 深度=3
+     mul(div(-1.985, add(ald_VIP, ami_delta_est)), ald_POLAR)
+
+  458. 准确率=0.6000, 长度=7, 深度=3
+     mul(div(mul(ami_VEA, ami_delta_est), ami_d_index), ald_POLAR)
+
+  459. 准确率=0.6000, 长度=7, 深度=3
+     mul(div(-1.985, add(ami_ex_energy_s1, ald_GAP)), ald_POLAR)
+
+  460. 准确率=0.6000, 长度=7, 深度=3
+     mul(div(-1.985, mul(ami_GAP, ald_GAP)), ald_POLAR)
+
+  461. 准确率=0.6000, 长度=7, 深度=3
+     mul(div(div(ald_LUMO, ami_LUMO), ami_d_index), ald_POLAR)
+
+  462. 准确率=0.6000, 长度=7, 深度=3
+     add(sub(div(ald_LUMO, ald_Electrophilicity_index), ami_DIPOLE), ald_LUMO)
+
+  463. 准确率=0.6000, 长度=7, 深度=3
+     mul(div(-1.985, div(0.040, ald_delta_est)), ald_POLAR)
+
+  464. 准确率=0.6000, 长度=7, 深度=3
+     mul(div(-1.985, mul(ald_fosc, ald_sr)), ald_POLAR)
+
+  465. 准确率=0.6000, 长度=7, 深度=3
+     mul(div(-1.985, div(ami_sr, ami_DIPOLE)), ald_POLAR)
+
+  466. 准确率=0.6000, 长度=7, 深度=3
+     mul(div(-1.985, add(ami_d_index, ald_sr)), ald_POLAR)
+
+  467. 准确率=0.6000, 长度=7, 深度=3
+     mul(div(-1.985, div(ald_ex_energy_t1, ami_ex_energy_s1)), ald_POLAR)
+
+  468. 准确率=0.6000, 长度=7, 深度=3
+     mul(div(-1.985, add(ald_ex_energy_s1, ami_d_index)), ald_POLAR)
+
+  469. 准确率=0.4000, 长度=7, 深度=3
+     mul(div(-1.985, sub(ami_HOMO, ald_ex_energy_t1)), ald_POLAR)
+
+  470. 准确率=0.4000, 长度=7, 深度=3
+     mul(add(ami_fosc, sub(ald_POLAR, ami_ex_energy_t1)), ald_POLAR)
+
+  471. 准确率=0.4000, 长度=7, 深度=3
+     mul(div(add(0.470, ami_delta_est), ami_d_index), ald_POLAR)
+
+  472. 准确率=0.4000, 长度=7, 深度=3
+     mul(div(div(1.281, ald_GAP), ami_d_index), ald_POLAR)
+
+  473. 准确率=0.4000, 长度=7, 深度=3
+     mul(div(add(ald_fosc, ald_ex_energy_s1), ami_d_index), ald_POLAR)
+
+  474. 准确率=0.4000, 长度=7, 深度=3
+     mul(div(ami_fosc, sub(ald_ex_energy_s1, ald_LUMO)), ald_POLAR)
+
+  475. 准确率=0.4000, 长度=7, 深度=3
+     mul(div(mul(ami_GAP, ald_ex_energy_t1), ami_d_index), ald_POLAR)
+
+  476. 准确率=0.4000, 长度=7, 深度=3
+     mul(div(-1.985, sub(ald_LUMO, ald_delta_est)), ald_POLAR)
+
+  477. 准确率=0.4000, 长度=7, 深度=3
+     mul(mul(mul(ami_delta_est, ami_ex_energy_t1), ald_POLAR), ald_POLAR)
+
+  478. 准确率=0.4000, 长度=7, 深度=3
+     mul(div(mul(ami_fosc, ami_VIP), ami_d_index), ald_POLAR)
+
+  479. 准确率=0.4000, 长度=7, 深度=3
+     mul(div(div(ami_POLAR, ald_ex_energy_t1), ami_d_index), ald_POLAR)
+
+  480. 准确率=0.4000, 长度=7, 深度=3
+     mul(div(-1.985, add(-1.252, -1.682)), ald_POLAR)
+
+  481. 准确率=0.4000, 长度=7, 深度=3
+     mul(add(div(ald_HOMO, ald_DIPOLE), ami_POLAR), ald_POLAR)
+
+  482. 准确率=0.4000, 长度=7, 深度=3
+     mul(div(add(ami_HOMO, ami_VIP), ami_d_index), ald_POLAR)
+
+  483. 准确率=0.4000, 长度=7, 深度=3
+     add(ami_delta_est, add(mul(ami_ex_energy_t1, ald_VIP), 1.728))
+
+  484. 准确率=0.4000, 长度=7, 深度=3
+     mul(div(mul(ald_sr, ami_hardness), ami_d_index), ald_POLAR)
+
+  485. 准确率=0.4000, 长度=7, 深度=3
+     mul(sub(sub(ami_VIP, ami_ex_energy_s1), ald_DIPOLE), ald_POLAR)
+
+  486. 准确率=0.4000, 长度=7, 深度=3
+     mul(mul(div(ald_delta_est, ald_DIPOLE), ami_ex_energy_t1), ald_POLAR)
+
+  487. 准确率=0.2000, 长度=7, 深度=3
+     mul(div(-1.985, mul(ami_LUMO, ald_ex_energy_s1)), ald_POLAR)
+
+  488. 准确率=0.2000, 长度=7, 深度=3
+     mul(div(-1.985, sub(ald_Electrophilicity_index, ald_delta_est)), ald_POLAR)
+
+  489. 准确率=0.0000, 长度=7, 深度=3
+     mul(div(-1.985, div(-1.985, ami_d_index)), ald_POLAR)
+
+  490. 准确率=0.0000, 长度=7, 深度=3
+     mul(div(-0.045, div(-1.985, ami_d_index)), ald_POLAR)
+
+  491. 准确率=0.0000, 长度=7, 深度=3
+     mul(div(-1.985, div(-1.055, ami_d_index)), ald_POLAR)
+
+  492. 准确率=0.0000, 长度=7, 深度=3
+     mul(div(-1.985, div(ald_HOMO, ami_d_index)), ald_POLAR)
+
+  493. 准确率=0.0000, 长度=7, 深度=3
+     mul(div(-1.985, div(-1.985, ami_d_index)), ami_POLAR)
+
+  494. 准确率=0.0000, 长度=7, 深度=3
+     mul(div(-1.985, sub(ald_d_index, ami_fosc)), ald_POLAR)
+
+  495. 准确率=0.0000, 长度=7, 深度=3
+     mul(div(-1.985, div(ami_HOMO, ami_d_index)), ald_POLAR)
+
+  496. 准确率=0.6000, 长度=9, 深度=3
+     mul(ami_Electrophilicity_index, mul(div(ami_ex_energy_t1, ald_LUMO), mul(ami_d_index, ami_ex_energy_s1)))
+
+  497. 准确率=0.6000, 长度=9, 深度=3
+     mul(div(ami_d_index, ald_LUMO), add(div(ami_sr, ami_delta_est), ald_VIP))
+
+  498. 准确率=0.6000, 长度=9, 深度=3
+     mul(sub(div(ald_d_index, ald_fosc), div(ami_sr, ami_DIPOLE)), ald_POLAR)
+
+  499. 准确率=0.6000, 长度=9, 深度=3
+     mul(sub(mul(ald_GAP, ami_sr), sub(ald_sr, ami_d_index)), ami_POLAR)
+
+  500. 准确率=0.6000, 长度=9, 深度=3
+     mul(div(div(ami_Electrophilicity_index, ald_LUMO), div(ald_POLAR, ald_sr)), ald_POLAR)
+
+  501. 准确率=0.6000, 长度=9, 深度=3
+     mul(div(add(ami_DIPOLE, ami_HOMO), add(ald_ex_energy_s1, ald_VIP)), ald_POLAR)
+
+  502. 准确率=0.6000, 长度=9, 深度=3
+     mul(mul(mul(ami_HOMO, ami_d_index), sub(ald_fosc, ald_GAP)), ald_POLAR)
+
+  503. 准确率=0.6000, 长度=9, 深度=3
+     mul(sub(sub(ald_HOMO, ald_Electrophilicity_index), sub(ald_ex_energy_t1, ami_Electrophilicity_index)), ald_POLAR)
+
+  504. 准确率=0.6000, 长度=9, 深度=3
+     mul(div(sub(ami_VEA, ald_HOMO), div(ami_fosc, ald_Electrophilicity_index)), ald_POLAR)
+
+  505. 准确率=0.6000, 长度=9, 深度=3
+     mul(add(sub(ami_DIPOLE, ami_VIP), mul(1.762, ald_GAP)), ami_POLAR)
+
+  506. 准确率=0.6000, 长度=9, 深度=3
+     mul(sub(mul(ald_hardness, ami_ex_energy_t1), div(ald_ex_energy_s1, ami_DIPOLE)), ald_POLAR)
+
+  507. 准确率=0.6000, 长度=9, 深度=3
+     mul(div(add(ald_sr, ald_DIPOLE), sub(ald_fosc, ami_VIP)), ald_POLAR)
+
+  508. 准确率=0.4000, 长度=9, 深度=3
+     mul(div(-1.985, ami_d_index), mul(div(-1.985, ami_d_index), ald_POLAR))
+
+  509. 准确率=0.4000, 长度=9, 深度=3
+     mul(mul(add(ami_GAP, ald_ex_energy_t1), sub(ami_delta_est, ami_d_index)), ald_POLAR)
+
+  510. 准确率=0.4000, 长度=9, 深度=3
+     mul(div(ald_HOMO, ami_d_index), mul(div(-1.985, ami_d_index), ald_POLAR))
+
+  511. 准确率=0.4000, 长度=9, 深度=3
+     mul(div(-1.055, ami_d_index), mul(div(-1.985, ami_d_index), ald_POLAR))
+
+  512. 准确率=0.4000, 长度=9, 深度=3
+     mul(add(div(ald_ex_energy_t1, ald_delta_est), mul(ald_VIP, ald_fosc)), ald_POLAR)
+
+  513. 准确率=0.4000, 长度=9, 深度=3
+     mul(mul(sub(ald_GAP, ami_ex_energy_t1), sub(ald_ex_energy_t1, ald_ex_energy_s1)), ami_POLAR)
+
+  514. 准确率=0.4000, 长度=9, 深度=3
+     mul(add(sub(ald_hardness, ald_DIPOLE), div(ami_delta_est, ami_delta_est)), ald_POLAR)
+
+  515. 准确率=0.4000, 长度=9, 深度=3
+     mul(sub(sub(ald_VIP, ami_fosc), sub(ald_VEA, ald_d_index)), ald_POLAR)
+
+  516. 准确率=0.4000, 长度=9, 深度=3
+     mul(add(sub(ald_VIP, ami_ex_energy_t1), sub(ami_Electrophilicity_index, ami_fosc)), ami_POLAR)
+
+  517. 准确率=0.4000, 长度=9, 深度=3
+     mul(div(-1.985, ami_d_index), mul(div(-1.985, ami_d_index), ami_POLAR))
+
+  518. 准确率=0.4000, 长度=9, 深度=3
+     mul(sub(add(ald_POLAR, ami_Electrophilicity_index), mul(ald_fosc, ald_GAP)), ami_POLAR)
+
+  519. 准确率=0.4000, 长度=9, 深度=3
+     mul(mul(div(ald_ex_energy_s1, ald_fosc), div(ald_hardness, ald_fosc)), ald_POLAR)
+
+  520. 准确率=0.4000, 长度=9, 深度=3
+     mul(sub(sub(ami_hardness, ami_sr), mul(ald_DIPOLE, ami_VEA)), ald_POLAR)
+
+  521. 准确率=0.4000, 长度=9, 深度=3
+     mul(mul(div(ald_DIPOLE, ami_GAP), sub(ald_Electrophilicity_index, ald_VEA)), ald_POLAR)
+
+  522. 准确率=0.4000, 长度=9, 深度=3
+     mul(sub(add(ald_Electrophilicity_index, ald_Electrophilicity_index), div(ald_delta_est, ami_ex_energy_s1)), ald_POLAR)
+
+  523. 准确率=0.4000, 长度=9, 深度=3
+     mul(add(mul(ald_VIP, ald_HOMO), add(ald_POLAR, ald_Electrophilicity_index)), ami_POLAR)
+
+  524. 准确率=0.4000, 长度=9, 深度=3
+     mul(add(add(ami_fosc, ami_d_index), sub(ald_POLAR, ald_Electrophilicity_index)), ald_POLAR)
+
+  525. 准确率=0.4000, 长度=9, 深度=3
+     mul(add(mul(ald_Electrophilicity_index, ald_ex_energy_s1), sub(ald_fosc, ald_LUMO)), ald_POLAR)
+
+  526. 准确率=0.2000, 长度=9, 深度=3
+     mul(mul(mul(ald_delta_est, ald_LUMO), mul(ami_Electrophilicity_index, ami_LUMO)), ald_POLAR)
+
+  527. 准确率=0.0000, 长度=9, 深度=3
+     mul(mul(div(ami_d_index, ald_sr), add(ami_LUMO, ald_d_index)), ald_POLAR)
+
+  528. 准确率=0.6000, 长度=9, 深度=4
+     mul(sub(ami_VEA, div(add(ami_hardness, ald_d_index), ald_d_index)), ald_POLAR)
+
+  529. 准确率=0.6000, 长度=9, 深度=4
+     mul(div(-1.985, add(ami_GAP, add(ald_POLAR, ami_VEA))), ald_POLAR)
+
+  530. 准确率=0.4000, 长度=9, 深度=4
+     mul(div(mul(mul(ald_sr, ald_hardness), ald_DIPOLE), ami_d_index), ami_POLAR)
+
+  531. 准确率=0.0000, 长度=9, 深度=4
+     mul(div(-1.985, mul(div(-1.985, ami_d_index), ald_POLAR)), ald_POLAR)
+
+  532. 准确率=0.0000, 长度=9, 深度=4
+     mul(div(ald_HOMO, mul(div(-1.985, ami_d_index), ald_POLAR)), ald_POLAR)
+
+  533. 准确率=0.0000, 长度=9, 深度=4
+     mul(div(ami_HOMO, mul(div(-1.985, ami_d_index), ald_POLAR)), ald_POLAR)
+
+  534. 准确率=0.4000, 长度=11, 深度=3
+     mul(div(-1.985, ami_d_index), sub(div(ald_fosc, ald_Electrophilicity_index), mul(ald_POLAR, ami_LUMO)))
+
+  535. 准确率=0.6000, 长度=11, 深度=4
+     mul(div(-1.985, add(mul(ald_VEA, ami_Electrophilicity_index), div(ami_ex_energy_s1, ami_delta_est))), ald_POLAR)
+
+  536. 准确率=0.6000, 长度=11, 深度=4
+     mul(div(-1.985, add(add(ald_POLAR, ami_d_index), add(ald_VIP, ami_ex_energy_s1))), ald_POLAR)
+
+  537. 准确率=0.6000, 长度=11, 深度=4
+     mul(div(-1.985, div(div(ald_VEA, ami_VIP), sub(ald_VEA, ami_GAP))), ald_POLAR)
+
+  538. 准确率=0.4000, 长度=11, 深度=4
+     mul(div(add(sub(ami_VEA, ami_LUMO), add(ald_LUMO, ald_delta_est)), ami_d_index), ami_hardness)
+
+  539. 准确率=0.4000, 长度=11, 深度=4
+     mul(mul(div(-1.985, ami_d_index), mul(div(-1.985, ami_d_index), ald_POLAR)), ald_POLAR)
+
+  540. 准确率=0.0000, 长度=11, 深度=5
+     mul(mul(div(-1.985, mul(div(-1.985, ami_d_index), ald_POLAR)), ald_POLAR), ald_POLAR)
+
+  541. 准确率=0.6000, 长度=15, 深度=3
+     add(mul(div(ald_LUMO, ald_DIPOLE), add(ald_d_index, ald_delta_est)), sub(mul(ami_DIPOLE, ald_fosc), mul(ami_Electrophilicity_index, ami_fosc)))
+
+  542. 准确率=0.6000, 长度=15, 深度=3
+     add(add(sub(ald_delta_est, ami_fosc), div(ald_HOMO, ami_VEA)), sub(add(ami_Electrophilicity_index, ald_VEA), mul(ald_ex_energy_t1, ami_VIP)))
+
+  543. 准确率=0.6000, 长度=15, 深度=3
+     sub(div(mul(ald_GAP, ald_VEA), div(ami_HOMO, ami_VIP)), add(mul(ami_VEA, ami_VIP), div(ald_LUMO, ami_Electrophilicity_index)))
+
+  544. 准确率=0.6000, 长度=15, 深度=3
+     add(add(sub(ami_POLAR, ald_fosc), mul(ald_DIPOLE, ami_sr)), add(div(ami_VIP, ami_LUMO), add(ami_sr, ami_delta_est)))
+
+  545. 准确率=0.4000, 长度=15, 深度=3
+     mul(div(div(ami_Electrophilicity_index, ald_DIPOLE), div(ami_ex_energy_s1, ami_HOMO)), mul(sub(-1.627, ami_hardness), sub(ami_ex_energy_s1, ami_d_index)))
+
+  546. 准确率=0.4000, 长度=15, 深度=3
+     sub(add(add(ami_VEA, ami_HOMO), add(ald_ex_energy_t1, ald_HOMO)), sub(mul(ald_fosc, ami_sr), mul(ami_ex_energy_t1, ami_d_index)))
+
+  547. 准确率=0.4000, 长度=15, 深度=3
+     sub(div(mul(ald_VEA, ami_POLAR), div(ald_ex_energy_t1, ald_ex_energy_s1)), mul(div(ami_POLAR, ami_delta_est), sub(ami_fosc, ald_d_index)))
+
+  548. 准确率=0.4000, 长度=15, 深度=3
+     add(div(add(ald_Electrophilicity_index, ami_POLAR), add(ami_POLAR, ami_ex_energy_t1)), mul(div(ami_ex_energy_s1, ald_delta_est), div(ald_VEA, ald_fosc)))
+
+  549. 准确率=0.4000, 长度=15, 深度=3
+     div(mul(add(ami_DIPOLE, ald_HOMO), mul(ami_GAP, ald_fosc)), mul(mul(ami_HOMO, ald_DIPOLE), div(ami_Electrophilicity_index, ami_ex_energy_s1)))
+
+  550. 准确率=0.4000, 长度=15, 深度=3
+     add(add(sub(ami_HOMO, ami_delta_est), div(ald_VIP, ami_Electrophilicity_index)), add(mul(ald_sr, ami_d_index), sub(ald_ex_energy_s1, ami_delta_est)))
+
+  551. 准确率=0.4000, 长度=15, 深度=3
+     sub(add(mul(ald_ex_energy_s1, ald_sr), sub(ald_ex_energy_t1, ami_ex_energy_s1)), div(sub(ami_ex_energy_t1, ald_DIPOLE), div(ami_hardness, ald_d_index)))
+
+  552. 准确率=0.4000, 长度=15, 深度=3
+     div(div(mul(ald_VIP, ami_DIPOLE), mul(ami_HOMO, ami_Electrophilicity_index)), div(sub(ald_sr, 0.999), sub(ami_hardness, ald_VEA)))
+
+  553. 准确率=0.6000, 长度=17, 深度=4
+     mul(sub(mul(sub(ald_POLAR, ami_POLAR), add(ami_d_index, ald_ex_energy_s1)), add(div(ald_delta_est, ald_DIPOLE), add(ald_ex_energy_s1, ami_ex_energy_s1))), ald_POLAR)
+
+  554. 准确率=0.6000, 长度=17, 深度=4
+     mul(div(add(sub(ald_VIP, ald_ex_energy_t1), add(ald_DIPOLE, ald_sr)), mul(sub(ald_LUMO, ald_POLAR), sub(ami_Electrophilicity_index, ald_HOMO))), ald_POLAR)
+
+  555. 准确率=0.4000, 长度=17, 深度=4
+     mul(mul(add(div(0.573, ami_POLAR), sub(ald_VIP, ald_VIP)), sub(sub(ald_ex_energy_t1, ami_Electrophilicity_index), sub(ami_delta_est, ald_d_index))), ald_POLAR)
+
+  556. 准确率=0.4000, 长度=17, 深度=4
+     mul(sub(add(add(ami_VEA, ami_GAP), mul(ald_DIPOLE, ald_fosc)), add(sub(-1.083, ald_DIPOLE), mul(ami_delta_est, ald_fosc))), ald_POLAR)
+
+  557. 准确率=0.2000, 长度=17, 深度=4
+     mul(sub(mul(div(ami_delta_est, ald_VEA), mul(ald_POLAR, ald_delta_est)), add(sub(ald_POLAR, ami_Electrophilicity_index), add(ald_ex_energy_t1, ald_Electrophilicity_index))), ald_POLAR)
+
+  558. 准确率=0.0000, 长度=19, 深度=4
+     mul(div(ami_HOMO, ami_d_index), add(add(sub(ald_LUMO, ald_VEA), div(ald_GAP, ami_delta_est)), sub(mul(ald_VEA, ami_LUMO), add(ami_Electrophilicity_index, ald_fosc))))
+
+  559. 准确率=0.6000, 长度=31, 深度=4
+     div(mul(sub(div(ami_LUMO, ald_fosc), mul(ald_DIPOLE, ami_DIPOLE)), sub(mul(1.551, ami_VEA), add(ami_VEA, ald_sr))), add(mul(add(ami_delta_est, ald_GAP), div(ami_delta_est, ald_ex_energy_s1)), add(sub(ami_GAP, ami_HOMO), div(ald_POLAR, ami_DIPOLE))))
+
+  560. 准确率=0.0000, 长度=31, 深度=4
+     div(div(add(sub(ald_HOMO, ald_HOMO), div(ami_HOMO, ald_ex_energy_s1)), add(add(ami_sr, ald_LUMO), add(ald_ex_energy_t1, ald_hardness))), mul(sub(mul(ald_ex_energy_s1, ami_DIPOLE), div(ald_d_index, ami_LUMO)), sub(div(ald_POLAR, ami_HOMO), div(ald_delta_est, ami_POLAR))))
+
+  561. 准确率=0.6000, 长度=33, 深度=5
+     mul(add(sub(sub(sub(ald_Electrophilicity_index, ald_VEA), sub(ami_LUMO, ami_sr)), sub(sub(ami_ex_energy_t1, ald_GAP), mul(ald_VIP, ami_ex_energy_s1))), mul(sub(mul(ald_VEA, ami_Electrophilicity_index), mul(ami_sr, ami_POLAR)), sub(div(ald_Electrophilicity_index, ald_DIPOLE), sub(ald_GAP, ami_sr)))), ald_POLAR)
+
+  562. 准确率=0.4000, 长度=33, 深度=5
+     mul(sub(mul(mul(sub(ald_GAP, ami_GAP), sub(ald_POLAR, ald_GAP)), div(sub(ald_HOMO, ami_POLAR), add(ami_fosc, ald_VIP))), div(mul(sub(ami_sr, ald_LUMO), sub(ald_d_index, ald_delta_est)), add(sub(ami_Electrophilicity_index, ald_VEA), add(ami_HOMO, ami_d_index)))), ald_POLAR)
+

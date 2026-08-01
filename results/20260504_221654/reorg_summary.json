@@ -1,0 +1,1696 @@
+{
+  "selected_pair_count": 129,
+  "pairs": [
+    {
+      "pair": "ald-1_ami-1",
+      "run_dir": "01_ald-1_ami-1",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-1_ami-3",
+      "run_dir": "02_ald-1_ami-3",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-1_ami-7",
+      "run_dir": "03_ald-1_ami-7",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-2_ami-1",
+      "run_dir": "04_ald-2_ami-1",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-2_ami-2",
+      "run_dir": "05_ald-2_ami-2",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-2_ami-3",
+      "run_dir": "06_ald-2_ami-3",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-2_ami-4",
+      "run_dir": "07_ald-2_ami-4",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-2_ami-5",
+      "run_dir": "08_ald-2_ami-5",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-2_ami-7",
+      "run_dir": "09_ald-2_ami-7",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-2_ami-11",
+      "run_dir": "10_ald-2_ami-11",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-2_ami-20",
+      "run_dir": "11_ald-2_ami-20",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-3_ami-1",
+      "run_dir": "12_ald-3_ami-1",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-4_ami-1",
+      "run_dir": "13_ald-4_ami-1",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-4_ami-2",
+      "run_dir": "14_ald-4_ami-2",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-4_ami-3",
+      "run_dir": "15_ald-4_ami-3",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-4_ami-4",
+      "run_dir": "16_ald-4_ami-4",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-4_ami-5",
+      "run_dir": "17_ald-4_ami-5",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-4_ami-10",
+      "run_dir": "18_ald-4_ami-10",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-4_ami-11",
+      "run_dir": "19_ald-4_ami-11",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-4_ami-20",
+      "run_dir": "20_ald-4_ami-20",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-5_ami-1",
+      "run_dir": "21_ald-5_ami-1",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-5_ami-2",
+      "run_dir": "22_ald-5_ami-2",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-5_ami-3",
+      "run_dir": "23_ald-5_ami-3",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-5_ami-4",
+      "run_dir": "24_ald-5_ami-4",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-5_ami-5",
+      "run_dir": "25_ald-5_ami-5",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-5_ami-7",
+      "run_dir": "26_ald-5_ami-7",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-5_ami-10",
+      "run_dir": "27_ald-5_ami-10",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-5_ami-11",
+      "run_dir": "28_ald-5_ami-11",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-5_ami-13",
+      "run_dir": "29_ald-5_ami-13",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-5_ami-19",
+      "run_dir": "30_ald-5_ami-19",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-5_ami-28",
+      "run_dir": "31_ald-5_ami-28",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-6_ami-1",
+      "run_dir": "32_ald-6_ami-1",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-6_ami-2",
+      "run_dir": "33_ald-6_ami-2",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-6_ami-5",
+      "run_dir": "34_ald-6_ami-5",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-7_ami-2",
+      "run_dir": "35_ald-7_ami-2",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-8_ami-1",
+      "run_dir": "36_ald-8_ami-1",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-8_ami-2",
+      "run_dir": "37_ald-8_ami-2",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-8_ami-7",
+      "run_dir": "38_ald-8_ami-7",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-9_ami-1",
+      "run_dir": "39_ald-9_ami-1",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-9_ami-2",
+      "run_dir": "40_ald-9_ami-2",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-9_ami-3",
+      "run_dir": "41_ald-9_ami-3",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-9_ami-4",
+      "run_dir": "42_ald-9_ami-4",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-9_ami-5",
+      "run_dir": "43_ald-9_ami-5",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-9_ami-7",
+      "run_dir": "44_ald-9_ami-7",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-9_ami-10",
+      "run_dir": "45_ald-9_ami-10",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-9_ami-11",
+      "run_dir": "46_ald-9_ami-11",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-9_ami-20",
+      "run_dir": "47_ald-9_ami-20",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-10_ami-2",
+      "run_dir": "48_ald-10_ami-2",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-10_ami-3",
+      "run_dir": "49_ald-10_ami-3",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-10_ami-4",
+      "run_dir": "50_ald-10_ami-4",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-10_ami-5",
+      "run_dir": "51_ald-10_ami-5",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-10_ami-11",
+      "run_dir": "52_ald-10_ami-11",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-10_ami-16",
+      "run_dir": "53_ald-10_ami-16",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-10_ami-20",
+      "run_dir": "54_ald-10_ami-20",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-11_ami-1",
+      "run_dir": "55_ald-11_ami-1",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-11_ami-2",
+      "run_dir": "56_ald-11_ami-2",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-11_ami-8",
+      "run_dir": "57_ald-11_ami-8",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-11_ami-14",
+      "run_dir": "58_ald-11_ami-14",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-12_ami-2",
+      "run_dir": "59_ald-12_ami-2",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-12_ami-4",
+      "run_dir": "60_ald-12_ami-4",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-12_ami-11",
+      "run_dir": "61_ald-12_ami-11",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-13_ami-1",
+      "run_dir": "62_ald-13_ami-1",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-13_ami-3",
+      "run_dir": "63_ald-13_ami-3",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-13_ami-6",
+      "run_dir": "64_ald-13_ami-6",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-13_ami-15",
+      "run_dir": "65_ald-13_ami-15",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-14_ami-1",
+      "run_dir": "66_ald-14_ami-1",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-14_ami-3",
+      "run_dir": "67_ald-14_ami-3",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-14_ami-4",
+      "run_dir": "68_ald-14_ami-4",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-14_ami-5",
+      "run_dir": "69_ald-14_ami-5",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-14_ami-14",
+      "run_dir": "70_ald-14_ami-14",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-14_ami-20",
+      "run_dir": "71_ald-14_ami-20",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-15_ami-1",
+      "run_dir": "72_ald-15_ami-1",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-16_ami-1",
+      "run_dir": "73_ald-16_ami-1",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-16_ami-3",
+      "run_dir": "74_ald-16_ami-3",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-16_ami-6",
+      "run_dir": "75_ald-16_ami-6",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-16_ami-15",
+      "run_dir": "76_ald-16_ami-15",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-16_ami-17",
+      "run_dir": "77_ald-16_ami-17",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-18_ami-2",
+      "run_dir": "78_ald-18_ami-2",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-18_ami-6",
+      "run_dir": "79_ald-18_ami-6",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-18_ami-7",
+      "run_dir": "80_ald-18_ami-7",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-18_ami-11",
+      "run_dir": "81_ald-18_ami-11",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-18_ami-15",
+      "run_dir": "82_ald-18_ami-15",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-18_ami-16",
+      "run_dir": "83_ald-18_ami-16",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-18_ami-18",
+      "run_dir": "84_ald-18_ami-18",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-18_ami-21",
+      "run_dir": "85_ald-18_ami-21",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-19_ami-6",
+      "run_dir": "86_ald-19_ami-6",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-19_ami-7",
+      "run_dir": "87_ald-19_ami-7",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-19_ami-10",
+      "run_dir": "88_ald-19_ami-10",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-19_ami-12",
+      "run_dir": "89_ald-19_ami-12",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-19_ami-15",
+      "run_dir": "90_ald-19_ami-15",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-19_ami-20",
+      "run_dir": "91_ald-19_ami-20",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-20_ami-12",
+      "run_dir": "92_ald-20_ami-12",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-20_ami-15",
+      "run_dir": "93_ald-20_ami-15",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-21_ami-3",
+      "run_dir": "94_ald-21_ami-3",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-21_ami-7",
+      "run_dir": "95_ald-21_ami-7",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-21_ami-11",
+      "run_dir": "96_ald-21_ami-11",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-21_ami-15",
+      "run_dir": "97_ald-21_ami-15",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-21_ami-16",
+      "run_dir": "98_ald-21_ami-16",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-21_ami-18",
+      "run_dir": "99_ald-21_ami-18",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-22_ami-15",
+      "run_dir": "100_ald-22_ami-15",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-22_ami-20",
+      "run_dir": "101_ald-22_ami-20",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-23_ami-30",
+      "run_dir": "102_ald-23_ami-30",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-24_ami-18",
+      "run_dir": "103_ald-24_ami-18",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-25_ami-1",
+      "run_dir": "104_ald-25_ami-1",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-25_ami-2",
+      "run_dir": "105_ald-25_ami-2",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-25_ami-11",
+      "run_dir": "106_ald-25_ami-11",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-26_ami-2",
+      "run_dir": "107_ald-26_ami-2",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-26_ami-16",
+      "run_dir": "108_ald-26_ami-16",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-27_ami-1",
+      "run_dir": "109_ald-27_ami-1",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-27_ami-2",
+      "run_dir": "110_ald-27_ami-2",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-27_ami-3",
+      "run_dir": "111_ald-27_ami-3",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-27_ami-16",
+      "run_dir": "112_ald-27_ami-16",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-28_ami-1",
+      "run_dir": "113_ald-28_ami-1",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-28_ami-16",
+      "run_dir": "114_ald-28_ami-16",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-31_ami-1",
+      "run_dir": "115_ald-31_ami-1",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-31_ami-11",
+      "run_dir": "116_ald-31_ami-11",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-32_ami-1",
+      "run_dir": "117_ald-32_ami-1",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-32_ami-3",
+      "run_dir": "118_ald-32_ami-3",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-32_ami-8",
+      "run_dir": "119_ald-32_ami-8",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-32_ami-16",
+      "run_dir": "120_ald-32_ami-16",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-33_ami-5",
+      "run_dir": "121_ald-33_ami-5",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-33_ami-11",
+      "run_dir": "122_ald-33_ami-11",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-39_ami-1",
+      "run_dir": "123_ald-39_ami-1",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-39_ami-2",
+      "run_dir": "124_ald-39_ami-2",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-39_ami-3",
+      "run_dir": "125_ald-39_ami-3",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-39_ami-11",
+      "run_dir": "126_ald-39_ami-11",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-39_ami-20",
+      "run_dir": "127_ald-39_ami-20",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-39_ami-28",
+      "run_dir": "128_ald-39_ami-28",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    },
+    {
+      "pair": "ald-40_ami-19",
+      "run_dir": "129_ald-40_ami-19",
+      "has_dftb": true,
+      "has_mace": true,
+      "has_tdsp": true,
+      "tdsp_files": [
+        "gjf",
+        "he.txt",
+        "log",
+        "mol"
+      ]
+    }
+  ],
+  "missing_mace": [],
+  "missing_tdsp": [],
+  "descriptor_summary": {
+    "source_csv": "/Users/zikaixie/.openclaw/workspace/inputs/dimer_calc_results/training+transfer_dimers_0129_tdsp/training+transfer_dimer_hole_electron_pbe0.csv",
+    "matched_row_count": 129,
+    "per_pair_files": [
+      "summary.csv",
+      "summary.json"
+    ],
+    "root_files": [
+      "summary.csv",
+      "summary.json"
+    ]
+  }
+}

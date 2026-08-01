@@ -1,0 +1,92 @@
+[2026-04-18 20:25:46] [UPLOAD] Uploading /Users/zikaixie/.openclaw/workspace/runs/cof-fluor-20260417-2019/ald-33/ald-33.zip -> http://114.214.211.25:30082/api/file/upload | timeout=(15, 120)
+[2026-04-18 20:25:47] [UPLOAD] Response status=200
+[2026-04-18 20:25:47] [UPLOAD] Success. Remote URL: http://124.71.201.245:8082/aichem-lab-edge/20260418202546000ald-33.zip
+[2026-04-18 20:25:47] [SUBMIT] POST http://114.214.211.25:30082/api/jobs | software=GAUSSIAN | cmd=g16 ald-33.gjf && formchk ald-33.chk | timeout=(15, 120)
+[2026-04-18 20:25:48] [SUBMIT] Response status=200
+[2026-04-18 20:25:48] [SUBMIT] Submission accepted. Job ID: 1252216123587897323 | taskId: cda88021-c7eb-44b2-a6a1-626815edf8d1
+[2026-04-18 20:25:48] [POLL] GET http://114.214.211.25:30082/api/jobs?id=1252216123587897323 | timeout=(15, 60)
+[2026-04-18 20:25:49] [POLL] Response status=200
+[2026-04-18 20:25:49] [POLL] Payload excerpt: {"code": 200, "data": {"id": 1252216123587897323, "taskId": "cda88021-c7eb-44b2-a6a1-626815edf8d1", "parentId": "cda88021-c7eb-44b2-a6a1-626815edf8d1", "namespace": "huawei", "name": "hpc-calc-ec022e62", "image": "114.214.255.82:18080/internal/hpc-calc:latest.arm", "params": {"inputfile": "http://124.71.201.245:8082/aichem-lab-edge/20260418202546000ald-33.zip", "software": "GAUSSIAN", "cmd": "g16 ald-33.gjf && formchk ald-33.chk", "n_nodes": 1, "tasks_per_node": 64, "mem": "32GB", "objective": "结构优化"
+[2026-04-18 20:25:49] [HPC] Job 1252216123587897323 running with status=DISPATCHED... (1/2880)
+[2026-04-18 20:26:48] [POLL] GET http://114.214.211.25:30082/api/jobs?id=1252216123587897323 | timeout=(15, 60)
+[2026-04-18 20:26:49] [POLL] Response status=200
+[2026-04-18 20:26:49] [POLL] Payload excerpt: {"code": 200, "data": {"id": 1252216123587897323, "taskId": "cda88021-c7eb-44b2-a6a1-626815edf8d1", "parentId": "cda88021-c7eb-44b2-a6a1-626815edf8d1", "namespace": "huawei", "name": "hpc-calc-ec022e62", "image": "114.214.255.82:18080/internal/hpc-calc:latest.arm", "params": {"inputfile": "http://124.71.201.245:8082/aichem-lab-edge/20260418202546000ald-33.zip", "software": "GAUSSIAN", "cmd": "g16 ald-33.gjf && formchk ald-33.chk", "n_nodes": 1, "tasks_per_node": 64, "mem": "32GB", "objective": "结构优化"
+[2026-04-18 20:26:49] [HPC] Job 1252216123587897323 running with status=RUNNING... (2/2880)
+[2026-04-18 20:27:48] [POLL] GET http://114.214.211.25:30082/api/jobs?id=1252216123587897323 | timeout=(15, 60)
+[2026-04-18 20:27:49] [POLL] Response status=200
+[2026-04-18 20:27:49] [POLL] Payload excerpt: {"code": 200, "data": {"id": 1252216123587897323, "taskId": "cda88021-c7eb-44b2-a6a1-626815edf8d1", "parentId": "cda88021-c7eb-44b2-a6a1-626815edf8d1", "namespace": "huawei", "name": "hpc-calc-ec022e62", "image": "114.214.255.82:18080/internal/hpc-calc:latest.arm", "params": {"inputfile": "http://124.71.201.245:8082/aichem-lab-edge/20260418202546000ald-33.zip", "software": "GAUSSIAN", "cmd": "g16 ald-33.gjf && formchk ald-33.chk", "n_nodes": 1, "tasks_per_node": 64, "mem": "32GB", "objective": "结构优化"
+[2026-04-18 20:27:49] [HPC] Job 1252216123587897323 running with status=RUNNING... (3/2880)
+[2026-04-18 20:28:48] [POLL] GET http://114.214.211.25:30082/api/jobs?id=1252216123587897323 | timeout=(15, 60)
+[2026-04-18 20:28:49] [POLL] Response status=200
+[2026-04-18 20:28:49] [POLL] Payload excerpt: {"code": 200, "data": {"id": 1252216123587897323, "taskId": "cda88021-c7eb-44b2-a6a1-626815edf8d1", "parentId": "cda88021-c7eb-44b2-a6a1-626815edf8d1", "namespace": "huawei", "name": "hpc-calc-ec022e62", "image": "114.214.255.82:18080/internal/hpc-calc:latest.arm", "params": {"inputfile": "http://124.71.201.245:8082/aichem-lab-edge/20260418202546000ald-33.zip", "software": "GAUSSIAN", "cmd": "g16 ald-33.gjf && formchk ald-33.chk", "n_nodes": 1, "tasks_per_node": 64, "mem": "32GB", "objective": "结构优化"
+[2026-04-18 20:28:49] [HPC] Job 1252216123587897323 finished with status=SUCCEEDED.
+[2026-04-18 20:28:49] [DOWNLOAD] Fetching http://114.214.211.25:30082/api/tasks/download?taskId=cda88021-c7eb-44b2-a6a1-626815edf8d1 via curl -C - ...
+[2026-04-18 20:38:04] [DOWNLOAD] Saved to /Users/zikaixie/.openclaw/workspace/runs/cof-fluor-20260417-2019/ald-33/ald-33_remote_20260418_202849/cda88021-c7eb-44b2-a6a1-626815edf8d1.zip
+[2026-04-18 20:38:05] [UPLOAD] Uploading /Users/zikaixie/.openclaw/workspace/runs/cof-fluor-20260417-2019/ald-33/plus/ald-33.zip -> http://114.214.211.25:30082/api/file/upload | timeout=(15, 120)
+[2026-04-18 20:38:06] [UPLOAD] Response status=200
+[2026-04-18 20:38:06] [UPLOAD] Success. Remote URL: http://124.71.201.245:8082/aichem-lab-edge/20260418203805000ald-33.zip
+[2026-04-18 20:38:06] [SUBMIT] POST http://114.214.211.25:30082/api/jobs | software=GAUSSIAN | cmd=g16 ald-33.gjf && formchk ald-33.chk | timeout=(15, 120)
+[2026-04-18 20:38:07] [SUBMIT] Response status=200
+[2026-04-18 20:38:07] [SUBMIT] Submission accepted. Job ID: 1252007030668060500 | taskId: 0f7d42eb-8754-de27-780a-e5c926e15b60
+[2026-04-18 20:38:07] [POLL] GET http://114.214.211.25:30082/api/jobs?id=1252007030668060500 | timeout=(15, 60)
+[2026-04-18 20:38:08] [POLL] Response status=200
+[2026-04-18 20:38:08] [POLL] Payload excerpt: {"code": 200, "data": {"id": 1252007030668060500, "taskId": "0f7d42eb-8754-de27-780a-e5c926e15b60", "parentId": "0f7d42eb-8754-de27-780a-e5c926e15b60", "namespace": "huawei", "name": "hpc-calc-08463fb4", "image": "114.214.255.82:18080/internal/hpc-calc:latest.arm", "params": {"inputfile": "http://124.71.201.245:8082/aichem-lab-edge/20260418203805000ald-33.zip", "software": "GAUSSIAN", "cmd": "g16 ald-33.gjf && formchk ald-33.chk", "n_nodes": 1, "tasks_per_node": 64, "mem": "32GB", "objective": "加电子态优化"
+[2026-04-18 20:38:08] [HPC] Job 1252007030668060500 running with status=DISPATCHED... (1/2880)
+[2026-04-18 20:39:07] [POLL] GET http://114.214.211.25:30082/api/jobs?id=1252007030668060500 | timeout=(15, 60)
+[2026-04-18 20:39:08] [POLL] Response status=200
+[2026-04-18 20:39:08] [POLL] Payload excerpt: {"code": 200, "data": {"id": 1252007030668060500, "taskId": "0f7d42eb-8754-de27-780a-e5c926e15b60", "parentId": "0f7d42eb-8754-de27-780a-e5c926e15b60", "namespace": "huawei", "name": "hpc-calc-08463fb4", "image": "114.214.255.82:18080/internal/hpc-calc:latest.arm", "params": {"inputfile": "http://124.71.201.245:8082/aichem-lab-edge/20260418203805000ald-33.zip", "software": "GAUSSIAN", "cmd": "g16 ald-33.gjf && formchk ald-33.chk", "n_nodes": 1, "tasks_per_node": 64, "mem": "32GB", "objective": "加电子态优化"
+[2026-04-18 20:39:08] [HPC] Job 1252007030668060500 running with status=RUNNING... (2/2880)
+[2026-04-18 20:40:07] [POLL] GET http://114.214.211.25:30082/api/jobs?id=1252007030668060500 | timeout=(15, 60)
+[2026-04-18 20:40:08] [POLL] Response status=200
+[2026-04-18 20:40:08] [POLL] Payload excerpt: {"code": 200, "data": {"id": 1252007030668060500, "taskId": "0f7d42eb-8754-de27-780a-e5c926e15b60", "parentId": "0f7d42eb-8754-de27-780a-e5c926e15b60", "namespace": "huawei", "name": "hpc-calc-08463fb4", "image": "114.214.255.82:18080/internal/hpc-calc:latest.arm", "params": {"inputfile": "http://124.71.201.245:8082/aichem-lab-edge/20260418203805000ald-33.zip", "software": "GAUSSIAN", "cmd": "g16 ald-33.gjf && formchk ald-33.chk", "n_nodes": 1, "tasks_per_node": 64, "mem": "32GB", "objective": "加电子态优化"
+[2026-04-18 20:40:08] [HPC] Job 1252007030668060500 running with status=RUNNING... (3/2880)
+[2026-04-18 20:41:07] [POLL] GET http://114.214.211.25:30082/api/jobs?id=1252007030668060500 | timeout=(15, 60)
+[2026-04-18 20:41:08] [POLL] Response status=200
+[2026-04-18 20:41:08] [POLL] Payload excerpt: {"code": 200, "data": {"id": 1252007030668060500, "taskId": "0f7d42eb-8754-de27-780a-e5c926e15b60", "parentId": "0f7d42eb-8754-de27-780a-e5c926e15b60", "namespace": "huawei", "name": "hpc-calc-08463fb4", "image": "114.214.255.82:18080/internal/hpc-calc:latest.arm", "params": {"inputfile": "http://124.71.201.245:8082/aichem-lab-edge/20260418203805000ald-33.zip", "software": "GAUSSIAN", "cmd": "g16 ald-33.gjf && formchk ald-33.chk", "n_nodes": 1, "tasks_per_node": 64, "mem": "32GB", "objective": "加电子态优化"
+[2026-04-18 20:41:08] [HPC] Job 1252007030668060500 finished with status=SUCCEEDED.
+[2026-04-18 20:41:08] [DOWNLOAD] Fetching http://114.214.211.25:30082/api/tasks/download?taskId=0f7d42eb-8754-de27-780a-e5c926e15b60 via curl -C - ...
+[2026-04-18 20:55:02] [DOWNLOAD] Saved to /Users/zikaixie/.openclaw/workspace/runs/cof-fluor-20260417-2019/ald-33/plus/ald-33_remote_20260418_204108/0f7d42eb-8754-de27-780a-e5c926e15b60.zip
+[2026-04-18 20:55:03] [UPLOAD] Uploading /Users/zikaixie/.openclaw/workspace/runs/cof-fluor-20260417-2019/ald-33/minus/ald-33.zip -> http://114.214.211.25:30082/api/file/upload | timeout=(15, 120)
+[2026-04-18 20:55:04] [UPLOAD] Response status=200
+[2026-04-18 20:55:04] [UPLOAD] Success. Remote URL: http://124.71.201.245:8082/aichem-lab-edge/20260418205503000ald-33.zip
+[2026-04-18 20:55:04] [SUBMIT] POST http://114.214.211.25:30082/api/jobs | software=GAUSSIAN | cmd=g16 ald-33.gjf && formchk ald-33.chk | timeout=(15, 120)
+[2026-04-18 20:55:05] [SUBMIT] Response status=200
+[2026-04-18 20:55:05] [SUBMIT] Submission accepted. Job ID: 1252263489742316845 | taskId: f8bccaf0-c52d-a5e7-b639-6d43cbaaaa1d
+[2026-04-18 20:55:05] [POLL] GET http://114.214.211.25:30082/api/jobs?id=1252263489742316845 | timeout=(15, 60)
+[2026-04-18 20:55:06] [POLL] Response status=200
+[2026-04-18 20:55:06] [POLL] Payload excerpt: {"code": 200, "data": {"id": 1252263489742316845, "taskId": "f8bccaf0-c52d-a5e7-b639-6d43cbaaaa1d", "parentId": "f8bccaf0-c52d-a5e7-b639-6d43cbaaaa1d", "namespace": "huawei", "name": "hpc-calc-f217f1f9", "image": "114.214.255.82:18080/internal/hpc-calc:latest.arm", "params": {"inputfile": "http://124.71.201.245:8082/aichem-lab-edge/20260418205503000ald-33.zip", "software": "GAUSSIAN", "cmd": "g16 ald-33.gjf && formchk ald-33.chk", "n_nodes": 1, "tasks_per_node": 64, "mem": "32GB", "objective": "去电子态优化"
+[2026-04-18 20:55:06] [HPC] Job 1252263489742316845 running with status=DISPATCHED... (1/2880)
+[2026-04-18 20:56:05] [POLL] GET http://114.214.211.25:30082/api/jobs?id=1252263489742316845 | timeout=(15, 60)
+[2026-04-18 20:56:06] [POLL] Response status=200
+[2026-04-18 20:56:06] [POLL] Payload excerpt: {"code": 200, "data": {"id": 1252263489742316845, "taskId": "f8bccaf0-c52d-a5e7-b639-6d43cbaaaa1d", "parentId": "f8bccaf0-c52d-a5e7-b639-6d43cbaaaa1d", "namespace": "huawei", "name": "hpc-calc-f217f1f9", "image": "114.214.255.82:18080/internal/hpc-calc:latest.arm", "params": {"inputfile": "http://124.71.201.245:8082/aichem-lab-edge/20260418205503000ald-33.zip", "software": "GAUSSIAN", "cmd": "g16 ald-33.gjf && formchk ald-33.chk", "n_nodes": 1, "tasks_per_node": 64, "mem": "32GB", "objective": "去电子态优化"
+[2026-04-18 20:56:06] [HPC] Job 1252263489742316845 finished with status=SUCCEEDED.
+[2026-04-18 20:56:06] [DOWNLOAD] Fetching http://114.214.211.25:30082/api/tasks/download?taskId=f8bccaf0-c52d-a5e7-b639-6d43cbaaaa1d via curl -C - ...
+[2026-04-18 21:03:59] [DOWNLOAD] Saved to /Users/zikaixie/.openclaw/workspace/runs/cof-fluor-20260417-2019/ald-33/minus/ald-33_remote_20260418_205606/f8bccaf0-c52d-a5e7-b639-6d43cbaaaa1d.zip
+[2026-04-18 21:04:00] [UPLOAD] Uploading /Users/zikaixie/.openclaw/workspace/runs/cof-fluor-20260417-2019/ald-33/tdsp/ald-33.zip -> http://114.214.211.25:30082/api/file/upload | timeout=(15, 120)
+[2026-04-18 21:04:01] [UPLOAD] Response status=200
+[2026-04-18 21:04:01] [UPLOAD] Success. Remote URL: http://124.71.201.245:8082/aichem-lab-edge/20260418210400000ald-33.zip
+[2026-04-18 21:04:01] [SUBMIT] POST http://114.214.211.25:30082/api/jobs | software=GAUSSIAN | cmd=g16 ald-33.gjf && formchk ald-33.chk | timeout=(15, 120)
+[2026-04-18 21:04:02] [SUBMIT] Response status=200
+[2026-04-18 21:04:02] [SUBMIT] Submission accepted. Job ID: 1252183136835548849 | taskId: afa82c79-d6b1-d10a-ac92-728d32209140
+[2026-04-18 21:04:02] [POLL] GET http://114.214.211.25:30082/api/jobs?id=1252183136835548849 | timeout=(15, 60)
+[2026-04-18 21:04:03] [POLL] Response status=200
+[2026-04-18 21:04:03] [POLL] Payload excerpt: {"code": 200, "data": {"id": 1252183136835548849, "taskId": "afa82c79-d6b1-d10a-ac92-728d32209140", "parentId": "afa82c79-d6b1-d10a-ac92-728d32209140", "namespace": "huawei", "name": "hpc-calc-c6feec6e", "image": "114.214.255.82:18080/internal/hpc-calc:latest.arm", "params": {"inputfile": "http://124.71.201.245:8082/aichem-lab-edge/20260418210400000ald-33.zip", "software": "GAUSSIAN", "cmd": "g16 ald-33.gjf && formchk ald-33.chk", "n_nodes": 1, "tasks_per_node": 64, "mem": "32GB", "objective": "TDDFT激发态计算"
+[2026-04-18 21:04:03] [HPC] Job 1252183136835548849 running with status=DISPATCHED... (1/2880)
+[2026-04-18 21:05:02] [POLL] GET http://114.214.211.25:30082/api/jobs?id=1252183136835548849 | timeout=(15, 60)
+[2026-04-18 21:05:03] [POLL] Response status=200
+[2026-04-18 21:05:03] [POLL] Payload excerpt: {"code": 200, "data": {"id": 1252183136835548849, "taskId": "afa82c79-d6b1-d10a-ac92-728d32209140", "parentId": "afa82c79-d6b1-d10a-ac92-728d32209140", "namespace": "huawei", "name": "hpc-calc-c6feec6e", "image": "114.214.255.82:18080/internal/hpc-calc:latest.arm", "params": {"inputfile": "http://124.71.201.245:8082/aichem-lab-edge/20260418210400000ald-33.zip", "software": "GAUSSIAN", "cmd": "g16 ald-33.gjf && formchk ald-33.chk", "n_nodes": 1, "tasks_per_node": 64, "mem": "32GB", "objective": "TDDFT激发态计算"
+[2026-04-18 21:05:03] [HPC] Job 1252183136835548849 running with status=RUNNING... (2/2880)
+[2026-04-18 21:06:02] [POLL] GET http://114.214.211.25:30082/api/jobs?id=1252183136835548849 | timeout=(15, 60)
+[2026-04-18 21:06:03] [POLL] Response status=200
+[2026-04-18 21:06:03] [POLL] Payload excerpt: {"code": 200, "data": {"id": 1252183136835548849, "taskId": "afa82c79-d6b1-d10a-ac92-728d32209140", "parentId": "afa82c79-d6b1-d10a-ac92-728d32209140", "namespace": "huawei", "name": "hpc-calc-c6feec6e", "image": "114.214.255.82:18080/internal/hpc-calc:latest.arm", "params": {"inputfile": "http://124.71.201.245:8082/aichem-lab-edge/20260418210400000ald-33.zip", "software": "GAUSSIAN", "cmd": "g16 ald-33.gjf && formchk ald-33.chk", "n_nodes": 1, "tasks_per_node": 64, "mem": "32GB", "objective": "TDDFT激发态计算"
+[2026-04-18 21:06:03] [HPC] Job 1252183136835548849 running with status=RUNNING... (3/2880)
+[2026-04-18 21:07:02] [POLL] GET http://114.214.211.25:30082/api/jobs?id=1252183136835548849 | timeout=(15, 60)
+[2026-04-18 21:07:03] [POLL] Response status=200
+[2026-04-18 21:07:03] [POLL] Payload excerpt: {"code": 200, "data": {"id": 1252183136835548849, "taskId": "afa82c79-d6b1-d10a-ac92-728d32209140", "parentId": "afa82c79-d6b1-d10a-ac92-728d32209140", "namespace": "huawei", "name": "hpc-calc-c6feec6e", "image": "114.214.255.82:18080/internal/hpc-calc:latest.arm", "params": {"inputfile": "http://124.71.201.245:8082/aichem-lab-edge/20260418210400000ald-33.zip", "software": "GAUSSIAN", "cmd": "g16 ald-33.gjf && formchk ald-33.chk", "n_nodes": 1, "tasks_per_node": 64, "mem": "32GB", "objective": "TDDFT激发态计算"
+[2026-04-18 21:07:03] [HPC] Job 1252183136835548849 running with status=RUNNING... (4/2880)
+[2026-04-18 21:08:02] [POLL] GET http://114.214.211.25:30082/api/jobs?id=1252183136835548849 | timeout=(15, 60)
+[2026-04-18 21:08:03] [POLL] Response status=200
+[2026-04-18 21:08:03] [POLL] Payload excerpt: {"code": 200, "data": {"id": 1252183136835548849, "taskId": "afa82c79-d6b1-d10a-ac92-728d32209140", "parentId": "afa82c79-d6b1-d10a-ac92-728d32209140", "namespace": "huawei", "name": "hpc-calc-c6feec6e", "image": "114.214.255.82:18080/internal/hpc-calc:latest.arm", "params": {"inputfile": "http://124.71.201.245:8082/aichem-lab-edge/20260418210400000ald-33.zip", "software": "GAUSSIAN", "cmd": "g16 ald-33.gjf && formchk ald-33.chk", "n_nodes": 1, "tasks_per_node": 64, "mem": "32GB", "objective": "TDDFT激发态计算"
+[2026-04-18 21:08:03] [HPC] Job 1252183136835548849 finished with status=SUCCEEDED.
+[2026-04-18 21:08:03] [DOWNLOAD] Fetching http://114.214.211.25:30082/api/tasks/download?taskId=afa82c79-d6b1-d10a-ac92-728d32209140 via curl -C - ...
+[2026-04-18 22:37:55] [DOWNLOAD] Saved to /Users/zikaixie/.openclaw/workspace/runs/cof-fluor-20260417-2019/ald-33/tdsp/ald-33_remote_20260418_210803/afa82c79-d6b1-d10a-ac92-728d32209140.zip

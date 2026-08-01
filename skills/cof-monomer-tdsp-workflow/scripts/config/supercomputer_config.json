@@ -1,0 +1,40 @@
+{
+  "upload_endpoint": "https://your-own-upload-api.example.com/api/file/upload",
+  "api_base_url": "https://your-own-hpc-api.example.com",
+  "submit_endpoint": "https://your-own-hpc-api.example.com/api/jobs",
+  "status_endpoint": "https://your-own-hpc-api.example.com/api/jobs",
+  "download_endpoint": "https://your-own-hpc-api.example.com/api/tasks/download",
+  "auth_token": "PLEASE_SET_YOUR_OWN_SERVER_API_TOKEN",
+  "image": "PLEASE_SET_YOUR_OWN_CONTAINER_IMAGE",
+  "created_by": "openclaw",
+  "software": "GAUSSIAN",
+  "default_cmd": "g16 {input_gjf} && formchk {input_chk}",
+  "poll_interval_seconds": 60,
+  "max_poll_attempts": 2880,
+  "tasks_per_node": 32,
+  "n_nodes": 1,
+  "mem": "64GB",
+  "objective": "计算",
+  "objective_map": {
+    "opt": "结构优化",
+    "plus": "加电子态",
+    "minus": "去电子态",
+    "tdsp": "TDDFT"
+  },
+  "download_headers": {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+    "Connection": "keep-alive"
+  },
+  "upload_timeout_seconds": [
+    15,
+    120
+  ],
+  "submit_timeout_seconds": [
+    15,
+    120
+  ],
+  "status_timeout_seconds": [
+    15,
+    60
+  ]
+}

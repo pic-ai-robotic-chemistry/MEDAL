@@ -1,0 +1,46 @@
+# ===== dftb_in.hsd =====
+Geometry = VaspFormat {
+    <<< "POSCAR"
+}
+
+Hamiltonian = xTB {
+    Method = "GFN2-xTB"
+    
+    # 对于周期性体系，必须使用SuperCellFolding
+    # 这是1x1x1 只在Gamma点计算（适合大晶胞）
+    kPointsAndWeights = SuperCellFolding {
+        1 0 0
+        0 1 0
+        0 0 1
+        0.0 0.0 0.0
+    }
+    
+    # 如果需要更密集的k点网格，使用2x2x2或更高
+    # kPointsAndWeights = SuperCellFolding {
+    #     2 0 0
+    #     0 2 0
+    #     0 0 2
+    #     0.5 0.5 0.5
+    # }
+}
+
+Driver = GeometryOptimization {
+  Optimizer = Rational {
+    DiagLimit = 1e-2       # 只有这个参数可调
+  }
+  LatticeOpt = Yes
+  MaxSteps = 200
+  Convergence {
+    GradElem = 5e-4        # 放宽收敛标准
+  }
+  AppendGeometries = Yes
+}
+
+
+Options {
+    WriteDetailedOut = Yes
+}
+
+ParserOptions {
+    ParserVersion = 10
+}

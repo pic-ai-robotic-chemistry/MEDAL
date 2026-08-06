@@ -80,4 +80,4 @@ If you use this repository in academic work, please cite the associated paper:
 
 ## License
 
-Please add the appropriate project license here if you plan to distribute the repository publicly.
+MIT License

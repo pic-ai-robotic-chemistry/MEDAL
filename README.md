@@ -1,17 +1,17 @@
-# MiMEDAL
+# MEDAL
 
-MiMEDAL is the project repository accompanying the paper **"Mechanism-Evolving Discovery from Minimal Experiments"**.
+MEDAL is the project repository accompanying the paper **"Mechanism-Evolving Discovery from Minimal Experiments"**.
 
 It is built around the open-source [OpenClaw](https://github.com/openclaw/openclaw) agent framework and extends it with a domain-specific scientific skill library for autonomous chemistry research workflows.
 
 ## What this repository contains
 
-- `skills/` — the MiMEDAL scientific skill library used to orchestrate computational chemistry and autonomous workflow execution on top of OpenClaw.
+- `skills/` — the MEDAL scientific skill library used to orchestrate computational chemistry and autonomous workflow execution on top of OpenClaw.
 - `results/` — experimental or computational result artifacts associated with the project.
 
 ## Conceptual overview
 
-In the paper, MiMEDAL is described as a specialized agentic framework layered on top of OpenClaw. OpenClaw provides the general-purpose cognitive substrate (task routing, LLM access, memory, and agent execution), while MiMEDAL adds:
+In the paper, MEDAL is described as a specialized agentic framework layered on top of OpenClaw. OpenClaw provides the general-purpose cognitive substrate (task routing, LLM access, memory, and agent execution), while MEDAL adds:
 
 - chemistry-oriented skills,
 - domain-specific orchestration logic,
@@ -22,7 +22,7 @@ This repository primarily exposes the **scientific skills layer** and associated
 
 ## Installation
 
-MiMEDAL is distributed here as a collection of OpenClaw-compatible skills.
+MEDAL is distributed here as a collection of OpenClaw-compatible skills.
 
 ### Install into an existing OpenClaw setup
 
@@ -45,7 +45,7 @@ If your OpenClaw setup uses a different active custom-skills directory, copy the
 
 ## Private infrastructure notice
 
-Some workflows in MiMEDAL depend on external compute or file-upload services (for example, Gaussian, DFTB+, or structure-optimization backends).
+Some workflows in MEDAL depend on external compute or file-upload services (for example, Gaussian, DFTB+, or structure-optimization backends).
 
 The original private deployment endpoints, upload headers, and tokens have been removed from this public code release. In the relevant config/example files, these values are now replaced with placeholders such as:
 
@@ -65,7 +65,7 @@ To use these workflows, you must connect the skills to **your own server APIs an
 
 ## Reproducibility and scope
 
-This repository is intended to document the MiMEDAL project structure and provide the reusable skill layer used in the work. Exact end-to-end execution may require:
+This repository is intended to document the MEDAL project structure and provide the reusable skill layer used in the work. Exact end-to-end execution may require:
 
 - a configured OpenClaw runtime,
 - external compute services,

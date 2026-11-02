@@ -1,6 +1,6 @@
 # MEDAL
 
-MEDAL is the project repository accompanying the paper **"Mechanism-Evolving Discovery from Minimal Experiments"**.
+MEDAL is the project repository accompanying the paper **"Autonomous mechanism-evolving discovery from minimal chemical experiments"**.
 
 It is built around the open-source [OpenClaw](https://github.com/openclaw/openclaw) agent framework and extends it with a domain-specific scientific skill library for autonomous chemistry research workflows.
 

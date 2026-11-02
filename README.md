@@ -76,7 +76,7 @@ This repository is intended to document the MEDAL project structure and provide 
 
 If you use this repository in academic work, please cite the associated paper:
 
-**Mechanism-Evolving Discovery from Minimal Experiments**
+**Autonomous mechanism-evolving discovery from minimal chemical experiments**
 
 ## License
 
